@@ -34,7 +34,7 @@ If something is unclear, you can read more about it [here](https://cbea.ms/git-c
     + if more than one issue is closed by this PR, each `Fixes`/ `Closes` should be on a separate line.
 1) If a PR is not ready to by merged by means of the author, he should tag the PR with the `WIP:` prefix.
 1) Merging Requirements for a PR:
-    + At least 2 approvals are required
+    + At least 2 approvals are required. GitHub only allows more than one reviewer if the repository is public 
     + No pending requested changes
     + If the PR fixes issues, all such issues must be mentioned with `Fixes` or `Closes` in the PR description
     + No `WIP:` prefix
