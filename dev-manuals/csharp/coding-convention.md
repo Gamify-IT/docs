@@ -1,8 +1,10 @@
-Klassennamen in PascalCase:  `class StringToDisplay`
-namespaces in PascalCase:    `Unity.Behavior`
-Methodennamen in PascalCase: `ToString()`
-Variablennamen in camelCase: `textToDisplay`
+Class names in PascalCase:  `class StringToDisplay`  
+Namespaces in PascalCase:    `Unity.Behavior`  
+Method names in PascalCase: `ToString()`  
+Variable names in camelCase: `textToDisplay`  
 
-# Positionierung von curly braces
-curly braces (`{}`) stehen jeweils auf einer eigenen Zeile.
+Since the rules are complicated, this can be read [here](https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md) again.
+
+# Positioning of curly braces
+Curly braces (`{}`) are each on a separate line.
 
