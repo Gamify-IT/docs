@@ -13,6 +13,11 @@ READMEs must be named exactly the following: `README.md`
 
 The part behind the specifying action should be written in kebab-case without uppercase letters.
 
+## How to commit
+Commit messages should be able to complete the following sentence: _If applied, this commit will_  
+For example `If applied, this commit will update getting started documentation`.  
+If something is unclear, you can read more about it [here](https://cbea.ms/git-commit/).  
+
 ## Issue Tags
 1) The issue has to be **tagged** correctly, especially distinguishing between `bug`, `feature`, `documentation`, and `maintenance`.
     + `bug`: A bug in the program that was discovered.
