@@ -7,7 +7,7 @@
 1) Click on `Tools > Options > Diff`  
 1) Change `Merge-Tool`to `Custom`  
 1) Add `C:\unity\2021.3.1f1\Editor\Data\Tools\UnityYAMLMerge.exe` (you may search this .exe on your PC) to `Merge-Command`  
-1) Add `merge -p $BASE $REMOTE $LOCAL $MERGED` to `Argumente`  
+1) Add `merge -p $BASE $REMOTE $LOCAL $MERGED` to `Arguments`  
 1) Download [TortoiseGit](https://tortoisegit.org/download/)  
 1) Add path of TortoiseGit to `C:\unity\2021.3.1f1\Editor\Data\Tools\mergespecfile.txt` like this `* use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"` (at line 21)  
 
