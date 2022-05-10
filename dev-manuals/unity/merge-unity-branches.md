@@ -19,7 +19,7 @@
 1) Right click the merge conflicts  
 1) Select `Resolve conflicts > Start external merge-tool...`  
 1) Wait (something will happen... eventually... someday...)  
-1) When a TortoiseGit-windows pops up fix the conflict manually and press `Resolveconflict`  
+1) When a TortoiseGit-windows pops up fix the conflict manually and press `Resolve conflict`  
 1) Ignore the error and close it and TortoiseGit  
 1) Wait  
 1) Press `Commit` in the bottom left corner  
