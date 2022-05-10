@@ -1,5 +1,5 @@
 # How to merge Unity branches
-
+## Setup
 1) Install [Sourcetree](https://www.sourcetreeapp.com/)  
 1) Click on `Data > Clone / New`  
 1) Clone your project  
