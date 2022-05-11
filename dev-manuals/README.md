@@ -1,5 +1,7 @@
 # Dev manuals
 
+Contains the dev manual for the given repo, so everything a developer needs to know about the repo
+
 ## [C#](csharp/README.md)
 
 ### [Code formatter](csharp/code-formatter.md)
