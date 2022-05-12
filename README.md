@@ -10,7 +10,7 @@ It is structured in the following way:
 
 ### [`/adr`](adr/README.md)
 
-Contains the _Application Decision Records_, so which general design decisions were chosen and why
+Contains the _Architecture Decision Records_, so which general design decisions were chosen and why
 
 ### [`/dev-manuals/{repo}`](dev-manuals/README.md)
 
