@@ -1,5 +1,7 @@
 # Meeting Transcript DATE
 
+[optional] info on meeting
+
 - present:
 - absent excused:
 - absent unexcused:
