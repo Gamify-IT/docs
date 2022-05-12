@@ -43,7 +43,7 @@ If something is unclear, you can read more about it [here](https://cbea.ms/git-c
 1) `Force Pushes` should be avoided at all costs. Exceptions are:
     + Security relevant data was pushed and has to be removed from the history
     + Large files which should not remain in the repository were pushed
-1) Every maintainer of the project is allowed to merge the PR **if all merge criteria in #6 are fulfilled**.
+1) Every maintainer of the project is allowed to merge the PR **if all merge criteria in #3 are fulfilled**.
 
 ## Clean Code
 
