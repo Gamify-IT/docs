@@ -1,3 +1,7 @@
 # Unity
 
-## [Build Unity project](build-unity-project.md)
+Version:
+
+- 2021.3.2f1
+
+## [Unity Build settings](build-unity-project.md)
