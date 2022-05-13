@@ -1,6 +1,6 @@
-# Application Decision Records
+# Architecture Decision Records
 
-Contains the _Application Decision Records_, so which general design decisions were chosen and why
+Stores which general design decisions were possible, which were chosen, and why.
 
 ## [Coding style](coding-style.md)
 
