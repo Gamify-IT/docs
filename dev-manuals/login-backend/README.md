@@ -2,15 +2,16 @@
 This Markdown file contains all necessary informations for developers about the Login Backend repository.
 
 ## Requirements
-- Go https://go.dev 1.16 or higher
-- GoLand: https://www.jetbrains.com/go/ for running start scripts in IDE
-- Docker / Docker desktop: https://www.docker.com/products/docker-desktop to build and run as docker container
-- (Postgres database)
+- [Go](https://go.dev) 1.16 or higher
+- [GoLand](https://www.jetbrains.com/go/) as IDE
+- [Docker](https://www.docker.com/) to run docker containers
+- ([Docker Desktop](https://www.docker.com/products/docker-desktop) to build and run docker containers graphically)
+- ([Postgres](https://www.postgresql.org/) database)
 
 ## Starting with this repository
 First, make sure Goland knows your Docker path: Check in 
 `Files -> Settings -> Build, Execution, Deployment -> Docker`  
-If in the left coloumn is no Docker registered, add Docker by clicking the top left add Button.
+If in the left column no Docker is registered, add Docker by clicking the top left add Button. The system Docker (suggested by default) should suffice.
 
 ## Project structure
 
@@ -83,6 +84,6 @@ To encode a JWT, a secret key is needed.
 This secret key needs to be stored under the environment variable `JWT_KEY`.
 
 ## Go-Swagger
-This Rest-API uses Go-Swagger. So the `swagger/swagger.yml` is the base of the rest api. You find documentation about the swagger.yml here: https://swagger.io/docs/specification/basic-structure/.
+This Rest-API uses Go-Swagger. So the `swagger/swagger.yml` is the base of the rest api. You find documentation about the _swagger.yml_ [here](https://swagger.io/docs/specification/basic-structure/).
 
-After changes were made in `swagger.yml` file you should run `go genrate` that the files will be generated. With the generated objects you can work.
+After changes were made in the `swagger.yml` file you should run `go generate` so that the files will be generated. You can work with these generated objects.

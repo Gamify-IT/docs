@@ -2,9 +2,9 @@
 This Markdown file contains all necessary informations for end users about the Login Backend repository.
 
 ## Requirements
-- Go https://go.dev 1.16 or higher
-- Docker https://www.docker.com/ to run docker containers
-- Postgres database
+- [Go](https://go.dev) 1.16 or higher
+- [Docker](https://www.docker.com/) to run docker containers
+- [Postgres](https://www.postgresql.org/) database
 
 ## Run application
 You can run the application in two ways. 
@@ -16,12 +16,11 @@ You need to run your own postgres database.
 ```sh
 export PORT=4000
 export POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database> # Update key words in '<>' with your credentials 
-export JWT_KEY=secretKey
+export JWT_KEY=<some secret key>
 
 go generate
-go run github.com/prisma/prisma-client-go migrate deploy # When there is new database scheme, it needs to mirgrate
+go run github.com/prisma/prisma-client-go migrate deploy # Migrate database scheme if it has changed
 go run .
-
 ```
 
 ### From Dockerfile
@@ -37,13 +36,13 @@ docker pull ghcr.io/gamify-it/login-backend:latest
 
 #### Start container
 ```sh
-docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database>" -e "JWT_KEY=secretKey"
+docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database>" -e "JWT_KEY=<secret key>"
 ```
-Update key words in '<>' with your credentials 
+Replace `<.*>` with the corresponding credentials.
 
 
-## Migrating the database
-When changes to the database are made, apply all pending migrations, simply run
+## Updating
+When you update the login backend, changes to the database could have been made, so make sure to migrate the database structure simply by running
 ```sh
 POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database> go run github.com/prisma/prisma-client-go migrate deploy
 ```
