@@ -15,7 +15,7 @@ You can run the application in two ways.
 You need to run your own postgres database.
 ```sh
 export PORT=4000
-export POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database> # Update key words in '<>' with your credentials 
+export POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database> # Update key words in '<>' with your credentials 
 export JWT_KEY=<some secret key>
 
 go generate
@@ -36,7 +36,7 @@ docker pull ghcr.io/gamify-it/login-backend:latest
 
 #### Start container
 ```sh
-docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database>" -e "JWT_KEY=<secret key>"
+docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database>" -e "JWT_KEY=<secret key>"
 ```
 Replace `<.*>` with the corresponding credentials.
 
@@ -44,7 +44,7 @@ Replace `<.*>` with the corresponding credentials.
 ## Updating
 When you update the login backend, changes to the database could have been made, so make sure to migrate the database structure simply by running
 ```sh
-POSTGRES_URL=postgresql://<user>:<password>@<host>:<url>/<database> go run github.com/prisma/prisma-client-go migrate deploy
+POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database> go run github.com/prisma/prisma-client-go migrate deploy
 ```
 
 ## JWT (Json Web Tokens)
