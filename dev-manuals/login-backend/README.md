@@ -63,7 +63,7 @@ docker build -t login-backend .
 ```
 #### Start container
 ```sh
-docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://postgres:password@localhost:5432/postgres" -e "JWT_KEY=secretKey"
+docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://postgres:password@localhost:5432/postgres" -e "JWT_KEY=secretKey" login-backend
 ```
 
 

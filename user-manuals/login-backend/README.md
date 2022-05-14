@@ -35,8 +35,13 @@ docker pull ghcr.io/gamify-it/login-backend:latest
 ```
 
 #### Start container
+If you build your image yourself, run following
 ```sh
-docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database>" -e "JWT_KEY=<secret key>"
+docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database>" -e "JWT_KEY=<secret key>" login-backend
+```
+Or in case you pulled from Github Package Registry, run
+```sh
+docker run --name login-backend -p 4000:4000 -e "POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<database>" -e "JWT_KEY=<secret key>" ghcr.io/gamify-it/login-backend:latest
 ```
 Replace `<.*>` with the corresponding credentials.
 
