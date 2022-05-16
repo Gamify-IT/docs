@@ -1,12 +1,10 @@
 ## Gamification
 This file describes the different concepts and player types envolved in gamification application
 
-#
-
 ## Concepts
 Gamification concepts can be divided into two areas: visible elements and ones that can only be judges by using the application
 
-### visible concepts
+### Visible concepts
 - Rewards: Collectables like badges, points
 - Feedback: Information, whether actions taken were correct or not
 - Regular interaction: The user gets encouraged to play regularly
@@ -15,15 +13,13 @@ Gamification concepts can be divided into two areas: visible elements and ones t
 - Competition: Players can compete aganinst others (e.g. via leaderboards / highscores)
 - Variety: The task a different and not repetetive
 
-### witnessable concepts
-- Transparent Information: Information provided are understandable
+### Witnessable concepts
+- Transparent information: Information provided are understandable
 - Freedom: The user can choose what he wants to do next
 - Clear goals and rules: It's clear what needs to be done and how i can be done
 - Challenge: The tasks are neither to hard nor to easy
 - Deeper meaning: The user benefits from what they have learned in real life
 - Social interaction: Players can interact with others
-
-#
 
 ## Player types
 There are four different player types:
