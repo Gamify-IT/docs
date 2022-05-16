@@ -2,22 +2,30 @@
 
 Contains the dev manual for the given repo, so everything a developer needs to know about the repo
 
-## [C#](csharp/README.md)
+## [Languages,Tools](languages,tools/README.md)
 
-### [Code formatter](csharp/code-formatter.md)
+### [C#](languages,tools/csharp/README.md)
 
-### [Coding conventions](csharp/coding-convention.md)
+#### [Code formatter](languages,tools/csharp/code-formatter.md)
 
-## [Go](go/README.md)
+#### [Coding conventions](languages,tools/csharp/coding-convention.md)
 
-### [Code Format](go/code-format.md)
+### [Go](languages,tools/go/README.md)
 
-## ~~[Js](js/do-not-use.md)~~
+#### [Code Format](languages,tools/go/code-format.md)
+
+### ~~[Js](languages,tools/js/do-not-use.md)~~
+
+### [Repositories](languages,tools/repositories/repository-guide.md)
+
+### [Typescript](languages,tools/typescript/README.md)
+
+#### [Code format](languages,tools/typescript/code-format.md)
+
+#### [File names](languages,tools/typescript/file-names.md)
 
 ## [Repositories](repositories/repository-guide.md)
 
-## [Typescript](typescript/README.md)
+## [Services](services/README.md)
 
-### [Code format](typescript/code-format.md)
-
-### [File names](typescript/file-names.md)
+### [login-backend](services/login-backend/README.md)
