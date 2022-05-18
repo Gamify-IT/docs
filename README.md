@@ -12,6 +12,10 @@ It is structured in the following way:
 
 Contains the _Architecture Decision Records_, so which general design decisions were chosen and why
 
+### [`/design`](design/README.md)
+
+Contains game design guidelines
+
 ### [`/dev-manuals/`](dev-manuals/README.md)
 
 Contains the dev manual for the given repo or technology, so everything a developer needs to know about the them
