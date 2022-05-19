@@ -11,7 +11,7 @@ Unlike ordinary lectures, our product takes a different approach by combining le
 
 ### Mission
 
-We build a online 
+We build a online
 
 - minigame platform
 - static world you progress by completing minigames
@@ -59,7 +59,6 @@ We build a online
 - Jiacheng Qian: agiler Coach
 - Lavinia Stiliadou: agiler Coach
 
-
 ### Working Agreement (wie stellen wir uns die (tägliche) Arbeit miteinander vor?)
 
 - We check our discord chats once every working day and answer them
@@ -79,8 +78,8 @@ We build a online
 
 ### Boundaries
 
-siehe Zeichnung (wird aber dann noch eingefügt)
+<img src="boundaries.png" />
 
 ### Prospective Analysis
 
-siehe Zeichnung (wird aber dann noch eingefügt)
+<img src="prospective-analysis.png" />
