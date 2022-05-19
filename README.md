@@ -34,5 +34,5 @@ Information that is only useful for collaborators to this repo and no one else
 
 ## README Structure
 
-The READMEs of all repos should follow the overall structure of the [template README](https://github.com/Gamify-IT/docs/template-README.md).
+The READMEs of all repos should follow the overall structure of the [template README](template-README.md).
 Important to note here is that the `How to run` and `Development Setup` instructions can and should be copy-pasteable into the respective user- and dev-manual.
