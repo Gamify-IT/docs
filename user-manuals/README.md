@@ -5,3 +5,7 @@ Contains the user manual for the given repo, so how the user can start the given
 ## [All services](all-services/README.md)
 
 ## [login-backend](login-backend/README.md)
+
+## Minigames
+
+### [crosswordpuzzle](minigames/crosswordpuzzle.md)
