@@ -15,6 +15,5 @@ Currently, it can only be guessed what other team members are doing, leading to 
 
 ## Chosen Solution
 
-## Pro Chosen Solution
-
-## Contra Chosen Solution
+- use github project https://github.com/orgs/Gamify-IT/projects?type=beta
+- start of next sprint new planning
