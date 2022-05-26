@@ -11,6 +11,7 @@ Currently, all minigames are playable at best. But each minigame could be enhanc
 
 ## Chosen Solution
 
-## Pro Chosen Solution
-
-## Contra Chosen Solution
+- help button for every minigame (with an explanation how the game works)
+- should be the same button across all minigames
+- also same close button
+- further implementation and how it should look will be discussed later
