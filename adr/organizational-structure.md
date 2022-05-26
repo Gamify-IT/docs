@@ -13,6 +13,4 @@ Currently, meetings are way too large. Oftentimes, (almost) everyone participate
 
 ## Chosen Solution
 
-## Pro Chosen Solution
-
-## Contra Chosen Solution
+- split into smaller teams with variable size
