@@ -24,8 +24,14 @@ Contains the dev manual for the given repo, so everything a developer needs to k
 
 #### [File names](languages,tools/typescript/file-names.md)
 
+## [Gamification](gamification/README.md)
+
+## [Design](design/README.md)
+
 ## [Repositories](repositories/repository-guide.md)
 
 ## [Services](services/README.md)
 
 ### [login-backend](services/login-backend/README.md)
+
+## [Etc](etc/README.md)
