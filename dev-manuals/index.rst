@@ -4,30 +4,44 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Gamification
+   :caption: Asset Packs
 
-   ./gamification/*
+   ./asset-packs/**
 
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Languages and Tools
+   :caption: Design
 
-   ./languages,tools/**
+   ./design/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Gamification
+
+   ./gamification/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Languages
+
+   ./languages/**
 
 .. toctree::
    :glob:
    :titlesonly:
    :caption: Repository
 
-   ./repositories/*
+   ./repositories/**
 
 .. toctree::
    :glob:
    :titlesonly:
    :caption: ReadTheDocs
 
-   ./readthedocs/*
+   ./readthedocs/**
 
 .. toctree::
    :glob:
@@ -35,3 +49,10 @@ Developer Manuals
    :caption: Services
 
    ./services/*/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Other
+
+   ./etc/**

@@ -6,18 +6,18 @@ User Manuals
    :titlesonly:
    :caption: For all minigames
 
-   ./all-services/*
+   ./all-services/**
 
 .. toctree::
    :glob:
    :titlesonly:
    :caption: Login Backend
 
-   ./login-backend/*
+   ./login-backend/**
 
 .. toctree::
    :glob:
    :titlesonly:
    :caption: Minigames
 
-   ./minigames/*
+   ./minigames/**

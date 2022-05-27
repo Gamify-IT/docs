@@ -4,16 +4,23 @@ Meeting Protocols
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Art Style and Assets
+
+   ./art-styles-and-assets/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: DevOps
 
-   ./devops/*
+   ./devops/**
 
 .. toctree::
    :glob:
    :titlesonly:
    :caption: Global
 
-   ./global/*
+   ./global/**
 
 .. toctree::
    :glob:
@@ -35,3 +42,4 @@ Meeting Protocols
    :caption: Storytelling
 
    ./storytelling/**
+
