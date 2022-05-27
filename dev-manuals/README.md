@@ -26,6 +26,8 @@ Contains the dev manual for the given repo, so everything a developer needs to k
 
 ## [Gamification](gamification/README.md)
 
+## [Design](design/README.md)
+
 ## [Repositories](repositories/repository-guide.md)
 
 ## [Services](services/README.md)

@@ -1,7 +1,9 @@
 # Unity
 
-Version:
+## [Guidelines](guidelines.md)
 
-- 2021.3.2f1
+## [Build unity project](build-unity-project.md)
 
-## [Unity Build settings](build-unity-project.md)
+## [Setup Unity branches](setup-tilemap-in-unity.md)
+
+## [Merge unity branches](merge-unity-branches.md)
