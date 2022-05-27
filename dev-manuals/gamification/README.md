@@ -1,4 +1,4 @@
-## Gamification
+# Gamification
 This file describes the different concepts and player types envolved in gamification application
 
 ## Concepts
