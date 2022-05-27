@@ -2,8 +2,8 @@
 
 ## [Guidelines](guidelines.md)
 
-## [Build unity project](build-unity-project.md)
+## [Build Unity project](build-unity-project.md)
 
-## [Setup Unity branches](setup-tilemap-in-unity.md)
+## [Setup Unity tilemap](setup-tilemap-in-unity.md)
 
-## [Merge unity branches](merge-unity-branches.md)
+## [Merge Unity branches](merge-unity-branches.md)
