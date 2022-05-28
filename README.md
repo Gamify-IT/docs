@@ -8,29 +8,25 @@ All files in this repo should be written in English and _Markdown_.
 
 It is structured in the following way:
 
-### [`/adr`](adr/README.md)
+### [`/adr`](adr)
 
-Contains the _Architecture Decision Records_, so which general design decisions were chosen and why
+Contains the _Architecture Decision Records_, so which general design decisions have been made, which options were possible, which were chosen and why.
 
-### [`/design`](design/README.md)
+### [`/dev-manuals`](dev-manuals)
 
-Contains game design guidelines
+Contains the developer manuals for the given repo or technology, meaning everything a developer needs to know about the specific topic to be able to collaborate.
 
-### [`/dev-manuals/`](dev-manuals/README.md)
+### [`/user-manuals`](user-manuals/README.md)
 
-Contains the dev manual for the given repo or technology, so everything a developer needs to know about the them
+Contains the user manual for the given repo, so how the user can start the given service.
 
-### [`/user-manuals/{repo}`](user-manuals/README.md)
+### [`/protocols`](protocols)
 
-Contains the user manual for the given repo, so how the user can start the given repo
-
-### `/protocols/{repo}/{YYYY-MM-DD}-protocol.md`
-
-Contains protocols of meetings regarding the given repo for the given day. Date format is _YYYY-mm-dd_
+Contains protocols of meetings regarding the given repo/ concept for the given day. Filenames are in the format `YYYY-mm-dd-protocol.md`.
 
 ### [`/internal`](internal/README.md)
 
-Information that is only useful for collaborators to this repo and no one else
+Information that is only useful for collaborators to this repo and no one else.
 
 ## README Structure
 

@@ -32,6 +32,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Project Management
+
+   ./project-management/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Repository
 
    ./repositories/**
