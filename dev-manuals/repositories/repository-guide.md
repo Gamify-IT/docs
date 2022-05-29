@@ -1,11 +1,11 @@
-## Repository name
+# Repository name
 All repositories must be named in kebab-case without capital letters.
 Repository names **must not** include _Gamify-IT_ in their name.
 
-## README name
+# README name
 READMEs must be named exactly the following: `README.md`
 
-## Branch names
+# Branch names
 - bug fix: `bugfix/$bugname`
 - feature: `feature/$featurename`
 - documentation: `documentation/$documentationaction`
@@ -13,12 +13,12 @@ READMEs must be named exactly the following: `README.md`
 
 The part behind the specifying action should be written in kebab-case without uppercase letters.
 
-## How to commit
+# How to commit
 Commit messages should be able to complete the following sentence: _If applied, this commit will_  
 For example `If applied, this commit will update getting started documentation`.  
 If something is unclear, you can read more about it [here](https://cbea.ms/git-commit/).  
 
-## Issue Tags
+# Issue Tags
 1) The issue has to be **tagged** correctly, especially distinguishing between `bug`, `feature`, `documentation`, and `maintenance`.
     + `bug`: A bug in the program that was discovered.
     + `feature`: A new feature is requested and explained in detail.
@@ -27,7 +27,7 @@ If something is unclear, you can read more about it [here](https://cbea.ms/git-c
          + This includes especially refactorings and package upgrades.
 
 
-## Pull Requests
+# Pull Requests
 1) At the end of the PR's description, the corresponding issue should be referenced in **one** of the following ways:
     + if the PR fixes a bug, the `Fixes` prefix shall be used. (e.g. Fixes #5)
     + if the PR closes another issue type, the `Closes` prefix shall be used. (e.g. Closes #5)
@@ -45,13 +45,13 @@ If something is unclear, you can read more about it [here](https://cbea.ms/git-c
     + Large files which should not remain in the repository were pushed
 1) Every maintainer of the project is allowed to merge the PR **if all merge criteria in #3 are fulfilled**.
 
-## Clean Code
+# Clean Code
 
 1) Writing clean code shall always be prioritized before other targets, especially development speed.
 1) Favor readability over consciseness, try to use appropriate identifiers instead of comments to document your code.
 1) Add documentation where it is useful, avoid boilerplate comments.
 
-## General Guidelines for Good Measures
+# General Guidelines for Good Measures
 
 1) Users should be referenced by their user names using an `@` and not by their real names or other aliases.
 1) Jokes or non-constructive contributions are allowed as long as they don't hinder the development workflow and inhibit professional conduct.

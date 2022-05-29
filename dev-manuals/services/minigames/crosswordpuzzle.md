@@ -4,7 +4,7 @@ This is a simple crosswordpuzzle. With given questions and answers it automatica
 
 ---
 
-### Getting started
+## Getting started
 
 Clone the repository  
 ```sh
@@ -16,13 +16,13 @@ Install the dependencies
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Build
+## Build
 
 Build the Docker-Container
 ```sh
