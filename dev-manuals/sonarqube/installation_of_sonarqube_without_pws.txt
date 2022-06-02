@@ -1,0 +1,187 @@
+-------------------
+| Setup SonarQube |
+-------------------
+
+ssh ubuntu@gawler.informatik.uni-stuttgart.de
+
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get -y install openjdk-11-jdk
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+
+sudo passwd postgres
+[POSTGRES_USER_PW]
+[POSTGRES_USER_PW]
+
+createuser sonar
+psql
+
+ALTER USER sonar WITH ENCRYPTED PASSWORD '[SONAR_DB_USER_PW]';
+CREATE DATABASE sonarqube OWNER sonar;
+GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
+\q
+exit
+
+sudo systemctl restart postgresql
+systemctl status postgresql
+
+sudo apt install net-tools
+netstat -tlpn
+
+sudo nano /etc/sysctl.conf
+-> add: 
+	vm.max_map_count=524288
+	fs.file-max=131072
+	ulimit -n 131072
+	ulimit -u 8192
+
+sudo nano /etc/security/limits.conf
+-> add:
+	sonarqube  -  nofile  131072
+	sonarqube  -  nproc   8192
+
+reboot
+
+cd /opt/
+sudo curl -L -O https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+
+sudo apt install unzip
+sudo unzip sonarqube-9.4.0.54424.zip
+sudo rm -rf sonarqube-9.4.0.54424.zip
+sudo mv sonarqube-9.4.0.54424/ sonarqube
+
+sudo nano sonarqube/conf/sonar.properties
+-> add sonar.jdbc.username=sonar and sonar.jdbc.password=3-WUuS-4+^vX4)d~
+-> change #sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube?currentSchema=my_schema
+ to sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
+-> change #sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError to sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError
+
+sudo nano /etc/systemd/system/sonarqube.service 
+-> paste
+	[Unit]
+	Description=SonarQube service
+	After=syslog.target network.target
+
+	[Service]
+	Type=forking
+
+	ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+	ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop 
+
+	User=sonar
+	Group=sonar
+	Restart=always
+
+	LimitNOFILE=131072
+	LimitNPROC=8192
+
+	[Install]
+	WantedBy=multi-user.target
+
+sudo groupadd sonar
+sudo useradd -c "sonar user" -d /opt/sonarqube/ -g sonar sonar
+sudo chown -R sonar:sonar /opt/sonarqube/
+
+
+sudo systemctl daemon-reload
+sudo systemctl start sonarqube.service
+systemctl status sonarqube.service
+
+netstat -tlpn
+
+sudo curl http://localhost:9000
+
+sudo apt-get -y install nginx
+
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> add                              
+	server{
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de; 
+
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
+
+	    proxy_buffers 16 64k;
+	    proxy_buffer_size 128k; 
+
+	    location / {
+		proxy_pass  http://127.0.0.1:9000;
+		proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect off;
+
+		proxy_set_header    Host            $host;
+		proxy_set_header    X-Real-IP       $remote_addr;
+		proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_set_header    X-Forwarded-Proto http;
+	    }
+	}
+
+sudo systemctl daemon-reload
+sudo systemctl start nginx
+systemctl status nginx
+netstat -tlpn
+
+
+-> connect to http://gawler.informatik.uni-stuttgart.de:9000
+-> login with admin admin
+-> change passwort to [SONARQUBE_ADMIN_PW]
+
+
+sudo nano sonarqube/conf/sonar.properties
+-> change #sonar.web.port=9000 to sonar.web.port=9000
+-> change #sonar.web.host=0.0.0.0 to sonar.web.host=127.0.0.1
+
+sudo systemctl restart nginx.service
+sudo systemctl restart sonarqube.service
+sudo systemctl restart postgresql
+
+-> goto http://gawler.informatik.uni-stuttgart.de
+-> login with admin and [SONARQUBE_ADMIN_PW]
+
+
+
+
+
+----------------------------------------
+| Setup SSL for SonarQube with Certbot |
+----------------------------------------
+
+sudo snap install core; sudo snap refresh core
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+sudo certbot certonly --nginx
+[EMAIL_ADRESS]
+
+-> Failes in cause of firewall...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
