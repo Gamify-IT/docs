@@ -14,5 +14,4 @@ Contains:
 - Execution of the issue
 - Meetings
 - Testing
-- Adding results to a presentation
 
