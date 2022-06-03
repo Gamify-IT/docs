@@ -35,7 +35,13 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ## H
 
+### HUD
+- The HUD (head-up display) is frequently used to simultaneously display several pieces of information including the main character's health, items, and an indication of game progression
+
 ## I
+
+### Issue
+- Representation of a Task on GitHub
 
 ## J
 
@@ -74,6 +80,9 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 - pice of graphic (not necessarily only one `.png` file).
 
 ## T
+
+### Task
+- Represented as an issue on GitHub
 
 ### Tile
 
