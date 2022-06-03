@@ -137,9 +137,13 @@ sudo nano sonarqube/conf/sonar.properties
 -> change #sonar.web.port=9000 to sonar.web.port=9000
 -> change #sonar.web.host=0.0.0.0 to sonar.web.host=127.0.0.1
 
-sudo systemctl restart nginx.service
-sudo systemctl restart sonarqube.service
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
 sudo systemctl restart postgresql
+
+sudo systemctl enable nginx
+sudo systemctl enable sonarqube
+sudo systemctl enable postgresql
 
 -> goto http://gawler.informatik.uni-stuttgart.de
 -> login with admin and [SONARQUBE_ADMIN_PW]
