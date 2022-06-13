@@ -1,3 +1,5 @@
+# General Technology Questions
+
 In the first meeting i had big problems following the conversation of our frontend structure, f.e. the overworld and other microservices.
 I dont have to understand every detail but it would be nice to follow the conversation.
 
