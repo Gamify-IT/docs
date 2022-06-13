@@ -27,4 +27,4 @@
     - New tasks go into "Backlog" column
     - When they are refined and estimated, we drag them into "Ready for another sprint"
     - "Todo" contains the tasks selected for the sprint
-    - During the sprint, comleted tasks go into "Ready for Review" column
+    - During the sprint, completed tasks go into "Ready for Review" column
