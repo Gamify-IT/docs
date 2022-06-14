@@ -25,6 +25,13 @@ Meeting Protocols
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Global
+
+   ./lecturer-interface/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Minigames
 
    ./minigames/**
