@@ -4,7 +4,7 @@
 1) add `sonar.projectKey=[REPO_NAME]` to `sonar-project.properties`
 1) create `.github/workflows/sonarqube-build.yml`
 1) add 
-`
+```
 name: SonarQube Build
 on:
   push:
@@ -28,5 +28,5 @@ jobs:
       #   timeout-minutes: 5
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-`
+```
 to `.github/workflows/sonarqube-build.yml`
