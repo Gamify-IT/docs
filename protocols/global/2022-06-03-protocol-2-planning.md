@@ -6,7 +6,7 @@
 
 ## Sprint 2 planning
 
-- Recap: sprint goal ([2022-06-03-protocol.md](./2022-06-03-protocol.md))
+- Recap: sprint goal ([2022-06-03-protocol-1.md](./2022-06-03-protocol-1.md))
 - Discussion: Hierarchy for tasks
     - We want at most two levels (e.g. Epics and Tasks)
     - Should the epics permanently be in progress?
