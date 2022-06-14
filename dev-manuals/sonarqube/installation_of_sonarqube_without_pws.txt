@@ -174,18 +174,21 @@ sudo certbot certonly --nginx
 
 -> wait for certificates....
 
---------
-| TODO |
---------
+
+cd /etc/nginx/
+sudo mkdir ssl
+cd ssl
+sudo mkdir [PUBLIC_SONAR_DOMAIN]
+cd [PUBLIC_SONAR_DOMAIN]
 
 -> click verify on sslforfree.com
 
--> upload certificates to /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/ named cert.pem and privkey.pem
+-> upload certificates to /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/ named certificate.crt and private.key
 
 sudo nano /etc/nginx/sites-enabled/sonarqube.conf
 -> change to
-	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/cert.pem;
-	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/privkey.pem;
+	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/certificate.crt;
+	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/private.key;
 
 	upstream sonar {
 	    server                      127.0.0.1:9000    fail_timeout=0;
