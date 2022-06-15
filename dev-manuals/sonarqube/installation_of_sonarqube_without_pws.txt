@@ -141,6 +141,10 @@ sudo systemctl restart nginx
 sudo systemctl restart sonarqube
 sudo systemctl restart postgresql
 
+sudo systemctl enable nginx
+sudo systemctl enable sonarqube
+sudo systemctl enable postgresql
+
 -> goto http://gawler.informatik.uni-stuttgart.de
 -> login with admin and [SONARQUBE_ADMIN_PW]
 
