@@ -165,27 +165,137 @@ sudo certbot certonly --nginx
 
 -> Failes in cause of firewall...
 
+-------
+| SSL |
+-------
+
+-> goto sslforfree.com
+-> create account: [SSLFORFREE_EMAIL] & [SSLFORFREE_PW]
+-> add CNAME entry:
+	Name: [CNAME_NAME]
+	Point To: [CNAME_POINT_TO]
+	TTL 3600 (or lower)
+
+-> wait for certificates....
 
 
+cd /etc/nginx/
+sudo mkdir ssl
+cd ssl
+sudo mkdir [PUBLIC_SONAR_DOMAIN]
+cd [PUBLIC_SONAR_DOMAIN]
 
+-> click verify on sslforfree.com
 
+-> upload certificates to /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/ named certificate.crt and private.key
 
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> change to
+	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/certificate.crt;
+	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/private.key;
 
+	upstream sonar {
+	    server                      127.0.0.1:9000    fail_timeout=0;
+	}
 
+	server {
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de;
+	    return 301  https://[PUBLIC_SONAR_DOMAIN]$request_uri;
 
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
+	}
 
+	server {
+	    listen                      443 ssl;
+	    server_name                 [PUBLIC_SONAR_DOMAIN];
 
+	    ssl_session_cache           shared:SSL:1m;
+	    ssl_session_timeout         10m;
+	    ssl_protocols               TLSv1 TLSv1.1 TLSv1.2;
+	    ssl_ciphers                 HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+	    ssl_prefer_server_ciphers   on;
+	    client_max_body_size        20M;
 
+	    location / {
+		proxy_set_header        Accept-Encoding   "";
+		proxy_set_header        Host              $http_host;
+		proxy_set_header        X-Real-IP $remote_addr;
+		proxy_set_header        X-Forwarded-By    $server_addr:$server_port;
+		proxy_set_header        X-Forwarded-For   $remote_addr;
+		proxy_set_header        X-Forwarded-Proto $scheme;
+		proxy_set_header        X-Real-IP         $remote_addr;
+		proxy_next_upstream     error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect          http://           https://;
+		proxy_pass              http://sonar;
+	    }
+	}
 
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
+sudo systemctl restart postgresql
 
+----------------------------------------------
+| Change nginx config to work in uni network |
+----------------------------------------------
 
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> change to
+	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/certificate.crt;
+	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/private.key;
 
+	upstream sonar {
+	    server                      127.0.0.1:9000    fail_timeout=0;
+	}
 
+	server{
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de; 
 
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
 
+	    proxy_buffers 16 64k;
+	    proxy_buffer_size 128k; 
 
+	    location / {
+		proxy_pass  http://127.0.0.1:9000;
+		proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect off;
 
+		proxy_set_header    Host            $host;
+		proxy_set_header    X-Real-IP       $remote_addr;
+		proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_set_header    X-Forwarded-Proto http;
+	    }
+	}
+	
+	server {
+	    listen                      443 ssl;
+	    server_name                 [PUBLIC_SONAR_DOMAIN];
 
+	    ssl_session_cache           shared:SSL:1m;
+	    ssl_session_timeout         10m;
+	    ssl_protocols               TLSv1 TLSv1.1 TLSv1.2;
+	    ssl_ciphers                 HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+	    ssl_prefer_server_ciphers   on;
+	    client_max_body_size        20M;
 
-
-
+	    location / {
+		proxy_set_header        Accept-Encoding   "";
+		proxy_set_header        Host              $http_host;
+		proxy_set_header        X-Real-IP $remote_addr;
+		proxy_set_header        X-Forwarded-By    $server_addr:$server_port;
+		proxy_set_header        X-Forwarded-For   $remote_addr;
+		proxy_set_header        X-Forwarded-Proto $scheme;
+		proxy_set_header        X-Real-IP         $remote_addr;
+		proxy_next_upstream     error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect          http://           https://;
+		proxy_pass              http://sonar;
+	    }
+	}
+	
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
+sudo systemctl restart postgresql
