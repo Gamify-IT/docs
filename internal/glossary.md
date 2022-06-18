@@ -70,7 +70,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 - subdivision of an [area](#area)
 - in these levels there can be a few entrances to [dungeons](#dungeon)
 - levels can be interconnected
-- [concept here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
   - 1,2,3,... on the left side of the picture are levels
 
 ## M
