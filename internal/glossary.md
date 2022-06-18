@@ -38,7 +38,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 - a cave/building or similar which can be accessed through a [level](#level)
 - can vary in size and content/look
-- [concept here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
   - squares are the entrances to a dungeon
 
 ## E
