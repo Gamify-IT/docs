@@ -15,7 +15,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ### Area
 
-- a limited size region where the player can move and interact with objects and [npcs](#npc)
+- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
 - in this area there are multiple [levels](#level)
 - [concept here](/protocols/global/2022-06-03-protocol-1.md#overworld)
   - big circle is an area
