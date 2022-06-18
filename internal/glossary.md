@@ -67,7 +67,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ### Level
 
-- subdivision of an [area](#area)
+- subdivision of an [Area](#area)
 - can have a few entrances to [dungeons](#dungeon)
 - levels can be interconnected
 - See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
