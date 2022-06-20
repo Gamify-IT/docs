@@ -13,19 +13,33 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ## A
 
+### Area
+
+- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
+- an area can contain multiple [Levels](#level)
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+  - big circle is an area
+
 ### Asset
 
 - bundle of graphics, [sprites](#Sprite), [tiles](#Tile) audio, [unity](#Unity) script, etc.
 
 ### Asset pack
 
-- a downloadable file containing [assets](#Assets) e.g. in [unity](#Unity) asset store: https://assetstore.unity.com/
+- a downloadable file containing [assets](#Assets) e.g. in [unity](#Unity) asset store: <https://assetstore.unity.com/>
 
 ## B
 
 ## C
 
 ## D
+
+### Dungeon
+
+- a cave/building or similar which can be accessed through a [level](#level)
+- can vary in size and content/look
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+  - squares are the entrances to a dungeon
 
 ## E
 
@@ -36,11 +50,13 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 ## H
 
 ### HUD
+
 - The HUD (head-up display) is frequently used to simultaneously display several pieces of information including the main character's health, items, and an indication of game progression
 
 ## I
 
 ### Issue
+
 - Representation of a Task on GitHub
 
 ## J
@@ -48,6 +64,14 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 ## K
 
 ## L
+
+### Level
+
+- subdivision of an [Area](#area)
+- can have a few entrances to [dungeons](#dungeon)
+- levels can be interconnected
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+  - 2, 3, 4, ... on the left side of the picture are levels
 
 ## M
 
@@ -82,6 +106,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 ## T
 
 ### Task
+
 - Represented as an issue on GitHub
 
 ### Tile
