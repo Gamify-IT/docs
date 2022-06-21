@@ -1,5 +1,5 @@
 # What kind of data do we need to store?
-## Configuration specified data
+## Configuration specific data
 - configure areas
    - spawnpoint 
    - active or not
@@ -15,7 +15,7 @@
    - game
    - configurationId
     
-also check [Class-Diagram](class-diagram/overworld-class-diagram.png) for this
+![Overworld Class Diagram](class-diagram/overworld-class-diagram.png)
 
 ## Player-specific data
 - userId
@@ -43,7 +43,7 @@ also check [Class-Diagram](class-diagram/overworld-class-diagram.png) for this
 - NoSQL is also a good choice when there are large amounts of (or ever-changing) data sets or when working with flexible data models or needs that don't fit into a relational model
 
 # What should we use?
-## Configuration specified data
+## Configuration specific data
 - clear point for SQL, the areas, dungeons, and tasks are all in relationships and do not get often updated.
 
 ## Player-specific data
