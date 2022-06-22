@@ -1,4 +1,4 @@
-# How long cheng stays in the project?
+# How long must cheng stay in the project?
 
 ## Possible Solutions
 
