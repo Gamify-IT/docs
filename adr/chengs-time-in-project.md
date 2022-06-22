@@ -13,4 +13,4 @@
 - cheng is a very nice guy
 
 ## Contra Chosen Solution
-- cheng soesn't have time for this shit
+- cheng doesn't have time for this shit
