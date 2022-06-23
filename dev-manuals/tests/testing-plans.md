@@ -1,9 +1,8 @@
-# Testing  
-## Testing strategy  
+# Testing plan    
+
+## bugfinder
 ### How do we test?  
 - Classical  
-- Test driven  
-- Test first  
 
 ### Test levels  
 - Unit testing  
@@ -12,39 +11,304 @@
 - Acceptance testing  
 
 ### Test methods  
-- Smoke tests
-- Performance tests  
-- Fuzzy tests  
-- Equivalence class testing  
-- Requirements based  
-- Regression tests  
-- Black-/White/Grey-Box testing  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
 
 ### Metrics  
 What do we want to achieve?  
-- code coverage of 75%  
+- code coverage of 10% *(will increase over time)*    
 - pass rate of 100%  
 
-### Test automatisation  
-- Unity games and frontends are tested before every merge in the main branch
-- Unit tests are performed at every push(automated by CI-Server)  
-- Integration tests are performed at every push(automated by CI-Server)  
-- UI tests before every merge in the main branch  
-- Architecture tests are performed when needed  
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
 
-## Test tools  
-### Frontend
-Unit tests with **Jest** whenever possible.  
-**Unity** games are tested manually.  
+### Test tools
+- Game logic -> Jest `npm run test:unit`
+- HTML components -> manually
 
-### Backend  
-JHipster does a lot of stuff: [JHipster tests](https://www.jhipster.tech/running-tests/)  
-- **Unit tests** using **JUnit 5** 
-- **Integration tests** using **Spring Test Context framework**  
-- **UI tests** with **Jest**  
-- **Architecture tests** with **ArchUnit**  
+--------------------------------------------------------------------------------
 
-Optionally, JHipster can also generates:
-- **Performance tests** with **Gatling**
-- **Behaviour-driven tests** with **Cucumber**  
-- **Angular/React/Vue integration tests** with **Protractor**
+## crosswordpuzzle
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of 10% *(will increase over time)*    
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Game logic -> Jest `npm run test:unit`
+- HTML components -> manually
+
+--------------------------------------------------------------------------------
+
+## docs
+### How do we test?
+Before each release it should be checked manually if the docs repo is up to date and correct.
+
+--------------------------------------------------------------------------------
+
+## git-card-game
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of 10% *(will increase over time)*  
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Game logic -> Jest `npm run test:unit`
+- HTML components -> manually
+
+--------------------------------------------------------------------------------
+
+## login-backend
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (automatically)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of 25% *(will increase over time)*    
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests at every push via CI-pipeline  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Go internal -> `go test -v ./...`
+
+--------------------------------------------------------------------------------
+
+## login-frontend
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (manually)  
+- Fuzzy tests (manually)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+
+### Metrics  
+What do we want to achieve?  
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests tests before every merge in main branch  
+- Fuzzy tests tests before every release  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+
+### Test tools
+- HTML components -> manually
+
+--------------------------------------------------------------------------------
+
+## moorhuhn
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of .cs files of 10% *(will increase over time)*  
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every merge in main branch via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Game logic -> Unity Unit test
+- Everything else -> manually
+
+--------------------------------------------------------------------------------
+
+## moorhuhn-backend
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (automatically)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of 25% *(will increase over time)*    
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests at every push via CI-pipeline  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Spring internal -> `mvn test`
+
+--------------------------------------------------------------------------------
+
+## overworld
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of .cs files of 10% *(will increase over time)*  
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every merge in main branch via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Game logic -> Unity Unit test
+- Everything else -> manually
+
+--------------------------------------------------------------------------------
+
+## regex-game
+### How do we test?  
+- Classical  
+
+### Test levels  
+- Unit testing  
+- Integration testing  
+- System testing  
+- Acceptance testing  
+
+### Test methods  
+- Smoke tests (automatically)  
+- Fuzzy tests (automatically)  
+- Requirements-based (manually)
+- Regression tests (manually)  
+- Black-/White/Grey-Box testing (automatically)  
+
+### Metrics  
+What do we want to achieve?  
+- code coverage of 10% *(will increase over time)*    
+- pass rate of 100%  
+
+### Test schedule  
+- Smoke tests at every push via CI-pipeline  
+- Fuzzy tests at every push via CI-pipeline  
+- Requirements-based tests before every release  
+- Regression tests before every release  
+- Black-/White/Grey-Box testing at every push via CI-pipeline  
+
+### Test tools
+- Game logic -> Jest `npm run test:unit`
+- HTML components -> manually
