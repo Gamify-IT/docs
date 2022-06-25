@@ -13,4 +13,4 @@
 ### how to design overworld
 1. make it impossible for the player to walk behind big walls.
 2. scene -> boilerplate: empty template scene. Use this template, if you want to start a new level.
-3. collitions: ask someone who knows how it works (ilias, florian, jonathan, levi).
+3. collitions: ask someone who knows how it works (ilijaz, florian, jonathan, levi).
