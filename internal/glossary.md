@@ -15,10 +15,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ### Area
 
-- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
-- an area can contain multiple [Levels](#level)
-- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
-  - big circle is an area
+- a part of the gamefield where the player can move, abstract class for [World](#world) and [Dungeon](#dungeon)
 
 ### Asset
 
@@ -67,7 +64,7 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 
 ### Level
 
-- subdivision of an [Area](#area)
+- subdivision of a [World](#world)
 - can have a few entrances to [dungeons](#dungeon)
 - levels can be interconnected
 - See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
@@ -131,6 +128,13 @@ Imagen the phrase: `A xy is ...` when writing an explanation.
 ## V
 
 ## W
+
+### World
+
+- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
+- a world can contain multiple [Levels](#level)
+- See the concept [here](/protocols/global/2022-06-03-protocol-1.md#overworld)
+  - big circle is world
 
 ## X
 
