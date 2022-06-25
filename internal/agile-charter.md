@@ -45,9 +45,9 @@ We build a online
 ### Core Team
 
 - Leon Hofmeister: Project manager / Quality Control
-- Timo Schnaible: Project manager Stellv. / DevOps Stellv.
+- Timo Schnaible: Project manager Stellv. / DevOps Stellv - Change 22.06.2022: DevOps ~Stellv.~
 - Michael Linder: Dokumentationsverantwortlicher
-- Ilijaz Mehmedovic: D Stell / Devops
+- Ilijaz Mehmedovic: D Stell / Devops - Change 22.06.2022: DevOps Stellv.
 - Gilian Rehm: Quality Control
 - Max Kästner: Login
 - Martin Lautenschlager: Overworld

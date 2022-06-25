@@ -13,8 +13,8 @@
 - Leon Hofmeister
 
 ## DevOps
-- Ilijaz
 - Timo
+- Ilijaz
 
 ## Microservice Login
 - Maexled
