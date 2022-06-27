@@ -52,7 +52,7 @@
 
 # Result
 
-SQL is the favorite here because of the many relations we have. For our project in the overworld, it does not make much difference whether we use MySQL or PostgreSQL, because the performance does not have many differences and the features of both databases are completely sufficient for us
+SQL is the favorite here because of the many relations we have. For our project, it does not make a difference what type of database system we use because the performance will be similar and the features of all databases are sufficient for us.
 
 ## Result after Review
-Of course, an orm is used. We have selected PostgreSQL as database.
+An ORM should be used. We have selected PostgreSQL as our database.
