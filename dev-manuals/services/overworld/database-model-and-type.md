@@ -1,17 +1,18 @@
 # What kind of data do we need to store?
 ## Configuration specific data
-- configure areas
+- configure worlds
+   - name
    - spawnpoint 
    - active or not
    - dungeons
    - tasks 
-   - [specific name?]
-- configure dungeons 
+- configure dungeons
+   - name
    - spawnpoint 
    - active or not
    - tasks
-   - [specific name?]
 - configure tasks
+   - name
    - game
    - configurationId
     
@@ -20,9 +21,9 @@
 ## Player-specific data
 - userId
 - username
+- unlocked areas
 - completed tasks
 - completed dungeons
-- unlocked areas
 - location of the player
 - knowledge level
 - [carried items]
@@ -48,8 +49,10 @@
 
 ## Player-specific data
 - the player-specific data should also be stored in a SQL database, there are relations from unlocked areas to the defined areas, completed dungeons, tasks, ...
-- in the future, if database updates happen very often we can switch to some NoSQL databases for faster queries.
 
 # Result
 
-SQL is the favorite here because of the many relations we have. For our project in the overworld, it does not make much difference whether we use MySQL or PostgreSQL, because the performance does not have many differences and the features of both databases are completely sufficient for us
+SQL is the favorite here because of the many relations we have. For our project, it does not make a difference what type of database system we use because the performance will be similar and the features of all databases are sufficient for us.
+
+## Result after Review
+An ORM should be used. We have selected PostgreSQL as our database.
