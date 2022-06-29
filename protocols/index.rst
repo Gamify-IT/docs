@@ -25,7 +25,7 @@ Meeting Protocols
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Global
+   :caption: Lecturer Interface
 
    ./lecturer-interface/**
 
