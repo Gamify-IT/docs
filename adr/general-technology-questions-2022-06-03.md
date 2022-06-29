@@ -8,7 +8,7 @@ Maybe we can define some of the components (and espatially how WE use them) in t
 The ones i remember are:
 
 1. We have a microservice architecture. So why cant the different backend aspects be written in different languages? Why does it have to be only GO?
-  Answer: Everyone can us the language he wants. Atleast 2 other persons should be able to read/ edit the code.
+  Answer: Everyone can use the language he wants. Atleast 2 other persons should be able to read/ edit the code.
   
 2. What is an IFrame, and how do we use them?
   Answer: Little Website inside another website.
@@ -17,7 +17,7 @@ The ones i remember are:
   Answer: A Website (only HTML).
   
 4. Microservice Communication?
-  Answer: probably rest. 
+  Answer: probably rest.
   
 5. Where is the data stored for each microservice?
   Answer: w.i.p. (probably in multiple databases SQL + noSQL)

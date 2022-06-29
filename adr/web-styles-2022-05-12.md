@@ -9,4 +9,4 @@
 ## Result
 
 - Bootstrap
-- a lot of knowledge existing, integration with vue
+- a lot of existing knowledge, integration with vue
