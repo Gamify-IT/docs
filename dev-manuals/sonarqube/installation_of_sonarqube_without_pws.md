@@ -1,4 +1,6 @@
-# installation of sonarqube without pws
+# Installation steps of sonarqube
+
+The following steps record exactly what action was taken when in order to setup SonarQube. Not all of them are necessary to set it up again.
 
 ```
 -------------------
@@ -37,7 +39,7 @@ sudo apt install net-tools
 netstat -tlpn
 
 sudo nano /etc/sysctl.conf
--> add: 
+-> add:
 	vm.max_map_count=524288
 	fs.file-max=131072
 	ulimit -n 131072
@@ -64,7 +66,7 @@ sudo nano sonarqube/conf/sonar.properties
  to sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
 -> change #sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError to sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError
 
-sudo nano /etc/systemd/system/sonarqube.service 
+sudo nano /etc/systemd/system/sonarqube.service
 -> paste
 	[Unit]
 	Description=SonarQube service
@@ -74,7 +76,7 @@ sudo nano /etc/systemd/system/sonarqube.service
 	Type=forking
 
 	ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
-	ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop 
+	ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
 
 	User=sonar
 	Group=sonar
@@ -102,16 +104,16 @@ sudo curl http://localhost:9000
 sudo apt-get -y install nginx
 
 sudo nano /etc/nginx/sites-enabled/sonarqube.conf
--> add                              
+-> add
 	server{
 	    listen      80;
-	    server_name gawler.informatik.uni-stuttgart.de; 
+	    server_name gawler.informatik.uni-stuttgart.de;
 
 	    access_log  /var/log/nginx/sonar.access.log;
 	    error_log   /var/log/nginx/sonar.error.log;
 
 	    proxy_buffers 16 64k;
-	    proxy_buffer_size 128k; 
+	    proxy_buffer_size 128k;
 
 	    location / {
 		proxy_pass  http://127.0.0.1:9000;

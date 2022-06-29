@@ -1,4 +1,4 @@
-# database model and type
+# Database model and type
 
 ## What kind of data do we need to store?
 

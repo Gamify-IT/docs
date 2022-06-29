@@ -17,3 +17,4 @@ Currently, it can only be guessed what other team members are doing, leading to 
 
 - use github project <https://github.com/orgs/Gamify-IT/projects/6>
 - start of next sprint new planning
+

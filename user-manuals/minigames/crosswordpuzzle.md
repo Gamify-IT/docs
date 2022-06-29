@@ -1,4 +1,4 @@
-# [crosswordpuzzle](https://github.com/Gamify-IT/crosswordpuzzle)
+# [Crosswordpuzzle](https://github.com/Gamify-IT/crosswordpuzzle)
 
 This is a simple crosswordpuzzle. With given questions and answers it automatically generates a crosswordpuzzle.  
 

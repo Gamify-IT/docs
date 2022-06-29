@@ -1,4 +1,4 @@
-# What design library should we uset to style our web interfaces?
+# What design library should we use to style our web interfaces?
 
 ## Proposals
 
