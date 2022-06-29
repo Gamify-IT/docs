@@ -1,38 +1,39 @@
-# Generell
-  - [DOKU] Wie darstellen? Wiki/ README/ markdown/ pdf?
-  - [DOKU] Zentraler Ort für Doku
-Sollte beinhalten:
-  - [DOKU] Dev Tutorial: Examples for adding a new minigame, Architektur, Testingstruktur, Wie Projekt runnen
-  - Toggl Time Track: Wenn etwas zu lange dauert am Besten mittels Toggl nachweisebar, selbst wenn nichts vorhanden
-  - ADR: Architecural Decision Records: gemeinsam getroffene Architekturentscheidungen und warum. Template auf https://adr.github.io/madr/ : Beschreib das Problem mit Pro und Contra,
-  - (Overkill: readthedocs)
-  - Nutzerhandbuch (wie der User das bedienen kann): "Er muss es halt verstehen".
-  - Pro service sauberes README: wie starten, wie aufgebaut,...
-  - Protokolle: kleiner Mitschrieb der Meetingergebnisse und wer was gemacht hat -> zum Argumentieren.
-  - Pro Review: Präsentation bauen mit Fortschritten, und was zu erwarten ist. Vielleicht auch SonarQube Statistiken als Screenshot einbauen.
-  - Zum Startreview: Liste der Rollen, und wann genau minimal running example zu erwarten ist.
-  - wie Projektalltag gestalten?
-  - Aufwandsschätzung / Storypoints  / Planning Poker -> mit Storypoints können gut Taskdauern geschätzt werden, wenn ein Storypoint ca. 5 Stunden (oder weniger, je nach Gusto)
-     - kein Task größer als X: In Subtasks runterbrechen
-  - Planning und Refinement: jedem muss am Anfang klar sein, was muss getan werden. Außerdem empfehlenswert: Experten(gebiete) aufbauen.
-  - Zweiwochensprints empfehlenswert
-  - Review: x Tasks erledigt, y Storypoints geschätzt, bspw. wenn mir die Leute ihre Toggl Zeiten schicken (I-Tüpfelchen).
-    - Ich gebe groben Überblick: Was wurde erledigt?
-    - Weitergeben an die einzelnen Implementierer: Wie wurde es genau erledigt?
-    - Klausurphasen und Sommerurlaube einplanen! (Bspw. weil in einer Woche nur 3 da sind)
-  - Doku Repo: Wie service adden, Dev Doku, User Doku, (readthedocs...), setup, CI/ CD (i.e. Jenkins/ SonarQube), IDE setup, ADR, ReST API
-  - Meilensteine/ Releases: Frei wählbar, hier vermutlich nicht so sinnvoll, MVP
-  - Bezüglich Deployen: Vielleicht mal BW Cloud anfragen, kann aber Downtime geben weil gratis
-  - Discord Bot für notifications? Eher nicht.
-  - Doku Sachen an Doku verantwortlichen weiterleiten.
-  - Wie Reviewfolien aufbauen:
-     - Agenda: Übersicht
-     - Ziele: Was ist passiert? Was wurde sich vorgenommen? Wurde es implementiert? Wenn nein, warum?
-     - Falls vorhanden: Events (i.e. Entwickler verlässt Team)
-     - Zahlen: wie viele Tickets insgesamt, ...
-     - Kuhn Diagramm?
-     - SonarQube Statistics -> Für DevOps, also Iliaz, aber erst, wenn alles funktioniert
-     - Präsentation der jeweils eigenen Features von den Entwicklern
-     - Next steps
-     - Aufs Wesentliche konzentrieren
-     - (Retrospektive)
+# General
+
+- DOKU] How to display? Wiki/ README/ markdown/ pdf?
+- DOKU] Central place for docs.
+Should include:
+- [DOKU] Dev Tutorial: Examples for adding a new minigame, Architecture, Testing structure, How to run project.
+- Toggl Time Track: If something takes too long it should be trackable by toggl, even if nothing is available
+- ADR: Architecural Decision Records: architecture decisions made together and why. Template on <https://adr.github.io/madr/> : Describe the problem with pros and cons,
+- (overkill: readthedocs)
+- User manual (how the user can operate it): "he just has to understand it".
+- Pro service clean README: how to start, how structured,...
+- Protocols: small record of meeting results and who did what -> to argue.
+- Pro review: Build presentation with progress, and what to expect. Maybe also include SonarQube stats as a screenshot.
+- To start review: List of roles, and when exactly to expect minimal running example.
+- how to design project day-to-day?
+- Effort estimation / Storypoints / Planning Poker -> with storypoints task durations can be estimated well, if a storypoint takes about 5 hours (or less, depending on gusto)
+  - no task larger than X: break down into subtasks
+- Planning and Refinement: everyone must be clear at the beginning what needs to be done. Also recommended: Build up experts (areas).
+- Two-week sprints are recommended
+- Review: x tasks done, y storypoints estimated, e.g. when people send me their toggle times (icing on the cake).
+  - Giving rough overview: What got done?
+  - Pass on to individual implementers: how exactly was it done?
+  - Schedule retreat periods and summer vacations! (E.g. because there are only 3 in one week)
+- Docu Repo: How to add service, Dev doc, User doc, (readthedocs...), setup, CI/ CD (i.e. Jenkins/ SonarQube), IDE setup, ADR, ReST API
+- Milestones/ Releases: Freely selectable, probably not so useful here, MVP
+- Concerning Deploy: Maybe ask BW Cloud, but there can be downtime because it's free.
+- Discord Bot for notifications? Rather not.
+- Forward docu stuff to docu responsible.
+- How to build review slides:
+  - Agenda: Overview
+  - Goals: What happened? What was planned? Has it been implemented? If not, why?
+  - If present: Events (i.e. developer leaves team).
+  - Numbers: how many tickets in total, ...
+  - Kuhn diagram?
+  - SonarQube Statistics -> For DevOps, i.e. Iliaz, but only when everything is working.
+  - Presentation of own features by the developers
+  - Next steps
+  - Concentrate on the essentials
+  - (Retrospective)

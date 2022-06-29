@@ -2,7 +2,7 @@
 
 Explanations for words that are not common. Click a letter to jump to the section.
 
-Imagen the phrase: `A xy is ...` when writing an explanation.
+Imagine the phrase: `A xy is ...` when writing an explanation.
 
 ```
 ❌ Overworld: An overworld is a world that ...

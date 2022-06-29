@@ -11,16 +11,16 @@ Unlike ordinary lectures, our product takes a different approach by combining le
 
 ### Mission
 
-We build a online
+We build an online minigame platform.  
+Features:
 
-- minigame platform
 - static world you progress by completing minigames
 - replacable and interchangable minigame content
-- (you can learn smth)
+- you gain knowledge
 - easy to extend with more minigames
-- easy to access through the browser
+- easy to access through the web browser
 
-### Mission Tests (ggf. DoD)
+### Mission Tests (possibly DoD)
 
 - [ ] Users can successfully register and login to the platform
 - [ ] An overworld exists where users can wander around and start minigames
@@ -45,19 +45,19 @@ We build a online
 ### Core Team
 
 - Leon Hofmeister: Project manager / Quality Control
-- Timo Schnaible: Project manager Stellv. / DevOps Stellv.
-- Michael Linder: Dokumentationsverantwortlicher
-- Ilijaz Mehmedovic: D Stell / Devops
+- Timo Schnaible: Project manager deputy / DevOps deputy
+- Michael Linder: documentation responsible
+- Ilijaz Mehmedovic: documentation responsible deputy / Devops
 - Gilian Rehm: Quality Control
 - Max Kästner: Login
 - Martin Lautenschlager: Overworld
 - Leon Layer: Minigames
 - Levi Otterbach: Minigames
-- Aaron Schmid: Entwickler
-- Jonathan Scholz: Entwickler
+- Aaron Schmid: developer
+- Jonathan Scholz: developer
 - Florian Wüst: Overworld
-- Jiacheng Qian: agiler Coach
-- Lavinia Stiliadou: agiler Coach
+- Jiacheng Qian: agile Coach
+- Lavinia Stiliadou: agile Coach
 
 ### Working Agreement (wie stellen wir uns die (tägliche) Arbeit miteinander vor?)
 
@@ -70,16 +70,16 @@ We build a online
 
 ### Committed Ressources
 
-- Raum
-- GitHub (Dokumentation, Entwicklung)
-- Discord (interne Kommunikation)
-- TimeTree (Verfügbarkeitsübersicht)
+- Room
+- GitHub (documentation, development)
+- Discord (internal communication)
+- TimeTree (Availability overview)
 - Conceptboard (Brainstorming)
 
 ### Boundaries
 
-<img src="boundaries.png" />
+![boundaries](boundaries.png)
 
 ### Prospective Analysis
 
-<img src="prospective-analysis.png" />
+![prospective-analysis](prospective-analysis.png)

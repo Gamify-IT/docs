@@ -1,3 +1,3 @@
 # Go
 
-## [Code Format](code-format.md)
+- [Code Format](code-format.md)

@@ -1,5 +1,7 @@
 # How to merge Unity branches
+
 ## Setup
+
 1) Install [Sourcetree](https://www.sourcetreeapp.com/)  
 1) Click on `Data > Clone / New`  
 1) Clone your project  
@@ -12,6 +14,7 @@
 1) Add path of TortoiseGit to `C:\unity\2021.3.1f1\Editor\Data\Tools\mergespecfile.txt` like this `* use "%programs%\TortoiseGit\bin\TortoiseGitMerge.exe" -base:"%b" -mine:"%l" -theirs:"%r" -merged:"%d"` (at line 21)  
 
 ## Merge branch X to Y
+
 1) Check out `Y`  
 1) Right click `X` in `History`-view  
 1) Select `Merge...`  

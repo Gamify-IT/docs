@@ -1,0 +1,305 @@
+# installation of sonarqube without pws
+
+```
+-------------------
+| Setup SonarQube |
+-------------------
+
+ssh ubuntu@gawler.informatik.uni-stuttgart.de
+
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get -y install openjdk-11-jdk
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+
+sudo passwd postgres
+[POSTGRES_USER_PW]
+[POSTGRES_USER_PW]
+
+createuser sonar
+psql
+
+ALTER USER sonar WITH ENCRYPTED PASSWORD '[SONAR_DB_USER_PW]';
+CREATE DATABASE sonarqube OWNER sonar;
+GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
+\q
+exit
+
+sudo systemctl restart postgresql
+systemctl status postgresql
+
+sudo apt install net-tools
+netstat -tlpn
+
+sudo nano /etc/sysctl.conf
+-> add: 
+	vm.max_map_count=524288
+	fs.file-max=131072
+	ulimit -n 131072
+	ulimit -u 8192
+
+sudo nano /etc/security/limits.conf
+-> add:
+	sonarqube  -  nofile  131072
+	sonarqube  -  nproc   8192
+
+reboot
+
+cd /opt/
+sudo curl -L -O https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+
+sudo apt install unzip
+sudo unzip sonarqube-9.4.0.54424.zip
+sudo rm -rf sonarqube-9.4.0.54424.zip
+sudo mv sonarqube-9.4.0.54424/ sonarqube
+
+sudo nano sonarqube/conf/sonar.properties
+-> add sonar.jdbc.username=sonar and sonar.jdbc.password=3-WUuS-4+^vX4)d~
+-> change #sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube?currentSchema=my_schema
+ to sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
+-> change #sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError to sonar.search.javaOpts=-Xmx512m -Xms512m -XX:MaxDirectMemorySize=256m -XX:+HeapDumpOnOutOfMemoryError
+
+sudo nano /etc/systemd/system/sonarqube.service 
+-> paste
+	[Unit]
+	Description=SonarQube service
+	After=syslog.target network.target
+
+	[Service]
+	Type=forking
+
+	ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+	ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop 
+
+	User=sonar
+	Group=sonar
+	Restart=always
+
+	LimitNOFILE=131072
+	LimitNPROC=8192
+
+	[Install]
+	WantedBy=multi-user.target
+
+sudo groupadd sonar
+sudo useradd -c "sonar user" -d /opt/sonarqube/ -g sonar sonar
+sudo chown -R sonar:sonar /opt/sonarqube/
+
+
+sudo systemctl daemon-reload
+sudo systemctl start sonarqube.service
+systemctl status sonarqube.service
+
+netstat -tlpn
+
+sudo curl http://localhost:9000
+
+sudo apt-get -y install nginx
+
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> add                              
+	server{
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de; 
+
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
+
+	    proxy_buffers 16 64k;
+	    proxy_buffer_size 128k; 
+
+	    location / {
+		proxy_pass  http://127.0.0.1:9000;
+		proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect off;
+
+		proxy_set_header    Host            $host;
+		proxy_set_header    X-Real-IP       $remote_addr;
+		proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_set_header    X-Forwarded-Proto http;
+	    }
+	}
+
+sudo systemctl daemon-reload
+sudo systemctl start nginx
+systemctl status nginx
+netstat -tlpn
+
+
+-> connect to http://gawler.informatik.uni-stuttgart.de:9000
+-> login with admin admin
+-> change passwort to [SONARQUBE_ADMIN_PW]
+
+
+sudo nano sonarqube/conf/sonar.properties
+-> change #sonar.web.port=9000 to sonar.web.port=9000
+-> change #sonar.web.host=0.0.0.0 to sonar.web.host=127.0.0.1
+
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
+sudo systemctl restart postgresql
+
+sudo systemctl enable nginx
+sudo systemctl enable sonarqube
+sudo systemctl enable postgresql
+
+-> goto http://gawler.informatik.uni-stuttgart.de
+-> login with admin and [SONARQUBE_ADMIN_PW]
+
+
+
+
+
+----------------------------------------
+| Setup SSL for SonarQube with Certbot |
+----------------------------------------
+
+sudo snap install core; sudo snap refresh core
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+sudo certbot certonly --nginx
+[EMAIL_ADRESS]
+
+-> Failes in cause of firewall...
+
+-------
+| SSL |
+-------
+
+-> goto sslforfree.com
+-> create account: [SSLFORFREE_EMAIL] & [SSLFORFREE_PW]
+-> add CNAME entry:
+	Name: [CNAME_NAME]
+	Point To: [CNAME_POINT_TO]
+	TTL 3600 (or lower)
+
+-> wait for certificates....
+
+
+cd /etc/nginx/
+sudo mkdir ssl
+cd ssl
+sudo mkdir [PUBLIC_SONAR_DOMAIN]
+cd [PUBLIC_SONAR_DOMAIN]
+
+-> click verify on sslforfree.com
+
+-> upload certificates to /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/ named certificate.crt and private.key
+
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> change to
+	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/certificate.crt;
+	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/private.key;
+
+	upstream sonar {
+	    server                      127.0.0.1:9000    fail_timeout=0;
+	}
+
+	server {
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de;
+	    return 301  https://[PUBLIC_SONAR_DOMAIN]$request_uri;
+
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
+	}
+
+	server {
+	    listen                      443 ssl;
+	    server_name                 [PUBLIC_SONAR_DOMAIN];
+
+	    ssl_session_cache           shared:SSL:1m;
+	    ssl_session_timeout         10m;
+	    ssl_protocols               TLSv1 TLSv1.1 TLSv1.2;
+	    ssl_ciphers                 HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+	    ssl_prefer_server_ciphers   on;
+	    client_max_body_size        20M;
+
+	    location / {
+		proxy_set_header        Accept-Encoding   "";
+		proxy_set_header        Host              $http_host;
+		proxy_set_header        X-Real-IP $remote_addr;
+		proxy_set_header        X-Forwarded-By    $server_addr:$server_port;
+		proxy_set_header        X-Forwarded-For   $remote_addr;
+		proxy_set_header        X-Forwarded-Proto $scheme;
+		proxy_set_header        X-Real-IP         $remote_addr;
+		proxy_next_upstream     error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect          http://           https://;
+		proxy_pass              http://sonar;
+	    }
+	}
+
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
+sudo systemctl restart postgresql
+
+----------------------------------------------
+| Change nginx config to work in uni network |
+----------------------------------------------
+
+sudo nano /etc/nginx/sites-enabled/sonarqube.conf
+-> change to
+	ssl_certificate                 /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/certificate.crt;
+	ssl_certificate_key             /etc/nginx/ssl/[PUBLIC_SONAR_DOMAIN]/private.key;
+
+	upstream sonar {
+	    server                      127.0.0.1:9000    fail_timeout=0;
+	}
+
+	server{
+	    listen      80;
+	    server_name gawler.informatik.uni-stuttgart.de; 
+
+	    access_log  /var/log/nginx/sonar.access.log;
+	    error_log   /var/log/nginx/sonar.error.log;
+
+	    proxy_buffers 16 64k;
+	    proxy_buffer_size 128k; 
+
+	    location / {
+		proxy_pass  http://127.0.0.1:9000;
+		proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect off;
+
+		proxy_set_header    Host            $host;
+		proxy_set_header    X-Real-IP       $remote_addr;
+		proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_set_header    X-Forwarded-Proto http;
+	    }
+	}
+	
+	server {
+	    listen                      443 ssl;
+	    server_name                 [PUBLIC_SONAR_DOMAIN];
+
+	    ssl_session_cache           shared:SSL:1m;
+	    ssl_session_timeout         10m;
+	    ssl_protocols               TLSv1 TLSv1.1 TLSv1.2;
+	    ssl_ciphers                 HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+	    ssl_prefer_server_ciphers   on;
+	    client_max_body_size        20M;
+
+	    location / {
+		proxy_set_header        Accept-Encoding   "";
+		proxy_set_header        Host              $http_host;
+		proxy_set_header        X-Real-IP $remote_addr;
+		proxy_set_header        X-Forwarded-By    $server_addr:$server_port;
+		proxy_set_header        X-Forwarded-For   $remote_addr;
+		proxy_set_header        X-Forwarded-Proto $scheme;
+		proxy_set_header        X-Real-IP         $remote_addr;
+		proxy_next_upstream     error timeout invalid_header http_500 http_502 http_503 http_504;
+		proxy_redirect          http://           https://;
+		proxy_pass              http://sonar;
+	    }
+	}
+	
+sudo systemctl restart nginx
+sudo systemctl restart sonarqube
+sudo systemctl restart postgresql
+```

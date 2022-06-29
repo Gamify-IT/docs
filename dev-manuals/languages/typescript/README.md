@@ -1,5 +1,4 @@
 # Typescript
 
-## [Code format](code-format.md)
-
-## [File names](file-names.md)
+- [Code format](code-format.md)
+- [File names](file-names.md)

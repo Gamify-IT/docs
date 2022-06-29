@@ -1,3 +1,7 @@
+# Coding Convention
+
+## Text Cases
+
 Class names in PascalCase:  `class StringToDisplay`  
 Namespaces in PascalCase:    `Unity.Behavior`  
 Method names in PascalCase: `ToString()`  
@@ -7,6 +11,6 @@ Since the rules are complicated, this can be read [here](https://github.com/ktar
 
 [Read more about cases here.](../../etc/text-cases.md)
 
-# Positioning of curly braces
-Curly braces (`{}`) are each on a separate line.
+## Positioning of curly braces
 
+Curly braces (`{}`) are each on a separate line.

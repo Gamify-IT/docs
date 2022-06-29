@@ -11,16 +11,16 @@ Unlike ordinary lectures, our product takes a different approach by combining le
 
 ### Mission
 
-We build a online 
+We build an online minigame platform.  
+Features:
 
-- minigame platform
 - static world you progress by completing minigames
 - replacable and interchangable minigame content
-- (you can learn smth)
+- you gain knowledge
 - easy to extend with more minigames
-- easy to access through the browser
+- easy to access through the web browser
 
-### Mission Tests (ggf. DoD)
+### Mission Tests (possibly DoD)
 
 - [ ] Users can successfully register and login to the platform
 - [ ] An overworld exists where users can wander around and start minigames
@@ -45,20 +45,19 @@ We build a online
 ### Core Team
 
 - Leon Hofmeister: Project manager / Quality Control
-- Timo Schnaible: Project manager Stellv. / DevOps Stellv - Change 22.06.2022: DevOps ~Stellv.~
-- Michael Linder: Dokumentationsverantwortlicher
-- Ilijaz Mehmedovic: D Stell / Devops - Change 22.06.2022: DevOps Stellv.
+- Timo Schnaible: Project manager deputy / DevOps deputy
+- Michael Linder: documentation responsible
+- Ilijaz Mehmedovic: documentation responsible deputy / Devops
 - Gilian Rehm: Quality Control
 - Max Kästner: Login
 - Martin Lautenschlager: Overworld
 - Leon Layer: Minigames
 - Levi Otterbach: Minigames
-- Aaron Schmid: Entwickler
-- Jonathan Scholz: Entwickler
+- Aaron Schmid: developer
+- Jonathan Scholz: developer
 - Florian Wüst: Overworld
-- Jiacheng Qian: agiler Coach
-- Lavinia Stiliadou: agiler Coach
-
+- Jiacheng Qian: agile Coach
+- Lavinia Stiliadou: agile Coach
 
 ### Working Agreement (wie stellen wir uns die (tägliche) Arbeit miteinander vor?)
 
@@ -66,22 +65,21 @@ We build a online
 - We communicate when we're unavailable
 - We help each other
 - Wise use of meeting time
-- Appointments are entered in TimeTree
 
 ## Context
 
 ### Committed Ressources
 
-- Raum
-- GitHub (Dokumentation, Entwicklung)
-- Discord (interne Kommunikation)
-- TimeTree (Verfügbarkeitsübersicht, Meetings)
+- Room
+- GitHub (documentation, development)
+- Discord (internal communication)
+- TimeTree (Availability overview)
 - Conceptboard (Brainstorming)
 
 ### Boundaries
 
-siehe Zeichnung (wird aber dann noch eingefügt)
+![boundaries](boundaries.png)
 
 ### Prospective Analysis
 
-siehe Zeichnung (wird aber dann noch eingefügt)
+![prospective-analysis](prospective-analysis.png)

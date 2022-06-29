@@ -1,5 +1,4 @@
 # C#
 
-## [Code formatter](code-formatter.md)
-
-## [Coding conventions](coding-convention.md)
+- [Code formatter](code-formatter.md)
+- [Coding conventions](coding-convention.md)
