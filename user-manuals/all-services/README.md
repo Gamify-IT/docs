@@ -1,4 +1,4 @@
-# How to run all services.
+# How to run all services
 
 All services are in a `docker compose` file.
 
@@ -6,11 +6,11 @@ All services are in a `docker compose` file.
 
 ### Install docker
 
-#### [Install docker under windows](https://docs.docker.com/desktop/windows/install/)
+[Install docker under windows](https://docs.docker.com/desktop/windows/install/)
 
-#### [Install docker under linux](https://docs.docker.com/desktop/linux/install/)
+[Install docker under linux](https://docs.docker.com/desktop/linux/install/)
 
-#### [Install docker under macos](https://docs.docker.com/desktop/mac/install/)
+[Install docker under macos](https://docs.docker.com/desktop/mac/install/)
 
 ### Clone project
 
