@@ -1,9 +1,11 @@
 # How to add SonarQube to a repository
-1) make sure the repo is public
-1) create `sonar-project.properties`
-1) add `sonar.projectKey=[REPO_NAME]` to `sonar-project.properties`
-1) create `.github/workflows/sonarqube-build.yml`
-1) add 
+
+1. make sure the repo is public
+2. create `sonar-project.properties`
+3. add `sonar.projectKey=[REPO_NAME]` to `sonar-project.properties`
+4. create `.github/workflows/sonarqube-build.yml`
+5. add
+
 ```
 name: SonarQube Build
 on:
@@ -29,4 +31,5 @@ jobs:
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 ```
+
 to `.github/workflows/sonarqube-build.yml`

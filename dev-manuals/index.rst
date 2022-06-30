@@ -4,16 +4,16 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Asset Packs
+   :caption: Architecture
 
-   ./asset-packs/**
+   ./architecture/**
 
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Design
+   :caption: Asset Packs
 
-   ./design/**
+   ./asset-packs/**
 
 .. toctree::
    :glob:
@@ -60,6 +60,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Other
+   :caption: SonarQube
+
+   ./sonarqube/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Miscellaneous
 
    ./etc/**

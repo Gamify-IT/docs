@@ -1,28 +1,35 @@
 # Responsibilities
 
 ## Project Manager
+
 - Leon Hofmeister
 - Timo
 
 ## Documentation
-- Michael 
+
+- Michael
 - Ilijaz
 
 ## Quality Control
-- Gilian 
+
+- Gilian
 - Leon Hofmeister
 
 ## DevOps
+
 - Timo
 - Ilijaz
 
 ## Microservice Login
+
 - Maexled
 
 ## Microservice Overworld
-- Martin 
+
+- Martin
 - Flori
 
 ## Microservice Minigames
+
 - Leon Layer
 - Levi
