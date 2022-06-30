@@ -15,6 +15,6 @@ Currently, it can only be guessed what other team members are doing, leading to 
 
 ## Chosen Solution
 
-- use github project <https://github.com/orgs/Gamify-IT/projects/6>
+- use the [github project](https://github.com/orgs/Gamify-IT/projects/6)
 - start of next sprint new planning
 
