@@ -50,7 +50,7 @@ Next, select all sprites you want (e.g. all tiles sprites from a tilemap) and dr
 
 On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile. In the Inspector you can now rotate, move or split the tile by setting the scale to a negative value. Make sure to toggle the edit mode again when you finished.
 
-## Setup colliders
+# Setup colliders
 
 1. Open up the sprite editor (on how to do that see [Get sprites from tilemap](#Get-sprites-from-tilemap))
 1. On the top press the dropdown `Sprite Editor` and select `Custom Physics Shape`.
@@ -58,7 +58,7 @@ On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile.
 1. Select the edges and fit the collider so only the part that should collide with the player is in that are like that: <img src="setup-unity-tilemap/add-custom-physics-shape.gif" />
 1. when you finish press on `Apply` at the top right.
 
-### How to add a node
+## How to add a node
 
 Just hover with the mouse on the center of two nodes and the option to create a new node will appear.
 
@@ -89,7 +89,14 @@ Now no collider will be generated.
 
 <img src="setup-unity-tilemap/fix-collider-type-sprite-missing.gif" />
 
-## Setup sprite rendering order
+# Setup sprite rendering order
+
+## Configure rendering order
+
+<img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
+<img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
+
+## Fix rendering order for tiles
 
 Sometimes the player is drawn on top of element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
 
@@ -128,12 +135,7 @@ Make sure you draw your ground on the lowerst layer (layer 1). Go to the tile pa
 
 <img src="setup-unity-tilemap/layers.png" />
 
-# Some tips
+## Some tips
 
 `Ctrl + Click or Drag` picks the current tile and you can now draw with that.
 `Shift + Click` deletes the tile.
-
-# Configure rendering order
-
-<img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
-<img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
