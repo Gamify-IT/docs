@@ -50,7 +50,69 @@ Next, select all sprites you want (e.g. all tiles sprites from a tilemap) and dr
 
 On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile. In the Inspector you can now rotate, move or split the tile by setting the scale to a negative value. Make sure to toggle the edit mode again when you finished.
 
-## Draw unity scene
+## Setup colliders
+
+1. Open up the sprite editor (on how to do that see [Get sprites from tilemap](#Get-sprites-from-tilemap))
+1. On the top press the dropdown `Sprite Editor` and select `Custom Physics Shape`.
+1. Select the tile you want to edit. Press on `Generate` at the top left.
+1. Select the edges and fit the collider so only the part that should collide with the player is in that are like that: <img src="setup-unity-tilemap/add-custom-physics-shape.gif" />
+1. when you finish press on `Apply` at the top right.
+
+### How to add a node
+
+Just hover with the mouse on the center of two nodes and the option to create a new node will appear.
+
+### How to delete a node
+
+Select the node and then press the <kbd>del</kbd> key.
+
+### Helpful tips
+
+Use the `Copy` and `Paste` buttons on the top of the sprite editor.
+
+### How to disable collision for a sprite entirely
+
+1. Select the tile
+1. Press on `Generate`
+1. Delete all points except the last three points. If you delete all points the collider will be set to "automatic" again.
+1. Move all three points together to a corner of the sprite.
+
+<img src="setup-unity-tilemap/remove-collider.gif" />
+
+Now no collider will be generated.
+
+#### I add a collider but the collision doesn't work
+
+1. Did you press on apply?
+1. Select all tilemaps and toggle the composite checkbox in the `tilemap collider 2d`: <img src="setup-unity-tilemap/toggle-composite.gif" />
+1. If all of this didn't work try this: In the sprite editor, copy the name of the tile (by clicking on it) and then search for that name in the project explorer. Look at the sprite's asset in the inspector and make sure that `Collision Type` is set to `Sprite` (NOT `Grid`!):
+
+<img src="setup-unity-tilemap/fix-collider-type-sprite-missing.gif" />
+
+## Setup sprite rendering order
+
+Sometimes the player is drawn on top of element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
+
+### Explanation
+
+You can skip this part if you're not interestend in the cause of this problem and go directly to [Fix](#fix).
+
+Unity will render the player on top of a tile if the player's y-position if less than the y-position of the pivot (origin) of the tile. The pivot of the player as well as the default origin of the tile is directly in the center.
+
+In this situation the player is lower than the top part of the shelf so it's getting drawn on top of the shelf. The fix: move the origin of the shelf to the bottom.
+
+<img src="setup-unity-tilemap/rendering-issue-cause.png" />
+
+### Fix
+
+1. Select a tile in the sprite editor and update the pivot to be: lower than the sprite, if the player should be drawn behind the sprite at all times, above the sprite, if the player should be drawn above the sprite at all times.
+1. Now the tiles look a bit wonky. In the tile palette, select the select tool and toggle `Edit`. Press on the sprites origin that got moved (this could be directly one tile below the visible sprite) and in the inspector select update the offset to be y -1.
+1. redraw the tile
+
+<img src="setup-unity-tilemap/update-pivots.gif" />
+<img src="setup-unity-tilemap/update-tile-offset.gif" />
+
+# Draw unity scene
 
 In the Hirarchy right click>`2D`>`Tilemap`>`Rectangular`.
 
@@ -66,7 +128,7 @@ Make sure you draw your ground on the lowerst layer (layer 1). Go to the tile pa
 
 <img src="setup-unity-tilemap/layers.png" />
 
-### Some tips
+# Some tips
 
 `Ctrl + Click or Drag` picks the current tile and you can now draw with that.
 `Shift + Click` deletes the tile.
