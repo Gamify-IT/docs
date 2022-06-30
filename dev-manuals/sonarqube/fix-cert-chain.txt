@@ -1,0 +1,1 @@
+to fix the cert chain I used this website (https://whatsmychaincert.com/) and changes the current public cert with the there provided 
