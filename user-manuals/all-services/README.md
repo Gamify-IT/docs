@@ -8,7 +8,7 @@ All services are in a `docker compose` file.
 
 [Install on windows](https://docs.docker.com/desktop/windows/install/)
 
-[Install docker under linux](https://docs.docker.com/desktop/linux/install/)
+[Install on linux](https://docs.docker.com/desktop/linux/install/)
 
 [Install docker under macos](https://docs.docker.com/desktop/mac/install/)
 
