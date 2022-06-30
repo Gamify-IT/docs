@@ -6,7 +6,7 @@ All services are in a `docker compose` file.
 
 ### Install docker
 
-[Install docker under windows](https://docs.docker.com/desktop/windows/install/)
+[Install on windows](https://docs.docker.com/desktop/windows/install/)
 
 [Install docker under linux](https://docs.docker.com/desktop/linux/install/)
 
