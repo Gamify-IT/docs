@@ -10,7 +10,7 @@ All services are in a `docker compose` file.
 
 [Install on linux](https://docs.docker.com/desktop/linux/install/)
 
-[Install docker under macos](https://docs.docker.com/desktop/mac/install/)
+[Install on macos](https://docs.docker.com/desktop/mac/install/)
 
 ### Clone project
 
