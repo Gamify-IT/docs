@@ -17,7 +17,7 @@ The ones i remember are:
   Answer: A Website (only HTML).
 
 4. Microservice Communication?
-  Answer: probably rest.
+  Answer: probably REST.
 
 5. Where is the data stored for each microservice?
   Answer: w.i.p. (probably in multiple databases SQL + noSQL)
