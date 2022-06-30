@@ -13,4 +13,4 @@ Since the rules are complicated, this can be read [here](https://github.com/ktar
 
 ## Positioning of curly braces
 
-Curly braces (`{}`) are each on a separate line.
+Curly braces (`{}`) are always on separate lines.
