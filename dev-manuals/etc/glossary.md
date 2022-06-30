@@ -9,63 +9,63 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 ✅ Overworld: a world that ...
 ```
 
-[A](a) [B](b) [C](c) [D](d) [E](e) [F](f) [G](g) [H](h) [I](i) [J](j) [K](k) [L](l) [M](m) [N](n) [O](o) [P](p) [Q](q) [R](r) [S](s) [T](t) [U](u) [V](v) [W](w) [X](x) [Y](y) [Z](z)
+[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
 
-(a)=
+(#a)=
 
 ## A
 
-(area)=
+(#area)=
 
 ### Area
 
-- a part of the gamefield where the player can move, abstract class for [World](world) and [Dungeon](dungeon)
+- a part of the gamefield where the player can move, abstract class for [World](#world) and [Dungeon](#dungeon)
 
-(asset)=
+(#asset)=
 
 ### Asset
 
-- bundle of graphics, [sprites](sprite), [tiles](tile) audio, [unity](unity) script, etc.
+- bundle of graphics, [sprites](#sprite), [tiles](#tile) audio, [unity](#unity) script, etc.
 
 ### Asset pack
 
-- a downloadable file containing [assets](asset) e.g. in the [Unity](unity) [asset store](https://assetstore.unity.com/)
+- a downloadable file containing [assets](#asset) e.g. in the [Unity](#unity) [asset store](https://assetstore.unity.com/)
 
 
-(b)=
+(#b)=
 
 ## B
 
-(c)=
+(#c)=
 
 ## C
 
-(d)=
+(#d)=
 
 ## D
 
-(dungeon)=
+(#dungeon)=
 
 ### Dungeon
 
-- a cave/building or similar which can be accessed through a [level](level)
+- a cave/building or similar which can be accessed through a [level](#level)
 - can vary in size and content/look
 - See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
   - squares are the entrances to a dungeon
 
-(e)=
+(#e)=
 
 ## E
 
-(f)=
+(#f)=
 
 ## F
 
-(g)=
+(#g)=
 
 ## G
 
-(h)=
+(#h)=
 
 ## H
 
@@ -73,7 +73,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - The HUD (head-up display) is frequently used to simultaneously display several pieces of information including the main character's health, items, and an indication of game progression
 
-(i)=
+(#i)=
 
 ## I
 
@@ -81,81 +81,81 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - Representation of a Task on GitHub
 
-(j)=
+(#j)=
 
 ## J
 
-(k)=
+(#k)=
 
 ## K
 
-(l)=
+(#l)=
 
 ## L
 
-(level)=
+(#level)=
 
 ### Level
 
-- subdivision of a [World](world)
-- can have a few entrances to [dungeons](dungeon)
+- subdivision of a [World](#world)
+- can have a few entrances to [dungeons](#dungeon)
 - levels can be interconnected
 - See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
   - 2, 3, 4, ... on the left side of the picture are levels
 
-(m)=
+(#m)=
 
 ## M
 
-(minigame)=
+(#minigame)=
 
 ### Minigame
 
-- a injectable game that runs as an independent service and can get invoked by the [overworld](overworld).
+- a injectable game that runs as an independent service and can get invoked by the [overworld](#overworld).
 
-(n)=
+(#n)=
 
 ## N
 
-(npc)=
+(#npc)=
 
 ### NPC
 
 - a non player character which can be interacted with. These characters can appear in the overworld, in dungeons or in games.
 
-(o)=
+(#o)=
 
 ## O
 
-(overworld)=
+(#overworld)=
 
 ### Overworld
 
-- the first world the player will see after starting the game. Here he can explore the world and start [minigames](minigame).
+- the first world the player will see after starting the game. Here he can explore the world and start [minigames](#minigame).
 
-(p)=
+(#p)=
 
 ## P
 
-(q)=
+(#q)=
 
 ## Q
 
-(r)=
+(#r)=
 
 ## R
 
-(s)=
+(#s)=
 
 ## S
 
-(sprite)=
+(#sprite)=
 
 ### Sprite
 
 - pice of graphic (not necessarily only one `.png` file).
 
-(t)=
+(#t)=
 
 ## T
 
@@ -163,7 +163,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - Represented as an issue on GitHub
 
-(tile)=
+(#tile)=
 
 ### Tile
 
@@ -171,48 +171,48 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 ### Tile map
 
-- a file containing multiple [tiles](tile).
-- a unity component that displays a plane and you can draw [tiles](tile) on it.
+- a file containing multiple [tiles](#tile).
+- a unity component that displays a plane and you can draw [tiles](#tile) on it.
 
 ### Tile palette
 
-- unity palette where you can create configure [tiles](tile).
+- unity palette where you can create configure [tiles](#tile).
 
-(u)=
+(#u)=
 
 ## U
 
-(unity)=
+(#unity)=
 
 ### Unity
 
 - game engine we use
 
-(v)=
+(#v)=
 
 ## V
 
-(w)=
+(#w)=
 
 ## W
 
-(world)=
+(#world)=
 
 ### World
 
-- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](npc)
-- a world can contain multiple [Levels](level)
+- a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
+- a world can contain multiple [Levels](#level)
 - See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
   - big circle is world
 
-(x)=
+(#x)=
 
 ## X
 
-(y)=
+(#y)=
 
 ## Y
 
-(z)=
+(#z)=
 
 ## Z
