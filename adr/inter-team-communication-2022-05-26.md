@@ -16,5 +16,6 @@ Currently, it can only be guessed what other team members are doing, leading to 
 ## Chosen Solution
 
 - use the [github project](https://github.com/orgs/Gamify-IT/projects/6)
-- start of next sprint new planning
+- participate in the sprint planning at the start of each sprint
+- participate in the _Daily_ meetings
 
