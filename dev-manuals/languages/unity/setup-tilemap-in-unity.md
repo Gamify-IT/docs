@@ -70,3 +70,8 @@ Make sure you draw your ground on the lowerst layer (layer 1). Go to the tile pa
 
 `Ctrl + Click or Drag` picks the current tile and you can now draw with that.
 `Shift + Click` deletes the tile.
+
+# Configure rendering order
+
+<img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
+<img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
