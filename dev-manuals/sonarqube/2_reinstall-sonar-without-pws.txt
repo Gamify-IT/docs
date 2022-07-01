@@ -57,6 +57,7 @@ version: "3"
 services:
   sonarqube:
     image: sonarqube:community
+	restart: always
     depends_on:
       - db
     environment:
@@ -71,6 +72,7 @@ services:
       - "9000:9000"
   db:
     image: postgres:12
+	restart: always
     environment:
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: [DB_SONAR_USER_PW]
@@ -108,13 +110,3 @@ sudo rm /usr/lib/systemd/system-generators/postgresql-generator
 
 sudo systemctl daemon-reload
 sudo systemctl reset-failed
-
-docker update --restart always sonardocker_db_1 
-docker update --restart always sonardocker_sonarqube_1
-
-
-
-crontab -e
--> add
-@reboot docker start sonardocker_db_1  
-@reboot docker start sonardocker_sonarqube_1
