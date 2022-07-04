@@ -1,0 +1,112 @@
+-------------------------------
+| Reinstall Sonar from Docker |
+-------------------------------
+
+sudo systemctl stop sonarqube.service
+sudo systemctl disable sonarqube.service
+sudo mv sonarqube sonarqube-backup
+
+/etc/systemd/system/sonarqube.service
+-> 
+	[Unit]
+	Description=SonarQube service
+	After=syslog.target network.target
+
+	[Service]
+	Type=forking
+
+	ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+	ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
+
+	User=sonar
+	Group=sonar
+	Restart=always
+
+	LimitNOFILE=131072
+	LimitNPROC=8192
+
+	[Install]
+	WantedBy=multi-user.target
+
+sudo rm /etc/systemd/system/sonarqube.service
+
+sudo apt install docker -y
+
+docker volume create --name sonarqube_data
+docker volume create --name sonarqube_logs
+docker volume create --name sonarqube_extensions
+
+
+
+sudo -u sonar  psql sonarqube 
+ALTER USER sonar WITH PASSWORD '[DB_SONAR_USER_PW]';
+exit
+
+sudo systemctl stop postgresql 
+
+sudo systemctl disable postgresql
+
+
+mkdir sonardocker  
+cd sonardocker
+
+nano docker-compose.yml
+->
+version: "3"
+
+services:
+  sonarqube:
+    image: sonarqube:community
+	restart: always
+    depends_on:
+      - db
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonar
+      SONAR_JDBC_USERNAME: sonar
+      SONAR_JDBC_PASSWORD: [DB_SONAR_USER_PW]
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_logs:/opt/sonarqube/logs
+    ports:
+      - "9000:9000"
+  db:
+    image: postgres:12
+	restart: always
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: [DB_SONAR_USER_PW]
+    volumes:
+      - postgresql:/var/lib/postgresql
+      - postgresql_data:/var/lib/postgresql/data
+
+volumes:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:
+  postgresql:
+  postgresql_data:
+
+sudo apt install docker-compose -y
+docker-compose up  
+
+
+goto [INTERN_SERVER_DOMAIN]
+-> login with admin admin
+-> change pw to [SONAR_ADMIN_PW]
+-> create user user with pw: [SONAR_USER_PW]
+
+
+docker start sonardocker_db_1  
+docker start sonardocker_sonarqube_1
+
+
+sudo rm -rf /etc/postgresql 
+sudo rm -rf /etc/postgresql-common 
+
+sudo rm /usr/lib/systemd/system/postgresql.service 
+sudo rm /usr/lib/systemd/system/postgresql@.service
+sudo rm /usr/lib/systemd/system-generators/postgresql-generator 
+
+sudo systemctl daemon-reload
+sudo systemctl reset-failed

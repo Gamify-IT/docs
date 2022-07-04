@@ -8,4 +8,4 @@ every markdown asset pack file should follow the [template](asset-template.md) s
 
 ## assets
 
-- [Example Asset](asset-template.md)
+- [Zelda-like](zelda-like-tileset-and-sprites.md)

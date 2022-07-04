@@ -1,2 +1,3 @@
 # Code Format
-Obviously, code formatting in Go is pretty easy as it is simply the built in `go fmt` command in the project root directory.
+
+Code formatting in Go is pretty easy as there is a built in `go fmt` command which needs to be executed in the project root directory.

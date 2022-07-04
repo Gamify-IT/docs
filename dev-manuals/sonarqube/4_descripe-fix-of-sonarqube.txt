@@ -1,0 +1,1 @@
+Due to the fixed SSL cert chain, the error in github action with public domain including https:// as SONAR_HOST_URL changed from "SonarQube server [***] can not be reached" to "You're not authorized to run analysis. Please contact the project administrator.". Now I used a "User Token" instead of the "Global Analysis Token", which also solved this problem.
