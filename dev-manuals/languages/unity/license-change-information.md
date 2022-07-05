@@ -1,4 +1,6 @@
-From 31.12. the Unity license changes, which is why - if nothing is changed by us until then - the autobuild in the CI will no longer work. See below the email from Unity.
+# Unity License Deprecation
+
+Starting from 31.12.2022 on, the old Unity license won't be available anymore, meaning if nothing is changed by us until then, the autobuild in the CI will no longer work. See below for the email from Unity.
 
 ---
 
