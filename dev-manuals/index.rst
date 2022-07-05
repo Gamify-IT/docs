@@ -4,6 +4,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Authentication
+
+   ./authentication/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Architecture
 
    ./architecture/**
