@@ -3,7 +3,7 @@
 When the user logs in, they receive a token.
 The token is stored in a cookie which is sent alongside every request to any backend.
 
-Every backend MUST ALWAYS validate the token before processing any request.
+Every backend **must always** validate the token before processing any request.
 
 ## Data format
 
