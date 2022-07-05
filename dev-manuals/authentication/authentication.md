@@ -24,5 +24,5 @@ When you parse the token, you receive the following data:
 
 ## Identifying users
 
-When a backend needs to store information related to a user, it MUST associate the data with the `id` from the token.
+When a backend needs to store information related to a user, it **must** associate the data with the `id` from the token.
 The `id` is guaranteed to be unique, and is the only permanent identifier for users.
