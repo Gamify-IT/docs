@@ -57,10 +57,10 @@
 1) type `y`
 1) execute `npm install jest jest-sonar-reporter ts-jest @vue/cli-service @vue/cli-plugin-typescript @types/jest --save-dev`
 1) file folder `/tests/unit/example.spec.ts`
-1) add 
-    `describe('Example', () => {`
-        &nbsp;&nbsp;&nbsp;&nbsp;`test('true is true', () => {`
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`expect(true).toBeTruthy();`
-        &nbsp;&nbsp;&nbsp;&nbsp;`});`
-    `});`
+1) add <br>
+    `describe('Example', () => {` <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;`test('true is true', () => {` <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`expect(true).toBeTruthy();` <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;`});` <br>
+    `});` <br>
 to /tests/unit/example.spec.ts
