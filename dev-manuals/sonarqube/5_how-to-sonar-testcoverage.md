@@ -49,7 +49,7 @@
         image: postgres
         # Provide the password for postgres
         env:
-          POSTGRES_PASSWORD: asdf
+          POSTGRES_PASSWORD: [DB_PW_HERE]
         # Set health checks to wait until postgres has started
         options: >-
           --health-cmd pg_isready
