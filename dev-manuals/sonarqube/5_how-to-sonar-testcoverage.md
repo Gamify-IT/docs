@@ -9,7 +9,7 @@
         to `sonarqube-build.yml`
 ---
 
-## Springboot
+## Spring Boot
 1) add `run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=moorhuhn-backend -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml` to sonarqube-build.yml
 1) add <br>
             `<plugin>` <br>
