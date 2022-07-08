@@ -8,14 +8,23 @@
 ## Chosen Solution
 - probably Java
 
-## Pro Chosen Solution
-### Java
-- Everyone has already used it.
-### Go
-- no Pro
+### Pro Java
 
-## Contra Chosen Solution
-### Java
-- no Contra
-### Go
+- Everyone has already used it
+- Understandable language
+- Server-side language
+- Advanced library ecosystem, especially with `Spring`
+
+### Pro Go
+- Server-side language
+- Concise
+
+### Contra Java
+
+- Verbose
+
+### Contra Go
+
+- Not everyone knows this language
+- Library ecosystem is mostly unknown
 - no Contra
