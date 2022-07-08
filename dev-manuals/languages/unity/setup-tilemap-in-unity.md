@@ -52,7 +52,7 @@ Next, select all sprites you want (e.g. all tiles sprites from a tilemap) and dr
 
 On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile. In the Inspector you can now rotate, move or split the tile by setting the scale to a negative value. Make sure to toggle the edit mode again when you finished.
 
-# Setup colliders
+## Setup colliders
 
 1. Open up the sprite editor (on how to do that see [Get sprites from tilemap](#Get-sprites-from-tilemap))
 1. On the top press the dropdown `Sprite Editor` and select `Custom Physics Shape`.
@@ -60,19 +60,19 @@ On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile.
 1. Select the edges and fit the collider so only the part that should collide with the player is in that are like that: <img src="setup-unity-tilemap/add-custom-physics-shape.gif" />
 1. when you finish press on `Apply` at the top right.
 
-## How to add a node
+### How to add a node
 
 Just hover with the mouse on the center of two nodes and the option to create a new node will appear.
 
-### How to delete a node
+#### How to delete a node
 
 Select the node and then press the <kbd>del</kbd> key.
 
-### Helpful tips
+#### Helpful tips
 
 Use the `Copy` and `Paste` buttons on the top of the sprite editor.
 
-### How to disable collision for a sprite entirely
+#### How to disable collision for a sprite entirely
 
 1. Select the tile
 1. Press on `Generate`
@@ -91,14 +91,14 @@ Now no collider will be generated.
 
 <img src="setup-unity-tilemap/fix-collider-type-sprite-missing.gif" />
 
-# Setup sprite rendering order
+## Setup sprite rendering order
 
-## Configure rendering order
+### Configure rendering order
 
 <img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
 <img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
 
-## Fix rendering order for tiles
+### Fix rendering order for tiles
 
 Sometimes the player is drawn on top of element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
 
@@ -121,7 +121,7 @@ In this situation the player is lower than the top part of the shelf so it's get
 <img src="setup-unity-tilemap/update-pivots.gif" />
 <img src="setup-unity-tilemap/update-tile-offset.gif" />
 
-# Draw unity scene
+## Draw unity scene
 
 In the Hirarchy right click>`2D`>`Tilemap`>`Rectangular`.
 
@@ -137,7 +137,7 @@ Make sure you draw your ground on the lowerst layer (layer 1). Go to the tile pa
 
 ![layers](setup-unity-tilemap/layers.png)
 
-## Some tips
+### Some tips
 
 `Ctrl + Click or Drag` picks the current tile and you can now draw with that.
 `Shift + Click` deletes the tile.
