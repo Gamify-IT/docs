@@ -10,7 +10,7 @@
 ---
 
 ## Spring Boot
-1) add `run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=moorhuhn-backend -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml` to sonarqube-build.yml
+1) add `run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=moorhuhn-backend -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml` to `sonarqube-build.yml`
 1) add <br>
             `<plugin>` <br>
 				&nbsp;&nbsp;&nbsp;&nbsp;`<groupId>org.jacoco</groupId>` <br>
@@ -39,6 +39,28 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;`</executions>` <br>
 		    `</plugin>` <br>
     to `pom.xml`
+1) to test data base add 
+<pre>
+# Service containers to run with runner-job
+    services:
+      # Label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres
+        # Provide the password for postgres
+        env:
+          POSTGRES_PASSWORD: asdf
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 5432:5432 
+</pre>
+#### between `runs-on: self-hosted` and `steps` to `sonarqube-build.yml`
 ---
 
 ## Vue
@@ -46,7 +68,7 @@
         `- run: npm ci` <br>
         `- name: Unit Tests with Coverage` <br>
         `run: npm run test:unit -- --coverage --testResultsProcessor=jest-sonar-reporter` <br>
-    to sonarqube-build.yml
+    to `sonarqube-build.yml`
 1) create `jest.config.js` in top directory
 1) add <br>
     `module.exports = {` <br>
