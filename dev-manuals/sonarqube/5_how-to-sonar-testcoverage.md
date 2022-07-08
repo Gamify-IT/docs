@@ -47,7 +47,7 @@
         `- name: Unit Tests with Coverage` <br>
         `run: npm run test:unit -- --coverage --testResultsProcessor=jest-sonar-reporter` <br>
     to sonarqube-build.yml
-1) create jest.config.js in top directory
+1) create `jest.config.js` in top directory
 1) add <br>
     `module.exports = {` <br>
         &nbsp;&nbsp;&nbsp;&nbsp;`preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',` <br>
