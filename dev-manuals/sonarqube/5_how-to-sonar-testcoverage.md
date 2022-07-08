@@ -52,7 +52,7 @@
     `module.exports = {` <br>
         &nbsp;&nbsp;&nbsp;&nbsp;`preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',` <br>
     `};` <br>
-    to jest.config.js
+    to `jest.config.js`
 1) execute `vue add unit-jest`
 1) type `y`
 1) execute `npm install jest jest-sonar-reporter ts-jest @vue/cli-service @vue/cli-plugin-typescript @types/jest --save-dev`
