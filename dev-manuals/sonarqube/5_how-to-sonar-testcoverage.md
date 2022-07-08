@@ -38,7 +38,7 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`</execution>` <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;`</executions>` <br>
 		    `</plugin>` <br>
-    to pom.xml
+    to `pom.xml`
 ---
 
 ## Vue
