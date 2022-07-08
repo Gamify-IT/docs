@@ -6,7 +6,7 @@
         `- run: go generate` <br> 
         `- name: Unit Tests with Coverage` <br> 
         `run: go test -coverprofile=coverage.out ./...` <br> 
-        to sonarqube-build.yml
+        to `sonarqube-build.yml`
 ---
 
 ## Springboot
