@@ -11,7 +11,7 @@ Every Scene that needs to be in the Final Version, has to be there.
 
 ## First Scene
 
-We need to have a starting Scene from which every other Scene is accessible in some way. Currently we have a dummy scene called "FirstScene" which has a Script attached to it. If you load the "FirstScene" it executes a Script "LoadFirstScene.cs" that is attached to it. This Script loads the configured Scenes.
+We need to have a starting Scene from which every other Scene is accessible in some way. Currently we have a dummy scene called `FirstScene` which has a Script attached to it. If you load the `FirstScene` it executes a Script `LoadFirstScene.cs` that is attached to it. This Script loads the configured Scenes.
 
 ```c#
 using System.Collections;
