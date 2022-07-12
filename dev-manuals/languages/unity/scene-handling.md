@@ -6,7 +6,7 @@ Here it is documented how we currently handle multiple scenes in Unity.
 
 To use our unity scenes with script code we need to add them to the Build Settings.  
 ![build settings](build-settings-scenes.png)  
-Simply just drag and drop the required Scenes into the "Scenes in Build" area.
+Simply just drag and drop the required Scenes into the `Scenes in Build` area.
 Every Scene that needs to be in the Final Version, has to be there.
 
 ## First Scene
