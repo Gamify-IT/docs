@@ -13,6 +13,53 @@ There are Scripts in Scenes Folders, Scenes in no folder at all,... Additionally
   - no longer needed scenes/scripts/etc. should be moved to "old" folder in the respective parent Folder.
     - or deleted?
 
+### Proposed folder structure:  
+
+- Assets
+  - Animations
+    - Foldername
+      - animation files
+  - Prefabs
+    - Foldername
+      - prefab files
+  - Resources
+    - Foldername
+      - resource files (render textures, masks, everything that doesnt fit in the other folders)
+  - Scenes
+    - Dungeons
+      - Dungeon 1
+        - Dungeon 1 scenes
+      - Dungeon 2
+        - Dungeon 2 scenes
+      - ...
+    - Worlds
+      - World 1
+        - World 1 scenes
+      - World 2
+        - World 2 scenes
+      - ...
+    - Foldername
+      - scenes
+    - ...
+  - Scripts
+    - Foldername
+      - script files
+    - ...  
+  - Sprites
+    - Foldername
+      - sprite files
+    - ...
+  - Tiles (Folder for every different Tileset, if new tileset created -> create new folder)
+    - Cave
+      - Cave tilesets and tilemaps (and all assets that generate out of it)
+    - Overworld
+      - animated
+        - fountain
+          - animated tiles
+        - ...  
+      - Overworld tilesets and tilemaps (and all assets that generate out of it)
+    - ...
+
 ## Pro changing nothing
 
 - no extra work at the moment
