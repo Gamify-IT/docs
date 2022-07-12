@@ -1,4 +1,4 @@
-# Unity Folder Structure and File names
+# Unity Folder Structure and Filenames
 
 Currently our Folder and File structure in our unity project is not consistent.
 There are Scripts in Scenes Folders, Scenes in no folder at all, etc. Also the Filenames do not follow a same Text Case.
