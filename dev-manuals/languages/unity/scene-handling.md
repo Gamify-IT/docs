@@ -43,6 +43,6 @@ public class LoadFirstScene : MonoBehaviour
 
 ```
 
-In this Example the Scene "Area 1" is loaded and the HUD Scene is also loaded additively.  
+In this example, the Scene `Area 1` is loaded, and the HUD Scene is also loaded additively.  
 There also is a line which specifies the starting Point of the Player in the loaded Scene.  
 The Script should be adapted to load whatever Scene should be the starting Scene for our Game (World Selection Hub for example).
