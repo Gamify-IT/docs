@@ -140,11 +140,10 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 ## Q
 
-### Quality of Life (QoL) features
+### Quality of Life (QoL)
 
-- are features that are `nice to have` and make things easier/smoother
-- dont change the gameplay itself
-- not explicitly necessary, but can improve the player experience
+- describes how easy a user can use a service
+- does not regard whether the actual functionality exists 
 
 (#r)=
 
