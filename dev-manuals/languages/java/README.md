@@ -1,4 +1,4 @@
-# Typescript
+# Java
 
 ## [Code format](code-format.md)
 
