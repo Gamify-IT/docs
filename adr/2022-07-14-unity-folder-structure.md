@@ -10,10 +10,9 @@ There are Scripts in Scenes Folders, Scenes in no folder at all,... Additionally
   - for example put all World Scenes into the worlds folder
   - Scripts only in the scripts folder, with subfolders which are named to display where the script belongs to
     - also applies to all other stuff like prefabs, scenes, sprites, tiles, animations, ...
-  - no longer needed scenes/scripts/etc. should be moved to "old" folder in the respective parent Folder.
-    - or deleted?
+  - no longer needed scenes/scripts/etc. should be deleted
 
-### Proposed folder structure:  
+### Proposed folder structure  
 
 - Assets
   - Animations
@@ -71,6 +70,4 @@ There are Scripts in Scenes Folders, Scenes in no folder at all,... Additionally
 
 ## Chosen Solution
 
-## Pro Chosen Solution
-
-## Contra Chosen Solution
+use the proposed folder structure
