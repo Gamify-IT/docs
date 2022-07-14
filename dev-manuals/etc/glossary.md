@@ -140,8 +140,6 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 ## Q
 
-(#QoL)=
-
 ### Quality of Life (QoL) features
 
 - are features that are `nice to have` and make things easier/smoother
