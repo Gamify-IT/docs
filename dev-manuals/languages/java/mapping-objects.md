@@ -21,4 +21,4 @@ Please include them as a dependency in frontend projects by adding this in the p
 </dependencies>
 ```
 
-A nice and quick tutorial how to use with spring is here https://www.baeldung.com/mapstruct.
+A nice and quick tutorial how to use with spring is can be found at <https://www.baeldung.com/mapstruct>.

@@ -18,7 +18,7 @@ Please include them as a dev dependency in frontend projects by adding this in t
       <version>0.16</version>
       <configuration>
         <prettierJavaVersion>1.5.0</prettierJavaVersion>
-        <printWidth>90</printWidth>
+        <printWidth>120</printWidth>
         <tabWidth>2</tabWidth>
         <useTabs>false</useTabs>
         <ignoreConfigFile>true</ignoreConfigFile>

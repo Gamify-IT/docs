@@ -1,6 +1,6 @@
 # Lombok
-Because we do not want to write big domain classes with all ther setters, getters and constructors, we want to make the code more readable by using [Lombok](https://projectlombok.org/).
-Please include them as a dependency in frontend projects by adding this in the pom.xml:
+Because we do not want to write big domain classes with all their getters, setters, and constructors, we want to make the code more readable by using [Lombok](https://projectlombok.org/).
+Please include them as a dependency in frontend projects by adding this in the `pom.xml`:
 
 ```xml
 <properties>
