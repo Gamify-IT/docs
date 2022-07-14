@@ -31,7 +31,6 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - a downloadable file containing [assets](#asset) e.g. in the [Unity](#unity) [asset store](https://assetstore.unity.com/)
 
-
 (#b)=
 
 ## B
@@ -140,6 +139,14 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 (#q)=
 
 ## Q
+
+(#QoL)=
+
+### Quality of Life (QoL) features
+
+- are features that are `nice to have` and make things easier/smoother
+- dont change the gameplay itself
+- not explicitly necessary, but can improve the player experience
 
 (#r)=
 
