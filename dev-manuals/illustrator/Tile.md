@@ -24,6 +24,7 @@ Choose the right tool.
 ### Step 3
 
 Choose the right color. left click to paint. have fun!
+And when drawing you have to make sure that the shadows are transparent.
 
 ![](setup3.png)
 
