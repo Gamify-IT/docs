@@ -11,13 +11,6 @@ User Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Login Backend
-
-   ./login-backend/**
-
-.. toctree::
-   :glob:
-   :titlesonly:
    :caption: Minigames
 
    ./minigames/**

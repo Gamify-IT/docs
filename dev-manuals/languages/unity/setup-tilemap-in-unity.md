@@ -1,6 +1,8 @@
 # Setup Tilemap in Unity
 
-## Get sprites from tilemap
+(#get-sprites-from-unity-tilemap)=
+
+## Get sprites from Unity tilemap
 
 Import your sprite into Unity. Then select it in the project explorer.
 
@@ -54,7 +56,7 @@ On the Tile Palette toggle `Edit` and then use the cursor tool to select a tile.
 
 ## Setup colliders
 
-1. Open up the sprite editor (on how to do that see [Get sprites from tilemap](#Get-sprites-from-tilemap))
+1. Open up the sprite editor (on how to do that see [Get sprites from tilemap](#get-sprites-from-unity-tilemap))
 1. On the top press the dropdown `Sprite Editor` and select `Custom Physics Shape`.
 1. Select the tile you want to edit. Press on `Generate` at the top left.
 1. Select the edges and fit the collider so only the part that should collide with the player is in that are like that: <img src="setup-unity-tilemap/add-custom-physics-shape.gif" />
@@ -98,13 +100,11 @@ Now no collider will be generated.
 <img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
 <img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
 
-### Fix rendering order for tiles
-
-Sometimes the player is drawn on top of element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
+Sometimes the player is drawn on top of an element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
 
 ### Explanation
 
-You can skip this part if you're not interestend in the cause of this problem and go directly to [Fix](#fix).
+You can skip this part if you're not interestend in the cause of this problem and go directly to [the fix](#fix-rendering-order-for-tiles).
 
 Unity will render the player on top of a tile if the player's y-position if less than the y-position of the pivot (origin) of the tile. The pivot of the player as well as the default origin of the tile is directly in the center.
 
@@ -112,7 +112,9 @@ In this situation the player is lower than the top part of the shelf so it's get
 
 <img src="setup-unity-tilemap/rendering-issue-cause.png" />
 
-### Fix
+(#fix-rendering-order-for-tiles)=
+
+### Fix rendering order for tiles
 
 1. Select a tile in the sprite editor and update the pivot to be: lower than the sprite, if the player should be drawn behind the sprite at all times, above the sprite, if the player should be drawn above the sprite at all times.
 1. Now the tiles look a bit wonky. In the tile palette, select the select tool and toggle `Edit`. Press on the sprites origin that got moved (this could be directly one tile below the visible sprite) and in the inspector select update the offset to be y -1.

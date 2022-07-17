@@ -39,7 +39,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;`</executions>` <br>
 		    `</plugin>` <br>
     to `pom.xml`
-1) to test data base add 
+1) to test database add 
 <pre>
 # Service containers to run with runner-job
     services:
@@ -60,8 +60,7 @@
           # Maps tcp port 5432 on service container to the host
           - 5432:5432 
 </pre>
-#### between `runs-on: self-hosted` and `steps` to `sonarqube-build.yml`
----
+between `runs-on: self-hosted` and `steps` to `sonarqube-build.yml`
 
 ## Vue
 1) add <br>
