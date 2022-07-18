@@ -3,7 +3,7 @@
 ## IMPORTANT
 
 This project depends on a lot of generated code.
-When you first clone the project, you need to either follow the [Getting started](#getting-started) guide, or run `go generate`.
+When you first clone the project, you need to either follow the [Getting started](#getting-started-with-the-login-backend) guide, or run `go generate`.
 Every time you change something in `swagger/swagger.yaml` or `prisma/schema.prisma`, you **must** regenerate the files for your changes to take effect.
 Do this by again using the `go generate` command or the `go build` run configuration.
 
@@ -11,7 +11,9 @@ Do this by again using the `go generate` command or the `go build` run configura
 
 Here is how you get started when developing on the login backend.
 
-### Getting started
+(#getting-started-with-the-login-backend)=
+
+### Getting started with the Login Backend
 
 Make sure you have the following installed:
 
@@ -38,7 +40,10 @@ Visit http://localhost:4000/docs to see the API documentation.
 
 To test the whole login, including the frontend, visit http://localhost
 
-### Migrating the database
+(#migrating-the-login-database)=
+
+### Migrating the Login database
+
 When changes to the database are made, you can create a migration by running
 ```sh
 POSTGRES_URL=postgresql://postgres:password@localhost:5432/postgres go run github.com/prisma/prisma-client-go migrate dev --name $MIGRATION_NAME
@@ -51,11 +56,12 @@ POSTGRES_URL=postgresql://postgres:password@localhost:5432/postgres go run githu
 inside the project root dir.
 
 ### Environment Variables
+
 | Variable                | Description                                                                                                                                                                              |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `AUTH_COOKIE_NAME`      | OPTIONAL: Name of the cookie containing the authentication token. Default: `token`                                                                                                       |
 | `PORT`                  | OPTIONAL: You can use this to change the port that the API listens to. Default: `4000`                                                                                                   |
-| `POSTGRES_URL`          | **REQUIRED**: Connection URL to the postgres database. As an example, see [Migrating the database](#migrating-the-database) above.                                                       |
+| `POSTGRES_URL`          | **REQUIRED**: Connection URL to the postgres database. As an example, see [Migrating the database](#migrating-the-login-database) above.                                                       |
 | `JWT_KEY`               | **REQUIRED**: We use this key to cryptographically sign the JWT token. Other backends can use this token to authenticate the user.                                                       |
 | `JWT_VALIDITY_DURATION` | **REQUIRED**: The timespan how log each JWT is valid. The user has to log in again, if the token expires. Valid time units are “ns”, “us” (or “µs”), “ms”, “s”, “m”, “h”. Example: "24h" |
 

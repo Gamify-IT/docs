@@ -22,8 +22,8 @@
 
 ## Follow-up actions
 
-- New ADR: [Where do we create our Tasks/Issues?](../../adr/issues-repository-2022-06-03.md) - We create all tasks in the Issues repo.
-- New ADR: [Should each service use their own database?](../../adr/databases-2022-06-03.md) (container)?
+- New ADR: [Where do we create our Tasks/Issues?](../../adr/2022-06-03-databases.md) - We create all tasks in the Issues repo.
+- New ADR: [Should each service use their own database?](../../adr/2022-06-03-databases.md) (container)?
 - Workflow in our sprint board (TODO: document this)
   - New tasks go into "Backlog" column
   - When they are refined and estimated, we drag them into "Ready for another sprint"
