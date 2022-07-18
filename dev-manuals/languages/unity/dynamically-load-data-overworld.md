@@ -4,7 +4,7 @@ here it is documented how data can be dynamically loaded into the overworld.
 
 ## changing dialogue options dynamically
 
-idea 1:  
+### idea 1
 
 - we have a working demo dialogue with an npc (Assets/Scenes/Prototypes/Npc Dialogue/Npc Dialogue.unity)
   - a dialogue array of strings exists
@@ -19,7 +19,26 @@ idea 1:
 - the lecturer interface will create a configuration file in some way anyways
   - the text files could be derived from that configuration file, or could be created separately automatically
 
+### idea 2
+
+- if we dont want to create extra text files out of the configuration
+- we can get the data out of the configuration files
+  - script to get the data might be a little bit more complex
+  - should be still doable if we choose a good configuration file structure
+- rest same as in idea 1  
+
 ## minigame spawn location
+
+### current state
+
+- currently only one minigame is set by hand to load when the player gets to the specific spot
+- 12 minigame spots per world and 12 minigame spots per dungeon are available
+  - marked with a specific texture on the floor
+
+### goal
+
+- a configuration file can set the minigame that spawns at which minigame point
+  - content of the minigame (questions, answers, etc.) is also set with the config file
 
 ## additional knowledge in books
 
@@ -29,4 +48,17 @@ idea 1:
 
 ## change color of npc that was talked to
 
+there is already an issue for that: <https://github.com/Gamify-IT/issues/issues/116>  
+
 ## area unlocking
+
+### current state areas
+
+- the current idea on progression is, that the player that successfully finishes a minigame gains knowledge
+  - this knowledge level should be displayed on the HUD
+- when he has mastered enough minigames (gained enough knowledge) the next World should unlock
+- the Worlds have paths between each other that are blocked with an object that hinders the player from using the paths
+  - if the needed knowledge level is achieved, the path unlocks
+- it needs to be specified how many minigames need to be successfully finished to unlock the next area
+  - all minigames? a major part?
+- an idea was that the player gains an item once he reaches the needed knowledge level so he knows that he can advance to another world  
