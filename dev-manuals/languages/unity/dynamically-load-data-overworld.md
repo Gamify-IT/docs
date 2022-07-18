@@ -1,6 +1,7 @@
 # dynamically load data for overworld
 
 here it is documented how data can be dynamically loaded into the overworld.
+a lot of this depends on the database we create for the overworld.
 
 ## changing dialogue options dynamically
 
@@ -39,6 +40,7 @@ here it is documented how data can be dynamically loaded into the overworld.
 
 - a configuration file can set the minigame that spawns at which minigame point
   - content of the minigame (questions, answers, etc.) is also set with the config file
+- a script then reads the config file and links minigame spot with the correct minigame  
 
 ## additional knowledge in books
 
@@ -48,7 +50,12 @@ here it is documented how data can be dynamically loaded into the overworld.
 
 ## change color of npc that was talked to
 
-there is already an issue for that: <https://github.com/Gamify-IT/issues/issues/116>  
+there is already an issue for that: <https://github.com/Gamify-IT/issues/issues/116>
+
+- once a npc is talked to, change the config file of the Npc
+  - only a small change like a boolean is needed for this
+- a script checks the boolean and changes the appearence of the npc according to it
+  - npc could be in gray tones or have a checkmark above his head  
 
 ## area unlocking
 
@@ -61,4 +68,12 @@ there is already an issue for that: <https://github.com/Gamify-IT/issues/issues/
   - if the needed knowledge level is achieved, the path unlocks
 - it needs to be specified how many minigames need to be successfully finished to unlock the next area
   - all minigames? a major part?
-- an idea was that the player gains an item once he reaches the needed knowledge level so he knows that he can advance to another world  
+- an idea was that the player gains an item once he reaches the needed knowledge level so he knows that he can advance to another world
+
+### possibilities to solve problem
+
+- every time the player finishes a minigame a file that stores user information is updated
+  - the file holds information on how many (and which) minigames the player has successfully finished
+- a script checks this file and calculates the knowledge level
+  - this can update the HUD information
+  - unlocking areas when set amount of knowledge achieved
