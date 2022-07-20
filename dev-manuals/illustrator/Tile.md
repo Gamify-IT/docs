@@ -5,7 +5,7 @@
 ### Step 1
 
 Open either the 32x32px template or the 16x16px template in Illustrator. 
-You can find the templates in the new-tiles repository in the templates folder.
+You can find the templates in the [tiles repository](https://github.com/Gamify-IT/tiles) in the [templates folder](https://github.com/Gamify-IT/tiles/tree/main/templates) folder.
 
 ### Step 2
 
@@ -23,8 +23,8 @@ Choose the right tool.
 
 ### Step 3
 
-Choose the right color. left click to paint. have fun!
-And when drawing you have to make sure that the shadows are transparent.
+Choose the right color. Left click to paint. Have fun!
+**Make sure the shadows are transparent when drawing!**
 
 ![](setup3.png)
 
