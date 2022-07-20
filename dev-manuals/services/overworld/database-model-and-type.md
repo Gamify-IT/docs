@@ -34,6 +34,26 @@
 - [carried items]
 - [life points]
 
+#### Experience System
+
+x is maximum knowledge that can be achieved for this task
+
+The player receives a share of 2% of x for every score under his highscore
+
+**e.g.**
+
+1st attempt: Player achieves 60%
+  - 60% is stored for this task as highscore in overworld-backend
+  - Player gets x * 60% + x * 0% * 2% knowledge level
+
+2nd attempt: Player achieves 50%
+  - no new highscore scored
+  - Player gets x * 0% + x * 50% * 2% knowledge level
+
+3rd attempt: Player achieves 80%
+  - 80% is stored for this task as highscore in overworld-backend
+  - Player gets x * (80% - 60%) + x * 60% * 2% knowledge level
+
 ## What kind of databases exists?
 
 ### SQL (Structured Query Language)
