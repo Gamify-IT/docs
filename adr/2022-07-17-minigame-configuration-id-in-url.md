@@ -24,6 +24,6 @@ After discussion with some team members, this solution is no longer preferred.
 - old solution
     - very bad
     - cannot use the fragment for section-linking anymore
-    - url fragment is normally optional but mandatory in our case
+    - URL fragment is normally optional but mandatory in our case
 - email
     - bad user experience
