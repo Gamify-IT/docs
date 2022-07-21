@@ -4,13 +4,6 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Authentication
-
-   ./authentication/**
-
-.. toctree::
-   :glob:
-   :titlesonly:
    :caption: Architecture
 
    ./architecture/**
@@ -25,9 +18,23 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Authentication
+
+   ./authentication/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Gamification
 
    ./gamification/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Illustrator
+
+   ./illustrator/**
 
 .. toctree::
    :glob:

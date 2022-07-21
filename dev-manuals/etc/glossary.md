@@ -31,7 +31,6 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - a downloadable file containing [assets](#asset) e.g. in the [Unity](#unity) [asset store](https://assetstore.unity.com/)
 
-
 (#b)=
 
 ## B
@@ -140,6 +139,11 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 (#q)=
 
 ## Q
+
+### Quality of Life (QoL)
+
+- describes how easy a user can use a service
+- does not regard whether the actual functionality exists 
 
 (#r)=
 
