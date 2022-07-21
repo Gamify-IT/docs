@@ -1,4 +1,4 @@
-# Lombok
+# Springdoc
 For documenting our spring REST-API we use [SpringDoc-OpenAPI](https://springdoc.org/).
 Please include it as a dependency in maven projects by adding this in the `pom.xml`:
 
