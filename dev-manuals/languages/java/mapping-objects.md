@@ -1,7 +1,7 @@
 # Mapping Objects
 Because we do not want to write big code to map a DTO to a sprint database object, we use a mapper. 
 For this we use [Mapstruct](https://mapstruct.org/). 
-Please include them as a dependency in frontend projects by adding this in the `pom.xml`:
+Please include them as a dependency in the maven projects by adding this in the `pom.xml`:
 
 ```xml
 <properties>
