@@ -1,6 +1,6 @@
 # Vue style guide
 
-We are using the official Vue style guide: [Vue Style Guide](https://vuejs.org/style-guide/#rule-categories).
+We are using the official [Vue Style Guide](https://vuejs.org/style-guide/#rule-categories).
 
 ## script setup
 
