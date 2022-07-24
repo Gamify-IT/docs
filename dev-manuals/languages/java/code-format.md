@@ -1,6 +1,6 @@
 # Code Format
 We use [Prettier](https://prettier.io/) (more exactly the [maven-plugin](https://github.com/HubSpot/prettier-maven-plugin)) for formatting Java Code.
-Please include them as a dev dependency in frontend projects by adding this in the `pom.xml`:
+Please include them as a dev dependency in the maven projects by adding this in the `pom.xml`:
 ```xml
 <properties>
   ...
