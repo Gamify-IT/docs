@@ -13,9 +13,8 @@ All rows that are not automatically filled can be copied from the row above exce
 - [ ] Copy the sheet `Zeiten` to the archived and protected sheet `Zeiten - $CURRENT_SPRINT_NAME`
 - [ ] Clear the sheet `Zeiten` except for the first two rows (columns and pseudo-work) and potential times that were entered for the next sprint already
 - [ ] Adapt the only date present to today
-- [ ] Ensure that the duration worked on each issue is still calculated correctly by adding `+ SUMIF('Zeiten - $PREVIOUS_SPRINT_NAME'!F1:F; A2:A; 'Zeiten - $PREVIOUS_SPRINT_NAME'!D:D)` to the chain of sums in the `Realität` column in sheet `Issues`
 - [ ] Increase the numbers in the formula of cell `Sprint $CURRENT_SPRINT_NAME!J40` ("Bugs in diesem Sprint geöffnet") by one to reference the current sprint
-- [ ] For all letters in `A,B,C,D` in sheet `Zeit/Mitarbeiter`, add `;'Zeiten - $PREVIOUS_SPRINT_NAME'!$LETTER:$LETTER` to the column definition of column `W + $LETTER` to ensure that the time calculation of each member per category still works as intended
+- [ ] For all letters in `A,B,C,D,E,F` in sheet `Gesamtzeiten`, add `;'Zeiten - $PREVIOUS_SPRINT_NAME'!${LETTER}2:$LETTER` to the corresponding array in cell `A1` to ensure that the total times are tracked correctly
 - [x] Enjoy everything working correctly
 
 ## Last Day of the Sprint
