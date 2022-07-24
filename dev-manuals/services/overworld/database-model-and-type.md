@@ -1,5 +1,9 @@
 # Database model and type
 
+## Database model
+
+![](database-model/database-model.png)
+
 ## What kind of data do we need to store?
 
 ### Configuration specific data
