@@ -1,0 +1,3 @@
+### Moorhuhn Properties
+
+Game specific properties that are likely to be changed are stored in a .propertie File located at : "Assets\Scripts\Properties\Moorhuhn.properties"
