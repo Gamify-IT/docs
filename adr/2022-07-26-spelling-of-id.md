@@ -13,7 +13,7 @@ The following pargraphs use only `ID` as example, but the result can be applied 
 
 ## Chosen Solution
 
-- `id` if there is no prefix, `-Id` for variables, `-ID` for class names  (-> `lectureId`, `lectureDto`, `LectureDTO`)
+- `id` if there is no prefix, `-Id` for acronyms of a single word (i.e. `ID`), `-ID` for acronyms of multiple words (i.e. `XML`, `DTO`) (-> `lectureId`, `lectureDTO`, `LectureDTO`)
 
 ## Pro 1)
 
@@ -27,6 +27,10 @@ The following pargraphs use only `ID` as example, but the result can be applied 
 
 - Conforms with the way many (Java) libraries handle it
 
-## Contra 4)
+## Contra 3)
 
-- Confusing to enforce
+- Inconsistent and you would have to change everything
+
+## Pro 4)
+
+- Uniform and you would not have to change anything
