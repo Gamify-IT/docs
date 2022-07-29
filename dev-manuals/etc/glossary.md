@@ -112,6 +112,10 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - a injectable game that runs as an independent service and can get invoked by the [overworld](#overworld).
 
+### Multiplayer
+
+- we don't do this here
+
 (#n)=
 
 ## N
