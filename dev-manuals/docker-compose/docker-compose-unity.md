@@ -1,18 +1,18 @@
-# Use Docker Compose files with unity
+# Use Docker Compose files with Unity
 
-The usage of [Docker Compose files](docker-compose.md) with unity projects differs from our other projects, cause we have no ability to build the project in a docker container. Cause of that ther exists no `docker-compose.yaml`.
+The usage of [Docker Compose files](docker-compose.md) with Unity projects differs from our other projects because we can't build the project in a docker container. Hence, no `docker-compose.yaml` exists.
 
-To use our `docker-compose-dev.yaml` and `docker-compose-dev-e2e.yaml` you have to build the WebGL-build.
+To use our `docker-compose-dev.yaml` and `docker-compose-dev-e2e.yaml`, you have to build the WebGL-build yourself.
 
 ### WebGL build instructions
 
-Firstly, open the build settings with `File` > `Build Settings`. \
-![File > Build Settings](images/unity-open-build-settings.png)
+Firstly, open the build settings with `File` > `Build Settings`.  
+![Opening the build settings](images/unity-open-build-settings.png)
 
-Then you have to select `WebGL` and click `Build`. \
-![WebGL > Build](images/unity-build-webgl.png)
+Then you have to select `WebGL` and click `Build`.  
+![Starting the build](images/unity-build-webgl.png)
 
-Then you have save it as `build` in the root directory of the project. \
-![build > Save](images/unity-build-output.png)
+Then you have to save it as `build` in the project's root directory.  
+![Output](images/unity-build-output.png)
 
-Now there should exist a `build` folder containing a `index.html` file and other data.
+A `build` folder containing an `index.html` file and other data should exist now.

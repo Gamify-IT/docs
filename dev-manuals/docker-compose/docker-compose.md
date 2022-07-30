@@ -9,11 +9,11 @@ It builds the container locally and starts it with all dependencies. \
 This is useful to test the Docker build or when you want to test PR reviews.
 
 To start it you can use
-```
+```bash
 docker compose up
 ```
 To remove the containers you can use
-```
+```bash
 docker compose down
 ```
 
@@ -24,11 +24,11 @@ It starts all dependencies with a reverse proxy pointing to your local developme
 This is useful to test the project while developing and use all your IDE features (debugger, hot-reload, ...).
 
 To start it you can use
-```
+```bash
 docker compose -f docker-compose-dev.yaml up
 ```
 To remove the containers you can use
-```
+```bash
 docker compose -f docker-compose-dev.yaml down
 ```
 
@@ -42,11 +42,11 @@ It starts all dependencies with a reverse proxy pointing to your local backend a
 This is useful to test the project while developing frontend and backend and use all your IDE features (debugger, hot-reload, ...).
 
 To start it you can use
-```
+```bash
 docker compose -f docker-compose-dev-e2e.yaml up
 ```
 To remove the containers you can use
-```
+```bash
 docker compose -f docker-compose-dev-e2e.yaml down
 ```
 
