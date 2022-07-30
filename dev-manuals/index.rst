@@ -25,6 +25,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Docker Compose
+
+   ./docker-compose/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Gamification
 
    ./gamification/**
@@ -84,10 +91,3 @@ Developer Manuals
    :caption: Miscellaneous
 
    ./etc/**
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Docker Compose
-
-   ./docker-compose/**
