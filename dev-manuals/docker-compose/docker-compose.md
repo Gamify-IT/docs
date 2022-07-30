@@ -1,6 +1,7 @@
 # Use Docker Compose Files
 
 Manual to use our Docker Compose files to get a minimal setup with all dependencies.
+The Docker Compose makes the services accessible at `[http://localhost](http://localhost)`.
 
 ## Run everything in Docker
 
@@ -10,7 +11,7 @@ This is useful to test the Docker build or when you want to test PR reviews.
 
 To start it you can use
 ```bash
-docker compose up
+docker compose up --build
 ```
 To remove the containers you can use
 ```bash
