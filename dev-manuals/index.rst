@@ -84,3 +84,10 @@ Developer Manuals
    :caption: Miscellaneous
 
    ./etc/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Docker Compose
+
+   ./docker-compose/**
