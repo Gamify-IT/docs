@@ -17,9 +17,11 @@ As soon as a tester has tested a feature according to a test plan, it has to be 
 
 Test plan filenames should have the following structure:
 
+```bash
+$ACTION-$SERVICE.md
 ```
-name-service-backend/frontend.md
-example:
+So, for example
+```bash
 highscore-moorhuhn-frontend.md
 ```
 
