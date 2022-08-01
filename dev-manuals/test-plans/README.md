@@ -7,8 +7,8 @@ Contains all test plans of all our services, and the test plan template.
 The test plans belong to their corresponding folder.  
 For example, a test plan created for the Moorhuhn frontend:
 
-```
-test-plans/minigames/moorhuhn/frontend/plans
+```bash
+test-plans/moorhuhn-frontend/plans
 ```
 
 As soon as a tester has tested a feature according to a test plan, it has to be placed in the `executed` folder
