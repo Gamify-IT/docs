@@ -27,10 +27,11 @@ highscore-moorhuhn-frontend.md
 
 where `$ACTION` is the name of the feature the test plan covers.
 
-executed tests should be named
-
+Test log filename format is
+```bash
+$DATE-$TESTER-$ACTION-$SERVICE.md
 ```
-date-testername-name-service-backend/frontend.md
-example:
-2022-08-01-MichaelLinder-highscore-moorhuhn-frontend.md
+So, for example
+```bash
+2022-08-01-michael_linder-highscore-moorhuhn-frontend.md
 ```
