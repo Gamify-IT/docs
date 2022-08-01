@@ -1,10 +1,10 @@
-# test plans
+# Test plans
 
 Contains all the test-plans of all our services, and the test plan templates.
 
-## folder structure
+## Folder structure
 
-the test-plans belong to their corresponding folder. For Example a test plan created for the Moorhuhn frontend:
+the test plans belong to their corresponding folder. For example, a test plan created for the Moorhuhn frontend:
 
 ```
 test-plans/minigames/moorhuhn/frontend/plans
@@ -12,9 +12,9 @@ test-plans/minigames/moorhuhn/frontend/plans
 
 As soon as a tester has tested a feature according to a test plan, it has to be placed in the `executed` folder
 
-## naming convention
+## Naming convention
 
-test-plan files should be following this structure
+Test plan filenames should have the following structure:
 
 ```
 name-service-backend/frontend.md
