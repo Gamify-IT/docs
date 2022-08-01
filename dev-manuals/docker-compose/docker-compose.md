@@ -1,7 +1,7 @@
 # Use Docker Compose Files
 
 Manual to use our Docker Compose files to get a minimal setup with all dependencies.
-The Docker Compose makes the services accessible at `[http://localhost](http://localhost)`.
+The Docker Compose makes the services accessible at [http://localhost](http://localhost).
 
 ## Run everything in Docker
 
