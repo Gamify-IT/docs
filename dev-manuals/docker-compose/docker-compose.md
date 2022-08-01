@@ -33,7 +33,7 @@ To remove the containers you can use
 docker compose -f docker-compose-dev.yaml down
 ```
 
-#### Unity
+### Unity
 In unity projects you have to build a WebGL-build into the `build` folder. Get more hints [here](docker-compose-unity.md)
 
 ## Run frontend and backend locally
@@ -51,5 +51,5 @@ To remove the containers you can use
 docker compose -f docker-compose-dev-e2e.yaml down
 ```
 
-#### Unity
+### Unity
 In unity projects you have to build a WebGL-build into the `build` folder. Get more hints [here](docker-compose-unity.md)

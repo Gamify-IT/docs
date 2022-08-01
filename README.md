@@ -24,10 +24,6 @@ Contains the user manual for the given repo, so how the user can start the given
 
 Contains protocols of meetings regarding the given repo/ concept for the given day. Filenames are in the format `YYYY-mm-dd-protocol.md`.
 
-### [`/internal`](internal/README.md)
-
-Information that is only useful for collaborators to this repo and no one else.
-
 ## README Structure
 
 The READMEs of all repos should follow the overall structure of the [template README](template-README.md).
