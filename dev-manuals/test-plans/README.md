@@ -11,7 +11,7 @@ For example, a test plan created for the Moorhuhn frontend:
 test-plans/moorhuhn-frontend/plans
 ```
 
-As soon as a tester has tested a feature according to a test plan, it has to be placed in the `executed` folder
+As soon as a tester has tested a feature according to a test plan, it has to be placed in the `logs` subfolder of that service.
 
 ## Naming convention
 
