@@ -4,7 +4,8 @@ Contains all test plans of all our services, and the test plan template.
 
 ## Folder structure
 
-the test plans belong to their corresponding folder. For example, a test plan created for the Moorhuhn frontend:
+The test plans belong to their corresponding folder.  
+For example, a test plan created for the Moorhuhn frontend:
 
 ```
 test-plans/minigames/moorhuhn/frontend/plans
