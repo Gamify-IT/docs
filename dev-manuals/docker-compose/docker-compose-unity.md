@@ -4,7 +4,7 @@ The usage of [Docker Compose files](docker-compose.md) with Unity projects diffe
 
 To use our `docker-compose-dev.yaml` and `docker-compose-dev-e2e.yaml`, you have to build the WebGL-build yourself.
 
-### WebGL build instructions
+## WebGL build instructions
 
 Firstly, open the build settings with `File` > `Build Settings`.  
 ![Opening the build settings](images/unity-open-build-settings.png)

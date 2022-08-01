@@ -88,6 +88,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Plans
+
+   ./test-plans/*
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Miscellaneous
 
    ./etc/**
