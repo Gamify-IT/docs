@@ -1,6 +1,6 @@
 # Test plans
 
-Contains all the test-plans of all our services, and the test plan templates.
+Contains all test plans of all our services, and the test plan template.
 
 ## Folder structure
 
