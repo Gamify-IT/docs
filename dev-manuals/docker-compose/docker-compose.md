@@ -1,7 +1,7 @@
 # Use Docker Compose Files
 
 Manual to use our Docker Compose files to get a minimal setup with all dependencies.
-The Docker Compose makes the services accessible at `[http://localhost](http://localhost)`.
+The Docker Compose makes the services accessible at [http://localhost](http://localhost).
 
 ## Run everything in Docker
 
@@ -34,6 +34,7 @@ docker compose -f docker-compose-dev.yaml down
 ```
 
 ### Unity
+
 In unity projects you have to build a WebGL-build into the `build` folder. Get more hints [here](docker-compose-unity.md)
 
 ## Run frontend and backend locally
@@ -52,4 +53,5 @@ docker compose -f docker-compose-dev-e2e.yaml down
 ```
 
 ### Unity
-In unity projects you have to build a WebGL-build into the `build` folder. Get more hints [here](docker-compose-unity.md)
+
+In unity projects you have to build a WebGL-build into the `build` folder. Get more hints [here](docker-compose-unity.md).
