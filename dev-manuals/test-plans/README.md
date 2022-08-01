@@ -1,4 +1,4 @@
-# Test plans
+# Structure of test plans
 
 Contains all test plans of all our services, and the test plan template.
 
