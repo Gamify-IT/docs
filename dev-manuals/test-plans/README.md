@@ -25,7 +25,7 @@ So, for example
 highscore-moorhuhn-frontend.md
 ```
 
-where `name` is the name of the feature the test plan covers
+where `$ACTION` is the name of the feature the test plan covers.
 
 executed tests should be named
 
