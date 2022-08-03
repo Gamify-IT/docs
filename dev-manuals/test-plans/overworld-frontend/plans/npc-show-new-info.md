@@ -7,7 +7,7 @@ Tester: -
 
 ## Description
 
-This test case verifies that a NPC shows whether he has something new to say or not. 
+This test case verifies that a NPC shows whether he has something new to say or not.
 
 ## Precondition
 
@@ -15,7 +15,7 @@ The NPC is configurated in the overworld and corresponding data exists in the ba
 
 ## Postcondition
 
-The sprite signaling if he has something new to say is visible or not based on the data in tha backend.
+The sprite signaling if he has something new to say is visible or not based on the data in the backend.
 
 ## Typical procedure
 

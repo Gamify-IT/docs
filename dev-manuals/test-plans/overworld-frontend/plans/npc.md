@@ -7,17 +7,17 @@ Tester: -
 
 ## Description
 
-This use case verifies that everything regarding NPCs works as intended. 
-This includes loading dialogue lines from the data base and displaying it correctly 
-as well as displaying a sprite showing if the NPC has something new to say or not. 
+This use case verifies that everything regarding NPCs works as intended.
+This includes loading dialogue lines from the data base and displaying it correctly
+as well as displaying a sprite showing if the NPC has something new to say or not
 
 ## Precondition
 
-All pre-conditions of the linked test cases are fullfilled.
+All pre-conditions of the linked test cases are fulfilled.
 
 ## Postcondition
 
-All post-conditions of the linked test cases are fullfilled. 
+All post-conditions of the linked test cases are fulfilled.
 
 ## Typical procedure
 
