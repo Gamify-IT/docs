@@ -1,4 +1,4 @@
-# Name: npc show dialogue
+# Name: NPC show dialogue
 
 Number: U.01.3  
 Version: V0.1, 2022-08-02, create test plan
@@ -21,7 +21,7 @@ The NPC exists.
 
 1. The tester starts the game.
 2. The tester goes to the NPC.
-3. The tester starts a dialgoue.
+3. The tester starts a dialogue.
 4. The dialog box is displayed.
 
 ## Alternative procedures
