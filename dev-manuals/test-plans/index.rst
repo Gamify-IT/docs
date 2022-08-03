@@ -49,3 +49,10 @@ Test Plan Overview
    :caption: Test Plans for UML Game
 
    ./minigames/uml-game-*/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Test Plans for the Overworld
+
+   ./overworld-*/**

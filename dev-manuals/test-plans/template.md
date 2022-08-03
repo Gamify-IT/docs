@@ -1,11 +1,7 @@
-# Name
+# Name (`Test Case ID`)
 
-Number: Unique and unambiguous identifier according to the following
-pattern:
-U.XX(service identifier).X (sequential number, start
-at 1).  
-Version: Version of the use case according to pattern.
-Vx.x, date of creation, description of change  
+Test Case name pattern: u.XY(service identifier)-Z (sequential number, start at 1).  
+Version: vx.x, date of creation, description of change  
 Author: Author of the use case description  
 Tester: Use case tester
 
@@ -41,3 +37,5 @@ Importance of the use case for the entire system
 
 Relationships to other use cases.
 References by use case number.
+Refer to a testcase as
+`- [Test Case Name](file)`
