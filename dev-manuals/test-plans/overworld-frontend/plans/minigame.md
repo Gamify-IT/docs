@@ -1,4 +1,4 @@
-# Name: Minigame
+# Name: Minigame spot 
 
 Number: U.minigame.1  
 Version: V0.1, 2022-08-03, create test case  
