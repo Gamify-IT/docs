@@ -5,10 +5,10 @@ Contains all test plans of all our services, and the test plan template.
 ## Folder structure
 
 The test plans belong to their corresponding folder.  
-For example, a test plan created for the Moorhuhn frontend:
+For example, a test plan created for the Chickenshock frontend:
 
 ```bash
-test-plans/moorhuhn-frontend/plans
+test-plans/chickenshock-frontend/plans
 ```
 
 As soon as a tester has tested a feature according to a test plan, it has to be placed in the `logs` subfolder of that service.
@@ -22,7 +22,7 @@ $ACTION-$SERVICE.md
 ```
 So, for example
 ```bash
-highscore-moorhuhn-frontend.md
+highscore-chickenshock-frontend.md
 ```
 
 where `$ACTION` is the name of the feature the test plan covers.
@@ -33,5 +33,5 @@ $DATE-$TESTER-$ACTION-$SERVICE.md
 ```
 So, for example
 ```bash
-2022-08-01-michael_linder-highscore-moorhuhn-frontend.md
+2022-08-01-michael_linder-highscore-chickenshock-frontend.md
 ```
