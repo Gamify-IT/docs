@@ -12,7 +12,7 @@ This use case verifies that entering and exiting a dungeon from a world works as
 ## Precondition
 
 The world and dungeon scene are listed in the build settings and a scene transition to the dungeon is placed at the dungeon entrance  
-and a scene transition to the world is placed at the dungeon exit. 
+and a scene transition to the world is placed at the dungeon exit.
 
 ## Postcondition
 

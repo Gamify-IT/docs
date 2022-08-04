@@ -1,4 +1,4 @@
-# Name: Barrier 
+# Name: Barrier
 
 Number: U.barrier.1  
 Version: V0.1, 2022-08-03, create test case  
@@ -13,11 +13,11 @@ accordingly depending on whether the area is set as active in the backend and th
 
 ## Precondition
 
-The barrier object is configurated in the overworld (area origion and destination are set) and the needed data exists in the backend.
+The barrier object is configurated in the overworld (area origin and destination are set) and the needed data exists in the backend.
 
 ## Postcondition
 
-The barrier object is set up according to the data in the data base. 
+The barrier object is set up according to the data in the data base.
 
 ## Typical procedure
 
@@ -27,8 +27,8 @@ The barrier object is set up according to the data in the data base.
 
 ## Alternative procedures
 
-3.1 The barrier is not displayed, because it shouldn't be due to the data in the backend.   
-3.2 The barrier is not displayed, even tho it should be. 
+3.1 The barrier is not displayed, because it shouldn't be due to the data in the backend.
+3.2 The barrier is not displayed, even though it should be.
 
 ## Criticality
 
