@@ -39,6 +39,13 @@ Test Plan Overview
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Plans for Overworld
+
+   ./overworld-*/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Test Plans for Regex Game
 
    ./minigames/regex-game-*/**
