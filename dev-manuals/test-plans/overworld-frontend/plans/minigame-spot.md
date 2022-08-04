@@ -28,9 +28,6 @@ The minigame object is set up according to the data in the data base.
 5. The tester walks into the minigame spot.  
 6. The minigame overview panel opens.
 7. The displayed minigame and player specific highscore are correct as set in the backend.
-8. The tester presses the 'start' button  
-9. The correct minigame starts  
-10. The correct configuration is loaded
 
 ## Alternative procedures
 
@@ -38,15 +35,10 @@ The minigame object is set up according to the data in the data base.
 3.2 The minigame spot is not displayed, even though it was configurated.  
 4.1 The minigame spot has the wrong color.  
 6.1 The minigame overview panel doesn't open.  
-7.1 The minigame and / or the player specific highscore are not correct  
-9.1 A wrong minigame starts  
-9.2 Nothing starts at all  
-10.1 Not the correct configuration is loaded.  
+7.1 The minigame and / or the player specific highscore are not correct   
 
 ## Criticality
 
 High
 
 ## Linkages
-
--
