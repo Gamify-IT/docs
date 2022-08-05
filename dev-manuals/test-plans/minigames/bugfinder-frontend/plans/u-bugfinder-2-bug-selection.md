@@ -1,40 +1,49 @@
-# Bugfinder bug selection (u.bugfinder-2)
+# Bugfinder Bug selection (`u.bugfinder-2`)
 
 
-Version: V1.0, 05.08.2022
-Author: Timo Schnaible
+Version: V1.1, 05.08.2022, Improve format and differentiate between whitespace- and non-whitespace bug
+Author: Timo Schnaible, Leon Hofmeister
 Tester: -
 
 ## Description
 
-When the the game is started, a code snipped is displayed and the player can select every word or whitespace as bug. When \a bug is selected a modal appears to correct the bug and select the type of the bug. If a whitespace is selected the error type selection is not shown. The bug can be confirmed by a `Ok`-button.
+When a bug is selected, a modal appears to correct the bug and select the bug type. If whitespace is selected, the error type selection is not shown. The dialog can be closed succesfully.
 
 ## Precondition
 
-The tester started a new game.
+The tester started a game with a snippet that contains (at least) one whitespace (=missing code) and one visible (=misspelled code) bug.
 
 ## Postcondition
 
-The selected bug is highlighted and the from the player corrected version is shown.
+The selected bug is highlighted and the player corrected version is shown instead of the original value.
 
 ## Typical procedure
 
-1. Press start to start the game
-2. The first code snipped is shown
-3. Press on a bug
-4. The edit modal is displayed.
-5. Correct the bug in the input field
-6. Select an error type if no whitespace was selected
-7. Press `Ok`
-8. The corrected version is displayed and the bug is highlighted
+1. Click on a non-whitespace bug
+2. The edit modal is displayed
+3. Correct the bug in the input field
+4. Select an error type
+5. Press `Ok`
+6. The corrected version is displayed and the bug is highlighted
+7. Click on a whitespace bug
+8. The edit modal is displayed
+9. Correct the bug in the input field
+10. The modal does not have an option to select the error type
+11. Press `Ok`
+12. The second corrected version is displayed and the second bug is highlighted
 
 ## Alternative procedures
 
-2.1. The game crashes \
-4.1. Nothing happens \
-8.1. The bug is not highlighted but the corrected version is displayed \
-8.2. The corrected version is not displayed but the bug is highlighted \
-8.3. The corrected version is not displayed and the bug is not highlighted 
+1.1. The game crashes \
+6.1. Nothing happens \
+6.2. The bug is not highlighted but the corrected version is displayed \
+6.3. The corrected version is not displayed but the bug is highlighted \
+6.4. The corrected version is not displayed and the bug is not highlighted \
+10.1. There is an option to select the error type \
+12.1. Nothing happens \
+12.2. The bug is not highlighted but the corrected version is displayed \
+12.3. The corrected version is not displayed but the bug is highlighted \
+12.4. The corrected version is not displayed and the bug is not highlighted
 
 ## Criticality
 
@@ -42,6 +51,6 @@ High
 
 ## Linkages
 
-- [Bug cancellation (u.bugfinder-3)](u-bugfinder-3-bug-cancellation.md)
-- [Feedback (u.bugfinder-5)](u-bugfinder-4-feedback.md)
+- [Cancel bug submission (`u.bugfinder-3`)](u-bugfinder-3-cancel-bug-submission.md)
+- [Show general feedback (`u.bugfinder-4`)](u-bugfinder-4-show-general-feedback.md)
 
