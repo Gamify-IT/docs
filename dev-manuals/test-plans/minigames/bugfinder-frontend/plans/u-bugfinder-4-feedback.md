@@ -40,3 +40,7 @@ The bugs aren't editable and a feedback is shown.
 High
 
 ## Linkages
+
+- [Bug selection (u.bugfinder-2)](u-bugfinder-2-bug-selection.md)
+- [Detailed feedback (u.bugfinder-5)](u-bugfinder-5-detailed-feedback.md)
+- [Next code (u.bugfinder-6)](u-bugfinder-6-next-code.md)

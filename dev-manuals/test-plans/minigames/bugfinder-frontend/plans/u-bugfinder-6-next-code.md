@@ -1,4 +1,4 @@
-# Bugfinder detailed feedback (u.bugfinder-5)
+# Bugfinder next code (u.bugfinder-6)
 
 
 Version: V1.0, 05.08.2022
@@ -49,3 +49,6 @@ The next code snipped is shown.
 High
 
 ## Linkages
+
+- [Feedback (u.bugfinder-5)](u-bugfinder-4-feedback.md)
+- [Bug selection (u.bugfinder-2)](u-bugfinder-2-bug-selection.md)

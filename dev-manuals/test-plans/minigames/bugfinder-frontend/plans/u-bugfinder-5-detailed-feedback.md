@@ -42,3 +42,6 @@ Player saw in which category he failed.
 Medium
 
 ## Linkages
+
+- [Feedback (u.bugfinder-5)](u-bugfinder-4-feedback.md)
+- [Bug selection (u.bugfinder-2)](u-bugfinder-2-bug-selection.md)

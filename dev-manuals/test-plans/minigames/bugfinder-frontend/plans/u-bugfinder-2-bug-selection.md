@@ -42,4 +42,6 @@ High
 
 ## Linkages
 
+- [Bug cancellation (u.bugfinder-3)](u-bugfinder-3-bug-cancellation.md)
+- [Feedback (u.bugfinder-5)](u-bugfinder-4-feedback.md)
 

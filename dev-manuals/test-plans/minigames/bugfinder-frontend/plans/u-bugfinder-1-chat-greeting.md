@@ -34,4 +34,4 @@ Low
 
 ## Linkages
 
-
+- [Bug selection (u.bugfinder-2)](u-bugfinder-2-bug-selection.md)
