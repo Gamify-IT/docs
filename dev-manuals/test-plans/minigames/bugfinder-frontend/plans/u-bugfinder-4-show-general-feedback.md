@@ -1,8 +1,8 @@
-# Bugfinder` Show general feedback (`u.bugfinder-4`)
+# Bugfinder Show general feedback (`u.bugfinder-4`)
 
 
-Version: V1.1, 05.08.2022, Improve format and wording	
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format and wording \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description

@@ -1,13 +1,13 @@
-# Bugfinder Cancel bug submission (`u.bugfinder-3`)
+# Bugfinder Revert bug submission (`u.bugfinder-3`)
 
 
-Version: V1.1, 05.08.2022, Improve format
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description
 
-When the player selects a bug, he has the ability to cancel his correction by clicking on the highlighted bug. Then, his correction is removed and the word or whitespace gets reset to its original value and is no longer highlighted.
+When the player corrects a bug without submitting his solution, he has the ability to cancel his correction by clicking on the highlighted bug. Then, his correction is removed and the word or whitespace gets reset to its original value and is no longer highlighted.
 
 ## Precondition
 

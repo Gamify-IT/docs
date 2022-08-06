@@ -1,8 +1,8 @@
 # Bugfinder Show detailed feedback (`u.bugfinder-5`)
 
 
-Version: V1.1, 05.08.2022, Improve format and wording
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format and wording \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description
@@ -35,7 +35,7 @@ Player saw in which category he failed.
 
 ## Criticality
 
-Medium
+High
 
 ## Linkages
 

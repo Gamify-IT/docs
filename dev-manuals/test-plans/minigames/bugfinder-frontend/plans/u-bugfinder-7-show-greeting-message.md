@@ -1,8 +1,8 @@
 # Bugfinder Chat greeting (`u.bugfinder-7`)
 
 
-Version: V1.0, 05.08.2022, Initial testplan
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.0, 05.08.2022, Initial testplan \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description

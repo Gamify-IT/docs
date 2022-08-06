@@ -1,8 +1,8 @@
 # Bugfinder Game start (`u.bugfinder-1`)
 
 
-Version: V1.1, 05.08.2022, Improve format and extract greeting message into its own testplan
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format and extract greeting message into its own testplan \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description

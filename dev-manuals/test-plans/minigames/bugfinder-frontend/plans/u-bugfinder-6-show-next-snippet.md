@@ -1,8 +1,8 @@
 # Bugfinder Show next code (`u.bugfinder-6`)
 
 
-Version: V1.1, 05.08.2022, Improve format and remove redundant procedure parts
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format and remove redundant procedure parts \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description
@@ -29,17 +29,16 @@ The next code snippet is shown.
 
 ## Alternative procedures
 
-1.1. The `Next Code` button doesn't appear
-1.2. The `Submit` button doesn't disappear
-2.1. No chat message appears
-2.2. A wrong chat message appears
-2.2.1. The chat partner doesn't want any further help
-4.1. No chat message appears
-4.2. A wrong chat message appears
-5.1. No chat message appears
-5.2. The virtual chat partner is unhappy about the help
+1.1. The `Next Code` button doesn't appear \
+1.2. The `Submit` button doesn't disappear \
+2.1. No chat message appears \
+2.2. A wrong chat message appears \
+2.2.1. The chat partner doesn't want any further help \
+4.1. No chat message appears \
+4.2. A wrong chat message appears \
+5.1. No chat message appears \
+5.2. The virtual chat partner is unhappy about the help \
 6.1. The next code snippet doesn't appear
-
 
 ## Criticality
 

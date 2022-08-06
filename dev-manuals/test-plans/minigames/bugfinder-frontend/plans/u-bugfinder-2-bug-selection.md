@@ -1,8 +1,8 @@
 # Bugfinder Bug selection (`u.bugfinder-2`)
 
 
-Version: V1.1, 05.08.2022, Improve format and differentiate between whitespace- and non-whitespace bug
-Author: Timo Schnaible, Leon Hofmeister
+Version: V1.1, 05.08.2022, Improve format and differentiate between whitespace- and non-whitespace bug \
+Author: Timo Schnaible, Leon Hofmeister \
 Tester: -
 
 ## Description
@@ -51,6 +51,6 @@ High
 
 ## Linkages
 
-- [Cancel bug submission (`u.bugfinder-3`)](u-bugfinder-3-cancel-bug-submission.md)
+- [Revert bug correction (`u.bugfinder-3`)](u-bugfinder-3-revert-bug-correction.md)
 - [Show general feedback (`u.bugfinder-4`)](u-bugfinder-4-show-general-feedback.md)
 
