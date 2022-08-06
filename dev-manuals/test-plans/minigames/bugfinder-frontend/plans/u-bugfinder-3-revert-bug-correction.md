@@ -1,4 +1,4 @@
-# Bugfinder Revert bug submission (`u.bugfinder-3`)
+# Bugfinder Revert bug correction (`u.bugfinder-3`)
 
 
 Version: V1.1, 05.08.2022, Improve format \
