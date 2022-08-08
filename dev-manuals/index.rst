@@ -88,6 +88,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Data Management
+
+   ./test-data-management/*
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Test Plans
 
    ./test-plans/*
