@@ -1,7 +1,7 @@
 # Name: Dungeon entrance and exit
 
 Number: U.dungeon.1
-Version: V0.1, 2022-08-03, create test plan
+Version: V0.2, 2022-08-08, remove "wrong" alternative procedures
 Author: Florian Wüst
 Tester: -
 
@@ -28,8 +28,7 @@ The dungeon can be entered and exited.
 
 ## Alternative procedures
 
-3.1 The dungeon is not loaded and / or the world is not unloaded.  
-5.1 The world is not loaded and / or the dungeon is not unloaded.  
+
 
 ## Criticality
 
