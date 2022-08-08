@@ -1,13 +1,9 @@
 # Highscore not update test 
 
-Number: Unique and unambiguous identifier according to the following
-pattern:
-U.XX(service identifier).X (sequential number, start
-at 1).  
-Version: Version of the use case according to pattern.
-Vx.x, date of creation, description of change  
-Author: Author of the use case description  
-Tester: Use case tester
+Number: U.regex.00.1
+Version: V0.1
+Author: Leon Layer
+Tester: Leon Layer
 
 ## Description
 
@@ -19,15 +15,19 @@ The game is in a state where the maximum possible higscore has not yet been reac
 
 ## Postcondition
 
-by playing, the current higscore will not be exceeded and the higscore will be updated in the menu. 
+by playing, if the current higscore will not be exceeded, the higscore will be updated in the menu. 
 
 ## Typical procedure
 
-the player plays the game but does not have a scoore of 0. the player sees his previous higscore in the menu. by trying again, he doesnt surpasses his previous best performance, which should not update his higscore in the meu.
+1. the tester plays the game but does not have a scoore of 0.
+2. the tester sees his previous higscore in the menu.
+3. by trying again, he doesnt surpasses his previous best performance
+4. the game will not update his higscore in the meu.
 
 ## Alternative procedures
 
-The game has been completed. The player sees his previous higscore in the menu (max score). Further attempts will not update his higscore in the meu.
+1. the game has been completed.The player sees his previous higscore in the menu (max score). 
+2. Further attempts will not update his higscore in the meu.
 
 ## Criticality
 

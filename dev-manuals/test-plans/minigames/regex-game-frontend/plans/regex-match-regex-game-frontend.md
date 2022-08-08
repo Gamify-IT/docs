@@ -1,6 +1,6 @@
 # Highscore update test 
 
-Number: U.regex.00.0
+Number: U.00.0
 Version: V0.1
 Author: Leon Layer
 Tester: Leon Layer
