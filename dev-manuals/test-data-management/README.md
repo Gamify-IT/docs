@@ -29,7 +29,7 @@ To create the `.sql` file, just start your service, initialize it with the desir
 docker exec overworld-db pg_dump --username postgres postgres > default.sql
 ```
 
-Commit the file with a message like `add default test data for overworld`.
+Commit the file with a message like `Add default test data for overworld`.
 
 ## Updating a test data set
 
@@ -45,4 +45,4 @@ docker exec overworld-db pg_dump --username postgres postgres > default.sql
 
 Completely replace the contents of the existing `.sql` file with the newly exported data.
 
-Commit the file with a message stating the changes you made (For example `add more minigame spots to overworld/default.sql`).
+Commit the file with a message stating the changes you made (For example `Add more minigame spots to overworld/default.sql`).
