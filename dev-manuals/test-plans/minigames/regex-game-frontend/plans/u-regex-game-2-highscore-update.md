@@ -1,9 +1,8 @@
-# Highscore update test 
+# Highscore update test (`u.regex-game-2`)
 
-Number: U.00.0
-Version: V0.1
-Author: Leon Layer
-Tester: Leon Layer
+Version: V1.0, 07.08.2022 \
+Author: Leon Layer \
+Tester: -
 
 ## Description
 
@@ -19,16 +18,16 @@ by playing, the current higscore will be exceeded and the higscore will be updat
 
 ## Typical procedure
 
-1. the tester plays the game but does not yet reach the maximum higscoore. 
+1. the tester plays the game but does not yet reach the maximum higscore. 
 2. the tester sees his previous higscore in the menu. 
 3. by trying again, he surpasses his previous best performance.
 4. This will update the higscore in the meu.
 
 ## Alternative procedures
 
-1. The game is new started. 
-2. The tester sees his previous higscore in the menu (0). 
-3. by attempting at least one correct answer, his higscore is updated in the meu.
+1.1. In the menu a wrong score is displayed as highscore \
+2.1 The tester sees his previous higscore in the menu (0). 
+4.1 The higscore
 
 ## Criticality
 
@@ -36,5 +35,3 @@ Low
 
 ## Linkages
 
-Relationships to other use cases.
-References by use case number.
