@@ -1,7 +1,7 @@
-# Name: Barrier
+# Name: Barrier active
 
 Number: U.barrier.1  
-Version: V0.2, 2022-08-08, remove "wrong" alternative procedures  
+Version: V0.3, 2022-08-08, change post condition  
 Author: Florian Wüst  
 Tester: -  
 
@@ -17,7 +17,7 @@ The game is started and the backend runs.
 
 ## Postcondition
 
-The barrier object is set up according to the data in the data base.
+The barrier object is set up as active and therefor is visible.
 
 ## Typical procedure
 
