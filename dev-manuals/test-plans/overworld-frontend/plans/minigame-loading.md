@@ -1,7 +1,7 @@
 # Name: Minigame loading
 
 Number: U.minigame.2  
-Version: V0.1, 2022-08-04, create test case  
+Version: V0.2, 2022-08-04, remove "wrong" alternative procedures  
 Author: Florian Wüst  
 Tester: -  
 
@@ -31,9 +31,7 @@ The correct minigame with the right configuration gets loaded.
 
 ## Alternative procedures
 
-6.1 A wrong minigame starts  
-6.2 Nothing starts at all  
-7.1 Not the correct configuration is passed.  
+ 
 
 ## Criticality
 
