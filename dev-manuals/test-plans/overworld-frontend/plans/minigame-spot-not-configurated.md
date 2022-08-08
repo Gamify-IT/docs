@@ -1,6 +1,6 @@
 # Name: Minigame spot not configurated
 
-Number: U.minigame.1  
+Number: U.minigame.2  
 Version: V0.1, 2022-08-08, create test case
 Author: Florian Wüst  
 Tester: -  
