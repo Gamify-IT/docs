@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Since we have a lot of separate databases (at least one for each backend service), we need to have an easy way to initialize them with test data.
+Since we have a lot of separate databases (at least one for each backend), we need to have an easy way to initialize them with test data.
 For our [test plans](../test-plans/README.md) it is also important that different sets of test data can be loaded into the databases.
 
 We manage this test data in a dedicated repository called [test-data](https://github.com/Gamify-IT/test-data).
