@@ -19,12 +19,3 @@ Goto `Edit`>`Project Settings`>`Player`>`Publishing Settings` and set `Compressi
 ## Build WebGL project
 
 Goto `File`>`Build Settings...` and make sure `WebGL` is selected and is the target. If not you need to press the button on the bottom right corner `Switch Platform`. Then press `Build` and set the path to `/Build`.
-
-### Remove `/Build` directory from the `.gitignore`
-
-Open up the `.gitignore` with a text editor and remove ore uncomment the following lines:
-
-```
-/[Bb]uild/
-/[Bb]builds/
-```
