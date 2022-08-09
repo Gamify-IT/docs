@@ -1,0 +1,38 @@
+# Lecturer-Interface switch to world view (`u.lecturer-interface-8`)
+
+
+Version: V1.0, 09.08.2022
+Author: Max Kästner
+Tester: -
+
+## Description
+
+The view can be switched to a world view within a course with the sidebar.
+
+## Precondition
+
+At least one course is created. The tester is on the view of the course (`/courses/<course-id>`)
+
+## Postcondition
+
+The page displays a (selected) world with its dungeons and its configuration possibilities
+
+## Typical procedure
+
+1. Click on a world on the sidebar (worlds are typically displayed with a map icon)
+2. The sidebar expands and the the world row shows its childs which contains its dungeons, npc and minigame views.
+3. The view gets changed and loads the world and its configuration possibilities
+
+## Alternative procedures
+
+2.1 The sidebar does not change and does not expand \
+3.1 The view does not change \
+3.2 The view is empty
+
+## Criticality
+
+Medium
+
+## Linkages
+
+- [Show specific course (`u.lecturer-interface-3`)](u-lecturer-interface-3-show-specific-course.md)

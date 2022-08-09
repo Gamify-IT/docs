@@ -20,7 +20,7 @@ The active status of the course was toggled.
 ## Typical procedure
 
 1. Click the active switch button
-2. The switch switched from ative to not active or from not active to active.
+2. The switch button switched from ative to not active or from not active to active.
 3. Depends on the status before:
     - In case the course was not active before, a green toast message appears which contains the course was activated
     - In case the course was active before, a red toast message appears which contains the course was deactivated
@@ -31,7 +31,7 @@ The active status of the course was toggled.
 
 ## Criticality
 
-Medium
+High
 
 ## Linkages
 
