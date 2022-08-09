@@ -18,10 +18,10 @@ The game result the tester achieved is saved in the chickenshock database
 
 ## Typical procedure
 
-1. The tester presses the start button
+1. The tester presses the "Start" button
 2. The game scene is loaded
 3. A random question with corresponding answers of the given config is loaded. The question is shown on the big sign, there are as many chickens as possible answers and the timer in the top left of the screen starts counting down
-4. The tester can move the camera in a restricted area by moving around his mouse and can shoot the weapon by pressing the left mouse button
+4. The tester can move the camera in a restricted area by moving around his mouse and can shoot the weapon by pressing the "Left Mouse" button
 5. When aiming the crosshair on a chicken and shooting the chicken is killed and disappears. Corresponding feedback is shown on the big sign and the remaining chickens. The tester cannot shoot the weapon anymore
 6. After 1 second the remaining chickens disappear, a new question with new chickens is loaded and the tester can shoot the weapon again
 7. When the timer runs out the end screen will be loaded
