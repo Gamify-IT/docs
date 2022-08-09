@@ -28,9 +28,6 @@ When the game is started, the console does display a message about an incorrect 
 
 ## Alternative procedures
 
-2.1. there is no error message in the console that at least one parameter or answer of the quiz was not correct.  \
-3.1. the quiz is not displayed in the game. \
-
 ## Criticality
 
 Medium
