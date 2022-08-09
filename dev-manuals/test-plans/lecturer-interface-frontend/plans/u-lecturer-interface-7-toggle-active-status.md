@@ -1,4 +1,4 @@
-# Lecturer-Interface edit course semester (`u.lecturer-interface-6`)
+# Lecturer-Interface toggle active status (`u.lecturer-interface-7`)
 
 
 Version: V1.0, 09.08.2022
