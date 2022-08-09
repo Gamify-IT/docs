@@ -1,6 +1,6 @@
 # Name: Minigame spot not configurated
 
-Number: U.minigame.2  
+Number: U.minigame.3  
 Version: V0.1, 2022-08-08, create test case
 Author: Florian Wüst  
 Tester: -  
@@ -26,10 +26,12 @@ The minigame object is set up according to the data in the data base.
 
 ## Alternative procedures
 
-   
+N/A
 
 ## Criticality
 
 High
 
 ## Linkages
+
+N/A

@@ -1,7 +1,7 @@
 # Name: Minigame loading
 
 Number: U.minigame.2  
-Version: V0.2, 2022-08-04, remove "wrong" alternative procedures  
+Version: V0.3, 2022-08-09, adapt typical procedure  
 Author: Florian Wüst  
 Tester: -  
 
@@ -20,18 +20,17 @@ The minigame object is configurated in the overworld (minigame and configuration
 The correct minigame with the right configuration gets loaded.
 
 ## Typical procedure
-
-1. The tester starts the game with a running backend.  
-2. The tester walks to the minigame spot.  
-3. The tester walks into the minigame spot.  
-4. The minigame overview panel opens.
-5. The tester presses the 'start' button  
-6. The correct minigame starts  
-7. The correct configuration is passed
+ 
+1. The tester walks to the minigame spot.  
+2. The tester walks into the minigame spot.  
+3. The minigame overview panel opens.
+4. The tester presses the 'start' button  
+5. The correct minigame starts  
+6. The correct configuration is passed
 
 ## Alternative procedures
 
- 
+N/A
 
 ## Criticality
 

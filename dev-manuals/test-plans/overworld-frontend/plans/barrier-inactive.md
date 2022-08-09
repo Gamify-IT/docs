@@ -1,33 +1,31 @@
 # Name: Barrier inactive
 
 Number: U.barrier.1  
-Version: V0.1, 2022-08-08, create test case  
+Version: V0.2, 2022-08-09, specify more clearly  
 Author: Florian Wüst  
 Tester: -  
 
 ## Description
 
-This use case verifies that everything regarding barriers in the overworld works as intended.  
-This includes loading the needed area data from the backend as well as setting up the barrier object as inactive.
+This use case verifies that no barrier is placed if the destination world is set as active by the lecturer and the player has unlocked it.  
 
 ## Precondition
 
-The barrier object is configurated in the overworld (area origin and destination are set) and the needed data exists in the backend.
+The barrier object is configured in the overworld (area origin and destination are set) and the needed data exists in the backend. This includes that the destination world is set as 'active' and the player has unlocked the world.  
 The game is started and the backend runs.
 
 ## Postcondition
 
-The barrier object is set up as inactive and therefor not visible.
+The barrier object is set up as inactive and therefore not visible.
 
 ## Typical procedure
-
-1. The tester starts the game with a running backend.  
-2. The tester walks to the barrier spot.  
-3. The barrier is not displayed.  
+ 
+1. The tester walks to the barrier spot.  
+2. The barrier is not displayed.  
 
 ## Alternative procedures
 
-
+N/A
 
 ## Criticality
 
@@ -35,4 +33,4 @@ High
 
 ## Linkages
 
--
+N/A

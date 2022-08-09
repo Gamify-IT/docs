@@ -1,7 +1,7 @@
 # Name: Dungeon entrance and exit
 
 Number: U.dungeon.1
-Version: V0.2, 2022-08-08, remove "wrong" alternative procedures
+Version: V0.3, 2022-08-09, remove post condition and adapt typical procedure
 Author: Florian Wüst
 Tester: -
 
@@ -16,22 +16,23 @@ and a scene transition to the world is placed at the dungeon exit.
 
 ## Postcondition
 
-The dungeon can be entered and exited.  
+N/A
 
 ## Typical procedure
 
-1. The tester starts the game, no backends required.  
-2. The tester walks at the dungeon entrance point.  
-3. The dungeon is loaded and the world is unloaded.  
-4. The tester walks at the dungeon exit point.  
-5. The world is loaded and the dungeon is unloaded.  
+1. The tester walks at the dungeon entrance point.  
+2. The dungeon is loaded and the world is unloaded.  
+3. The tester walks at the dungeon exit point.  
+4. The world is loaded and the dungeon is unloaded.  
 
 ## Alternative procedures
 
-
+N/A
 
 ## Criticality
 
 High
 
 ## Linkages
+
+N/A
