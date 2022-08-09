@@ -43,4 +43,4 @@ High
 
 ## Linkages
 
-- [Show courses (`u.lecturer-interface-1`)](u-lecturer-interface-1-show-courses.md)
+- [Show courses (`u.lecturer-interface-1`)](u-lecturer-interface-01-show-courses.md)

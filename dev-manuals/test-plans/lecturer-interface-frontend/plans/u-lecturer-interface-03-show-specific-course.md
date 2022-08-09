@@ -39,5 +39,5 @@ High
 
 ## Linkages
 
-- [Show courses (`u.lecturer-interface-1`)](u-lecturer-interface-1-show-courses.md)
-- [Create course (`u.lecturer-interface-2`)](u-lecturer-interface-2-create-course.md)
+- [Show courses (`u.lecturer-interface-1`)](u-lecturer-interface-01-show-courses.md)
+- [Create course (`u.lecturer-interface-2`)](u-lecturer-interface-02-create-course.md)

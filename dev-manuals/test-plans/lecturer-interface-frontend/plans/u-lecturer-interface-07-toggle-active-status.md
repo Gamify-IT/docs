@@ -35,4 +35,4 @@ High
 
 ## Linkages
 
-- [Show specific course (`u.lecturer-interface-3`)](u-lecturer-interface-3-show-specific-course.md)
+- [Show specific course (`u.lecturer-interface-3`)](u-lecturer-interface-03-show-specific-course.md)

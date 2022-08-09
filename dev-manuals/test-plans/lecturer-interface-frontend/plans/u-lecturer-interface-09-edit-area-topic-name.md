@@ -39,5 +39,5 @@ Medium
 
 ## Linkages
 
-- [Show specific course (`u.lecturer-interface-3`)](u-lecturer-interface-3-show-specific-course.md)
-- [Switch to world view (`u.lecturer-interface-8`)](u-lecturer-interface-8-switch-to-world-view.md)
+- [Show specific course (`u.lecturer-interface-3`)](u-lecturer-interface-03-show-specific-course.md)
+- [Switch to world view (`u.lecturer-interface-8`)](u-lecturer-interface-08-switch-to-world-view.md)
