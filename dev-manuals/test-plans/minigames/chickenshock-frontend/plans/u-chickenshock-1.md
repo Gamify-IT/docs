@@ -30,6 +30,7 @@ The game result the tester achieved is saved in the chickenshock database
 
 ## Alternative procedures
 
+1.1 Hovering over the "?" symbol in the lower right corner shows a short tutorial of the game, continue with 1.
 6.1 If the answered question was the last one, the tester will be sent to the end screen, continue with 8.
 9.1 Pressing play again restarts the game, continue with 2.
 
