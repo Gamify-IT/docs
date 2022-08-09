@@ -34,7 +34,7 @@ A new course was created.
 2.1 view does not display the `create new course` button \
 4.1 Nothing happens \
 8.1 No toast message appears \
-8.2 A toast message appreas which contains that there was an error creating the course \
+8.2 A toast message appears which contains that there was an error creating the course \
 9.1 The created course is not listed in the courses view
 
 ## Criticality
