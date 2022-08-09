@@ -13,7 +13,7 @@ The tester starts a preconfigured chickenshock minigame. The player has no contr
 
 ## Postcondition
 
-The player has no condition over his mouse cursor.
+The player has no control over his mouse cursor.
 
 ## Typical procedure
 
