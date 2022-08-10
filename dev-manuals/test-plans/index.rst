@@ -32,9 +32,16 @@ Test Plan Overview
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Test Plans for Moorhuhn
+   :caption: Test Plans for Chickenshock
 
-   ./minigames/moorhuhn-*/**
+   ./minigames/chickenshock-*/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Test Plans for Overworld
+
+   ./overworld-*/**
 
 .. toctree::
    :glob:
