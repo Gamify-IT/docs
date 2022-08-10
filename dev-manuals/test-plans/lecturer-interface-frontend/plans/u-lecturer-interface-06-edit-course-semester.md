@@ -29,7 +29,7 @@ The semester of the course was changed to the new entered semester.
 ## Alternative procedures
 
 3.1: The semester is not in the right format: \
-    3.1.1 Hit the submit button
+    3.1.1 Hit the submit button \
     3.1.2 A feedback toast message appears which contains that semester was not updated \
     3.1.3 The semester did not change in the view and the input field disappears
 
