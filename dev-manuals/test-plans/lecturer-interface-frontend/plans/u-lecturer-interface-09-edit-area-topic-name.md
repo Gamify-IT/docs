@@ -10,7 +10,7 @@ The topic name of an area can be changed on the area view.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of a world of a course (`/courses/<course-id>/worlds/<world-index>`)
+At least one course with a preconfigured area is created. The tester is on the view of that area.
 
 ## Postcondition
 

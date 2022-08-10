@@ -14,7 +14,7 @@ At least one course is created. The tester is on the view of an area minigames l
 
 ## Postcondition
 
-A configuration of the a chickenshock minigame was changed.
+The configuration of the `chickenshock` instance was changed.
 
 ## Typical procedure
 
