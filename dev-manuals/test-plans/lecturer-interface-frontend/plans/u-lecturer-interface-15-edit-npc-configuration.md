@@ -1,4 +1,4 @@
-# Lecturer-Interface: Edit npc configuration (`u.lecturer-interface-15`)
+# Lecturer-Interface: Edit NPC configuration (`u.lecturer-interface-15`)
 
 
 Version: V1.0, 10.08.2022 \
@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-The configuration of a npc can be edited in a modal. For npcs of a world the path is `/courses/<course-id>/worlds/<world-index>/npcs` and for a dungeon `/courses/<course-id>/worlds/<world-index>/dungeons/<dungeon-index>/npcs`.
+The configuration of an NPC can be edited.
 
 ## Precondition
 

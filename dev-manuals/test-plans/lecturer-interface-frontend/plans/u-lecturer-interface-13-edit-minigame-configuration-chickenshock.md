@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-The chickenshock configuration of a minigame can be edited in a modal. For minigames of a world the path is `/courses/<course-id>/worlds/<world-index>/minigames` and for a dungeon `/courses/<course-id>/worlds/<world-index>/dungeons/<dungeon-index>/minigames`.
+A `chickenshock` configuration can be customized to display custom questions and answers.
 
 ## Precondition
 
@@ -38,7 +38,7 @@ A configuration of the a chickenshock minigame was changed.
 12. The entered question with correct answer and wrong answers is displayed in the modal
 13. Press the Ok button of the modal
 14. The modal closes
-15. A feedback toast message appears which contains that configuraiton was saved
+15. A success message appears
 
 ## Alternative procedures
 

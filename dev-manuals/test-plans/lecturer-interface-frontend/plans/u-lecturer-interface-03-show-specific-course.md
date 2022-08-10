@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-A specific course can be selected on the courses view to show up the details and edit it in the specific view.
+A specific course can be selected on the courses view to show and edit its details.
 
 ## Precondition
 
@@ -20,10 +20,10 @@ The details of a course are listed on a view.
 
 1. Open the lecturer interface
 2. The specific course is displayed on the courses view
-3. Click on the row of the specific course
+3. Click on the specific course
 4. The site redirects to the specific course
-5. The course details are show on the view like course name, description, semester, ...
-6. On the left side shows up a sidebar for navigation
+5. The course details are shown in the view (i.e. course name, description, semester, ...)
+6. A sidebar for navigation shows up
 
 ## Alternative procedures
 

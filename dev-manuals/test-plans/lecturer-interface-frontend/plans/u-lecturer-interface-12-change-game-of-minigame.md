@@ -1,4 +1,4 @@
-# Lecturer-Interface: Change game of minigame (`u.lecturer-interface-12`)
+# Lecturer-Interface: Change game of minigame spot (`u.lecturer-interface-12`)
 
 
 Version: V1.0, 09.08.2022 \
@@ -6,21 +6,21 @@ Author: Max Kästner
 
 ## Description
 
-The game of a minigame can be changed in a dropdown. For minigames of a world the path is `/courses/<course-id>/worlds/<world-index>/minigames` and for a dungeon `/courses/<course-id>/worlds/<world-index>/dungeons/<dungeon-index>/minigames`.
+It can be configured which minigame will be played at which minigame spot.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of an area minigames list as described in the description above.
+At least one course is created. The tester is located where the minigames of an area are listed.
 
 ## Postcondition
 
-A game of a minigame was changed.
+The game to play for the minigame spot was changed.
 
 ## Typical procedure
 
-1. Click on a dropwdown of a minigame to change the game
+1. Click on the dropwdown of a minigame to change the game
 2. Select a specific game
-3. A feedback toast message appears which contains that game was updated
+3. A success message appears
 4. The game is now displayed in the dropdown
 
 ## Alternative procedures

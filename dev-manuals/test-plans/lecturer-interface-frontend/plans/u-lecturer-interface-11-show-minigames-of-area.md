@@ -6,21 +6,21 @@ Author: Max Kästner
 
 ## Description
 
-The minigames of an area are listed on a view. For minigames of a world the path is `/courses/<course-id>/worlds/<world-index>/minigames` and for a dungeon `/courses/<course-id>/worlds/<world-index>/dungeons/<dungeon-index>/minigames`.
+The minigames of an area are can be listed.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of an area minigames list as described in the description above.
+At least one course is created. The tester is on the view where the minigames of an area are listed.
 
 ## Postcondition
 
-The view lists the list of minigames with the posibillity to change the minigame and change the configuration.
+The view lists all minigames with the posibillity to change each minigame corresponding configuration.
 
 ## Typical procedure
 
 1. The view shows at least 12 minigames
-2. Every minigame has a little space with a dropdown where minigames can be selected
-3. Every minigame has an edit button where the configurations can be edited
+2. Every minigame can be selected
+3. The configurations of every minigame can be edited
 
 ## Alternative procedures
 

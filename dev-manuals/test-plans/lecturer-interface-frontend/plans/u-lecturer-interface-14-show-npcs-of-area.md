@@ -1,4 +1,4 @@
-# Lecturer-Interface: Show npcs of area (`u.lecturer-interface-14`)
+# Lecturer-Interface: Show NPCs of area (`u.lecturer-interface-14`)
 
 
 Version: V1.0, 10.08.2022 \
@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-The npcs of an area are listed on a view. For npcs of a world the path is `/courses/<course-id>/worlds/<world-index>/npcs` and for a dungeon `/courses/<course-id>/worlds/<world-index>/dungeons/<dungeon-index>/npcs`.
+The NPCs of an area are listed on a view.
 
 ## Precondition
 
