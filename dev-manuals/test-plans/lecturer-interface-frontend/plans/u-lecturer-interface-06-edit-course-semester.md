@@ -34,7 +34,7 @@ The semester of the course was changed to the new entered semester.
     3.1.3 The semester did not change in the view and the input field disappears
 
 4.1: Hit the cancel button: \
-    5.1.1 A feedback toast message appears which contains that course description was not updated \
+    4.1.1 A feedback toast message appears which contains that course description was not updated \
     4.1.2 The course description was not updated in the view and the input field disappears 
 
 ## Criticality
