@@ -1,4 +1,4 @@
-# $CATEGORY: $ACTION (`$TESTCASE_ID im Format "u.$(kebab-case $CATEGORY)-$NUMBER (from 1)"`)
+# $CATEGORY: $ACTION (`$TESTCASE_ID in format "u.$(kebab-case $CATEGORY)-$NUMBER (from 1)"`)
 
 Version: `v$X.$Y with $X >= 1, $Y >= 0`, `$NOW in YYYY-mm-dd`, `$CHANGE_DESCRIPTION like a git commit` \
 Author: Authors of this file, comma-separated
@@ -23,7 +23,7 @@ Postcondition after the use case has ended.
 
 ## Alternative procedures
 
-Do not show errors here, only intended alternatives in format
+<!-- Do not show errors here, only intended alternatives in format -->
 1.1. `condition` - do `x2` \
 2.1. `condition 2` - do `y2`
 
