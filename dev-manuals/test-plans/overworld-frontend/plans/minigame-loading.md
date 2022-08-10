@@ -20,7 +20,7 @@ The minigame object is configurated in the overworld (minigame and configuration
 The correct minigame with the right configuration gets loaded.
 
 ## Typical procedure
- 
+
 1. The tester walks to the minigame spot.  
 2. The tester walks into the minigame spot.  
 3. The minigame overview panel opens.

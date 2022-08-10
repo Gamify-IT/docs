@@ -7,7 +7,7 @@ Tester: -
 
 ## Description
 
-This use case verifies that connected worlds are loaded, if the player approches the transition point.  
+This use case verifies that connected worlds are loaded, if the player approaches the transition point.  
 
 ## Precondition
 
@@ -20,7 +20,7 @@ The connected world is loaded.
 ## Typical procedure
 
 1. The tester walks towards a transition point to another world.  
-2. The connected world is loaded. 
+2. The connected world is loaded.
 
 ## Alternative procedures
 

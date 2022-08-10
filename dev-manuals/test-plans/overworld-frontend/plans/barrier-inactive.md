@@ -1,8 +1,8 @@
 # Name: Barrier inactive
 
 Number: U.barrier.1  
-Version: V0.2, 2022-08-09, specify more clearly  
-Author: Florian Wüst  
+Version: V0.3, 2022-08-10, add one step to procedure  
+Author: Florian Wüst, Michael Linder  
 Tester: -  
 
 ## Description
@@ -19,9 +19,10 @@ The game is started and the backend runs.
 The barrier object is set up as inactive and therefore not visible.
 
 ## Typical procedure
- 
+
 1. The tester walks to the barrier spot.  
 2. The barrier is not displayed.  
+3. The tester can walk through the spot where the barrier otherwise is.
 
 ## Alternative procedures
 

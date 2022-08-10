@@ -1,13 +1,13 @@
 # Name: Barrier active, player has world not unlocked
 
 Number: U.barrier.2  
-Version: V0.3, 2022-08-09, split up test case  
-Author: Florian Wüst  
+Version: V0.4, 2022-08-10, add one step to procedure  
+Author: Florian Wüst, Michael Linder
 Tester: -  
 
 ## Description
 
-This use case verifies that a barrier is placed if the destination world is set as active by the lecturer, but the player has not yes unlocked it.  
+This use case verifies that a barrier is placed if the destination world is set as active by the lecturer, but the player has not yet unlocked it.  
 
 ## Precondition
 
@@ -22,6 +22,7 @@ The barrier object is set up as active and therefore is visible.
 
 1. The tester walks to the barrier spot.  
 2. The barrier is displayed.  
+3. The tester can not walk through or around the barrier
 
 ## Alternative procedures
 
