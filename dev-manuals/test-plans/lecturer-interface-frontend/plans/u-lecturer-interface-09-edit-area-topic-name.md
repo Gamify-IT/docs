@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-The topic name of a world or dungeon (which is linked to the world of a view) can be changed on the world view.
+The topic name of an area can be changed on the area view.
 
 ## Precondition
 
