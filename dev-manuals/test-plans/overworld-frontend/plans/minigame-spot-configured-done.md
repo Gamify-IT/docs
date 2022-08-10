@@ -1,4 +1,4 @@
-# Name: Minigame spot configured and done
+# Minigames: Pre-game start (`u.minigames-1`)
 
 Number: U.minigame.1  
 Version: V0.2, 2022-08-09, split test case
@@ -7,24 +7,26 @@ Tester: -
 
 ## Description
 
-This use case verifies that loading the minigame and player data for a configurated minigame from the backend works as intended. Furthermore, player specific data like the highscore and the status of the minigame needs to be loaded. All that info has to be stored in the minigame object.
+This test walks the user through the procedure necessary to start a minigame. Specifically, it tests that minigame spots are colored correctly and that a popup is shown before the minigame can be started.
 
 ## Precondition
 
-The minigame object is configured in the overworld (world and index are set) and the needed data exists in the backend.  
+The minigame (spot) is configured in the overworld and its backend.  
 The game is started and the backend runs.
+Optionally, the backend already has statistics for this minigame and player.
 
 ## Postcondition
 
-The minigame object is set up according to the data in the data base.
+Nothing changed for the backend.
 
 ## Typical procedure
 
-1. The tester walks to the minigame spot.  
-2. The minigame spot is displayed and has a blue color.
-3. The tester walks into the minigame spot.  
-4. The minigame overview panel opens.
-5. The displayed minigame and player specific highscore are correct as set in the backend.
+1. Walk to the minigame spot
+2. The minigame spot is displayed
+3. The minigame spot is colored blue
+4. Walk **in**to the minigame spot
+4. The minigame overview panel opens
+5. The displayed minigame and player specific highscore are the ones stored in the backend
 
 ## Alternative procedures
 

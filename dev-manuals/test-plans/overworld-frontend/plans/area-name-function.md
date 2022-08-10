@@ -7,11 +7,11 @@ Tester: -
 
 ## Description
 
-This use case verifies that the area name works as intended.  
+This use case verifies that the minimap shows the current area name.  
 
 ## Precondition
 
-Overworld is loaded, minimap is displayed
+Overworld is loaded, minimap is displayed.
 
 ## Postcondition
 

@@ -1,4 +1,4 @@
-# Name: World transition loading
+# Area: Nearby areas are loaded (`u.area-1`)
 
 Number: U.area.1
 Version: V0.1, 2022-08-09, create test case
@@ -7,20 +7,20 @@ Tester: -
 
 ## Description
 
-This use case verifies that connected worlds are loaded, if the player approaches the transition point.  
+This use case verifies that connected worlds are loaded when the player approaches the area border.  
 
 ## Precondition
 
-N/A
+The user stands in the middle of an area. On at least one side, another area is located. The other area has not been loaded yet.
 
 ## Postcondition
 
-The connected world is loaded.
+The other area is loaded.
 
 ## Typical procedure
 
-1. The tester walks towards a transition point to another world.  
-2. The connected world is loaded.
+1. The tester walks towards the other area
+2. The other area is loaded
 
 ## Alternative procedures
 

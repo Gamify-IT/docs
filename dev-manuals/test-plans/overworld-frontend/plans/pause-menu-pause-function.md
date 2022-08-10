@@ -1,4 +1,4 @@
-# Name: pause menu pause function
+# HUD: Opening the menu works and pauses the game (`u.hud-4`)
 
 Number: U.hud.4
 Version: V0.1, 2022-08-10, create test case
@@ -7,28 +7,27 @@ Tester: -
 
 ## Description
 
-This use case verifies that the pause menu works as intended.  
+This use case verifies that the pause menu works as intended and that the game is paused while it is open.  
 
 ## Precondition
 
-Overworld is loaded
+The overworld is loaded.
 
 ## Postcondition
+
+The menu is not visible and the game is no longer paused. 
 
 ## Typical procedure
 
 1. The tester opens the pause menu with <kbd>Esc</kbd>
-2. The tester checks that player character can no longer move or interact with anything
+2. The protagonist can no longer move or interact with anything, and the environment is paused
 3. The tester closes the pause menu with <kbd>Esc</kbd>
-4. The tester checks that the game is resumed and the player can walk/interact again
-5. The tester opens the pause menu with the button top left
-6. The tester checks that player character can no longer move or interact with anything
-7. The tester closes the pause menu with the resume button
-8. The tester checks that the game is resumed and the player can walk/interact again
+4. The game is resumed and the protagonist can walk/interact again
 
 ## Alternative procedures
 
-N/A
+1.1. The tester opens the menu with the button in the upper-left corner \
+3.1. The tester closes the menu with the `Resume` button
 
 ## Criticality
 

@@ -1,4 +1,4 @@
-# Name: minimap functions
+# HUD: minimap functions (`u.hud-1`)
 
 Number: U.hud.1
 Version: V0.1, 2022-08-10, create test case

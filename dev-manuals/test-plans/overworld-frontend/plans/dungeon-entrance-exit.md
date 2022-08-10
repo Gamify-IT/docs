@@ -1,4 +1,4 @@
-# Name: Dungeon entrance and exit
+# Dungeon: Entrance and exit working (`u.dungeon-1`)
 
 Number: U.dungeon.1
 Version: V0.4, 2022-08-10, adapt spelling
@@ -11,7 +11,7 @@ This use case verifies that entering and exiting a dungeon from a world works as
 
 ## Precondition
 
-The world and dungeon scene are listed in the build settings. A scene transition to the dungeon is placed at the dungeon entrance and another transition to the world is placed at the dungeon exit.
+The world and dungeon are connected to each other both ways.  Both are enabled.
 
 ## Postcondition
 
@@ -19,10 +19,10 @@ N/A
 
 ## Typical procedure
 
-1. The tester walks to the dungeon entrance point.  
-2. The dungeon is loaded and the world is unloaded.  
-3. The tester walks to the dungeon exit point.  
-4. The world is loaded and the dungeon is unloaded.  
+1. The tester walks to the dungeon entrance
+2. The dungeon is loaded and the world is unloaded
+3. The tester walks to the dungeon exit
+4. The original world is loaded and the dungeon is unloaded
 
 ## Alternative procedures
 

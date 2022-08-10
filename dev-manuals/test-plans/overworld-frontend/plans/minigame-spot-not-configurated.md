@@ -1,4 +1,4 @@
-# Name: Minigame spot not configurated
+# Minigames: Disable minigame (`u.minigames-3`)
 
 Number: U.minigame.3  
 Version: V0.1, 2022-08-08, create test case

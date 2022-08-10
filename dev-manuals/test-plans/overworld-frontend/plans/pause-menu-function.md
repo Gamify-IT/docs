@@ -1,4 +1,4 @@
-# Name: pause menu function
+# HUD: Submenus work (`u.hud-5`)
 
 Number: U.hud.5
 Version: V0.1, 2022-08-10, create test case
@@ -7,28 +7,26 @@ Tester: -
 
 ## Description
 
-This use case verifies that the pause menu sub menus work as intended.  
+This test verifies that sub-menus inside the menu work as intended.  
 
 ## Precondition
 
-Overworld is loaded
+Overworld is loaded.
 
 ## Postcondition
 
 ## Typical procedure
 
-1. The tester opens the pause menu with <kbd>Esc</kbd>
-2. The tester confirms that clicking the Achievements button opens the Achievements menu
-3. The tester uses the scroll bar to scroll up and down
-4. The tester confirms that clicking the back button closes the Achievements menu
-5. The tester confirms that clicking the Keybindings button opens the Achievements menu
-6. The tester uses the scroll bar to scroll up and down
-7. The tester confirms that clicking the back button closes the Keybindings menu
-8. The tester confirms that clicking the Character Selection button opens the Character Selection menu
-9. The tester clicks the left arrow and right arrow buttons to cycle through characters
-10. The characters are shown with different images
-11. Only on the main Player model there is a confirm button shown
-12. The tester confirms that clicking the back button closes the Character Selection menu
+1. The tester opens the menu with <kbd>Esc</kbd>
+2. Click the `Achievements` button and ensure it opens the `Achievements` sub-menu
+3. Scroll up and down (if possible)
+4. Click the `back` button to close the sub-menu and (re-)open the menu
+5. Repeat `2.-4.` for the `Keybindings` submenu
+8. Click the `Character Selection` button and ensure it opens the `Character Selection` sub-menu
+9. Click the left arrow and right arrow buttons to cycle through characters
+10. The characters have different sprites
+11. Only the main Player model has a `confirm` button
+12. Click the `back` button to close the sub-menu and (re-)open the menu
 
 ## Alternative procedures
 
