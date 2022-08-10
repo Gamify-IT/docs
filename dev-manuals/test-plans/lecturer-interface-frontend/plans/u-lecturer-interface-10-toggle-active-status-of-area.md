@@ -27,7 +27,6 @@ The active status of an area was updated and is shown in the view.
 
 ## Alternative procedures
 
-3.1 No toast message appears
 
 ## Criticality
 

@@ -28,10 +28,14 @@ The semester of the course was changed to the new entered semester.
 
 ## Alternative procedures
 
-2.1 Nothing changes \
-5.1 No toast message appears \
-5.2 A toast message appears which contains that there was an error updating the semester \
-6.1 The old course semester is displayed
+3.1: The semester is not in the right format: \
+    3.1.1 Hit the submit button
+    3.1.2 A feedback toast message appears which contains that semester was not updated \
+    3.1.3 The semester did not change in the view and the input field disappears
+
+4.1: Hit the cancel button: \
+    5.1.1 A feedback toast message appears which contains that course description was not updated \
+    4.1.2 The course description was not updated in the view and the input field disappears 
 
 ## Criticality
 

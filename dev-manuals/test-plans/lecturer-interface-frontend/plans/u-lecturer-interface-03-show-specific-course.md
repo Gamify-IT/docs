@@ -28,10 +28,6 @@ The details of a course are listed on a view.
 
 ## Alternative procedures
 
-2.1 The view does not display the specific course \
-4.1 Nothing happens \
-5.1 The view is empty \
-6.1 No sidebar shows up
 
 ## Criticality
 

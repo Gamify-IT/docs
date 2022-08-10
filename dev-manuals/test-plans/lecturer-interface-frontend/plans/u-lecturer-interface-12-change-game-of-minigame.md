@@ -26,9 +26,6 @@ A game of a minigame was changed.
 
 ## Alternative procedures
 
-3.1 No toast message appears \
-3.2 A toast message appears which contains that there was an error updating the game \
-4.1 The dropdown does not update
 
 ## Criticality
 

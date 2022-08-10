@@ -25,6 +25,7 @@ The view lists the list of minigames with the posibillity to change the minigame
 
 ## Alternative procedures
 
+
 ## Criticality
 
 High

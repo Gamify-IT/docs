@@ -28,11 +28,10 @@ The name of the course was changed to the new entered name.
 
 ## Alternative procedures
 
-2.1 Nothing changes \
-5.1 No toast message appears \
-5.2 A toast message appears which contains that there was an error updating the name \
-6.1 The old course name is displayed
-
+4.1: Hit the cancel button: \
+    4.1.1 A feedback toast message appears which contains that course name was not updated \
+    4.1.2 The course name was not updated in the view and the input field disappears 
+    
 ## Criticality
 
 Medium

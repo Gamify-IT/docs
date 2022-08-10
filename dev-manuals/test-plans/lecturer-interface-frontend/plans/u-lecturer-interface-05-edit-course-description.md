@@ -28,10 +28,9 @@ The description of the course was changed to the new entered description.
 
 ## Alternative procedures
 
-2.1 Nothing changes \
-5.1 No toast message appears \
-5.2 A toast message appears which contains that there was an error updating the description \
-6.1 The old course description is displayed
+4.1: Hit the cancel button: \
+    5.1.1 A feedback toast message appears which contains that course description was not updated \
+    4.1.2 The course description was not updated in the view and the input field disappears 
 
 ## Criticality
 

@@ -27,7 +27,6 @@ The active status of the course was toggled.
 
 ## Alternative procedures
 
-3.1 No toast message appears
 
 ## Criticality
 

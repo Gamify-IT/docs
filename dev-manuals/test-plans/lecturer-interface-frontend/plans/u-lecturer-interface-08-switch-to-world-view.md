@@ -25,9 +25,6 @@ The page displays a (selected) world with its dungeons and its configuration pos
 
 ## Alternative procedures
 
-2.1 The sidebar does not change and does not expand \
-3.1 The view does not change \
-3.2 The view is empty
 
 ## Criticality
 

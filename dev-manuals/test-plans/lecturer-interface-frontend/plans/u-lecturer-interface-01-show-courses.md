@@ -1,8 +1,8 @@
 # Lecturer-Interface show courses (`u.lecturer-interface-1`)
 
 
-Version: V1.0, 08.08.2022
-Author: Max Kästner
+Version: V1.0, 08.08.2022 \
+Author: Max Kästner \
 Tester: -
 
 ## Description
@@ -11,7 +11,7 @@ All courses are listed in the course overview view.
 
 ## Precondition
 
-At least one course is created to show.
+At least one course is created.
 
 ## Postcondition
 
@@ -24,8 +24,6 @@ All available courses are shown on the view.
 
 ## Alternative procedures
 
-2.1 there is a error message displayed \
-2.2 no course is shown
 
 ## Criticality
 

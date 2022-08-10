@@ -43,16 +43,6 @@ A configuration of the a chickenshock minigame was changed.
 
 ## Alternative procedures
 
-3.1 No toast message appears \
-3.2 A toast message appears which contains that there was an error updating the game \
-4.1 The dropdown does not update \
-6.1 No modal opens \
-8.1 No new modal opens \
-11.1 No new modal opens \
-12.1 The modal looks like the first modal with no content change
-14.1 The modal did not close
-15.1 No toast message appears \
-15.2 A toast message appears which contains that there was an error saving the configuration \
 
 ## Criticality
 

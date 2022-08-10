@@ -28,10 +28,9 @@ The topic name of an area was updated and is shown in the view.
 
 ## Alternative procedures
 
-2.1 Nothing changes \
-5.1 No toast message appears \
-5.2 A toast message appears which contains that there was an error updating the topic name \
-6.1 The old topic name is displayed
+4.1: Hit the cancel button: \
+    4.1.1 A feedback toast message appears which contains that topic name was not updated \
+    4.1.2 The topic name did not update in the view and the input field disappears
 
 ## Criticality
 
