@@ -1,9 +1,8 @@
 # Lecturer-Interface change game of minigame (`u.lecturer-interface-12`)
 
 
-Version: V1.0, 09.08.2022
+Version: V1.0, 09.08.2022 \
 Author: Max Kästner
-Tester: -
 
 ## Description
 

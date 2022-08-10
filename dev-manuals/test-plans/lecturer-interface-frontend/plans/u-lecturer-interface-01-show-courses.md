@@ -2,8 +2,7 @@
 
 
 Version: V1.0, 08.08.2022 \
-Author: Max Kästner \
-Tester: -
+Author: Max Kästner
 
 ## Description
 

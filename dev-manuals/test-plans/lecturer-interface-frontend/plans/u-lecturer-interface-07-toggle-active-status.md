@@ -1,9 +1,8 @@
 # Lecturer-Interface toggle active status (`u.lecturer-interface-7`)
 
 
-Version: V1.0, 09.08.2022
+Version: V1.0, 09.08.2022 \
 Author: Max Kästner
-Tester: -
 
 ## Description
 

@@ -1,9 +1,8 @@
 # Lecturer-Interface switch to world view (`u.lecturer-interface-8`)
 
 
-Version: V1.0, 09.08.2022
+Version: V1.0, 09.08.2022 \
 Author: Max Kästner
-Tester: -
 
 ## Description
 

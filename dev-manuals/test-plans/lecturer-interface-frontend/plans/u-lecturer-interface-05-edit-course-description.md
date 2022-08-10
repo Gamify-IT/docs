@@ -1,9 +1,8 @@
 # Lecturer-Interface edit course description (`u.lecturer-interface-5`)
 
 
-Version: V1.0, 09.08.2022
+Version: V1.0, 09.08.2022 \
 Author: Max Kästner
-Tester: -
 
 ## Description
 

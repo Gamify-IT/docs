@@ -1,9 +1,8 @@
 # Lecturer-Interface change active status of area (`u.lecturer-interface-10`)
 
 
-Version: V1.0, 09.08.2022
+Version: V1.0, 09.08.2022 \
 Author: Max Kästner
-Tester: -
 
 ## Description
 
