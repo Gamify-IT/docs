@@ -34,6 +34,6 @@ Importance of the use case for the entire system
 
 ## Linkages
 
-To refer to another testcase, use
+<!-- To refer to another testcase, use -->
 
 `- [$REFERENCED_ACTION (`$REFERENCED_ID`)]($PATH)`
