@@ -1,4 +1,4 @@
-# Lecturer-Interface show minigames of area (`u.lecturer-interface-11`)
+# Lecturer-Interface: Show minigames of area (`u.lecturer-interface-11`)
 
 
 Version: V1.0, 09.08.2022 \

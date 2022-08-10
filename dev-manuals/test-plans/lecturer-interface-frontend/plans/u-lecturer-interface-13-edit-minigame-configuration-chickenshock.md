@@ -1,4 +1,4 @@
-# Lecturer-Interface edit minigame configuration of chickenshock (`u.lecturer-interface-13`)
+# Lecturer-Interface: Edit minigame configuration of chickenshock (`u.lecturer-interface-13`)
 
 
 Version: V1.0, 09.08.2022 \

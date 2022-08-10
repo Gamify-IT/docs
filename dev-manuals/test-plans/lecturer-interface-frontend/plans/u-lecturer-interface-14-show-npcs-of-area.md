@@ -1,4 +1,4 @@
-# Lecturer-Interface show npcs of area (`u.lecturer-interface-14`)
+# Lecturer-Interface: Show npcs of area (`u.lecturer-interface-14`)
 
 
 Version: V1.0, 10.08.2022 \

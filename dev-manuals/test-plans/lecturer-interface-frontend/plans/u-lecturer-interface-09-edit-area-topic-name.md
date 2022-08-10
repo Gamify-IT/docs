@@ -1,4 +1,4 @@
-# Lecturer-Interface edit area topic name in world view (`u.lecturer-interface-9`)
+# Lecturer-Interface: Edit area topic name in world view (`u.lecturer-interface-9`)
 
 
 Version: V1.0, 09.08.2022 \

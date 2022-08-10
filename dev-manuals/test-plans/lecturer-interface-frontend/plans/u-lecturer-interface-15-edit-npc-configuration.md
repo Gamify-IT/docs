@@ -1,4 +1,4 @@
-# Lecturer-Interface edit npc configuration (`u.lecturer-interface-15`)
+# Lecturer-Interface: Edit npc configuration (`u.lecturer-interface-15`)
 
 
 Version: V1.0, 10.08.2022 \

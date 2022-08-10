@@ -1,4 +1,4 @@
-# Lecturer-Interface show courses (`u.lecturer-interface-2`)
+# Lecturer-Interface: Create course (`u.lecturer-interface-2`)
 
 
 Version: V1.0, 08.08.2022 \
