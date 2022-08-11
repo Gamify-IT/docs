@@ -25,9 +25,9 @@ The player has a `git reset` card in his stack.
 
 ## Alternative procedures
 
-2.1. The file with the file name on the card is not staged
-2.2. The player's turn ends
-5.1. The player has no cards left on his stack
+2.1. The file with the file name on the card is not staged \
+2.2. The player's turn ends \
+5.1. The player has no cards left on his stack \
 5.2. The player's turn ends
 
 ## Criticality

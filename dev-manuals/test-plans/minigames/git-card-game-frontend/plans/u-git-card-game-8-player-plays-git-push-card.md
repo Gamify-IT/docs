@@ -27,7 +27,7 @@ The `git push` card gets moved from the players stack to the middle stack.
 
 ## Alternative procedures
 
-5.1. The player has no cards left on his stack
+5.1. The player has no cards left on his stack \
 5.2. The player's turn ends
 
 ## Criticality
