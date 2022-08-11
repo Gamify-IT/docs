@@ -1,9 +1,7 @@
-# Dungeon: Entrance and exit working (`u.dungeon-1`)
+# Overworld: Dungeon entrance and exit working (`u.overworld-2`)
 
-Number: U.dungeon.1
-Version: V0.4, 2022-08-10, adapt spelling
+Version: V1.4, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder
-Tester: -
 
 ## Description
 

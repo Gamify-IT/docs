@@ -1,9 +1,7 @@
-# Minigames: Disable minigame (`u.minigames-3`)
+# Overworld: Disable minigame (`u.overworld-10`)
 
-Number: U.minigame.3  
-Version: V0.1, 2022-08-08, create test case
+Version: V1.1, 2022-08-11, adapt to new template \
 Author: Florian Wüst  
-Tester: -  
 
 ## Description
 
@@ -16,7 +14,7 @@ The game is started and the backend runs.
 
 ## Postcondition
 
--
+N/A
 
 ## Typical procedure
 

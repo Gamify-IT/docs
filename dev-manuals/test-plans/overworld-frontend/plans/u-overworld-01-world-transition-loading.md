@@ -1,9 +1,7 @@
-# Area: Nearby areas are loaded (`u.area-1`)
+# Overworld: Nearby areas are loaded (`u.overworld-1`)
 
-Number: U.area.1
-Version: V0.1, 2022-08-09, create test case
+Version: V1.1, 2022-08-11, adapt to new template \
 Author: Florian Wüst
-Tester: -
 
 ## Description
 

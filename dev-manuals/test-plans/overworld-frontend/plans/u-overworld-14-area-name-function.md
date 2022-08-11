@@ -1,9 +1,7 @@
-# HUD: Show current area (`u.hud-2`)
+# Overworld: HUD show current area (`u.overworld-14`)
 
-Number: U.hud.2
-Version: V0.1, 2022-08-10, create test case
-Author: Michael Linder
-Tester: -
+Version: V1.1, 2022-08-11, adapt to new template \
+Author: Michael Linder, Florian Wüst
 
 ## Description
 

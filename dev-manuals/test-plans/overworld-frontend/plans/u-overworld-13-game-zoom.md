@@ -1,9 +1,7 @@
-# HUD: Global zoom (`u.hud-3`)
+# Overworld: Game zoom (`u.overworld-13`)
 
-Number: U.hud.3
-Version: V0.1, 2022-08-10, create test case
+Version: V1.1, 2022-08-11, adapt to new template \
 Author: Michael Linder
-Tester: -
 
 ## Description
 

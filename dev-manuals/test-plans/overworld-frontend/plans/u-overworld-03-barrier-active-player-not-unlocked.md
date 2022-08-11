@@ -1,9 +1,7 @@
-# Barrier: Block locked worlds (`u.barrier-2`)
-
-Number: U.barrier.2  
-Version: V0.4, 2022-08-10, add one step to procedure  
+# Overworld: Barrier block locked worlds (`u.overworld-3`)
+ 
+Version: V1.4, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder
-Tester: -  
 
 ## Description
 

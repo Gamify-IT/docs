@@ -1,9 +1,7 @@
-# Barrier: Not present on playable worlds (`u.barrier-1`)
-
-Number: U.barrier.1  
-Version: V0.3, 2022-08-10, add one step to procedure  
+# Overworld: Barrier not present on playable worlds (`u.overworld-5`)
+ 
+Version: V1.3, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder  
-Tester: -  
 
 ## Description
 

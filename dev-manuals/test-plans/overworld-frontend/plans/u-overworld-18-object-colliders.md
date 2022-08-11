@@ -1,9 +1,7 @@
-# Colliders: objects (`u.colliders-2`)
+# Overworld: Object colliders (`u.overworld-18`)
 
-Number: U.object.1
-Version: V0.1, 2022-08-10, create test case
-Author: Michael Linder
-Tester: -
+Version: V1.1, 2022-08-11, adapt to new template \
+Author: Michael Linder, Florian Wüst
 
 ## Description
 

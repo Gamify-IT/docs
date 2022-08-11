@@ -1,9 +1,7 @@
-# HUD: Opening the menu works and pauses the game (`u.hud-4`)
+# Overworld: Pause menu (`u.overworld-16`)
 
-Number: U.hud.4
-Version: V0.1, 2022-08-10, create test case
-Author: Michael Linder
-Tester: -
+Version: V1.1, 2022-08-11, adapt to new template \
+Author: Michael Linder, Florian Wüst
 
 ## Description
 

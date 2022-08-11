@@ -1,9 +1,7 @@
-# NPC Testcases combined (`u.npc-1`)
+# Overworld: NPC testcases combined (`u.overworld-6`)
 
-Number: u.npc-1  
-Version: v0.2, 2022-08-04, adapt name  
+Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  
-Tester: -
 
 ## Description
 
@@ -32,7 +30,7 @@ Medium
 
 ## Linkages
 
-- [NPC: Dialogue is loaded from backend](u-npc-2-load-npc-texts-from-backend.md)
-- [NPC: Dialogue is shown](u-npc-3-show-npc-dialogbox.md)
-- [NPC: NPCs are marked visually if they have been talked with](u-npc-4-mark-npc-as-talked-to.md)
+- [NPC load text from backend (`u.overworld-7`)](u-overworld-07-load-npc-texts-from-backend.md)
+- [NPC show dialogue box (`u.overworld-08`)](u-overworld-08-show-npc-dialogbox.md)
+- [NPC mark as talked to (`u.overworld-9`)](u-overworld-09-mark-npc-as-talked-to.md)
 

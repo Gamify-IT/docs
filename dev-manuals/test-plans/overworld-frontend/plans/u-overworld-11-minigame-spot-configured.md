@@ -1,9 +1,7 @@
-# Minigames: Pre-game start (`u.minigames-1`)
-
-Number: U.minigame.1  
-Version: V0.2, 2022-08-09, split test case
-Author: Florian Wüst  
-Tester: -  
+# Overworld: Minigame spot (`u.overworld-11`)
+ 
+Version: V1.2, 2022-08-11, adapt to new template \
+Author: Florian Wüst   
 
 ## Description
 
@@ -23,14 +21,14 @@ Nothing changed for the backend.
 
 1. Walk to the minigame spot
 2. The minigame spot is displayed
-3. The minigame spot is colored blue
+3. The minigame spot is colored red
 4. Walk **in**to the minigame spot
 4. The minigame overview panel opens
 5. The displayed minigame and player specific highscore are the ones stored in the backend
 
 ## Alternative procedures
 
-N/A
+3.1 The player already achieved a highscore above 50 for that minigame: the minigame spot is colored blue
 
 ## Criticality
 

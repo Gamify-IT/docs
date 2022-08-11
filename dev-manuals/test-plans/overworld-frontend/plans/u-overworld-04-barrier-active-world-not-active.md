@@ -1,9 +1,7 @@
-# Barrier: Block inactive worlds (`u.barrier-3`)
+# Overworld: Barrier block inactive worlds (`u.overworld-4`)
 
-Number: U.barrier.3  
-Version: V0.2, 2022-08-10, add one step to procedure  
+Version: V1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder  
-Tester: -  
 
 ## Description
 

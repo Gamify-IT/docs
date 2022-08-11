@@ -1,9 +1,7 @@
-# Minigame: Loading works (`u.minigame-2`)
+# Overworld: Minigame loading (`u.overworld-12`)
 
-Number: U.minigame.2  
-Version: V0.3, 2022-08-09, adapt typical procedure  
+Version: V1.3, 2022-08-11, adapt to new template \
 Author: Florian Wüst  
-Tester: -  
 
 ## Description
 
@@ -37,4 +35,4 @@ High
 
 ## Linkages
 
-- [Minigame Spots (`u.minigame-1`)](u-minigame-1-spot-is-well-configured.md)
+- [Minigame spot (`u.overworld-11`)](u-overworld-11-minigame-spot-configured.md)

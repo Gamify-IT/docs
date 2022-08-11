@@ -1,9 +1,7 @@
-# HUD: Submenus work (`u.hud-5`)
+# Overworld: Submenus (`u.overworld-17`)
 
-Number: U.hud.5
-Version: V0.1, 2022-08-10, create test case
-Author: Michael Linder
-Tester: -
+Version: V1.1, 2022-08-11, adapt to new template \
+Author: Michael Linder, Florian Wüst
 
 ## Description
 

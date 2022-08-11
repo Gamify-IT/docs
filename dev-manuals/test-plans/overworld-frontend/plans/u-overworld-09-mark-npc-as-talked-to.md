@@ -1,9 +1,7 @@
-# NPC mark as talked to (`u.npc-4`)
+# Overworld: NPC mark as talked to (`u.overworld-9`)
 
-Number: u.npc-4  
-Version: v0.2, 2022-08-04, fix grammar and add "check talked to" section  
+Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  
-Tester: -
 
 ## Description
 
@@ -35,4 +33,4 @@ Medium
 
 ## Linkages
 
--
+N/A

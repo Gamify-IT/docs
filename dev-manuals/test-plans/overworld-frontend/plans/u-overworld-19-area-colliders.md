@@ -1,6 +1,6 @@
-# Name: Area colliders
+# Overworld: Area colliders (`u.overworld-19`)
 
-Version: v1.3, 2022-08-10, move object colliders to separate test case \
+Version: v1.4, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder
 
 ## Description

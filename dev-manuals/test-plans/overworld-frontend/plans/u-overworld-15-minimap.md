@@ -1,9 +1,7 @@
-# HUD: minimap functions (`u.hud-1`)
+# Overworld: Minimap (`u.overworld-15`)
 
-Number: U.hud.1
-Version: V0.1, 2022-08-10, create test case
-Author: Michael Linder
-Tester: -
+Version: V1.1, 2022-08-11, adapt to new template \
+Author: Michael Linder, Florian Wüst
 
 ## Description
 
