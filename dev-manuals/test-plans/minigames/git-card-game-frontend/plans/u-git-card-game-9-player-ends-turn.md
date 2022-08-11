@@ -30,4 +30,4 @@ High
 
 ## Linkages
 
-- [Enemys turn (`u.git-card-game-4`)](u-git-card-game-4-enemys-turn.md)
+- [Enemys turn (`u.git-card-game-10`)](u-git-card-game-10-enemys-turn.md)
