@@ -1,4 +1,4 @@
-# Overworld: Barrier block inactive worlds (`u.overworld-4`)
+# Overworld: Barrier block inactive worlds (`u.overworld-04`)
 
 Version: V1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder  

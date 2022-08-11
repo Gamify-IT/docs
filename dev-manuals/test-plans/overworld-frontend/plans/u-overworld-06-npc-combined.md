@@ -1,4 +1,4 @@
-# Overworld: NPC testcases combined (`u.overworld-6`)
+# Overworld: NPC testcases combined (`u.overworld-06`)
 
 Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  

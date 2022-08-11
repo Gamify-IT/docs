@@ -1,4 +1,4 @@
-# Overworld: Nearby areas are loaded (`u.overworld-1`)
+# Overworld: Nearby areas are loaded (`u.overworld-01`)
 
 Version: V1.1, 2022-08-11, adapt to new template \
 Author: Florian Wüst

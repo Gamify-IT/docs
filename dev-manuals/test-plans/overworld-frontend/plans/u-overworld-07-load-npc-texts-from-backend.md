@@ -1,4 +1,4 @@
-# Overworld: NPC load text from backend (`u.overworld-7`)
+# Overworld: NPC load text from backend (`u.overworld-07`)
 
 Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  

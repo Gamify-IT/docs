@@ -1,4 +1,4 @@
-# Overworld: NPC mark as talked to (`u.overworld-9`)
+# Overworld: NPC mark as talked to (`u.overworld-09`)
 
 Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  

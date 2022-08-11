@@ -1,4 +1,4 @@
-# Overworld: Barrier block locked worlds (`u.overworld-3`)
+# Overworld: Barrier block locked worlds (`u.overworld-03`)
  
 Version: V1.4, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder

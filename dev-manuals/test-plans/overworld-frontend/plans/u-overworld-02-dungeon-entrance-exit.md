@@ -1,4 +1,4 @@
-# Overworld: Dungeon entrance and exit working (`u.overworld-2`)
+# Overworld: Dungeon entrance and exit working (`u.overworld-02`)
 
 Version: V1.4, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder

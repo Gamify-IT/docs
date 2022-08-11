@@ -1,4 +1,4 @@
-# Overworld: Barrier not present on playable worlds (`u.overworld-5`)
+# Overworld: Barrier not present on playable worlds (`u.overworld-05`)
  
 Version: V1.3, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Michael Linder  
