@@ -19,7 +19,7 @@ The view lists the list of NPCs with the posibillity to change their texts.
 ## Typical procedure
 
 1. The view shows at least 10 NPCs
-2. Every npc has an edit button where the configurations can be edited
+2. Every NPC can be edited
 
 ## Alternative procedures
 

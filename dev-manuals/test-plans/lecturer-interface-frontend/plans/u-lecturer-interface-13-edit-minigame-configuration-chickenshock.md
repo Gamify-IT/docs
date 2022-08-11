@@ -18,24 +18,28 @@ The configuration of the `chickenshock` instance was changed.
 
 ## Typical procedure
 
-1. Click on a dropwdown of a minigame to change the game
-2. Select `CHICKENSHOCK`
-3. A feedback toast message appears which contains that game was updated
-4. The game is now displayed in the dropdown
-5. Click the edit button where the game was updated
-6. A modal opens
-7. Press add question button
-8. The modal changes
-9. Fill out the form, including the question, the correct answer, and two wrong answers
-10. Press the Ok button of the modal
-11. The modal changes back
-12. The entered question with correct answer and wrong answers is displayed in the modal
-13. Press the Ok button of the modal
-14. The modal closes
-15. A success message appears
+1. Click the edit button of a `chickenshock` minigame
+2. A modal opens
+3. Press add question button
+4. The modal changes
+5. Fill out the form, including the question, the correct answer, and two wrong answers
+6. Press the Ok button of the modal
+7. The modal changes back
+8. The entered question with correct answer and wrong answers is displayed in the modal
+9. Press the Ok button of the modal
+10. The modal closes
+11. A success message appears
 
 ## Alternative procedures
 
+6.1: Hit the cancel button of the modal: \
+    6.1.1 The modal changes back \
+    6.1.2 No new question was added
+    6.1.3 Continue with step `9`
+
+9.1: Hit the cancel button of the modal: \
+    9.1.1 The modal closes \
+    9.1.2 The changes to the configuration does not get saved
 
 ## Criticality
 
