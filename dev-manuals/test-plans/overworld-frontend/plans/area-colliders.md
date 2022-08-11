@@ -1,9 +1,7 @@
 # Name: Area colliders
 
-Number: U.area.2
-Version: V0.3, 2022-08-10, move object colliders to separate test case
+Version: v1.3, 2022-08-10, move object colliders to separate test case \
 Author: Florian Wüst, Michael Linder
-Tester: -
 
 ## Description
 

@@ -1,4 +1,4 @@
-# Name: area name function
+# HUD: Show current area (`u.hud-2`)
 
 Number: U.hud.2
 Version: V0.1, 2022-08-10, create test case
