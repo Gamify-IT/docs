@@ -10,7 +10,7 @@ A `chickenshock` configuration can be customized to display custom questions and
 
 ## Precondition
 
-At least one course is created. The tester is on the view of an area minigames list as described in the description above.
+At least one course with a `CHICKENSHOCK` minigame is created. The tester is located where the `chickenshock` instance can be configured.
 
 ## Postcondition
 
@@ -26,13 +26,7 @@ The configuration of the `chickenshock` instance was changed.
 6. A modal opens
 7. Press add question button
 8. The modal changes
-9. Fill out the form:
-    - Enter a question
-    - Enter a correct answer
-    - Enter a wrong answer
-        - click add
-    - Enter another answer
-        - click add
+9. Fill out the form, including the question, the correct answer, and two wrong answers
 10. Press the Ok button of the modal
 11. The modal changes back
 12. The entered question with correct answer and wrong answers is displayed in the modal

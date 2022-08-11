@@ -24,7 +24,8 @@ The game to play for the minigame spot was changed.
 4. The game is now displayed in the dropdown
 
 ## Alternative procedures
-
+2.1. Cancel the edit by closing the dropdown without selecting a game \
+3.1. Select the already selected game - nothing happens
 
 ## Criticality
 

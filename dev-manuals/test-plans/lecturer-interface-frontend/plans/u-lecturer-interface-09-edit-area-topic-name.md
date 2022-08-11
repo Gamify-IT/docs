@@ -19,7 +19,7 @@ The topic name of an area was updated and is shown in the view.
 ## Typical procedure
 
 1. Click on an edit topic name button of an area (select world/dungeon by static name)
-2. A input field shows up
+2. An input field shows up
 3. Change the topic name to a new topic name in the input field
 4. Hit the submit button
 5. A feedback toast message appears which contains that topic name was updated

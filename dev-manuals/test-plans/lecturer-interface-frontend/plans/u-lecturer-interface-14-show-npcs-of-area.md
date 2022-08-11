@@ -10,15 +10,15 @@ The NPCs of an area are listed on a view.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of an area npcs list as described in the description above.
+At least one course is created. The tester is on the view of an area NPCs list as described in the description above.
 
 ## Postcondition
 
-The view lists the list of npcs with the posibillity to change their texts.
+The view lists the list of NPCs with the posibillity to change their texts.
 
 ## Typical procedure
 
-1. The view shows at least 10 npcs
+1. The view shows at least 10 NPCs
 2. Every npc has an edit button where the configurations can be edited
 
 ## Alternative procedures
