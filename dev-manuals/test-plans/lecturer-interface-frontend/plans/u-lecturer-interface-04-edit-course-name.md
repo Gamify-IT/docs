@@ -19,7 +19,7 @@ The name of the course was changed to the new entered name.
 ## Typical procedure
 
 1. Click the edit name button
-2. A input field shows up
+2. An input field shows up
 3. Change the course name to a new name in the input field
 4. Hit the submit button
 5. A feedback toast message appears which contains that course name was updated

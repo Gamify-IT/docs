@@ -19,7 +19,7 @@ The semester of the course was changed to the new entered semester.
 ## Typical procedure
 
 1. Click the edit semester button
-2. A input field shows up
+2. An input field shows up
 3. Change the semester to a new semester in the input field (format `WS-20` or `SS-20`)
 4. Hit the submit button
 5. A feedback toast message appears which contains that semester was updated
