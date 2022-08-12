@@ -1,9 +1,7 @@
-# NPC show dialogue box (`u.npc-3`)
-
-Number: u.npc-3  
-Version: v0.2, 2022-08-04, fix grammar and format  
+# Overworld: NPC show dialogue box (`u.overworld-08`)
+ 
+Version: v1.2, 2022-08-11, adapt to new template \
 Author: Florian Wüst, Gilian Rehm, Leon Hofmeister  
-Tester: -
 
 ## Description
 
@@ -34,4 +32,4 @@ Medium
 
 ## Linkages
 
-- [NPC: Load text from backend](u-npc-2-load-npc-texts-from-backend.md)
+- [NPC load text from backend (`u.overworld-7`)](u-overworld-07-load-npc-texts-from-backend.md)
