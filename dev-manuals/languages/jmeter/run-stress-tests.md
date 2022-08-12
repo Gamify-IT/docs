@@ -20,16 +20,24 @@ Or open up JMeter > `file` > `open`
 
 Press on the start button in the toolbar.
 
-<img src="images/start.png" />
+![starting the test](images/start.png)
 
-To stop it press the obviouse `Stop` button.
+To stop it, press the obvious `Stop` button.
+
+### From the command line
+
+Use
+```bash
+$JMETER_EXECUTABLE -t $LOAD_PROFILE -n $ARGUMENTS
+```
+to test a load profile without the UI.
 
 ## See reports
 
-On the left navigate to `View Result Tree`
+Navigate to `View Result Tree` on the left.
 
-<img src="images/report.png" />
+![seeing results example](images/report.png)
 
 ## Clear reports
 
-Press on one item in the tree and press `Ctrl + E`.
+Click on one item in the tree and press <kbd>Ctrl</kbd> + <kbd>E</kbd>.
