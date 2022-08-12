@@ -1,4 +1,4 @@
-# Crosswordpuzzle finish game (`u.crosswordpuzzle-3`)
+# Crosswordpuzzle: finish game (`u.crosswordpuzzle-3`)
 
 Version: v1.0, 2022-08-12, created test plan \
 Author: Aaron Schmid
@@ -18,16 +18,17 @@ A modal is shown where you result is displayed.
 
 ## Typical procedure
 
-1. Open the crossword-puzzle
+1. Open the crossword-puzzle with the given configuration
 2. Press the `start` button
 3. Input the correct answers in the crosswordpuzzle
 4. Press the `Evaluate` button
-5. A modal is shown that says `Congratulations!` `Everything right!`
+5. A success message is shown
 
 ## Alternative procedures
+
 3.1 Input wrong answers in the crosswordpuzzle \
     3.1.1 Press the `Evaluate` button \
-    3.1.2 A modal is shown that says `Not the correct answers` `Maybe the next time`
+    3.1.2 A failure message is shown
 
 ## Criticality
 

@@ -1,4 +1,4 @@
-# Crosswordpuzzle start game (`u.crosswordpuzzle-2`)
+# Crosswordpuzzle: start game (`u.crosswordpuzzle-2`)
 
 Version: v1.0, 2022-08-12, created test plan \
 Author: Aaron Schmid
@@ -6,7 +6,7 @@ Author: Aaron Schmid
 
 ## Description
 
-This use case verifys that the game starts correctly.
+This use case verifies that the game starts correctly.
 
 ## Precondition
 
@@ -18,7 +18,7 @@ A crosswordpuzzle, the questions and a `Evaluate` button are visible.
 
 ## Typical procedure
 
-1. Open the crosswordpuzzle
+1. Open the crosswordpuzzle with the given configuration
 2. Press the `start` button
 3. A crosswordpuzzle, the questions and a `Evaluate` button are visible
 

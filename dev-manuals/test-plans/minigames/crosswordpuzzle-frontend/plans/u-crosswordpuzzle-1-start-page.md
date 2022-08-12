@@ -1,4 +1,4 @@
-# Crosswordpuzzle start page (`u.crosswordpuzzle-1`)
+# Crosswordpuzzle: start page (`u.crosswordpuzzle-1`)
 
 Version: v1.0, 2022-08-12, created test plan \
 Author: Aaron Schmid
@@ -6,7 +6,7 @@ Author: Aaron Schmid
 
 ## Description
 
-This use case verifys that the start page is shown correctly.
+This use case verifies that the start page is shown correctly.
 
 ## Precondition
 
@@ -14,11 +14,11 @@ A configuration has been stored in the backend and selected in the frontend.
 
 ## Postcondition
 
-The questions and a start button are visible.
+The questions and the `Start` button are visible.
 
 ## Typical procedure
 
-1. Open the crossword-puzzle
+1. Open the crossword-puzzle with the given configuration
 2. The questions are shown to the user
 
 ## Alternative procedures
