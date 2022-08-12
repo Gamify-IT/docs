@@ -1,4 +1,4 @@
-# Lecturer-Interface: Edit course description (`u.lecturer-interface-5`)
+# Lecturer-Interface: Edit course description (`u.lecturer-interface-05`)
 
 
 Version: V1.0, 09.08.2022 \

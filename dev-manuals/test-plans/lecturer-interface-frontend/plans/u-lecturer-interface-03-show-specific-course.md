@@ -1,4 +1,4 @@
-# Lecturer-Interface: Show specific course (`u.lecturer-interface-3`)
+# Lecturer-Interface: Show specific course (`u.lecturer-interface-03`)
 
 
 Version: V1.0, 08.08.2022 \

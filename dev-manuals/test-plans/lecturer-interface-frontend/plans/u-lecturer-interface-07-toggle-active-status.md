@@ -1,4 +1,4 @@
-# Lecturer-Interface: Toggle active status (`u.lecturer-interface-7`)
+# Lecturer-Interface: Toggle active status (`u.lecturer-interface-07`)
 
 
 Version: V1.0, 09.08.2022 \

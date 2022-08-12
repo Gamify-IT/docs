@@ -1,4 +1,4 @@
-# Lecturer-Interface: Switch from course to world view (`u.lecturer-interface-8`)
+# Lecturer-Interface: Switch from course to world view (`u.lecturer-interface-08`)
 
 
 Version: V1.0, 09.08.2022 \
