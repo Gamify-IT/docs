@@ -1,0 +1,175 @@
+Datum,Testcase,Tester,Erfolg,genauere Fehlerbeschreibung,Browser (version),OS
+10.08.2022,u.overworld-01,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-05,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-03,Gilian Rehm,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-04,Gilian Rehm,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-02,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-15,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-14,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-13,Gilian Rehm,0,"minimap zoom works as intended - overworld zoom level 1 and 2 is identical for me, level 3 zooms far out",Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-16,Gilian Rehm,0,you can interact with an npc although you are in the pause menu,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-17,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-11,Gilian Rehm,0,minigamespot isn't blue - everything else works,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-12,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-10,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-01,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-05,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-03,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-04,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-02,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-15,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-14,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-13,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-16,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-17,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-11,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-12,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-10,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-05,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-03,Gilian Rehm,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-04,Gilian Rehm,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-02,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-15,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-14,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-13,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-16,Gilian Rehm,0,you can interact with an npc although you are in the pause menu,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-17,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-11,Gilian Rehm,0,minigamespot isn't blue - everything else works,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-12,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-10,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-07,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-08,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-09,Gilian Rehm,1,,Safari 15.6 (17613.3.9.1.5),MacOS
+10.08.2022,u.overworld-07,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-08,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-09,Gilian Rehm,1,,Firefox 103.0.2 (64-Bit),MacOS
+10.08.2022,u.overworld-07,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-08,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+10.08.2022,u.overworld-09,Gilian Rehm,0,"everything that requires keystrokes understandably does not work on mobile devices, but displaying the game in general works",Safari 16,iOS
+12.08.2022,u.lecturer-interface-02,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-01,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-03,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-04,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-05,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-06,Max Kästner,0,"alternative procedure 3.1 failed: when enetering semester in wrong format, a failure message displays, but the semester updates to this new semester in the view (in the backend the semester gets of course not updated)",Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-07,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-08,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-09,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-10,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-11,Max Kästner,1,"comment for this: the game dropdown displays nothing, but we have a NONE placeholder",Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-12,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-13,Max Kästner,1,"comment for this: update message is: Configurations of 4bb311f2-8e0b-49a3-be10-6eb378442d89 was saved! -> Do not display the id, display the index",Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-14,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+12.08.2022,u.lecturer-interface-15,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.overworld-01,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-02,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-03,Michael Linder,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-04,Michael Linder,0,you can walk to area 2 even when the barrier is set because of the updated hitboxes,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-05,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-06,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-07,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-08,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-09,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-10,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-11,Michael Linder,0,colors dont work correctly,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-12,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-13,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-14,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-15,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-16,Michael Linder,0,you can interact with an npc although you are in the pause menu,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-17,Michael Linder,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-18,Michael Linder,0,there are spots where you can walk behind/inside where you shouldnt,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.overworld-19,Michael Linder,0,there are spots where you can walk behind/inside where you shouldnt,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.lecturer-interface-01,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-02,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-03,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-04,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-05,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-06,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-07,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.lecturer-interface-08,Jonathan Scholz,1,,Safari 15,iPadOS
+13.08.2022,u.bugfinder-1,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-2,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-3,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-4,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-5,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-6,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.bugfinder-7,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.crosswordpuzzle-1,Max Kästner,0,not executed because I could not create configuration on deployment server (500 error),Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.crosswordpuzzle-2,Max Kästner,0,not executed because I could not create configuration on deployment server (500 error),Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.crosswordpuzzle-3,Max Kästner,0,not executed because I could not create configuration on deployment server (500 error),Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.crosswordpuzzle-4,Max Kästner,0,not executed because I could not create configuration on deployment server (500 error),Firefox 103.0.2 (64-Bit),Windows
+13.08.2022,u.regex-game-1,Max Kästner,1,"there is no start button, just a play button, but i think i can accept this",Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.regex-game-2,Max Kästner,0,"after selecting a wrong regex, I get redirected to a ""You failed"" page, no new regex is shown as described in step 4",Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.regex-game-3,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.regex-game-4,Max Kästner,1,,Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.regex-game-5,Max Kästner,1,I dont like the tests: error is thrown before game starts and why should the game work is intended when it is impossible to solve the regex quiz?,Firefox 103.0.2 (64-Bit),Linux
+13.08.2022,u.overworld-01,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-02,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-03,Aaron Schmid,0,walk below the barrier to Area 2,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-04,Aaron Schmid,0,walk below the barrier to Area 2,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-05,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-06,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-07,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-08,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-09,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-10,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-11,Aaron Schmid,0,colors are wrong,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-12,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-13,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-14,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-15,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-16,Aaron Schmid,0,you can interact with a npc in the pause menu,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-17,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-18,Aaron Schmid,0,there are spots where you can walk behind/inside where you shouldnt,Chrome 104.0.5112.81 (64-Bit),Windows
+13.08.2022,u.overworld-19,Aaron Schmid,0,there are spots where you can walk behind/inside where you shouldnt,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-01,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-02,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-03,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-04,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-05,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-06,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-07,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-08,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-09,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-10,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-11,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-12,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-13,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-14,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-15,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.crosswordpuzzle-1,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.crosswordpuzzle-2,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.crosswordpuzzle-3,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.crosswordpuzzle-4,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-01,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-02,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-03,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-04,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-05,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-06,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-07,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-08,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-09,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.git-card-game-10,Aaron Schmid,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.chickenshock-1,Martin Lautenschlager,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.chickenshock-1,Martin Lautenschlager,1,,Firefox 103.0.2 (64-Bit),Windows
+14.08.2022,u.chickenshock-2,Martin Lautenschlager,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.chickenshock-2,Martin Lautenschlager,1,,Firefox 103.0.2 (64-Bit),Windows
+14.08.2022,u.chickenshock-3,Martin Lautenschlager,1,,Chrome 104.0.5112.81 (64-Bit),Windows
+14.08.2022,u.chickenshock-3,Martin Lautenschlager,1,,Firefox 103.0.2 (64-Bit),Windows
+14.08.2022,u.lecturer-interface-01,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-02,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-03,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-04,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-05,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-06,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-07,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-08,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-09,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-10,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-11,Michael Linder,1,only chickenschock can be edited,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-12,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-13,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-14,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
+14.08.2022,u.lecturer-interface-15,Michael Linder,1,,Edge 104.0.1293.47 (64 Bit),Windows
