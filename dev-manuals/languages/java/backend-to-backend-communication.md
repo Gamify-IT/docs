@@ -28,12 +28,13 @@ To set up the feign client, you need to include the following dependencies in th
 </dependencyManagement>
 ```
 
-To implement the feign client into a spring boot project, 
+To implement the feign client into a spring boot project,  
 you have to do the following in your source code:
 
 This is an example to send a minigame result from the chickenshock-backend to the overworld-backend.
 
 Add `@EnableFeignClients` to your ServiceApplication file.
+
 ```java
 @SpringBootApplication
 @EnableFeignClients
@@ -41,6 +42,7 @@ public class ChickenshockServiceApplication {
 ```
 
 Add an ResultClient like this:
+
 ```java
 package de.unistuttgart.chickenshockbackend.clients;
 
@@ -58,23 +60,27 @@ public interface ResultClient {
 ```
 
 Import the client in your service like this:
+
 ```java
 @Autowired
 ResultClient resultClient;
 ```
 
 And then call the method like this:
+
 ```java
 OverworldResultDTO resultDTO = new OverworldResultDTO("CHICKENSHOCK", gameResultDTO.getConfigurationAsUUID(), 50, "1");
 resultClient.submit(resultDTO);
 ```
 
 To set the url of the overworld backend you need to add this to you application.properties file.
+
 ```properties
 overworld.url = http://localhost/overworld/api/v1
 ```
 
 For this example to work, you also need to add the following class:
+
 ```java
 package de.unistuttgart.chickenshockbackend.data;
 
