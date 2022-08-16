@@ -10,7 +10,8 @@ A specific course can be deleted.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of the course (`/courses/<course-id>`)
+At least one course is created. The tester is on the view of the course (`/courses/<course-id>`).
+
 ## Postcondition
 
 The course is deleted.
