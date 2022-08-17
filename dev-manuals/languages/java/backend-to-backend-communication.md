@@ -1,3 +1,5 @@
+# backend to backend communication in spring boot
+
 For backend to backend communication we use [OpenFeign](https://spring.io/projects/spring-cloud-openfeign). 
 To set up the feign client, you need to include the following dependencies in the `pom.xml`.
 
@@ -31,7 +33,7 @@ To set up the feign client, you need to include the following dependencies in th
 To implement the feign client into a spring boot project,  
 you have to do the following in your source code:
 
-This is an example to send a minigame result from the chickenshock-backend to the overworld-backend.
+This is an example on how to send a minigame result from the chickenshock-backend to the overworld-backend.
 
 Add `@EnableFeignClients` to your ServiceApplication file.
 
