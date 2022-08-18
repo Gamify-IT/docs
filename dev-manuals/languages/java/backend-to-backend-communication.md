@@ -1,7 +1,7 @@
-# backend to backend communication in spring boot
+# Backend-to-Backend communication in spring boot
 
-For backend to backend communication we use [OpenFeign](https://spring.io/projects/spring-cloud-openfeign). 
-To set up the feign client, you need to include the following dependencies in the `pom.xml`.
+For backend-to-backend communication we use [OpenFeign](https://spring.io/projects/spring-cloud-openfeign). 
+To set up the feign client, you need to include the following dependencies in your `pom.xml`:
 
 ```xml
 <properties>
@@ -30,12 +30,10 @@ To set up the feign client, you need to include the following dependencies in th
 </dependencyManagement>
 ```
 
-To implement the feign client into a spring boot project,  
-you have to do the following in your source code:
+To implement the feign client into a spring boot project, you have to perform the following steps 
+(the example is based on communication from chickenshock-backend to overworld-backend):
 
-This is an example on how to send a minigame result from the chickenshock-backend to the overworld-backend.
-
-Add `@EnableFeignClients` to your ServiceApplication file.
+Annotate  your `Application` or `Configuration` class with `@EnableFeignClients`. Preferably `Configuration`, if present.
 
 ```java
 @SpringBootApplication
@@ -43,39 +41,37 @@ Add `@EnableFeignClients` to your ServiceApplication file.
 public class ChickenshockServiceApplication {
 ```
 
-Add an ResultClient like this:
+Add a `ResultClient`:
 
 ```java
 package de.unistuttgart.chickenshockbackend.clients;
 
 import de.unistuttgart.chickenshockbackend.data.OverworldResultDTO;
-import feign.Headers;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @FeignClient(value = "resultClient", url="${overworld.url}/internal")
 public interface ResultClient {
     @PostMapping("/submit-game-pass")
-    @Headers("Content-Type: application/json")
     void submit(OverworldResultDTO resultDTO);
 }
 ```
 
-Import the client in your service like this:
+Import the client into your service:
 
 ```java
 @Autowired
 ResultClient resultClient;
 ```
 
-And then call the method like this:
+And then call the method:
 
 ```java
 OverworldResultDTO resultDTO = new OverworldResultDTO("CHICKENSHOCK", gameResultDTO.getConfigurationAsUUID(), 50, "1");
 resultClient.submit(resultDTO);
 ```
 
-To set the url of the overworld backend you need to add this to you application.properties file.
+To set the URL of the overworld backend you need to add the value to your `application.properties`:
 
 ```properties
 overworld.url = http://localhost/overworld/api/v1
