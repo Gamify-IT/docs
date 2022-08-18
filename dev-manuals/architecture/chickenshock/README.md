@@ -1,6 +1,6 @@
 # Architecture of Chickenshock
 
-Project: https://github.com/Gamify-IT/chickenshock
+Project: https://github.com/Gamify-IT/chickenshock \
 Scripts: https://github.com/Gamify-IT/chickenshock/tree/main/Assets/Scripts
 ## Purpose
 
