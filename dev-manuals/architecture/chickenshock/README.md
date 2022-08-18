@@ -1,5 +1,7 @@
 # Architecture of Chickenshock
 
+Project: https://github.com/Gamify-IT/chickenshock
+
 ## Purpose
 
 Being a fun-to-play minigame that lets users choose one correct answer from a bunch of wrong answers
