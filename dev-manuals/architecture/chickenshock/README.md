@@ -15,6 +15,7 @@ Each script that is put on a `GameObject` can have a `Start` method (called once
 If the `GameObject` is destroyed everything attached to it will be destroyed as well, meaning no script attached to the destroyed `GameObject` will be executed again.
 
 We decided to split our Chickenshock game into 3 main scenes:
+
 - `Main Screen`: contains the content of the start screen
 - `Game`: contains the content of the main game
 - `End Screen`: contains the content of the end screen
