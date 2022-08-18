@@ -1,0 +1,40 @@
+# Architecture of `$SERVICE`
+
+## Purpose
+
+`$PURPOSE`,
+
+Being a fun-to-play minigame that lets users choose one correct answer from a bunch of wrong answers
+
+
+## General code structure
+
+`$STRUCTURE`,
+
+Unity uses C# scripts.
+There is no "main"-class in Unity scripts. 
+Each script that is put on a `GameObject` can have a `Start` method (called once when the `GameObject` is created), an `Awake` method (called once before `Start`) and an `Update` method (called on each frame). 
+If the `GameObject` is destroyed everything attached to it will be destroyed aswell, meaning no script attached to the destroyed `GameObject` will be executed again.
+
+We decided to split our Chickenshock game into 3 main scenes:
+- `Main Screen`: contains the content of the start screen
+- `Game`: contains the content of the main game
+- `End Screen`: contains the content of the end screen
+
+
+## Starting the service
+
+See the README or the user manual.
+
+## Known Design Flaws
+
+- no known design flaws
+
+## Known Bugs
+
+An up-to-date list of open bugs can be found at <https://github.com/orgs/Gamify-IT/projects/6/views/11> by searching for `$SERVICE`.
+
+## Tests
+
+In general, the following things are tested for `$SERVICE`:
+- everything manually with a testplan
