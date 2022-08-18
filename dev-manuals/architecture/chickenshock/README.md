@@ -36,7 +36,7 @@ This is a static class because there is no option we know of that uses a normal 
 
 ## Known Design Flaws
 
-- no known design flaws
+N/A
 
 ## Known Bugs
 
