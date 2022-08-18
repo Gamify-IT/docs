@@ -20,6 +20,16 @@ We decided to split our Chickenshock game into 3 main scenes:
 
 See the README or the user manual.
 
+## What to look at
+
+Generally all `.cs` files. 
+The key script files that contain most of the actual game behavior are the `Global.cs` file and the `ShootWeapon.cs` file. 
+
+## What to ignore
+
+We created a `ChickenshockProperties` file for less redundance. 
+This is a static class because there is no option we know of that uses a normal `.properties` file in Unity.
+
 ## Known Design Flaws
 
 - no known design flaws
