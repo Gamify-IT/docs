@@ -2,14 +2,9 @@
 
 ## Purpose
 
-`$PURPOSE`,
-
 Being a fun-to-play minigame that lets users choose one correct answer from a bunch of wrong answers
 
-
 ## General code structure
-
-`$STRUCTURE`,
 
 Unity uses C# scripts.
 There is no "main"-class in Unity scripts. 
@@ -20,7 +15,6 @@ We decided to split our Chickenshock game into 3 main scenes:
 - `Main Screen`: contains the content of the start screen
 - `Game`: contains the content of the main game
 - `End Screen`: contains the content of the end screen
-
 
 ## Starting the service
 
