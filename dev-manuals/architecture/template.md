@@ -22,6 +22,14 @@ This backend has the following package structure
 
 See the README or the user manual.
 
+## What to look at
+
+- `$LIST OF HIGH-QUALITY CODE EXAMPLES`
+
+## What to ignore
+
+- `$LIST OF LOW-QUALITY CODE EXAMPLES`
+
 ## Known Design Flaws
 
 - `$LIST OF DESIGN FLAWS PRESENT AT THE MOMENT`
