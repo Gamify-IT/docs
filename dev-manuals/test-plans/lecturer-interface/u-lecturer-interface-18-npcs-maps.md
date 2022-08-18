@@ -10,7 +10,7 @@ The maps showing the positions of all NPCs of an area are correct.
 
 ## Precondition
 
-All NPCs in the area are configurated and a map is created and displayed in the lecturer interface.
+Maps showing all NPC spots of an area exist for all areas and are displayed in the lecturer interface at the appropriate location.
 
 ## Postcondition
 
@@ -18,8 +18,8 @@ N/A
 
 ## Typical procedure
 
-1. All world maps show the correct NPC positions
-2. All dungeon maps show the correct NPC positions
+1. For all world maps, the NPC spots displayed are up to date with the current state of the world in the overworld
+2. For all dungeon maps, the NPC spots displayed are up to date with the current state of the dungeon in the overworld
 
 ## Alternative procedures
 

@@ -10,7 +10,7 @@ The maps showing the positions of all minigames of an area are correct.
 
 ## Precondition
 
-All minigames in the area are configurated and a map is created and displayed in the lecturer interface.
+Maps showing all minigame spots of an area exist for all areas and are displayed in the lecturer interface at the appropriate location.
 
 ## Postcondition
 
@@ -18,8 +18,8 @@ N/A
 
 ## Typical procedure
 
-1. All world maps show the correct minigame positions
-2. All dungeon maps show the correct minigame positions
+1. For all world maps, the minigame spots displayed are up to date with the current state of the world in the overworld
+2. For all dungeon maps, the minigame spots displayed are up to date with the current state of the dungeon in the overworld
 
 ## Alternative procedures
 
