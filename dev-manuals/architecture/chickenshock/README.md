@@ -1,7 +1,8 @@
 # Architecture of Chickenshock
 
-Project: https://github.com/Gamify-IT/chickenshock \
-Scripts: https://github.com/Gamify-IT/chickenshock/tree/main/Assets/Scripts
+Project: <https://github.com/Gamify-IT/chickenshock> \
+Scripts: <https://github.com/Gamify-IT/chickenshock/tree/main/Assets/Scripts>
+
 ## Purpose
 
 Being a fun-to-play minigame that lets users choose one correct answer from a bunch of wrong answers
