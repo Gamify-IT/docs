@@ -20,7 +20,7 @@ We decided to split our Chickenshock game into 3 main scenes:
 
 ## Starting the service
 
-See the README or the user manual.
+See the [README](https://github.com/Gamify-IT/chickenshock#readme).
 
 ## What to look at
 
