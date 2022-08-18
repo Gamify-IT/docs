@@ -81,9 +81,9 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Test Data Management
+   :caption: Test Data
 
-   ./test-data-management/*
+   ./testdata/*
 
 .. toctree::
    :glob:
