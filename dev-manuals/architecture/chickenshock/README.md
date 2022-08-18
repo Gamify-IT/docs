@@ -9,10 +9,10 @@ Being a fun-to-play minigame that lets users choose one correct answer from a bu
 
 ## General code structure
 
-Unity uses C# scripts.
-There is no "main"-class in Unity scripts. 
-Each script that is put on a `GameObject` can have a `Start` method (called once when the `GameObject` is created), an `Awake` method (called once before `Start`) and an `Update` method (called on each frame). 
-If the `GameObject` is destroyed everything attached to it will be destroyed aswell, meaning no script attached to the destroyed `GameObject` will be executed again.
+Unity uses C# scripts. \
+There is no "main"-class in Unity scripts. \
+Each script that is put on a `GameObject` can have a `Start` method (called once when the `GameObject` is created), an `Awake` method (called once before `Start`), and an `Update` method (called on each frame). \
+If the `GameObject` is destroyed everything attached to it will be destroyed as well, meaning no script attached to the destroyed `GameObject` will be executed again.
 
 We decided to split our Chickenshock game into 3 main scenes:
 - `Main Screen`: contains the content of the start screen
