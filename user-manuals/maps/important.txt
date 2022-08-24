@@ -1,0 +1,5 @@
+DO NOT COMMIT pngs in this directory!
+Use webps instead for the maps.
+GitHub, our developers, and our users, will thank you for it.
+If there are not-webp images, use 'for world in world{1..4} ; do for dungeon in dungeon{1..4} ; do mogrify -format webp $world-$dungeon/*.png ; done ; done ' followed by 'rm */*.${IMAGE_EXTENSION:-png}' in this folder if you are on linux.
+Do not forget to force push those changes in that case so that there stays no trace of the pngs.
