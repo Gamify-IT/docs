@@ -28,7 +28,7 @@ The game shows the achieved result.
 
 ## Alternative procedures
 
-x.1. Clicking "Restart" restarts the game with the same config 
+x.1. Clicking "Restart" restarts the game with the same config \
 x.2. Clicking "Close" exits the game 
 
 ## Criticality
