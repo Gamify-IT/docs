@@ -10,7 +10,7 @@ All selfwritten code files are stored in [Assets/Scripts](https://github.com/Gam
 
 ## Starting the service
 
-See the README or the user manual.
+See the [README](https://github.com/Gamify-IT/overworld#readme).
 
 ## What to look at
 
