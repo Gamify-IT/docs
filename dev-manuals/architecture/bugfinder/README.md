@@ -2,23 +2,23 @@
 
 ## Purpose
 
-The frontend should be an easy to use web application for finding bugs in code snippets and correcting them. At the moment are just example codes provieded in a config file, for the future (currently in progress) a backend provides these code snippets which will be loaded from the backend.
+Being a small and fun minigame to learn programming by finding bugs in code snippets and correcting them.
 
 ## General code structure
 
-```md
-This backend has the following package structure
+This repository has the following package structure:
+
 - `assets`: Contains assets like pictures
+- `components`: Contains re-usable Vue components
 - `dummy`: Dummy data like code snippets and their solution
-- `models`: Contains the models
+- `models`: Contains the data models
 - `service`: Contains the game logic
-- `store`: Contains the vue store (not used)
-- `views`: Contains the views
-```
+- `store`: Interacts with the vue state store vuex (currently unused)
+- `views`: Contains the complete views displayed by this single-page application
 
 ## Starting the service
 
-See the [README](https://github.com/Gamify-IT/bugfinder/blob/main/README.md)
+See the [README](https://github.com/Gamify-IT/bugfinder#readme).
 
 ## What to look at
 
@@ -30,12 +30,11 @@ See the [README](https://github.com/Gamify-IT/bugfinder/blob/main/README.md)
 
 ## Known Design Flaws
 
-- no knowing issues
+- no known issues
 
 ## Known Bugs
 
 An up-to-date list of open bugs can be found at <https://github.com/orgs/Gamify-IT/projects/6/views/11> by searching for `bugfinder`.
-At the moment no knowing issues.
 
 ## Tests
 
