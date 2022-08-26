@@ -28,8 +28,8 @@ The game shows the achieved result.
 
 ## Alternative procedures
 
-x.1. Clicking "Restart" restarts the game with the same config \
-x.2. Clicking "Close" exits the game \
+x.1. Clicking "Restart" restarts the game with the same config 
+x.2. Clicking "Close" exits the game 
 
 ## Criticality
 
@@ -37,5 +37,4 @@ High
 
 ## Linkages
 
-- [Exit without starting (`u.chickenshock-2`)](u-chickenshock-2-close-without-starting.md)
 
