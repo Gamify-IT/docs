@@ -9,7 +9,7 @@ This use case verifies that a normal run through the game works correctly.
 
 ## Precondition
 
-A configuration has been chosen that both the frontend and the backend know about. The backend has stored test data about this configuration.
+A configuration has been chosen that exists in the backend. At least two questions exist in the given configuration.
 
 ## Postcondition
 
