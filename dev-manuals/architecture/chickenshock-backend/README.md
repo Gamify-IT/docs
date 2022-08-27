@@ -25,11 +25,11 @@ See the [README](https://github.com/Gamify-IT/chickenshock-backend#readme).
 
 ## What to look at
 
-- every data-class has an additional DTO class for savety purposes
+_Everything_
 
 ## What to ignore
 
-- nothing
+_NA_
 
 ## Known Design Flaws
 
