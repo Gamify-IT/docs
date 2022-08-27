@@ -21,7 +21,7 @@ The game shows the achieved result.
 1. The game has been started
 2. A question and the possible answers are loaded. Both the question and all possible answers are presented visually as boxes. The question is visually distinct from its answer options
 3. The tester chooses an answer by clicking on the answer they want to choose
-4. For a short time, feedback is shown wether the chosen answer is correct or incorrect
+4. For a short time, feedback is shown whether the chosen answer is correct or incorrect
 5. The next question is loaded
 6. Once the tester answered all questions, a feedback screen is shown that informs the tester of his overall performance
 7. Pressing `Close` exits the game
