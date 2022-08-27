@@ -1,7 +1,7 @@
 # Architecture of Chickenshock-backend
 
 Project: <https://github.com/Gamify-IT/chickenshock-backend> \
-Scripts: <https://github.com/Gamify-IT/chickenshock-backend/tree/main/src>
+Classes: <https://github.com/Gamify-IT/chickenshock-backend/tree/main/src>
 
 ## Purpose
 
