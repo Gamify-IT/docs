@@ -21,7 +21,7 @@ This backend has the following package structure
 
 ## Starting the service
 
-See the README or the user manual.
+See the [README](https://github.com/Gamify-IT/chickenshock-backend#readme).
 
 ## What to look at
 
