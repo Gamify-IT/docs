@@ -19,7 +19,9 @@ We need a system on how a player progresses and unlocks new dungeons and worlds.
 
 - User knows exactly what to do
 - All study content has to be understood to a certain degree
+- No XP (knowledge) farming possible/ necessary
 
 ## Contra Chosen Solution
 
 - Knowledge doesn't really have a purpose now
+- User might get stuck and need help with a minigame to progress
