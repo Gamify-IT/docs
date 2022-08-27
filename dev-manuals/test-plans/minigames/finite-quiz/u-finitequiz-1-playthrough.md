@@ -1,4 +1,4 @@
-# Finite-Quiz: Playthrough (`u.finite-quiz-1`)
+# FiniteQuiz: Playthrough (`u.finitequiz-1`)
 
 Version: V1.0, 2022-08-26
 Author: Martin Lautenschlager, Levi Otterbach
@@ -13,7 +13,7 @@ A configuration has been chosen that exists in the backend. At least two questio
 
 ## Postcondition
 
-The game result the tester achieved is saved in the finite-quiz database.
+The game result the tester achieved is saved in the finitequiz database.
 The game shows the achieved result.
 
 ## Typical procedure
