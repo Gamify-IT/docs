@@ -13,6 +13,13 @@ We need a system on how a player progresses and unlocks new dungeons and worlds.
 
 ## Chosen Solution
 
+3. all minigames in the current area need to be played and completed (`highscore >= x`)
+
 ## Pro Chosen Solution
 
+- User knows exactly what to do
+- All study content has to be understood to a certain degree
+
 ## Contra Chosen Solution
+
+- Knowledge doesn't really have a purpose now
