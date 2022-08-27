@@ -9,8 +9,6 @@ This backend saves relevant Chickenshock game data.
 
 ## General code structure
 
-# Architecture of Chickenshock-Backend,
-
 This backend has the following package structure
 - `data`: Contains the data objects and DTOs
 - `controllers`: Containers the server routes
