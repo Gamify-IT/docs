@@ -24,7 +24,7 @@ The tester is in the overworld.
 
 ## Alternative procedures
 
-3.1 an error while fetching data from the backend - the user is notified of the error and can start a demo version of the game
+3.1 an error occurs while fetching data from the backend - the user is notified of the error and can start a demo version of the game
 
 ## Criticality
 
