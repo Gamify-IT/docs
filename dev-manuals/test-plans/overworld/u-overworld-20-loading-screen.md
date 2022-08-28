@@ -9,7 +9,7 @@ This use case verifies that the loading screen works as intended.
 
 ## Precondition
 
-The tester is logged in
+The tester is logged in, but not in the overworld yet.
 
 ## Postcondition
 
