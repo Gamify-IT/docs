@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-The description of a specific npc can be changed on its view.
+The description of a specific NPC can be changed.
 
 ## Precondition
 
@@ -14,22 +14,24 @@ At least one course is created. The tester is located where the NPCs of an area 
 
 ## Postcondition
 
-The description of the NPC was changed to the new entered description.
+The description of the NPC was changed to the newly entered description.
 
 ## Typical procedure
 
 1. Click the edit description button of a NPC
 2. A input field shows up
 3. Change the NPC description to a new description in the input field
-4. Hit the submit button
-5. A feedback toast message appears which contains that the NPC description was updated
-6. The new NPC description replaces the old NPC description in the view and the input field disappears
+4. Submit your changes, i.e. through the corresponding button
+5. A "Success" feedback message appears
+6. The new NPC description replaces the old NPC description
+7. The input field disappears
 
 ## Alternative procedures
 
-4.1: Hit the cancel button: \
-    4.1.1 A feedback toast message appears which contains that NPC description was not updated \
-    4.1.2 The NPC description was not updated in the view and the input field disappears 
+4.1: Cancel your submission: \
+    4.1.1 A "Changes cancelled" feedback message appears \
+    4.1.2 The NPC description was not updated \
+    4.1.3 The input field disappears 
 
 ## Criticality
 
