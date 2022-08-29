@@ -1,10 +1,10 @@
 # How to check, add and update license notices at every PR
 
-If you add or update a dependency it must be added to the third party license notice file before tomorrow.
+If you add or update a dependency it must be added to the third party license notice file before merging.
 
 To do that, you should add a new line like
 ```json
-{"licTypeName": "MIT", "compName": "UniTask", "compVersion": "2.3.1", "copyright": "Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.", "copyrightSource": "https://github.com/Cysharp/UniTask/blob/2.3.1/LICENSE"}
+{"licTypeName": "MIT", "compName": "UniTask", "compVersion": "2.3.1", "copyright": "Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.", "copyrightSource": "https://github.com/Cysharp/UniTask/blob/2.3.1/LICENSE"},
 ```
 to <https://github.com/Gamify-IT/third-party-license-notice/blob/main/LicenseNotes.json>.
 
