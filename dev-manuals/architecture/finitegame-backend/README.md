@@ -1,7 +1,7 @@
 # Architecture of Finitegame-backend
 
-Project: <https://github.com/Gamify-IT/finitegame-backend> \
-Classes: <https://github.com/Gamify-IT/finitegame-backend/tree/main/src>
+Project: <https://github.com/Gamify-IT/finitequiz-backend> \
+Classes: <https://github.com/Gamify-IT/finitequiz-backend/tree/main/src>
 
 ## Purpose
 
