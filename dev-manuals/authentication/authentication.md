@@ -1,28 +1,76 @@
 # Authentication and user identification
 
-When the user logs in, they receive a token.
+We are using [Keycloak](https://www.keycloak.org) for user and access management. \
+
+When the user logs in, they receive a token. \
 The token is stored in a cookie which is sent alongside every request to any backend.
 
-Every backend **must always** validate the token before processing any request.
+## Backend
 
-## Data format
+### Access Token
 
-The cookie has the name `token` and contains a [JSON Web Token](https://jwt.io).
+The access token is sent as a cookie called `access_token` alongside every request. \
+Below you see how to (always) require it for example in `Java` with `Spring`:
 
-You can validate the token using one of the libraries listed here: https://jwt.io/libraries
-
-When you parse the token, you receive the following data:
-```json
-{
-  "id": "string",
-  "name": "string"
+```java
+@RestController
+class MyRestController {
+    @GetMapping("/")
+    public SomeDAO someRequestHandler(@CookieValue("access_token") String accessToken) {
+        // do something with the accessToken
+    }
 }
 ```
 
-- `id` uniquely identifies the user. All statistics and other information about a user should be associated with this value.
-- `name` unique username. **Only for debugging.** Even though it is unique, users may be allowed to change it in the future.
+Requests without an access token should be rejected with [401 (Unauthorized)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401).
 
-## Identifying users
+### Validation and User Info
 
-When a backend needs to store information related to a user, it **must** associate the data with the `id` from the token.
-The `id` is guaranteed to be unique, and is the only permanent identifier for users.
+You can use the access token to get the user's ID, username, roles and other data. \
+The userinfo endpoint of keycloak provides this information.
+
+Locally, the user info endpoint has the URI `http://localhost/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`. \
+Or, under our reverse proxy under the URI `/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`. \
+You should make this URI configurable in your implementation.
+
+Send a request with the header `Authorization: Bearer <accessToken>` to this endpoint. \
+You then receive a JSON response with the user's information, which looks as follows:
+
+```json
+{
+  "sub": "77451ff3-79c4-4503-8e46-869c377b593a",
+  "email_verified": false,
+  "realm_access": {
+    "roles": [
+      "default-roles-gamify-it",
+      "student",
+      "offline_access",
+      "uma_authorization"
+    ]
+  },
+  "preferred_username": "max",
+  "given_name": "",
+  "family_name": ""
+}
+```
+
+Here is a short explanation of the most important fields:
+
+- `sub` is the user's ID. It is guaranteed to be unique. It is a string which may not be a UUID.
+- `preferred_username` is the username.
+- `realm_access.roles` contains the user's roles. For students, it includes `student` and for lecturers it includes `lecturer`.
+
+## Frontend
+
+Frontends do not need the user's ID. \
+The username can be read directly from the `localStorage` in the browser, using the key `username`.
+
+```typescript
+const preferredUsername = localStorage.getItem("username");
+```
+
+## Keycloak
+
+Locally, you can access keycloak at <http://localhost/keycloak>.
+
+If you want to change its configuration, use the admin credentials described here: <https://github.com/Gamify-IT/test-data/tree/main/postgres/keycloak>.
