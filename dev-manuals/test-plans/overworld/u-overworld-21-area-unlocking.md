@@ -25,7 +25,9 @@ Dungeon 1 of world 1 is unlocked.
 
 ## Alternative procedures
 
-3.1 Nothing unlocks because next area is not activated
+3.1. Nothing unlocks because there is no (further) unlockable area \
+3.2. Dungeon 1 cannot be unlocked - try to unlock one of the remaining dungeons in order \
+3.3. No dungeon in world 1 can be unlocked - try to unlock one of the remaining worlds in order
 
 ## Criticality
 
