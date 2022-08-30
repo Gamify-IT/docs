@@ -9,7 +9,12 @@ Being a single choice question style minigame that lets users choose one correct
 
 ## General code structure
 
-- `Views`: Currently we only have on GameView view that contains the whole game
+- `__mocks__`: Mocking behavior for testing
+- `assets`: Static assets like the logo
+- `components`: Re-usable Vue components
+- `router`: Frontend site page routing
+- `ts`: Data models and backend communication
+- `views`: The displayed pages. Currently consists of only the GameView that contains the whole game
 
 ## Starting the service
 
@@ -25,7 +30,7 @@ _NA_
 
 ## Known Design Flaws
 
-N/A
+- Exactly one answer must be correct, not more or less
 
 ## Known Bugs
 
