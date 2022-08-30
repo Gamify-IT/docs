@@ -1,23 +1,15 @@
 # Authentication and user identification
 
-We are using [Keycloak](https://www.keycloak.org) for user and access management.
+We are using [Keycloak](https://www.keycloak.org) for user and access management. \
 
 When the user logs in, they receive a token. \
 The token is stored in a cookie which is sent alongside every request to any backend.
-
-## Table of Contents
-
-- [Backend](#backend)
-  - [Access Token](#access-token)
-  - [Validation and User Info](#validation-and-user-info)
-- [Frontend](#frontend)
-- [Keycloak](#keycloak)
 
 ## Backend
 
 ### Access Token
 
-The access token is sent as a cookie called `access_token` alongside every request.
+The access token is sent as a cookie called `access_token` alongside every request. \
 Below you see how to (always) require it for example in `Java` with `Spring`:
 
 ```java
@@ -38,7 +30,7 @@ You can use the access token to get the user's ID, username, roles and other dat
 The userinfo endpoint of keycloak provides this information.
 
 Locally, the user info endpoint has the URI `http://localhost/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`. \
-Or, under our reverse proxy under the URI `/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`.
+Or, under our reverse proxy under the URI `/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`. \
 You should make this URI configurable in your implementation.
 
 Send a request with the header `Authorization: Bearer <accessToken>` to this endpoint. \
@@ -70,7 +62,7 @@ Here is a short explanation of the most important fields:
 
 ## Frontend
 
-Frontends do not need the user's ID.
+Frontends do not need the user's ID. \
 The username can be read directly from the `localStorage` in the browser, using the key `username`.
 
 ```typescript
