@@ -19,7 +19,7 @@ This backend has the following package structure
 
 ## Starting the service
 
-See the [README](https://github.com/Gamify-IT/finitegame-backend#readme).
+See the [README](https://github.com/Gamify-IT/finitequiz-backend#readme).
 
 ## What to look at
 
