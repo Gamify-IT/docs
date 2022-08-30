@@ -2,7 +2,7 @@
 
 We are using [Keycloak](https://www.keycloak.org) for user and access management.
 
-When the user logs in, they receive a token.
+When the user logs in, they receive a token. \
 The token is stored in a cookie which is sent alongside every request to any backend.
 
 ## Table of Contents
@@ -18,6 +18,7 @@ The token is stored in a cookie which is sent alongside every request to any bac
 ### Access Token
 
 The access token is sent as a cookie called `access_token` alongside every request.
+Below you see how to (always) require it for example in `Java` with `Spring`:
 
 ```java
 @RestController
@@ -29,18 +30,19 @@ class MyRestController {
 }
 ```
 
-Requests without an access token should be rejected with a [401 HTTP status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401).
+Requests without an access token should be rejected with [401 (Unauthorized)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401).
 
 ### Validation and User Info
 
-You can use the access token to get the user's ID, username, roles and other data.
+You can use the access token to get the user's ID, username, roles and other data. \
 The userinfo endpoint of keycloak provides this information.
 
-Locally, the user info endpoint has the URI `http://localhost/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`.
+Locally, the user info endpoint has the URI `http://localhost/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`. \
+Or, under our reverse proxy under the URI `/keycloak/realms/Gamify-IT/protocol/openid-connect/userinfo`.
 You should make this URI configurable in your implementation.
 
-Send a request with the header `Authorization: Bearer <accessToken>` to this endpoint.
-You then receive a JSON response with the user's information.
+Send a request with the header `Authorization: Bearer <accessToken>` to this endpoint. \
+You then receive a JSON response with the user's information, which looks as follows:
 
 ```json
 {
@@ -60,7 +62,7 @@ You then receive a JSON response with the user's information.
 }
 ```
 
-Here a short explanation of the most important fields:
+Here is a short explanation of the most important fields:
 
 - `sub` is the user's ID. It is guaranteed to be unique. It is a string which may not be a UUID.
 - `preferred_username` is the username.
