@@ -1,4 +1,4 @@
-# Overworld: Loading screen (`u.overworld-21`)
+# Overworld: Area unlocking (`u.overworld-21`)
 
 Version: v1.0, 2022-08-30, create test plan \
 Author: Gilian Rehm, Florian Wüst
