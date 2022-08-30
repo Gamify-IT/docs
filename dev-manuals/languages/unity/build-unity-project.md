@@ -4,7 +4,7 @@
 
 If you install a new Unity version make sure to check `WebGL Build Support`.
 
-<img src="check-webgl-build-support.png" height="300" />
+![check webgl build support](check-webgl-build-support.png)
 
 ## Setup Unity project player settings
 
