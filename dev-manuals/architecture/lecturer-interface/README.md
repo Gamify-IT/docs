@@ -13,8 +13,8 @@ This repository has the following package structure:
 - `assets`: Contains assets like pictures
 - `components`: Contains re-usable Vue components
 - `models`: Contains the data models
-- `service`: Contains the game logic
-- `store`: Interacts with the vue state store vuex (currently unused)
+- `router`: Contains the router
+- `ts`: Contains the logic of the lecturer-interface
 - `views`: Contains the complete views displayed by this single-page application
 
 ## Starting the service
