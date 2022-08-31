@@ -25,6 +25,13 @@ Test Plan Overview
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Plans for Finitequiz
+
+   ./minigames/finite-quiz/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Test Plans for Git Card Game
 
    ./minigames/git-card-game/**
