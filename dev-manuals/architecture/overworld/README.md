@@ -14,21 +14,13 @@ See the [README](https://github.com/Gamify-IT/overworld#readme).
 
 ## What to look at
 
-- [Assets/Scripts/Barriers/*](https://github.com/Gamify-IT/overworld/tree/main/Assets/Scripts/Barriers) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/GameManagerV2.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/GameManagerV2.cs) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/GameSettings.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/GameSettings.cs) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/JsonHelper.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/JsonHelper.cs) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/NPCTalkEvent.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/NPCTalkEvent.cs) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/Data Classes/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/Data%20Classes) (TODO: adjust comments)
-- [Assets/Scripts/GameManager/DTOs/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager/DTOs) (TODO: adjust comments)
-- [Assets/Scripts/HUD/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/HUD) (TODO: adjust comments)
-- [Assets/Scripts/Interactable/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Interactable) (TODO: adjust comments, restructure NPC.cs)
-- [Assets/Scripts/MinigameLoading/Configuration.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading/Configuration.cs) (TODO: adjust comments)
-- [Assets/Scripts/MinigameLoading/Minigame.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading/Minigame.cs) (TODO: adjust comments)
-- [Assets/Scripts/MinigameLoading/MinigameData.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading/MinigameData.cs) (TODO: adjust comments)
-- [Assets/Scripts/MinigameLoading/MinigameStarting.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading/MinigameStarting.cs) (TODO: adjust comments)
-- [Assets/Scripts/Player/Animation.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Player/Animation.cs) (TODO: adjust comments, rename)
-- [Assets/Scripts/Scene Loading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scene%20Loading) (TODO: adjust comments, remove commented out code, rename loadmaps -> LoadMaps)
+- [Assets/Scripts/Barriers/*](https://github.com/Gamify-IT/overworld/tree/main/Assets/Scripts/Barriers)
+- [Assets/Scripts/GameManager/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/GameManager)
+- [Assets/Scripts/HUD/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/HUD)
+- [Assets/Scripts/Interactable/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Interactable)
+- [Assets/Scripts/MinigameLoading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading)
+- [Assets/Scripts/Player/Animation.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Player/Animation.cs)
+- [Assets/Scripts/Scene Loading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scene%20Loading)
 - [Assets/Plugins/LoadMinigame.jslib](https://github.com/Gamify-IT/overworld/blob/main/Assets/Plugins/LoadMinigame.jslib)
 
 ## What to ignore
@@ -37,9 +29,13 @@ See the [README](https://github.com/Gamify-IT/overworld#readme).
 
 ## Known Design Flaws
 
-- Unity :,)
 - UniTask return values are not working correctly
 
+## Known Problems
+
+- There is currently only one player in only one course
+  -> The resulting problem is that you have to reset the DB every time before you can test e.g. the unlocking of new areas.
+  
 ## Known Bugs
 
 An up-to-date list of open bugs can be found at <https://github.com/orgs/Gamify-IT/projects/6/> by searching for overworld.
