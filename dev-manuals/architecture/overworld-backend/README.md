@@ -1,22 +1,19 @@
 # Architecture of Overworld-backend
 
-Project: https://github.com/Gamify-IT/overworld-backend \
-Classes: https://github.com/Gamify-IT/overworld-backend/tree/main/src
+Project: <https://github.com/Gamify-IT/overworld-backend> \
+Classes: <https://github.com/Gamify-IT/overworld-backend/tree/main/src/main/java>
 
 ## Purpose
 
-This backend saves all the different configurations for the overworld 
-and the player statistics for the configuration. 
+This backend saves the different overworld configurations and general player statistics. 
 
 ## General code structure
 
-`$STRUCTURE`,
-
 This backend has the following package structure
 - `data`: Contains the data objects and DTOs
-- `controllers`: Containers the server routes
-- `services`: Contains the business logic
-- `clients`: Contains the b2b (backend-2-backend) communication methods
+- `controller`: Containers the server routes
+- `service`: Contains the business logic
+- `client`: Contains the b2b (backend-2-backend) communication methods
 - `repositories`: Contains the database repositories
 
 ## Starting the service
