@@ -1,5 +1,7 @@
 # Architecture of lecturer-interface
 
+Code: <https://github.com/Gamify-IT/lecturer-interface/tree/main/src>
+
 ## Purpose
 
 Configuring the overworld and the minigames.
@@ -10,7 +12,6 @@ This repository has the following package structure:
 
 - `assets`: Contains assets like pictures
 - `components`: Contains re-usable Vue components
-- `dummy`: Dummy data like code snippets and their solution
 - `models`: Contains the data models
 - `service`: Contains the game logic
 - `store`: Interacts with the vue state store vuex (currently unused)
