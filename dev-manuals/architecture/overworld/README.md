@@ -33,10 +33,6 @@ See the [README](https://github.com/Gamify-IT/overworld#readme).
 
 ## What to ignore
 
-- Assets/Scripts/GameManager/GameManager.cs (TODO: delete)
-- Assets/Scripts/GameManager/EnterArea.cs (TODO: delete)
-- Assets/Scripts/MinigameLoading/LoadMinigame.cs (TODO: delete)
-- Assets/Scripts/Player/mymove.cs (TODO: delete)
 - Assets/Scripts/MoveTilesEditor.cs
 
 ## Known Design Flaws
