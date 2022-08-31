@@ -34,7 +34,8 @@ See the [README](https://github.com/Gamify-IT/overworld#readme).
 ## Known Problems
 
 - There is currently only one player in only one course
-  -> The resulting problem is that you have to reset the DB every time before you can test e.g. the unlocking of new areas.
+  -> you have to reset the DB every time before testing, e.g. when testing unlocking behavior
+- The way player- and course- data is being communicated from the level selection screen to the overworld or from the overworld to the minigames is currently highly unstable or non-existing. See also the single-player and -course restriction above.
   
 ## Known Bugs
 
