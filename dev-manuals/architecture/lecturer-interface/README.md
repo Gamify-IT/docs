@@ -12,7 +12,6 @@ This repository has the following package structure:
 
 - `assets`: Contains assets like pictures
 - `components`: Contains re-usable Vue components
-- `models`: Contains the data models
 - `router`: Contains the router
 - `ts`: Contains the logic of the lecturer-interface
 - `views`: Contains the complete views displayed by this single-page application
@@ -31,7 +30,12 @@ _NA_
 
 ## Known Design Flaws
 
-- no known design flaws at the moment
+- cloning is only possible with minigame instances that have been configured for it
+- if a minigame clone fails i.e. because the backend is unavailable 
+or the minigame is not configured for cloning, 
+the behavior is currently unstable:
+Cloning will fail completely but leave behind an incomplete course, 
+where the data cloned until then is present but nothing else
 
 ## Known Bugs
 
