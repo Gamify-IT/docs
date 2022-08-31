@@ -30,7 +30,11 @@ _NA_
 
 ## Known Design Flaws
 
-- no known design flaws at the moment
+- some API routes have suboptimal paths
+- cloning only works for chickenshock and other minigames without a configuration id
+- current unlocking order 
+(unlocking the remaining dungeons first and then the next world) is disputed, 
+might be changed in the future
 
 ## Known Bugs
 
