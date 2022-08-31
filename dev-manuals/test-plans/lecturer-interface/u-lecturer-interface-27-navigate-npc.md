@@ -10,11 +10,14 @@ The different input options can be navigated.
 
 ## Precondition
 
-At least one course is created. The tester is on the view of the course (`/courses/<course-id>/worlds/<world-id>/npcs`)
+At least one course is created. 
+The tester is on the view of the course (`/courses/<course-id>/worlds/<world-id>/npcs`)
+and sees a list of npcs.
+Some tab of the sidebar is focused.
 
 ## Postcondition
 
-The different options can be selected
+The focus is on the edit button in the original row.
 
 ## Typical procedure
 
@@ -32,6 +35,15 @@ The different options can be selected
 12. The focus is on the edit button on top
 
 ## Alternative procedures
+
+4.1 no input option below \
+4.1.1 the first topic input option is selected \
+6.1. no input option above \
+6.1.1 the last topic input option is selected \
+10.1 no edit button selection below \
+10.1.1 the first edit button is selected \
+12.1. no edit button above \
+12.1.1 the last edit button is selected
 
 ## Criticality
 

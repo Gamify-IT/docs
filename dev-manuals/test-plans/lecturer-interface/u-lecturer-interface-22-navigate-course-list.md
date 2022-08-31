@@ -10,20 +10,26 @@ The course list can be navigated
 
 ## Precondition
 
-At least three course are created.
+At least three course are created. 
+The tester sees the list of courses and has focus on one course.
 
 ## Postcondition
 
-A different course is selected.
+A original course is selected.
 
 ## Typical procedure
 
 1. Click <kbd>down</kbd>
-2. The second course is selected
+2. The course below is focused
 3. Click <kbd>up</kbd>
-4. The first course is selected
+4. The course above is focused
 
 ## Alternative procedures
+
+2.1 no course below \
+2.1.1 the first course is selected \
+4.1. no course above \
+4.1.1 the last course is selected
 
 ## Criticality
 
