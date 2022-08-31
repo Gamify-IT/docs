@@ -1,4 +1,4 @@
-# Lecturer-Interface: Navigate npc (`u.lecturer-interface-27`)
+# Lecturer-Interface: NPC navigation (`u.lecturer-interface-27`)
 
 
 Version: V1.0, 30.08.2022 \
@@ -12,8 +12,8 @@ The different input options can be navigated.
 
 At least one course is created. 
 The tester is on the view of the course (`/courses/<course-id>/worlds/<world-id>/npcs`)
-and sees a list of npcs.
-Some tab of the sidebar is focused.
+and sees a list of NPCs.
+A sidebar tab is focused.
 
 ## Postcondition
 
@@ -36,14 +36,10 @@ The focus is on the edit button in the original row.
 
 ## Alternative procedures
 
-4.1 no input option below \
-4.1.1 the first topic input option is selected \
-6.1. no input option above \
-6.1.1 the last topic input option is selected \
-10.1 no edit button selection below \
-10.1.1 the first edit button is selected \
-12.1. no edit button above \
-12.1.1 the last edit button is selected
+4.1 no input option below - the first topic input option is focused \
+6.1. no input option above - the last topic input option is focused \
+10.1 no edit button below - the first edit button is focused \
+12.1. no edit button above -  the last edit button is focused
 
 ## Criticality
 
@@ -51,4 +47,4 @@ Medium
 
 ## Linkages
 
-- [Show courses (`u.lecturer-interface-23`)](u-lecturer-interface-23-navigate-sidebar.md)
+- [Sidebar navigation (`u.lecturer-interface-23`)](u-lecturer-interface-23-navigate-sidebar.md)

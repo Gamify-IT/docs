@@ -1,4 +1,4 @@
-# Lecturer-Interface: Navigate course list (`u.lecturer-interface-22`)
+# Lecturer-Interface: Course list navigation (`u.lecturer-interface-22`)
 
 
 Version: V1.0, 30.08.2022 \
@@ -11,7 +11,7 @@ The course list can be navigated
 ## Precondition
 
 At least three course are created. 
-The tester sees the list of courses and has focus on one course.
+The tester sees the list of courses and has focused a course.
 
 ## Postcondition
 
@@ -26,10 +26,8 @@ A original course is selected.
 
 ## Alternative procedures
 
-2.1 no course below \
-2.1.1 the first course is selected \
-4.1. no course above \
-4.1.1 the last course is selected
+2.1 no course below - the first course is focused \
+4.1. no course above - the last course is focused
 
 ## Criticality
 

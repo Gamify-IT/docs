@@ -1,4 +1,4 @@
-# Lecturer-Interface: Navigate world (`u.lecturer-interface-25`)
+# Lecturer-Interface: World navigation (`u.lecturer-interface-25`)
 
 
 Version: V1.0, 30.08.2022 \
@@ -13,7 +13,7 @@ The different input options can be navigated.
 At least one course is created. 
 The tester is on the view of the course (`/courses/<course-id>/worlds/<world-id>`)
 and sees a list of dungeons.
-Some tab of the sidebar is focused.
+A sidebar tab is focused.
 
 ## Postcondition
 
@@ -47,4 +47,4 @@ Medium
 
 ## Linkages
 
-- [Show courses (`u.lecturer-interface-23`)](u-lecturer-interface-23-navigate-sidebar.md)
+- [Sidebar navigation (`u.lecturer-interface-23`)](u-lecturer-interface-23-navigate-sidebar.md)
