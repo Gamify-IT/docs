@@ -20,12 +20,12 @@ See the [README](https://github.com/Gamify-IT/overworld#readme).
 - [Assets/Scripts/Interactable/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Interactable)
 - [Assets/Scripts/MinigameLoading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/MinigameLoading)
 - [Assets/Scripts/Player/Animation.cs](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Player/Animation.cs)
-- [Assets/Scripts/Scene Loading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scene%20Loading)
-- [Assets/Plugins/LoadMinigame.jslib](https://github.com/Gamify-IT/overworld/blob/main/Assets/Plugins/LoadMinigame.jslib)
+- [Assets/Scripts/Scene Loading/*](https://github.com/Gamify-IT/overworld/blob/main/Assets/Scripts/Scene%20Loading)
+- [Assets/Plugins/LoadMinigame.jslib](https://github.com/Gamify-IT/overworld/blob/main/Assets/Plugins/Load%20Minigame.jslib)
 
 ## What to ignore
 
-- Assets/Scripts/MoveTilesEditor.cs
+- Assets/Scripts/MoveTilesEditor.cs (because it is UnityEditor only)
 
 ## Known Design Flaws
 
