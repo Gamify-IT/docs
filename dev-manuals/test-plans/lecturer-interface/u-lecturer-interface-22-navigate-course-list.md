@@ -18,9 +18,9 @@ A different course is selected.
 
 ## Typical procedure
 
-1. Click arrow down
+1. Click <kbd>down</kbd>
 2. The second course is selected
-3. Click arrow up
+3. Click <kbd>up</kbd>
 4. The first course is selected
 
 ## Alternative procedures

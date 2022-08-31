@@ -18,9 +18,9 @@ The sidebar can be navigated
 
 ## Typical procedure
 
-1. Click arrow down
+1. Click <kbd>down</kbd>
 2. The second tab is navigated
-3. Click arrow up
+3. Click <kbd>up</kbd>
 4. The first tab is navigated
 
 ## Alternative procedures
