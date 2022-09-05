@@ -25,10 +25,12 @@ We need a system on how to decide, which area is unlocked next.
 
 ## Chosen Solution
 
-
+1
 
 ## Pro Chosen Solution
 
-
+flexible and works with course changes by the lecturer
 
 ## Contra Chosen Solution
+
+N/A
