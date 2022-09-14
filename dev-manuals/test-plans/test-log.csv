@@ -248,3 +248,67 @@ Datum,Testcase,Tester,Erfolg,genauere Fehlerbeschreibung,Browser (version),OS
 31.08.2022,u.overworld-17,Michael Linder,1,,Firefox 104.0.1 (64-bit),Windows
 31.08.2022,u.overworld-20,Michael Linder,1,,Firefox 104.0.1 (64-bit),Windows
 31.08.2022,u.overworld-21,Michael Linder,0,didnt unlock for me on goulburn,Firefox 104.0.1 (64-bit),Windows
+14.09.2022,u.lecturer-interface-01,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-02,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-03,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-04,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-05,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-06,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-07,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-08,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-09,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-10,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-11,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-12,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-13,Max Kästner,0,"[DEPLOYMENT SERVER] no error in frontend (BAD), get bad request in network analyisis tab",,
+14.09.2022,u.lecturer-interface-14,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-15,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-16,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-17,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-18,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-19,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-20,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-21,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-22,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-23,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-24,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-25,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-26,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-27,Max Kästner,1,,,
+14.09.2022,u.lecturer-interface-28,Max Kästner,1,"does not work on chickenshock, because saving is not working (chickenshock backend is broken on deployment server i think)",,
+14.09.2022,u.overworld-01,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-02,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-03,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-04,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-05,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-06,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-07,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-08,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-09,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-10,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-11,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-12,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-13,Florian Wüst,1,"only two steps for game zoom, but 3 steps for minimap zoom",Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-14,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-15,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-16,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-17,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-18,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-19,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-20,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.overworld-21,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.crosswordpuzzle-1,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.crosswordpuzzle-2,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.crosswordpuzzle-3,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.crosswordpuzzle-4,Florian Wüst,1,,Opera GX (90.0.4480.100),Windows
+14.09.2022,u.bugfinder-1,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-2,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-3,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-4,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-5,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-6,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.bugfinder-7,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.chickenshock-1,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.chickenshock-2,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.chickenshock-3,Levi Otterbach,1,,Firefox,Windows
+14.09.2022,u.finitequiz-1,Levi Otterbach,1,,Firefox,Windows
