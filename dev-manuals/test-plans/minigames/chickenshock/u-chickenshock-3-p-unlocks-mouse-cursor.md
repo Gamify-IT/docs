@@ -1,11 +1,11 @@
-# Chickenshock: `Alt` press unlocks mouse cursor (`u.chickenshock-3`)
+# Chickenshock: `p` press unlocks mouse cursor (`u.chickenshock-3`)
 
 Version: V1.1, 2022-08-09, improve format \
 Author: Martin Lautenschlager, Levi Otterbach, Leon Hofmeister
 
 ## Description
 
-This use case verifies that the tester can unlock his mouse cursor by holding the "Left Alt" button on his keyboard.
+This use case verifies that the tester can unlock his mouse cursor by holding the "p" button on his keyboard.
 
 ## Precondition
 
@@ -17,8 +17,8 @@ The player has no control over his mouse cursor.
 
 ## Typical procedure
 
-1. The tester holds down the <kbd>Left Alt</kbd> key and regains control of his mouse cursor
-2. The tester releases the <kbd>Left Alt</kbd> button and loses control of his mouse cursor again
+1. The tester holds down the <kbd>p</kbd> key and regains control of his mouse cursor
+2. The tester releases the <kbd>p</kbd> button and loses control of his mouse cursor again
 
 ## Alternative procedures
 
