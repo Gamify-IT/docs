@@ -6,7 +6,7 @@ Author: Max Kästner
 
 ## Description
 
-A minigame configuration can be exported and imported trough a configuration file.
+Any minigame configuration can be exported and imported trough a configuration file.
 
 ## Precondition
 
@@ -26,14 +26,14 @@ Another minigame was configured with the same configuration of the existing mini
 6. Configure a minigame with the same game type
 7. Click the edit button of the new minigame
 8. Click import configuration
-9. Select the previous downloaded file
+9. Select the previously downloaded file
 10. The configuration is shown in the modal with a success message
 11. Press the Ok button of the modal to save the configuration
 
 
 ## Alternative procedures
 
-
+_N/A_
 
 ## Criticality
 
