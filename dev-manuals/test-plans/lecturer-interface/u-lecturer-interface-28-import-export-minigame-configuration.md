@@ -10,7 +10,7 @@ Any minigame configuration can be exported and imported trough a configuration f
 
 ## Precondition
 
-At least one minigame is configured.
+At least one minigame is configured. The tester is located where the minigames can be configured.
 
 ## Postcondition
 
