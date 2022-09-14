@@ -5,7 +5,7 @@ Author: Martin Lautenschlager, Levi Otterbach, Leon Hofmeister
 
 ## Description
 
-This use case verifies that the tester can unlock his mouse cursor by holding the "p" button on his keyboard.
+This use case verifies that the tester can unlock his mouse cursor by holding the <kbd>p</kbd> button on his keyboard.
 
 ## Precondition
 
