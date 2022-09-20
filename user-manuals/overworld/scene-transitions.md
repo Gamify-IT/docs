@@ -17,14 +17,15 @@ To add a new scene transition, do the following:
 5. Adjust the trigger area of the `Box Collider 2D` component using the `Edit collider` button
 	![Inspector view](pictures/SceneTransition_4.png)
 	![Example image](pictures/SceneTransition_1.PNG)
-6. Provide the required data for the scene transition at the `Load Sub Scene` component  
-	6.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
-	6.2 `World Index`: The index of the world or the world the dungeon is in  
-	6.3 `Dungeon Index`: The index of the dungeon in its world, `0` if a world should be loaded  
-	6.4 `Fade In Panel`: A fade in animation, you can use the default one (`Fade From White` located at `Assets/Prefabs/Scene Transition`)  
-	6.5 `Fade Out Panel`: A fade out animation, you can use the default one (`Fade To White` located at `Assets/Prefabs/Scene Transition`)  
-	6.6 `Loading Time`: The amount of time the loading animation lasts, measured in seconds  
-	6.7 `Player Position`: The `x` and `y` coordinates the player should spawn at in the loaded scene
+6. Set the `Is Trigger` flag at the `Box Collider 2D` component
+7. Provide the required data for the scene transition at the `Load Sub Scene` component  
+	7.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
+	7.2 `World Index`: The index of the world or the world the dungeon is in  
+	7.3 `Dungeon Index`: The index of the dungeon in its world, `0` if a world should be loaded  
+	7.4 `Fade In Panel`: A fade in animation, you can use the default one (`Fade From White` located at `Assets/Prefabs/Scene Transition`)  
+	7.5 `Fade Out Panel`: A fade out animation, you can use the default one (`Fade To White` located at `Assets/Prefabs/Scene Transition`)  
+	7.6 `Loading Time`: The amount of time the loading animation lasts, measured in seconds  
+	7.7 `Player Position`: The `x` and `y` coordinates the player should spawn at in the loaded scene
 	
 ## Prefab
 
