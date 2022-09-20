@@ -15,7 +15,7 @@ To add a new scene transition, do the following:
 	![Inspector view](pictures/SceneTransition_2.PNG)
 4. Place the object at the dungeon entry or exit point (via the `x` and `y` coordinates)
 5. Adjust the trigger area of the `Box Collider 2D` component using the `Edit collider` button
-	![Inspector view](pictures/SceneTransition_4.PNG)
+	![Inspector view](pictures/SceneTransition_4.png)
 	![Example image](pictures/SceneTransition_1.PNG)
 6. Provide the required data for the scene transition at the `Load Sub Scene` component  
 	6.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
