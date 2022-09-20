@@ -19,9 +19,9 @@ possible, which were chosen and why.
 Contains the developer manuals for the given repo or technology, meaning everything a developer needs to know about the
 specific topic to be able to collaborate.
 
-### [`/ops-manuals`](ops-manuals/README.md)
+### [`/install-manuals`](install-manuals/README.md)
 
-Contains the operations manual for the given repo, so how the user can start the given service.
+Contains the installation manual(s) for the given repo, so how the admin can deploy the given service.
 
 ### [`/user-manuals`](user-manuals/README.md)
 

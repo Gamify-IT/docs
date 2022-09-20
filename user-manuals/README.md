@@ -8,5 +8,5 @@ of the Gamify-IT platform.
     - [Chickenshock](minigames/chickenshock.md)
 - [Lecturer Interface](lecturer-interface/README.md)
 
-For instructions on how to deploy the platform, see the [ops manuals](../ops-manuals/README.md).
+For instructions on how to deploy the platform, see the [installation manuals](../install-manuals/README.md).
 Instructions for the development can be found in the [dev manuals](../dev-manuals/README.md).

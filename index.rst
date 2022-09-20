@@ -6,12 +6,14 @@
 Welcome to Gamify IT's documentation!
 =====================================
 
+.. TOC is sorted by importance: usage -> installation -> developer hints -> structure -> protocols
+
 .. toctree::
    :maxdepth: 1
 
    user-manuals/index.rst
+   install-manuals/index.rst
    dev-manuals/index.rst
-   ops-manuals/index.rst
    adr/index.rst
    protocols/index.rst
 
