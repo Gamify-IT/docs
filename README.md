@@ -23,7 +23,9 @@ specific topic to be able to collaborate.
 
 Contains the operations manual for the given repo, so how the user can start the given service.
 
-Contains the user manual for the given repo, so how the user can start the given service.
+### [`/user-manuals`](user-manuals/README.md)
+
+Contains manuals for lecturers and students, so how to use the platform and the minigames.
 
 ### [`/protocols`](protocols)
 
