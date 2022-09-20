@@ -18,7 +18,7 @@ To add a new scene transition, do the following:
 	![Collider component](pictures/SceneTransition_ColliderComponent.png)
 	![Example image](pictures/SceneTransition_ExampleImage.PNG)
 6. Set the `Is Trigger` flag at the `Box Collider 2D` component
-	![Trigger flag](pictures/SceneTransition_TriggerFlag.PNG)
+	![Trigger flag](pictures/SceneTransition_TriggerFlag.png)
 7. Provide the required data for the scene transition at the `Load Sub Scene` component  
 	7.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
 	7.2 `World Index`: The index of the world or the world the dungeon is in  
