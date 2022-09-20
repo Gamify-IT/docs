@@ -22,6 +22,8 @@ The goal is to get as many points as possible.
 The game ends when the player has answered all questions or if the timer in the top left corner runs out.
 Then, the player is presented with the score screen.
 
+Pressing `p` returns the mouse.
+
 ## Configuration
 
 The lecturer can configure the game with an arbitrary number of questions.
