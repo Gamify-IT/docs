@@ -1,6 +1,6 @@
 # User manuals
 
-User manuals contains descriptions and screenshots of the different components (overworld, minigames, lectuer interface)
+The user manuals contain descriptions, screenshots, and tutorials on how to use the different components (overworld, minigames, lecturer interface) 
 of the Gamify-IT platform.
 
 - [Overworld](overworld/README.md)
