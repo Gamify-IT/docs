@@ -2,40 +2,44 @@
 
 * [Getting started](#getting-started)
     * [Minigame structure](#minigame-structure)
-    * [Integrate the new minigame in the overworld backend](#integrate-the-new-minigame-in-the-overworld-backend)
-    * [Integrate the new minigame in the lecturer interface](#integrate-the-new-minigame-in-the-lecturer-interface)
-    * [Integrate the new minigame in the lecturer interface](#send-game-results-from-the-minigame-backend-to-the-overworld-backend)
+    * [Integrate into the overworld backend](#integrate-the-new-minigame-in-the-overworld-backend)
+    * [Integrate into the lecturer interface](#integrate-the-new-minigame-in-the-lecturer-interface)
+    * [Backend-to-backend communication](#send-game-results-from-the-minigame-backend-to-the-overworld-backend)
 
-# Getting started
+## Getting started
 
-This document presents an overview, how a minigame can be integrated to the project. The new minigame usually contains two microservices, a frontend and a backend. With this documentation, the developer is able to integrate the minigame to make the game playable from the overworld, player game runs will be submitted to the overworld backend, the minigame can be configured trough the lecturer interface and cloning courses with the new minigame works.
+This document shows how to integrate a new minigame.  
+The new minigame usually consists of two microservices, a frontend and a backend.  
+After this tutorial, this minigame will be playable from the overworld, the minigame backend will submit statistics to the overworld backend, and the lecturer interface will allow to configure the minigame.
 
 
 ## Minigame structure
 
-As described in the beginning, the minigame contains a backend and a frontend. 
+As described above, both frontend and backend of the minigame should exist already. 
 
-### Provide a configurations interface in the backend
+### Backend: Configuration routes
 
-In order to provide a uniform interface for minigame configurations in all minigame backends, create an interface `/configurations` with POST and GET and `/configurations/{id}` where id is a `UUID` with PUT and GET to create, update and fetch configurations.
+In order to provide a uniform interface for minigame configurations in all minigame backends, both the routes `/configurations` (for `POST` and GET), and `/configurations/{id}` where `id` is a `UUID` (for `PUT` and `GET`), must exist.
 
-## Integrate the new minigame in the overworld backend
+## Integrate into the overworld backend
 
-### Add the minigame in the minigames enum class:
+### Add the minigame to the `Minigame` enum
 
-Add `YOUR_MINIGAME` in `Minigame` enum class under folder `de.unistuttgart.overworldbackend.data.enums`
+Add `YOUR_MINIGAME` to the `Minigame` enum in `de.unistuttgart.overworldbackend.data.enums.Minigame`
 
-### Add required Data Transfer Objects in the overworld backend
+### Add DTOs
 
-Add required Data Transfer Objects like the Configurations class and potentially Question classes (depends on your data models) in the package `de.unistuttgart.overworldbackend.data.minigames.<YOUR_MINIGAME_NAME>`.
-Example Configuration class:
+The overworld backend needs a copy of your entire public backend data model.  
+This means especially the `Configuration` class and other classes used by it.  
+Put those classes into the package `de.unistuttgart.overworldbackend.data.minigames.<YOUR_MINIGAME_NAME>`.  
+Below, you can see how your `Configuration` class can look like for example:
 ```java
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class <YOUR_MINIGAME_NAME>Configuration {
+public class [YOUR_MINIGAME_NAME]Configuration {
 
     UUID id;
-    Set<<YOUR_MINIGAME_NAME>Question> questions;
+    Set<[YOUR_MINIGAME_NAME]Question> questions;
 }
 ```
 
@@ -66,11 +70,13 @@ Also add the url to the minigame backend in `application.properties`, e.g.:
 ```
 From now the overworld backend is able to make requests to the minigame backend.
 
-### Support course cloning with the new minigame
+### Implement configuration cloning
 
-To support course cloning the `FeignClient` for the minigame backend is needed.
+You need the `FeignClient` created above to not break course cloning.
 
-Enter the class `CourseService` in the package `de.unistuttgart.overworldbackend.service`. The method `cloneMinigameTask` in this class in responsible to clone the minigames of a course, so that a new course gets the same configuration, but with new configuration ids. This is important, because two minigame tasks (do not care if they are the same course or not) are not allowed to have a same configuration id. In the method `cloneMinigameTask` you have to integrate the cloning process of your minigame. Add the case of your new minigame in the switch statement, e.g.:
+Edit the method `de.unistuttgart.overworldbackend.service.CourseService#cloneMinigameTask`.
+This method is responsible to clone the minigames of a course, so that a new minigame task gets the same configuration, but with a new ID.  
+This is needed because the configuration ID of tasks must be unique. Add the case for your minigame in the switch statement, e.g.:
 
 ```java
 case <YOUR_MINIGAME_NAME>:
@@ -99,16 +105,17 @@ case <YOUR_MINIGAME_NAME>:
 ```
 The code snippet above is an example to clone a configuration with questions.
 
-## Integrate the new minigame in the lecturer interface
+## Integrate into the lecturer interface
 
 ### Add the minigame as enum
 
-Add `YOUR_MINIGAME` in `overworld-models.ts` the Minigame enum in package `ts.models`
+Add `YOUR_MINIGAME` to the Minigame enum in `overworld-models.ts` in the package `ts.models`.
 
-### Add required Data Transfer Objects
+### Add DTOs
 
-Add required Data Transfer Objects like the Configurations class and potentially Question classes (depends on your data models) in the package `ts.models`.
-Example:
+You need a copy of your `Configuration` class and subsequent classes called by it in the lecturer interface.
+Add these DTOs in the package `ts.models`.
+For example:
 ```typescript
 export class <YOUR_MINIGAME_NAME>Configuration {
   id?: string;
@@ -133,7 +140,7 @@ export class <YOUR_MINIGAME_NAME>Question {
 }
 ```
 
-### Add a rest client
+### Add a REST client
 
 Add the URL of the backend in the `config.ts`
 ```typescript
@@ -166,8 +173,10 @@ export async function get<YOUR_MINIGAME_NAME>Config(
 
 ### Create a configuration modal
 
-Create a new configuration modal under the paclage `components.EditMinigameModals`.
-We can't document exactly what the code should look like, as it varies a lot, but you can orient yourself on the existing edit components. It is important to say that the minigame configurations should be loaded and updated in the component. When a modal gets closed call an `closedModal emit` and when a configuration gets updated call a `updateMinigameConfiguration emit`.
+Create a new configuration modal under the package `components.EditMinigameModals`.  
+We can't document exactly what the code should look like, as it varies a lot, but you can orient yourself on the existing edit components.  
+It is important that the minigame configurations are loaded and updated in the component.  
+When a modal gets closed, emit `closedModal` and when a configuration gets updated emit `updateMinigameConfiguration`.
 
 The minigames edit view is in the class `MinigameTasksView.vue` under the package `views`.
 
@@ -176,14 +185,14 @@ Create a new variable:
 const show<YOUR_MINIGAME_NAME>Modal = ref(false);
 ```
 
-Add in the editMinigameConfiguration method your minigame:
+Add your minigame in the `editMinigameConfiguration` method:
 ```typescript
 case Minigame.<YOUR_MINIGAME_NAME>:
     show<YOUR_MINIGAME_NAME>Modal.value = true;
     break;
 ```
 
-Add in the closedEditModal method following at the bottom:
+Append the following at the bottom of the `closedEditModal` method:
 ```typescript
 show<YOUR_MINIGAME_NAME>Modal.value = false;
 ```
@@ -198,7 +207,7 @@ Add the new edit modal. Put the modal after the other modals at the bottom of th
   />
 ```
 
-#### Integrate import/export in the edit modal
+#### Add configuration import/ export
 
 Go in the edit modal component of the minigame. 
 You need following imports:
@@ -263,11 +272,14 @@ Finally the component to import and export a file needs to be added, which displ
 />
 ```
 
-## Send game results from the minigame backend to the overworld backend
+## Backend-to-backend communication
 
-The minigame backend must send a score after every player's game run to the overworld backend after a player's playthrough. The score must be between 0 and 100, where 100 is a completely correct run and 0 is a completely wrong run. The score must be calculated by the minigame backend itself. 
+The minigame backend must send a score after every player's game run to the overworld backend after a player's playthrough. The score must be a natural number between `0` and `100`, where `100` means "no further improvements possible"  and `0` means "everything is wrong".  
+The minigame backend is responsible for calculating this score, the overworld backend simply stores it. 
 
-Create the OverworldResultDTO:
+The following shows how to do it in Java with `Spring`, `Lombok`, and `FeignClient`.
+
+First, create the `OverworldResultDTO`:
 ```java
 /**
  * The class to specify all details the overworld backend needs to
