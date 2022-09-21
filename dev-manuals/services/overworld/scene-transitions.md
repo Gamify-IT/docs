@@ -23,6 +23,7 @@ To add a new scene transition, do the following:
 ## How to set up a scene transition
 
 Provide the required data for the scene transition at the `Load Sub Scene` component  
+![Script component](assets/scene-transition-script-component.webp)
 
 1. `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
 2. `World Index`: The index of the world or the world the dungeon is in  
