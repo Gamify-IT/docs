@@ -7,7 +7,7 @@ By doing that, the amount of data to handle is smaller and that increases the pe
 
 ## How to create a world loader
 
-To add a new part of the world, you need to [create it first](create-new-world.md), [move it at the right place](set-up-area.md) and then set up the loading and unloading.  
+To add a new part of the world, you need to [create it](create-new-world.md), [move it to the right place](set-up-area.md) and set up the loading and unloading.  
 To do that, do the following:
 
 1. Open the scene, in which the scene transition should be
@@ -35,4 +35,4 @@ Provide the required data for the world loading at the `Load Maps` component
 You can also speed up that process by using the provided prefab, located at `Assets/Prefabs/Scene Transition`.  
 ![Prefabs](assets/world-loading-prefabs.webp)  
 Simply drag an drop the `LoadWorlds` object into the scene hierarchy as a child of the `World Loader` game object.
-You can than skip steps 2 and 3.
+You can then skip steps 2 and 3.
