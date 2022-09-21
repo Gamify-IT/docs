@@ -6,7 +6,7 @@
 
 Import your sprite into Unity. Then select it in the project explorer.
 
-![select tileset](setup-unity-tilemap/select-tileset.png)
+![select tileset](setup-unity-tilemap/select-tileset.webp)
 
 In the inspector set the following fields:
 
@@ -16,15 +16,15 @@ In the inspector set the following fields:
 
 Then select the sprite editor and apply.
 
-![configure tileset](setup-unity-tilemap/configure-tileset.png)
+![configure tileset](setup-unity-tilemap/configure-tileset.webp)
 
 In the sprite editor select `Slice` and set the type to `Grid by Cell Size`. Set the pixel size to the size of each tile and preview the tiling in the background. Finally press on `Slice` and in the sprite editor on `Apply`.
 
-![tile in sprite editor](setup-unity-tilemap/tile-in-sprite-editor.png)
+![tile in sprite editor](setup-unity-tilemap/tile-in-sprite-editor.webp)
 
 Now you can unfold the tilemap to preview all sprites.
 
-![tiled sprites](setup-unity-tilemap/tiled-sprites.png)
+![tiled sprites](setup-unity-tilemap/tiled-sprites.webp)
 
 ## Create tilemap
 
@@ -44,11 +44,11 @@ You will have a new tileset window which you can move arround and dock to the un
 
 There you need to press `Create new palette`. Give it a name, make sure you select a `Rectangle` grid and chose a target directory to store it.
 
-![create new palette](setup-unity-tilemap/create-new-palette.png)
+![create new palette](setup-unity-tilemap/create-new-palette.webp)
 
 Next, select all sprites you want (e.g. all tiles sprites from a tilemap) and drag them over. Select a target directory where you want to store all tiles. This process can take a while. The result should look like this:
 
-![tile palette](setup-unity-tilemap/tile-palette.png)
+![tile palette](setup-unity-tilemap/tile-palette.webp)
 
 ### Rotate or Flip sprites
 
@@ -97,8 +97,8 @@ Now no collider will be generated.
 
 ### Configure rendering order
 
-<img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.png" />
-<img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.png" />
+<img src="https://answers.unity.com/storage/temp/192746-screenshot-2022-02-17-at-170506.webp" />
+<img src="https://answers.unity.com/storage/temp/192747-screenshot-2022-02-17-at-170156.webp" />
 
 Sometimes the player is drawn on top of an element that should in theory be above him: <img src="setup-unity-tilemap/sorting-layer-issue.gif" />
 
@@ -110,7 +110,7 @@ Unity will render the player on top of a tile if the player's y-position if less
 
 In this situation the player is lower than the top part of the shelf so it's getting drawn on top of the shelf. The fix: move the origin of the shelf to the bottom.
 
-<img src="setup-unity-tilemap/rendering-issue-cause.png" />
+<img src="setup-unity-tilemap/rendering-issue-cause.webp" />
 
 (#fix-rendering-order-for-tiles)=
 
@@ -131,13 +131,13 @@ Make sure the tilemap has to position `0,0,0` in the inspector. Create some more
 
 Set the z position of the second layer to `-0.1`, the z position of the third layer to `-0.2`, etc.
 
-![create layers](setup-unity-tilemap/create-layers.png)
+![create layers](setup-unity-tilemap/create-layers.webp)
 
 Now you can select tiles from the tile palette and select the brush to draw. You also have a fill tool and a rectangle tool.
 
 Make sure you draw your ground on the lowerst layer (layer 1). Go to the tile palette and set `Active Tilemap` to the first layer. Draw objects that should be drawn above layer 1 on layer 2. See results of using the layers:
 
-![layers](setup-unity-tilemap/layers.png)
+![layers](setup-unity-tilemap/layers.webp)
 
 ### Some tips
 
