@@ -4,7 +4,7 @@ This tutorial is for people interested in creating their own World/Dungeon the w
 
 ## Tileset
 
-Before starting to paint a world you need to think about in which theme the world should be. We used the [Zelda-like Tileset](https://opengameart.org/content/zelda-like-tilesets-and-sprites) for all our Worlds and made some modifications to it according to our own needs (Including a few custom sprites). See [new tilesets](https://github.com/Gamify-IT/overworld/blob/main/new-tilesets/README.md) for some info about how to change the look of the Tileset. This tutorial works with the standard Zelda-like Tileset since it is already available in the project. If you need another tileset you can refer to [setup tilemap in unity](https://github.com/Gamify-IT/docs/blob/main/dev-manuals/languages/unity/setup-tilemap-in-unity.md).
+Before starting to paint a world you need to think about in which theme the world should be. We used the [Zelda-like tileset](https://opengameart.org/content/zelda-like-tilesets-and-sprites) for all our Worlds and made some modifications to it according to our own needs (including a few custom sprites). See [new tilesets](https://github.com/Gamify-IT/overworld/blob/main/new-tilesets/README.md) for some info about how to change the look of the tileset. This tutorial works with the standard Zelda-like tileset since it is already available in the project. If you need another tileset you can refer to [setup tilemap in unity](https://github.com/Gamify-IT/docs/blob/main/dev-manuals/languages/unity/setup-tilemap-in-unity.md).
 
 ## Copying the Boilerplate Scene
 
@@ -19,5 +19,20 @@ Worlds are created in separate scenes. There is an empty Boilerplate scene which
 
 When painting a World there are multiple layers that can be painted on. It is necessary to paint on the correct layer for everything to work correctly.  
 ![Layers](assets/layers.webp)
+
+Here is an example for all the layers:  
+
+- All layers combined: ![all layers](assets/all-layers.webp)
+
+- Ground: On the layer, all ground related tiles are placed (e.g. grass, pathways, rivers, sea, etc.)
+![ground layer](assets/ground-layer.webp)
+- Ground decoration: On this layer, all additional ground tiles are places (e.g. flowers, moss, little rocks, etc.)
+![ground decoration layer](assets/ground-decoration-layer.webp)
+- Walls: On this layer, all tiles limiting the playable area are placed (e.g. walls)
+![wall layer](assets/wall-layer.webp)
+- Wall decoration: On this layer, all additional wall tiles are placed, for example for detailing or realism (e.g. shadows, little rocks, lamps, etc.)  
+![wall decoration layer](assets/wall-decoration-layer.webp)
+- Objects: On this layer, all big objects are placed (e.g. trees, houses, fences, stones, etc.)
+![objects layer](assets/objects-layer.webp)
 
 ## Start painting the World
