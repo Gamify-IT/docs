@@ -36,3 +36,21 @@ Here is an example for all the layers:
 ![objects layer](assets/objects-layer.webp)
 
 ## Start painting the World
+
+1. In Unity open the tile palette.  
+![open tile palette](assets/find-tile-palette.webp)
+2. In the tile palette you can choose the tilemap you want to use for drawing. There are a few that were created by us.  
+![select tilemap](assets/tile-palette.webp)
+3. Now you need to select on which layer you want to draw (see [Layer Information](#layer-information))  
+![select layer](assets/select-layer.webp)
+4. There are different tools for drawing.  
+![tools](assets/tools.webp)  
+4.1 Select tool  
+4.2 Move tool (needed for editing the tilemap)  
+4.3 Standard paint tool. Paints the selected tiles to the selected layer.  
+4.4 Box paint tool to paint large area with select tile.  
+4.5 Pick tool for picking a tile of a layer.  
+4.6 Eraser for erasing.  
+4.7 Bucket tool for filling areas.
+5. With this info you can start creating your own World.
+![start drawing](assets/start-drawing.webp)
