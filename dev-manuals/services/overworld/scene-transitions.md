@@ -4,7 +4,7 @@
 
 Scene Transitions are used to enter and exit dungeons. If the player enters the specified area, the transitions gets triggered and closes all open area scenes and loads the provided one.
 
-## How to use
+## How to create a scene transition
 
 To add a new scene transition, do the following:
 
@@ -19,14 +19,18 @@ To add a new scene transition, do the following:
 ![Example image](assets/scene-transition-example.webp)
 6. Set the `Is Trigger` flag at the `Box Collider 2D` component  
 ![Trigger flag](assets/scene-transition-trigger-flag.webp)
-7. Provide the required data for the scene transition at the `Load Sub Scene` component  
-7.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
-7.2 `World Index`: The index of the world or the world the dungeon is in  
-7.3 `Dungeon Index`: The index of the dungeon in its world, `0` if a world should be loaded  
-7.4 `Fade In Panel`: A fade in animation, you can use the default one (`Fade From White` located at `Assets/Prefabs/Scene Transition`)  
-7.5 `Fade Out Panel`: A fade out animation, you can use the default one (`Fade To White` located at `Assets/Prefabs/Scene Transition`)  
-7.6 `Loading Time`: The amount of time the loading animation lasts, measured in seconds  
-7.7 `Player Position`: The `x` and `y` coordinates the player should spawn at in the loaded scene
+
+## How to set up a scene transition
+
+Provide the required data for the scene transition at the `Load Sub Scene` component  
+
+1. `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
+2. `World Index`: The index of the world or the world the dungeon is in  
+3. `Dungeon Index`: The index of the dungeon in its world, `0` if a world should be loaded  
+4. `Fade In Panel`: A fade in animation, you can use the default one (`Fade From White` located at `Assets/Prefabs/Scene Transition`)  
+5. `Fade Out Panel`: A fade out animation, you can use the default one (`Fade To White` located at `Assets/Prefabs/Scene Transition`)  
+6. `Loading Time`: The amount of time the loading animation lasts, measured in seconds  
+7. `Player Position`: The `x` and `y` coordinates the player should spawn at in the loaded scene
 
 ## Prefab
 
