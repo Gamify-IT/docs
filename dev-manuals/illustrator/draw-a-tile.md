@@ -11,14 +11,14 @@ You can find the templates in the [tiles repository](https://github.com/Gamify-I
 
 Add the colorset you want.
 
-![](images/setup1.png)
+![](images/setup1.webp)
 
 
 ### Step 2
 
 Choose the right tool.
 
-![](images/setup2.png)
+![](images/setup2.webp)
 
 
 ### Step 3
@@ -26,7 +26,7 @@ Choose the right tool.
 Choose the right color. Left click to paint. Have fun!
 **Make sure the shadows are transparent when drawing!**
 
-![](images/setup3.png)
+![](images/setup3.webp)
 
 
 
@@ -34,18 +34,18 @@ Choose the right color. Left click to paint. Have fun!
 
 ### Step 1
 
-![](images/export1.png)
+![](images/export1.webp)
 
 ### Step 2
 
-![](images/export2.png)
+![](images/export2.webp)
 
 ### Step 3
 
-![](images/export3.png)
+![](images/export3.webp)
 
 ### Result
 
-![](images/example-drawing.png)
+![](images/example-drawing.webp)
 
 

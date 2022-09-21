@@ -4,9 +4,9 @@ User Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: For all minigames
+   :caption: Overworld
 
-   ./all-services/**
+   ./overworld/**
 
 .. toctree::
    :glob:
@@ -14,3 +14,10 @@ User Manuals
    :caption: Minigames
 
    ./minigames/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Lecturer Interface
+
+   ./lecturer-interface/**
