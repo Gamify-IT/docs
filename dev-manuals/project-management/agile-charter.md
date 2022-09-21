@@ -78,8 +78,8 @@ Features:
 
 ### Boundaries
 
-![boundaries](boundaries.png)
+![boundaries](boundaries.webp)
 
 ### Prospective Analysis
 
-![prospective-analysis](prospective-analysis.png)
+![prospective-analysis](prospective-analysis.webp)
