@@ -17,7 +17,7 @@ To add a new scene transition, do the following:
 5. Adjust the trigger area of the `Box Collider 2D` component using the `Edit collider` button
 ![Collider component](assets/scene-transition-collider-component.webp)
 ![Example image](assets/scene-transition-example.webp)
-6. Set the `Is Trigger` flag at the `Box Collider 2D` component
+6. Set the `Is Trigger` flag at the `Box Collider 2D` component  
 ![Trigger flag](assets/scene-transition-trigger-flag.webp)
 7. Provide the required data for the scene transition at the `Load Sub Scene` component  
 7.1 `Scene To Load`: The name of the scene, which should be loaded (normally `Dungeon x-y` or `World x`)  
