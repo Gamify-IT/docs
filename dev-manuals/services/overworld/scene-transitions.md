@@ -38,4 +38,4 @@ Provide the required data for the scene transition at the `Load Sub Scene` compo
 You can also speed up that process by using the provided prefab, located at `Assets/Prefabs/Scene Transition`.  
 ![Prefabs](assets/scene-transition-prefabs.webp)  
 Simply drag an drop the `Scene Transition` object into the scene hierarchy as a child of the `Scene Transitions` game object.
-You can than skip steps 2 and 3.
+You can then skip steps 2 and 3.
