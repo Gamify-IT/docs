@@ -2,9 +2,9 @@
 
 * [Getting started](#getting-started)
     * [Minigame structure](#minigame-structure)
-    * [Integrate into the overworld backend](#integrate-the-new-minigame-in-the-overworld-backend)
-    * [Integrate into the lecturer interface](#integrate-the-new-minigame-in-the-lecturer-interface)
-    * [Backend-to-backend communication](#send-game-results-from-the-minigame-backend-to-the-overworld-backend)
+    * [Integrate into the overworld backend](#integrate-into-the-overworld-backend)
+    * [Integrate into the lecturer interface](#integrate-into-the-lecturer-interface)
+    * [Backend-to-backend communication](#backend-to-backend-communication)
 
 ## Getting started
 
