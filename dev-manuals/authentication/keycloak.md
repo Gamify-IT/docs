@@ -1,6 +1,6 @@
 # Keycloak
 
-We are using [Keycloak](https://www.keycloak.org) for user and access management. \
+We are using [Keycloak](https://www.keycloak.org) for user and access management.
 
 When the user logs in, they receive a token. \
 The token is stored in a cookie which is sent alongside every request to any backend.
