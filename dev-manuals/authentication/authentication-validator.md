@@ -1,8 +1,8 @@
 # Authentication-validator library
 
-This is a spring service which validates jwt access tokens issued by keycloak. On invalid token it throws the
-corresponding ResponseStatusException. \
-This service is used by all Gamify-IT backends to validate the users.
+This is a spring service which validates jwt access tokens issued by keycloak. \
+When it encounters an invalid token, it throws a `ResponseStatusException` with the corresponding HTTP status. \
+This service is used by all Gamify-IT backends to validate the users and to require authentication for specific routes.
 
 <!-- TOC -->
 * [Links](#links)
