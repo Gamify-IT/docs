@@ -21,7 +21,7 @@ To add a new minigame to an area, do the following:
 
 ## How to set up a minigame
 
-Provide the required data for the scene transition at the `Minigame` component  
+Provide the required data for the minigame at the `Minigame` component  
 ![Script component](assets/minigame-script-component.webp)
 
 1. `World`: The index of the world the minigame is in  
