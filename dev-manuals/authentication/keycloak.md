@@ -11,7 +11,7 @@ The token is stored in a cookie which is sent alongside every request to any bac
 * [Backend](#backend)
   * [Access Token](#access-token)
   * [Validation and User Info](#validation-and-user-info)
-    * [Recommended: Authentication-validator](#recommended--authentication-validator)
+    * [Recommended: Authentication-validator](#recommended-authentication-validator)
     * [Via Keycloak API](#via-keycloak-api)
 * [Frontend](#frontend)
 * [Development with Keycloak](#development-with-keycloak)
