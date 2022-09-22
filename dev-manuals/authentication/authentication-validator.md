@@ -5,11 +5,17 @@ corresponding ResponseStatusException. \
 This service is used by all Gamify-IT backends to validate the users.
 
 <!-- TOC -->
+* [Links](#links)
 * [Usage](#usage)
   * [Properties](#properties)
   * [Needed Dependencies](#needed-dependencies)
 * [Class diagram](#class-diagram)
 <!-- TOC -->
+
+## Links
+
+- The program code can be found [here](https://github.com/Gamify-IT/authentification-validator).
+- For more info about the authentication cookie, see the [keycloak manual](./keycloak.md).
 
 ## Usage
 
