@@ -1,10 +1,15 @@
 # How to create a new World
 
-This tutorial is for people interested in creating their own World/Dungeon the way we created one. This tutorial will be about creating a new world, but creating a dungeon works equally.
+This tutorial shows how to create a new area, just like we did.  
+This tutorial will be about creating a new world, but creating a dungeon works the same.
 
 ## Tileset
 
-Before starting to paint a world you need to think about in which theme the world should be. We used the [Zelda-like tileset](https://opengameart.org/content/zelda-like-tilesets-and-sprites) for all our Worlds and made some modifications to it according to our own needs (including a few custom sprites). See [new tilesets](https://github.com/Gamify-IT/overworld/blob/main/new-tilesets/README.md) for some info about how to change the look of the tileset. This tutorial works with the standard Zelda-like tileset since it is already available in the project. If you need another tileset you can refer to [setup tilemap in unity](https://github.com/Gamify-IT/docs/blob/main/dev-manuals/languages/unity/setup-tilemap-in-unity.md).
+Before starting to paint a world you need to think about in which theme the world should be.  
+We used the [Zelda-like tileset](https://opengameart.org/content/zelda-like-tilesets-and-sprites) for all our Worlds and made some modifications to it according to our own needs (including a few custom sprites).  
+See [new tilesets](https://github.com/Gamify-IT/overworld/blob/main/new-tilesets/README.md) for some info about how to change the look of the tileset.  
+This tutorial works with the standard Zelda-like tileset since it is already available in the project.  
+If you need another tileset, have a look at [setup tilemap in unity](https://github.com/Gamify-IT/docs/blob/main/dev-manuals/languages/unity/setup-tilemap-in-unity.md).
 
 ## Copying the Boilerplate Scene
 
@@ -30,7 +35,7 @@ Here is an example for all the layers:
 ![ground decoration layer](assets/create-area-ground-decoration-layer.webp)
 - Walls: On this layer, all tiles limiting the playable area are placed (e.g. walls)
 ![wall layer](assets/create-area-wall-layer.webp)
-- Wall decoration: On this layer, all additional wall tiles are placed, for example for detailing or realism (e.g. shadows, little rocks, lamps, etc.)  
+- Wall decoration: On this layer, all additional wall tiles are placed, for example for detailing or realism (e.g. shadows, little rocks, lamps, waterfalls, …)  
 ![wall decoration layer](assets/create-area-wall-decoration-layer.webp)
 - Objects: On this layer, all big objects are placed (e.g. trees, houses, fences, stones, etc.)
 ![objects layer](assets/create-area-objects-layer.webp)
