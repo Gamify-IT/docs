@@ -7,14 +7,14 @@ The overworld consists of multiple regions and dungeons.
 Throughout the world, students can discover course contents in form of [minigames](../README.md) and NPC dialogues.
 ![overworld](../../images/overworld.webp)
 
-- On the screenshot you see the player in the middle.
-- He can walk around and interact with various objects, such as the NPC on the left.
-- There is also a HUD which displays a minimap and other useful information
+- The player is in the center of the screenshot
+- They can walk around and interact with various objects such as the NPC on the left.
+- There is a HUD which displays a minimap, and other useful information
 
 ![npc dialogue](../../images/npc-dialogue.webp)
 
-- The Lecturer can configure what the NPCs talk
-- they could give tips about a topic for example
+- the lecturer can configure what the NPCs say
+- they can use that to give tips about a topic for example
 
 ![minigame](../../images/minigame-spot.webp)
 
