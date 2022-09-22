@@ -31,7 +31,7 @@ Provide the required data for the NPC at the `NPC` component
 4. `Image Of NPC`: The image shown in the dialogue box
 5. `Name Of NPC`: The name of the NPC
 
-You also need to set up the `Sprite Renderer` component. 
+You also need to set up the `Sprite Renderer` component.
 
 1. Select a sprite as the visible appearance of NPC as the `Sprite` attribute.  
 ![Animator component](assets/npc-sprite-renderer-component.webp)  
