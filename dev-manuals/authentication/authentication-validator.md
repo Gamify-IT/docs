@@ -6,11 +6,14 @@ This service is used by all Gamify-IT backends to validate the users.
 
 <!-- TOC -->
 * [Usage](#usage)
+  * [Properties](#properties)
   * [Needed Dependencies](#needed-dependencies)
 * [Class diagram](#class-diagram)
 <!-- TOC -->
 
 ## Usage
+
+### Properties
 
 Needs following properties from the application:
 
