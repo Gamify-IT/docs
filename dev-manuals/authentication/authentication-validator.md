@@ -52,4 +52,4 @@ Needs following properties from the application:
 
 ## Class diagram
 
-![package](https://user-images.githubusercontent.com/102458061/190691184-0d0bb396-f715-4178-8ca7-beec4c32698d.png)
+![class diagram](assets/authentication_validator_class_diagram.webp)
