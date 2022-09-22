@@ -29,15 +29,15 @@ Here is an example for all the layers:
 
 - All layers combined: ![all layers](assets/create-area-all-layers.webp)
 
-- Ground: On the layer, all ground related tiles are placed (e.g. grass, pathways, rivers, sea, etc.)
+- Ground: On the layer, all ground related tiles are placed (e.g. grass, pathways, rivers, sea, ...)
 ![ground layer](assets/create-area-ground-layer.webp)
-- Ground decoration: On this layer, all additional ground tiles are places (e.g. flowers, moss, little rocks, etc.)
+- Ground decoration: On this layer, all additional ground tiles are places (e.g. flowers, moss, little rocks, ...)
 ![ground decoration layer](assets/create-area-ground-decoration-layer.webp)
 - Walls: On this layer, all tiles limiting the playable area are placed (e.g. walls)
 ![wall layer](assets/create-area-wall-layer.webp)
 - Wall decoration: On this layer, all additional wall tiles are placed, for example for detailing or realism (e.g. shadows, little rocks, lamps, waterfalls, …)  
 ![wall decoration layer](assets/create-area-wall-decoration-layer.webp)
-- Objects: On this layer, all big objects are placed (e.g. trees, houses, fences, stones, etc.)
+- Objects: On this layer, all big objects are placed (e.g. trees, houses, fences, stones, ...)
 ![objects layer](assets/create-area-objects-layer.webp)
 
 ## Start painting the World
