@@ -77,6 +77,6 @@ Once you are done, safe your changes by clicking the `Apply` button in the top r
 ## How to validate colliders
 
 To check if the generated colliders are correct and meet your conditions, simply click on the `Grid` game object.  
-All colliders are then shown as green boxes in the ´Scene View`.  
+All colliders are then shown as green boxes in the `Scene View`.  
 For further testing you can walk around the created area with the player to check, if the collisions display a realistic behaviour.  
 ![validate colliders](assets/create-area-validate-colliders.webp)  
