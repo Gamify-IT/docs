@@ -33,13 +33,14 @@ The overworld backend needs a copy of your entire public backend data model.
 This means especially the `Configuration` class and other classes used by it.  
 Put those classes into the package `de.unistuttgart.overworldbackend.data.minigames.<YOUR_MINIGAME_NAME>`.  
 Below, you can see how your `Configuration` class can look like for example:
+
 ```java
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class [YOUR_MINIGAME_NAME]Configuration {
+public class $YOUR_MINIGAME_NAMEConfiguration {
 
     UUID id;
-    Set<[YOUR_MINIGAME_NAME]Question> questions;
+    Set<$YOUR_MINIGAME_NAMEQuestion> questions;
 }
 ```
 
@@ -48,6 +49,7 @@ public class [YOUR_MINIGAME_NAME]Configuration {
 A `FeignClient` needs to be configured to communicate with your REST-API.
 Add the class `<YOUR_MINIGAME_NAME>Client` to the package `de.unistuttgart.overworldbackend.client`.
 The code in this class should look like following:
+
 ```java
 @FeignClient(value = "<YOUR_MINIGAME_NAME>Client", url = "${<YOUR_MINIGAME_NAME>.url}/configurations")
 public interface BugfinderClient {
@@ -65,6 +67,7 @@ public interface BugfinderClient {
 }
 ```
 Also add the url to the minigame backend in `application.properties`, e.g.:
+
 ```properties
 <YOUR_MINIGAME_NAME>.url= http://localhost/minigames/<YOUR_MINIGAME_NAME>/api/v1
 ```
@@ -116,6 +119,7 @@ Add `YOUR_MINIGAME` to the Minigame enum in `overworld-models.ts` in the package
 You need a copy of your `Configuration` class and subsequent classes called by it in the lecturer interface.
 Add these DTOs in the package `ts.models`.
 For example:
+
 ```typescript
 export class <YOUR_MINIGAME_NAME>Configuration {
   id?: string;
@@ -143,11 +147,13 @@ export class <YOUR_MINIGAME_NAME>Question {
 ### Add a REST client
 
 Add the URL of the backend in the `config.ts`
+
 ```typescript
 <YOUR_MINIGAME_NAME>ApiUrl: "/minigames/<YOUR_MINIGAME_NAME>/api/v1",
 ```
 
 Add a class <YOUR_MINIGAME_NAME>-rest-client.ts in package `ts.rest-clients`, e.g.
+
 ```typescript
 import axios, { AxiosResponse } from "axios";
 
@@ -181,11 +187,13 @@ When a modal gets closed, emit `closedModal` and when a configuration gets updat
 The minigames edit view is in the class `MinigameTasksView.vue` under the package `views`.
 
 Create a new variable:
+
 ```typescript
 const show<YOUR_MINIGAME_NAME>Modal = ref(false);
 ```
 
 Add your minigame in the `editMinigameConfiguration` method:
+
 ```typescript
 case Minigame.<YOUR_MINIGAME_NAME>:
     show<YOUR_MINIGAME_NAME>Modal.value = true;
@@ -193,11 +201,13 @@ case Minigame.<YOUR_MINIGAME_NAME>:
 ```
 
 Append the following at the bottom of the `closedEditModal` method:
+
 ```typescript
 show<YOUR_MINIGAME_NAME>Modal.value = false;
 ```
 
 Add the new edit modal. Put the modal after the other modals at the bottom of the file.
+
 ```typescript
 <Edit<YOUR_MINIGAME_NAME>Modal
     :showModal="show<YOUR_MINIGAME_NAME>Modal"
@@ -211,6 +221,7 @@ Add the new edit modal. Put the modal after the other modals at the bottom of th
 
 Go in the edit modal component of the minigame. 
 You need following imports:
+
 ```typescript
 import { saveAs } from "file-saver";
 import { arrayOf, defaultValue, object, string, int } from "checkeasy"; // depends on your configuration attributes
@@ -219,6 +230,7 @@ import ImportExportConfiguration from "@/components/ImportExportConfiguration.vu
 ```
 
 To make a configuration downloadable, create the method downloadConfiguration:
+
 ```typescript
 function downloadConfiguration() {
   const { ["id"]: unused, ...clonedConfiguration } = configuration.value;
@@ -237,6 +249,7 @@ function downloadConfiguration() {
 This exports the configuration object as json without their IDs.
 
 Of course we need also a importFile method:
+
 ```typescript
 async function importFile(event: any) {
   const file = event.target.files[0];
@@ -265,7 +278,8 @@ async function importFile(event: any) {
 The validator depends on the attributes of the configuration class. You need to customize the validator to match your configuration class. More information about the library can be found [here](https://github.com/smbwain/checkeasy/blob/master/README.md).
 
 Finally the component to import and export a file needs to be added, which displays a import and an export button. Simply add the following code in your modal:
-```typescript
+
+```php
 <ImportExportConfiguration
     @export="downloadConfiguration"
     @importFile="importFile"
@@ -280,6 +294,7 @@ The minigame backend is responsible for calculating this score, the overworld ba
 The following shows how to do it in Java with `Spring`, `Lombok`, and `FeignClient`.
 
 First, create the `OverworldResultDTO`:
+
 ```java
 /**
  * The class to specify all details the overworld backend needs to
@@ -299,11 +314,13 @@ public class OverworldResultDTO {
 ```
 
 Add the url of the overworld backend in `application.properties`:
+
 ```properties
 overworld.url= http://localhost/overworld/api/v1
 ```
 
 Create the ResultClient
+
 ```java
 @FeignClient(value = "resultClient", url = "${overworld.url}/internal")
 public interface ResultClient {
@@ -313,6 +330,7 @@ public interface ResultClient {
 ```
 
 Implement somewhere in your minigame backend the logic to send the game results:
+
 ```java
 @Autowired
 private ResultClient resultClient;
