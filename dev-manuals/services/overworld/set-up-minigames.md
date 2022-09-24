@@ -2,14 +2,14 @@
 
 ## Overview
 
-Minigame spots are used to start a minigame. If the player enters the specified area, the spot activates and displays information about the minigame, the players previous success as a highscore and allows the player so start a minigame play round.
+Minigame spots are used to start a minigame. If the player enters the specified area, the spot activates and displays information about the minigame, the players previous success as a highscore and allows the player to start a minigame play round.
 
 ## How to add a minigame
 
 To add a new minigame to an area, do the following:
 
 1. Open the scene, in which the minigame should be
-2. Create a new `game object` as a child of the `Minigames` game object on the hierarchy
+2. Create a new `game object` as a child of the `Minigames` game object on the hierarchy  
 ![Hierarchy view](assets/minigame-hierarchy-view.webp)
 3. Add the `Minigame` script, a `Box Collider 2D` component, a `Sprite Renderer` component and a `Animator` component to the created game object
 ![Inspector view](assets/minigame-inspector-view.webp)

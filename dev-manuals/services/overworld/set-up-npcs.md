@@ -2,14 +2,14 @@
 
 ## Overview
 
-NPCs are used to impart knowledge to the player. The course creator can set dialogues and texts to help the player to complete minigames. Once a player approched an NPC, he can talk to him as often as he likes to.
+NPCs are used to impart knowledge to the player. The course creator can set dialogues and texts to help the player to complete minigames. Once a player approached an NPC, he can talk to him as often as he likes to.
 
 ## How to add a NPC
 
 To add a new NPC to an area, do the following:
 
 1. Open the scene, in which the NPC should be
-2. Create a new `game object` as a child of the `NPCs` game object on the hierarchy
+2. Create a new `game object` as a child of the `NPCs` game object on the hierarchy  
 ![Hierarchy view](assets/npc-hierarchy-view.webp)
 3. Add the `NPC` script, a `Box Collider 2D` component, a `Sprite Renderer` component and a `Capsule Collider 2D` component to the created game object
 ![Inspector view](assets/npc-inspector-view.webp)

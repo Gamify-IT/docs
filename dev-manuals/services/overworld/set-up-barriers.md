@@ -9,7 +9,7 @@ Barriers are used to block of access to dungeons and worlds, which have not yet 
 To add a new barrier to a world, do the following:
 
 1. Open the scene, in which the barrier should be
-2. Create a new `game object` as a child of the `Barriers` game object on the hierarchy
+2. Create a new `game object` as a child of the `Barriers` game object on the hierarchy  
 ![Hierarchy view](assets/barrier-hierarchy-view.webp)
 3. Add the `Barrier` script, two `Box Collider 2D` components and a `Sprite Renderer` component to the created game object  
 ![Inspector view](assets/barrier-inspector-view.webp)
