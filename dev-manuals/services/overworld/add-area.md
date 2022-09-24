@@ -8,16 +8,16 @@ To add new areas, you first need to [create it](create-new-world.md) and set up 
 
 To add a dungeon, you simply have to add it to a world using a [scene transition](scene-transition.md).  
 To add a world, you need to set the position of the `Grid` game object so that it connects with the nearby worlds.  
--> picture inspector view  
+![Hierarchy view](assets/add-area-hierarchy-view.webp)  
 To make this easier, you can load multiple worlds at once. To do that, open the new world and drag and drop a nearby scene in the `Hierarchy`.  
--> picture multiple scenes
+![Scene view](assets/add-area-scene-view.webp)
 
 ## How to set up an area
 
 To set up an area, you need to set up the following parts:  
 
-1. Minigames, as specified [here](set-up-minigames.md)
-2. NPCs, as specified [here](set-up-npcs.md)
-3. Barriers, as specified [here](set-up-barriers.md)
-4. Dungeon entrance or exit points, as specified [here](scene-transition.md)
-5. Minimap, as specified [here](set-up-minimap.md)
+1. The [Minigames](set-up-minigames.md)
+2. The [NPCs](set-up-npcs.md)
+3. The [Barriers](set-up-barriers.md) connecting it to other worlds
+4. All [Dungeon entrance or exit points](scene-transition.md)
+5. The [Minimap](set-up-minimap.md)

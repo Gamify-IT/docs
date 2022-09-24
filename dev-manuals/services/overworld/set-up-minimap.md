@@ -8,9 +8,9 @@ The minimap help the player to orientate in areas and highlights important objec
 
 For the minimap to work correctly in an area, you need to set up the following parts:
 
-1. The minimap area name
-2. The minimap icons parent object
-3. The minimap icons
+1. The [minimap area name](#how-to-set-up-the-minimap-area-name)
+2. The [minimap icons parent object](#how-to-set-up-the-minimap-icons-parent-object)
+3. The [minimap icons](#how-to-add-minimap-icons)
 
 ## How to set up the minimap area name
 
