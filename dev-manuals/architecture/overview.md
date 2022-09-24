@@ -1,4 +1,4 @@
-# Architecture Overview
+# Overview
 
 The Gamify-IT platform consists of several microservices.
 This document describes the architecture of the platform and its components.
