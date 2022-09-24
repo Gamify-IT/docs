@@ -21,9 +21,9 @@ The configuration of a selected book was updated.
 1. Click the edit button of a book
 2. A modal opens with a textarea
 3. Enter a little text
-4. Press the Ok button of the modal
+4. Press the `Ok` button
 5. The modal closes
-6. A feedback toast message appears which contains that configuraiton was saved
+6. A success message appears
 7. Press the edit button from the book again and ensure that the configuration is what you saved above.
 
 ## Alternative procedures
