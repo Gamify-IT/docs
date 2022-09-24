@@ -1,7 +1,7 @@
-# Lecturer-Interface: Show courses (`u.lecturer-interface-01`)
+# Keycloak: user-roles-consideration (`u.keycloak-01`)
 
 
-Version: V1.0, 08.08.2022 \
+Version: V1.0, 23.09.2022 \
 Author: Max Kästner
 
 ## Description

@@ -1,7 +1,7 @@
-# Lecturer-Interface: Create course (`u.lecturer-interface-02`)
+# Keycloak: Create course (`u.keycloak-02`)
 
 
-Version: V1.0, 08.08.2022 \
+Version: V1.0, 23.09.2022 \
 Author: Max Kästner
 
 ## Description
