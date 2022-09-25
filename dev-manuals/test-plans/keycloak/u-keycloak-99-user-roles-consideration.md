@@ -1,8 +1,8 @@
-# Keycloak: user-roles-consideration (`u.keycloak-01`)
+# Keycloak: user-roles-consideration (`u.keycloak-099`)
 
 
 Version: V1.0, 23.09.2022 \
-Author: Max Kästner
+Author: Leon Layer
 
 ## Description
 
@@ -18,8 +18,8 @@ All available courses are shown on the view.
 
 ## Typical procedure
 
-1. Open the lecturer interface
-2. The courses are listed in the view
+1. Open the start-page (http://localhost/start)
+2. Choose Logout{username}
 
 ## Alternative procedures
 
