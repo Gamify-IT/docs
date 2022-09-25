@@ -1,32 +1,32 @@
-# Keycloak: user-roles-consideration (`u.keycloak-099`)
+# Keycloak: user roles consideration lecturer interface access (`u.keycloak-06`)
 
 
-Version: V1.0, 23.09.2022 \
+Version: V1.0, 25.09.2022 \
 Author: Leon Layer
 
 ## Description
 
-All courses are listed in the course overview view.
+A user with a lecturer role, is logged in. His role causes the lecturer interface to be displayed on the start page.
 
 ## Precondition
 
-At least one course is created.
+A user with a lecturer role is logged in. 
 
 ## Postcondition
 
-All available courses are shown on the view.
+The lecturer interface is displayed to the user.
 
 ## Typical procedure
 
 1. Open the start-page (http://localhost/start)
-2. Choose Logout{username}
+2. Choose lecture interface
 
 ## Alternative procedures
 
 
 ## Criticality
 
-High
+Medium
 
 ## Linkages
 
