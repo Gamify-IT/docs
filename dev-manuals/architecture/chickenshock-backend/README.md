@@ -21,12 +21,12 @@ The intention with this game is to make answering single choice questions fun.
 ## Links
 
 - The [user docs](../../../user-manuals/minigames/chickenshock.md) explain how to play the game.
-- The program code is available at [here](https://github.com/Gamify-IT/chickenshock-backend).
+- The program code is available [here](https://github.com/Gamify-IT/chickenshock-backend).
 - The overview of the architecture can be found [here](../general-architecture.md).
 
 ## General code structure
 
-This [Java code of the backend](https://github.com/Gamify-IT/finite-quiz-backend/blob/adef8dd1e681d655d26852d7c5741e254db16e57/src/main/java/de/unistuttgart/finitequizbackend) has the following package structure
+This [Java backend](https://github.com/Gamify-IT/chickenshock-backend/tree/main/src/main/java/de/unistuttgart/chickenshockbackend) has the following package structure
 - `data`: Contains the data objects and DTOs
 - `controllers`: Containers the server routes
 - `services`: Contains the business logic
@@ -40,15 +40,15 @@ See the [README](https://github.com/Gamify-IT/chickenshock-backend#readme).
 
 ## What to look at
 
-The controllers for the API requests are a good point to start.
+The controllers for the API requests are a good point to start.  
 From there you can follow the code flow to the other components.
 
-- The [GameController](https://github.com/Gamify-IT/moorhuhn-backend/blob/c6e06e04b968c9db81eb946061f9f07e89a56afc/src/main/java/de/unistuttgart/chickenshockbackend/controller/GameResultController.java) provides the API for the game results.
-- The [ConfigurationController](https://github.com/Gamify-IT/moorhuhn-backend/blob/c6e06e04b968c9db81eb946061f9f07e89a56afc/src/main/java/de/unistuttgart/chickenshockbackend/controller/ConfigController.java) provides the API to configure the game.
+- The [GameResultController](https://github.com/Gamify-IT/chickenshock-backend/blob/main/src/main/java/de/unistuttgart/chickenshockbackend/controller/GameResultController.java) provides the API for the game results.
+- The [ConfigController](https://github.com/Gamify-IT/chickenshock-backend/blob/main/src/main/java/de/unistuttgart/chickenshockbackend/controller/ConfigController.java) provides the API to configure the game.
 
 ## What to ignore
 
-Everything is ready for review.
+Nothing at the moment.
 
 ## Class diagrams
 
