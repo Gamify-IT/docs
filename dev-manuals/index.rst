@@ -70,6 +70,7 @@ Developer Manuals
    :caption: Services
 
    ./services/*/**
+   ./services/integrate-new-minigame
 
 .. toctree::
    :glob:

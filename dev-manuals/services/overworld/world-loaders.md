@@ -7,7 +7,7 @@ By doing that, the amount of data to handle is smaller and that increases the pe
 
 ## How to create a world loader
 
-To add a new part of the world, you need to [create it](create-new-world.md), [move it to the right place](set-up-area.md) and set up the loading and unloading.  
+To add a new part of the world, you need to [create it](create-new-world.md), [move it to the right place](add-area.md) and set up the loading and unloading.  
 To do that, do the following:
 
 1. Open the scene, in which the scene transition should be
