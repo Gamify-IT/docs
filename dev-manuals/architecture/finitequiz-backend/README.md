@@ -53,15 +53,15 @@ Nothing at the moment.
 ## Class diagrams
 
 ### Overview complete application
-![overview class diagram of complete application](assets/finitequizClassOverview.webp)
+![overview class diagram of complete application](assets/finitequiz-class-overview.webp)
 This simplified class diagram shows how the most important services, mappers and repositories in the project are interlinked.
 
 ### ConfigController
-![class diagram of ConfigController](assets/finitequizConfigController.svg)
+![class diagram of ConfigController](assets/finitequiz-config-controller.svg)
 This class diagram shows an overview of the ConfigController class.
 
 ### GameResultController
-![class diagram GameResultController](assets/finitequizGameResultController.svg)
+![class diagram GameResultController](assets/finitequiz-game-result-controller.svg)
 This class diagram shows an overview of the GameResultController class.
 The data structure of `GameResult` and its contents are shown at the left and bottom of the diagram.
 
