@@ -27,7 +27,7 @@ Test Plan Overview
    :titlesonly:
    :caption: Test Plans for Finitequiz
 
-   ./minigames/finite-quiz/**
+   ./minigames/finitequiz/**
 
 .. toctree::
    :glob:
