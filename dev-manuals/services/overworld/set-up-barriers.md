@@ -2,7 +2,8 @@
 
 ## Overview
 
-Barriers are used to block of access to dungeons and worlds, which have not yet been unlocked by the player. They obstruct a pathway to a world or the entrance to a dungeon, but once the player unlocks the area they are removed and access is granted.
+Barriers are used to block access to dungeons and worlds, which have not yet been unlocked by the player.  
+Once the player unlocks the area, they are removed and access is granted.
 
 ## How to add a barrier
 

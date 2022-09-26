@@ -2,7 +2,7 @@
 
 ## Overview
 
-The minimap help the player to orientate in areas and highlights important objects or places such as NPCs, dungeon entry points as well as pathways to other worlds. That simplifies the gameplay and therefor improves the experience of the player.
+The minimap helps the player to orientate in areas, and highlights important things such as NPCs, dungeon entry points, or connections between worlds.
 
 ## How to set up the minimap
 

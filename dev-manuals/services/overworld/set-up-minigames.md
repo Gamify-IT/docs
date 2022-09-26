@@ -39,7 +39,13 @@ You can also speed up that process by using the provided prefab, located at `Ass
 Simply drag an drop the `Minigame` object into the scene hierarchy as a child of the `Minigames` game object.
 You can then skip steps `2`, `3`, `5` and `6` as well as setting up the `Animator` component.
 
+## Lecturer Interface
+
+Once you have added all minigames you want to add, do not forget to update the maps for the lecturer interface by pushing a new commit changing the specific image in <https://github.com/Gamify-IT/docs/tree/main/user-manuals/maps>.  
+You should also update the line `mapCommitHash: …` in the [lecturer interface config file](https://github.com/Gamify-IT/lecturer-interface/blob/main/src/config.ts) with the new SHA.
+
 ## Disclaimer
 
-If you add a minigame, you have to check whether the `Number` attribute is greater than the maximum amount of minigames specified. If that is the case, you need to change the `maxMinigames` attribute of the `GameSettings` script located at `Assets/Scripts/GameManager`.  
+You can only add minigames to an area when you have less than `maxMinigames` (script `GameSettings` located at `Assets/Scripts/GameManager`) in this area.  
 ![Prefabs](assets/minigame-game-settings.webp)
+Everything above will not be configurable from the backend.

@@ -2,7 +2,9 @@
 
 ## Overview
 
-NPCs are used to impart knowledge to the player. The course creator can set dialogues and texts to help the player to complete minigames. Once a player approached an NPC, he can talk to him as often as he likes to.
+NPCs are used to impart knowledge to the player.  
+The lecturer can set dialogues and texts to help the player to complete minigames.  
+A player can talk to an NPC as often as he likes to.
 
 ## How to add a NPC
 
@@ -46,7 +48,13 @@ You can also speed up that process by using the provided prefab, located at `Ass
 Simply drag an drop the `NPC` object into the scene hierarchy as a child of the `NPCs` game object.
 You can then skip steps `2`, `3`, `5`, `6` and `7`.
 
+### Lecturer Interface
+
+Once you have added all NPCs you want to add, do not forget to update the maps for the lecturer interface by pushing a new commit changing the specific image in <https://github.com/Gamify-IT/docs/tree/main/user-manuals/maps>.  
+You should also update the line `mapCommitHash: …` in the [lecturer interface config file](https://github.com/Gamify-IT/lecturer-interface/blob/main/src/config.ts) with the new SHA.
+
 ## Disclaimer
 
-If you add an NPC, you have to check whether the `Number` attribute is greater than the maximum amount of NPCs specified. If that is the case, you need to change the `maxNPCs` attribute of the `GameSettings` script located at `Assets/Scripts/GameManager`.  
+You can only add NPCs to an area when you have less than `maxNPCs` (script `GameSettings` located at `Assets/Scripts/GameManager`) in this area.  
 ![Prefabs](assets/npc-game-settings.webp)
+Everything above will not be configurable from the backend.
