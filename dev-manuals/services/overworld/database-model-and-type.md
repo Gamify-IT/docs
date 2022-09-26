@@ -2,7 +2,7 @@
 
 ## Database model
 
-![](database-model/database-model.png)
+![](database-model/database-model.svg)
 
 ## What kind of data do we need to store?
 
