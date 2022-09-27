@@ -1,6 +1,8 @@
 # Architecture of Finitequiz
 
-Being a single choice question style minigame that lets users choose one correct answer from a bunch of wrong answers.
+## Purpose
+
+Being a single-choice question style minigame that lets users choose one correct answer from a bunch of wrong answers.
 
 ## Table of Contents
 <!-- TOC -->

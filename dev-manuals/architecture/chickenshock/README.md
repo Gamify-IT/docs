@@ -1,6 +1,8 @@
 # Architecture of Chickenshock
 
-Chickenshock is a minigame which is part of the Gamify-IT platform.
+## Purpose
+
+Chickenshock is a minigame that is part of the Gamify-IT platform.
 The intention with this game is to make answering single choice questions fun.
 
 ## Table of Contents
