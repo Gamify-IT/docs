@@ -4,7 +4,13 @@ Installation Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: Installation
+   :caption: All services
 
-   **
+   ./all-services/**
 
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Minigames
+
+   ./minigames/**

@@ -1,7 +1,30 @@
 # Architecture of Chickenshock
 
-Project: <https://github.com/Gamify-IT/chickenshock> \
-Scripts: <https://github.com/Gamify-IT/chickenshock/tree/main/Assets/Scripts>
+## Purpose
+
+Chickenshock is a minigame that is part of the Gamify-IT platform.
+The intention with this game is to make answering single choice questions fun.
+
+## Table of Contents
+
+<!-- TOC -->
+* [Links](#links)
+* [Purpose](#purpose)
+* [General code structure](#general-code-structure)
+* [Starting the service](#starting-the-service)
+* [What to look at](#what-to-look-at)
+* [What to ignore](#what-to-ignore)
+* [Known Design Flaws](#known-design-flaws)
+* [Known Bugs](#known-bugs)
+* [Tests](#tests)
+<!-- TOC -->
+
+## Links
+
+- The [user docs](../../../user-manuals/minigames/chickenshock.md) explain how to play the game.
+- The program code is available [here](https://github.com/Gamify-IT/chickenshock).
+- The overview of the architecture can be found [here](../general-architecture.md).
+- The backend architecture is described [here](../chickenshock-backend/README.md).
 
 ## Purpose
 
