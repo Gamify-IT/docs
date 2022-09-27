@@ -1,28 +1,34 @@
 # Bugfinder
 
-Bugfinder is a minigame which is part of the Gamify-IT platform.
+_Bugfinder_ is a minigame for the _Gamify-IT_ platform.
 
 ## About the Game
 
-The goal with this game is finding errors and bugs in a code snippet.
+The goal of _Bugfinder_ is to find and fix errors in a small program.
+
+## Appearance
 
 ![start menu screenshot](assets/bugfinder-start-screen.webp)
-When entering the game, the user is presented with a start screen. To start a game the user has to hit the `Start` button. To exit the game, the user can always press the red button on the top right.
+
+When entering the game, you see the start screen.  
+To start a game, click on `Start`.  
+To exit the game, click on the red button in the upper-right corner.
 
 ![game screenshot](assets/bugfinder-game-screen.webp)
-After clicking on the `Start` button, the user is presented with a code snippet.
-The player has to find all bugs in this code. 
+
+After clicking on the `Start` button, you get a code snippet with some errors that you are tasked to find. 
 
 ![fix bug screenshot](assets/bugfinder-fix-bug.webp)
-By clicking on words in this code snippets the user can select these bugs, correct them and specify the error type in a modal.
-When the bug was selected, it gets highligted.
 
-If the user is sure that he has found all bugs, he can press the submit button to submit the solution.
+By clicking on words in this code snippet, you can mark this word as a bug, you can correct it, and you can specify the error type.  
+Already selected bugs will be highlighted.
+
+If you are sure that you have found all bugs, you can see your results by clicking on the `submit` button.
 ![feedback screenshot](assets/bugfinder-feedback.webp)
-The user then gets feedback about his submitted bugs.
 
+Next, you'll get another snippet.
+Once you've submitted all snippets, you will see the end screen that finishes the game:
 ![feedback screenshot](assets/bugfinder-end-screen.webp)
-After the user dealed with all codes the user finishes the game.
 
 ## Configuration
 
