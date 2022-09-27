@@ -10,11 +10,11 @@
 
 ## Configuration
 
-Currently, the following things can be configured.
+Currently, the following things can be configured:
 
 ### Frontend
 
-In the [frontend](https://github.com/Gamify-IT/bugfinder) the following properties can be configured:
+In the [frontend](https://github.com/Gamify-IT/bugfinder), the following properties can be configured:
 
 - `BASE_URL` the URL path to the bugfinder backend (to save the rounds and fetch questions)
 
