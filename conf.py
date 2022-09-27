@@ -37,7 +37,19 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'venv', 'internal', 'README.md', 'dev-manuals/README.md', 'adr/README.md', 'adr/adr-template.md', 'template-README.md', 'user-manuals/README.md', '**/template*.md', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build',
+        'venv',
+        'internal',
+        'README.md',
+        'dev-manuals/README.md',
+        'adr/README.md',
+        'install-manuals/README.md',
+        'adr/adr-template.md',
+        'template-README.md',
+        'user-manuals/README.md',
+        '**/template*.md',
+        'Thumbs.db',
+        '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -51,3 +63,13 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = []
+
+# Generate HTML anchors (test#h1-title) for titles up to h4
+myst_heading_anchors = 4
+
+myst_enable_extensions = [
+        'colon_fence', # :::$TYPE\n$CONTENT\n::: == ```$TYPE\n$CONTENT\n```
+        'html_admonition', # :::{attention, caution, danger, error, hint, important, note, tip, warning} $TITLE\n$CONTENT\n::: -> renders a message with the given title and content in the given style
+        'linkify', # www.google.com -> <www.google.com>
+        'tasklist', # [ ] -> unchecked checkbox, [x] -> checked checkbox
+        ]
