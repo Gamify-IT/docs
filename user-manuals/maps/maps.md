@@ -44,7 +44,7 @@ The following are maps of the current areas:
 
 ![world 1, dungeon 1 NPCs](world1-dungeon1/npc.webp)
 
-### #Book spots
+#### Book spots
 
 ![world 1, dungeon 1 books](world1-dungeon1/books.webp)
 
@@ -138,7 +138,7 @@ The following are maps of the current areas:
 
 ![world 2, dungeon 1 NPCs](world2-dungeon1/npc.webp)
 
-### #Book spots
+#### Book spots
 
 ![world 2, dungeon 1 books](world2-dungeon1/books.webp)
 
@@ -233,7 +233,7 @@ The following are maps of the current areas:
 
 ![world 3, dungeon 1 NPCs](world3-dungeon1/npc.webp)
 
-### #Book spots
+#### Book spots
 
 ![world 3, dungeon 1 books](world3-dungeon1/books.webp)
 
@@ -328,7 +328,7 @@ The following are maps of the current areas:
 
 ![world 4, dungeon 1 NPCs](world4-dungeon1/npc.webp)
 
-### #Book spots
+#### Book spots
 
 ![world 4, dungeon 1 books](world4-dungeon1/books.webp)
 
