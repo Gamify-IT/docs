@@ -2,11 +2,16 @@
 
 _Bugfinder_ is a minigame for the _Gamify-IT_ platform.
 
+## TOC
+
+- [Gameplay](#gameplay)
+- [Configuration](#configuration)
+
 ## About the Game
 
 The goal of _Bugfinder_ is to find and fix errors in a small program.
 
-## Appearance
+## Gameplay
 
 ![start menu screenshot](assets/bugfinder-start-screen.webp)
 
