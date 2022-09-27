@@ -23,6 +23,7 @@ The intention with this game is to make answering single choice questions fun.
 - The [user docs](../../../user-manuals/minigames/finitequiz.md) explain how to play the game.
 - The program code is available [here](https://github.com/Gamify-IT/finitequiz-backend).
 - The overview of the architecture can be found [here](../general-architecture.md).
+- The frontend architecture is described [here](../finitequiz/README.md).
 
 ## General code structure
 
