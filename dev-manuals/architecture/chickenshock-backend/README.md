@@ -23,6 +23,7 @@ The intention with this game is to make answering single choice questions fun.
 - The [user docs](../../../user-manuals/minigames/chickenshock.md) explain how to play the game.
 - The program code is available [here](https://github.com/Gamify-IT/chickenshock-backend).
 - The overview of the architecture can be found [here](../general-architecture.md).
+- The frontend architecture is described [here](../chickenshock/README.md).
 
 ## General code structure
 
