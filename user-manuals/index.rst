@@ -7,6 +7,7 @@ User Manuals
    :caption: Overworld
 
    ./overworld/**
+   ./maps/maps.md
 
 .. toctree::
    :glob:
