@@ -1,11 +1,27 @@
 # Architecture of Finitequiz
 
-Project: <https://github.com/Gamify-IT/finitequiz> \
-Scripts: <https://github.com/Gamify-IT/finitequiz/tree/main/src>
-
 ## Purpose
 
-Being a single choice question style minigame that lets users choose one correct answer from a bunch of wrong answers
+Being a single-choice question style minigame that lets users choose one correct answer from a bunch of wrong answers.
+
+## Table of Contents
+<!-- TOC -->
+* [Links](#links)
+* [General code structure](#general-code-structure)
+* [Starting the service](#starting-the-service)
+* [What to look at](#what-to-look-at)
+* [What to ignore](#what-to-ignore)
+* [Known Design Flaws](#known-design-flaws)
+* [Known Bugs](#known-bugs)
+* [Tests](#tests)
+<!-- TOC -->
+
+## Links
+
+- The [user docs](../../../user-manuals/minigames/finitequiz.md) explain how to play the game.
+- The program code is available [here](https://github.com/Gamify-IT/finitequiz).
+- The overview of the architecture can be found [here](../general-architecture.md).
+- The backend architecture is described [here](../finitequiz-backend/README.md).
 
 ## General code structure
 
