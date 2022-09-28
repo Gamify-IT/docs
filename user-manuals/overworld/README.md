@@ -6,19 +6,27 @@ It is the main interface for students to interact with the platform.
 ## Overview
 
 The overworld consists of multiple `worlds` and `dungeons`.
-Throughout these areas students can discover course contents like playable [minigames](../README.md) and dialogues with `NPCs`. The player (the character in the middle of the picture) can walk around and interact with various objects such as the NPC on the left or `books` providing useful information. The `HUD` helps navigating with the minimap and keeping track of the progress with the progress bar.  
+Throughout these areas, students can discover course contents like playable [minigames](../README.md) and dialogues with `NPCs`.  
+The player (the character in the middle of the picture) can walk around and interact with various objects such as the NPC on the left or with books to learn something.  
+The `HUD` helps navigating with the minimap and keeping track of the progress with the progress bar.  
 ![overworld](../../images/overworld.webp)
 
 ## Gameplay
 
 ### NPCs
 
-The player can talk to other characters in the world to obtain information. The lecturer creating the course can specify what each `NPC` has to say and therefor give tips and summaries of important topics to the player.
+The player can talk to other characters in the world to obtain information.  
+The lecturer can specify what each `NPC` has to say.  
+This can be used to give tips or to summarize important topics for the player.
 ![npc dialogue](../../images/npc-dialogue.webp)
 
 ### Books
 
-For large amounts of information, there are also `books` to find. Those are very similar to NPC, they can also be configured by the lecturer and are meant to provide assistance. But unlike NPCs, they don't show multiple sentences but one big page. With that it is possible for the course creator to choose between different ways to display information and help the player.  
+For large amounts of information, you can use books.  
+They are similar to NPCs:
+They can also be configured by the lecturer and are meant to provide assistance.  
+Unlike NPCs, however, they show all content combined on one big page instead of splitting it up into sentences.  
+Hence, there are different ways to display information and help the player.  
 ![books](../../images/books.webp)
 
 ### Minigames
@@ -32,7 +40,9 @@ There are multiple `worlds` with optional `dungeons` each. The lecturer can conf
 
 ## Controls
 
-The player has a lot of options to interact with the game. He can move around, but also adjust his movement speed, interact with objects and characters, open menus and zoom the game and minimap in and out. The respective keys for each of those actions are listed here and can also be found in game a the pause menu opened with the `ESC` button at the `keybindings` tab.  
+The player has a lot of options to interact with the game:  
+They can move around, they can adjust their (movement) speed, can interact with objects and characters, can open menus, and can zoom the game or minimap.  
+The respective keys for each of those actions are listed below and can also be found in-game in the pause menu (press the <kbd>ESC</kbd> button and navigate to the `keybindings` tab).  
 ![keybindings](../../images/keybindings.webp)
 
 ## Developer
