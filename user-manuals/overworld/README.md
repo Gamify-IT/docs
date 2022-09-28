@@ -6,7 +6,7 @@ It is the main interface for students to interact with the platform.
 ## Overview
 
 The overworld consists of multiple `worlds` and `dungeons`.
-Throughout these areas, students can discover course contents like playable [minigames](../README.md) and dialogues with `NPCs`. The player (the character in the middle of the picture) can walk around and interact with various objects such as the NPC on the left or `books` providing useful information. The `HUD` helps navigating with the minimap and keeping track of the progress with the progress bar.  
+Throughout these areas students can discover course contents like playable [minigames](../README.md) and dialogues with `NPCs`. The player (the character in the middle of the picture) can walk around and interact with various objects such as the NPC on the left or `books` providing useful information. The `HUD` helps navigating with the minimap and keeping track of the progress with the progress bar.  
 ![overworld](../../images/overworld.webp)
 
 ## Gameplay
@@ -23,7 +23,7 @@ For large amounts of information, there are also `books` to find. Those are very
 
 ### Minigames
 
-The main purpose of the overworld is to allow the player to test and increase his knowledge and understanding by playing `minigames`. Minigames can be started at `minigame spots`, displayed as the red circle in the picture. The lecturer can set up the questions and possible answers in the [lecturer interface](../lecturer-interface/README.md). Once the player enteres the area of the minigame spot an information panel is opened. It displays the type of the game as well as the best result achieved by the player. The color of the minigame spot shows how good the player performed at the specific minigame. If the spot is `red` as shown in the picture, the player has not yet gotten enough points to `complete` the minigame. Once he finished a playthrough with the specified amount of points, the minigame spot turns `blue` which shows that he has finished it. The minigame can still be played and better results can be achieved, but the player doesn't have to in order to progress to the next area.  
+The main purpose of the overworld is to allow the player to test and increase his knowledge and understanding by playing `minigames`. Minigames can be started at `minigame spots`, displayed as the red circle in the picture. The lecturer can set up the questions and possible answers in the [lecturer interface](../lecturer-interface/README.md). Once the player enters the area of the minigame spot an information panel is opened. It displays the type of the game as well as the best result achieved by the player. The color of the minigame spot shows how good the player performed at the specific minigame. If the spot is `red` as shown in the picture, the player has not yet gotten enough points to `complete` the minigame. Once he finished a playthrough with the specified amount of points, the minigame spot turns `blue` which shows that he has finished it. The minigame can still be played and better results can be achieved, but the player doesn't have to in order to progress to the next area.  
 ![minigame](../../images/minigame-spot.webp)
 
 ## Progress
@@ -32,7 +32,7 @@ There are multiple `worlds` with optional `dungeons` each. The lecturer can conf
 
 ## Controls
 
-The player has a lot of options to interact with the game. He obviously move around, but also adjust his movement speed, interact with objects and characters, open menus and zoom the game and minimap in and out. The respective keys for each of those actions are listed here and can also be found in game a the pause menu opened with the `ESC` button at the `keybindings` tab.  
+The player has a lot of options to interact with the game. He can move around, but also adjust his movement speed, interact with objects and characters, open menus and zoom the game and minimap in and out. The respective keys for each of those actions are listed here and can also be found in game a the pause menu opened with the `ESC` button at the `keybindings` tab.  
 ![keybindings](../../images/keybindings.webp)
 
 ## Developer
