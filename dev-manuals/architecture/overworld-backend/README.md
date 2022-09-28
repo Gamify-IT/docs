@@ -7,6 +7,33 @@ Classes: <https://github.com/Gamify-IT/overworld-backend/tree/main/src/main/java
 
 This backend saves the different overworld configurations and general player statistics. 
 
+## Table of Contents
+
+* [Links](#links)
+* [General code structure](#general-code-structure)
+* [Starting the service](#starting-the-service)
+* [What to look at](#what-to-look-at)
+* [What to ignore](#what-to-ignore)
+* [Class diagrams](#class-diagrams)
+    * [Overview complete application](#overview-complete-application)
+    * [Courses](#courses)
+    * [Worlds](#worlds)
+    * [Dungeons](#dungeons)
+    * [Minigames](#minigames)
+    * [NPCs](#npc)
+    * [Books](#books)
+    * [PlayerStatistic](#playerstatistics)
+    * [ActionLog](#actionlog)
+* [Known Design Flaws](#known-design-flaws)
+* [Known Bugs](#known-bugs)
+* [Tests](#tests)
+
+## Links
+
+- The program code is available [here](https://github.com/Gamify-IT/overworld-backend).
+- The overview of the architecture can be found [here](../general-architecture.md).
+- The frontend architecture is described [here](../overworld/README.md).
+
 ## General code structure
 
 This backend has the following package structure
@@ -22,19 +49,54 @@ See the [README](https://github.com/Gamify-IT/overworld-backend#readme).
 
 ## What to look at
 
-_Everything_
+You can either start at the course or the playerStatistic.
+From there you should move up the code flow.
 
 ## What to ignore
 
-_NA_
+Nothing at the moment.
+
+## Class diagrams
+
+### Overview complete application
+![overview class diagram of complete application](assets/overworldBackendOverview.svg)
+This simplified class diagram shows how the most important services and controllers in the project are interlinked.
+
+### Courses
+![class diagram of Courses](assets/overworldBackendCourses.svg)
+This class diagram shows an overview of the courses.
+
+### Worlds
+![class diagram Worlds](assets/overworldBackendWorld.svg)
+This class diagram shows an overview of the worlds.
+
+### Dungeons
+![class diagram Dungeons](assets/overworldBackendDungeon.svg)
+This class diagram shows an overview of the dungeons.
+
+### Minigames
+![class diagram Minigame](assets/overworldBackendMinigame.svg)
+This class diagram shows an overview of the minigames.
+
+### NPC
+![class diagram NPC](assets/overworldBackendNpc.svg)
+This class diagram shows an overview of the npc.
+
+### Books
+![class diagram Book](assets/overworldBackendBook.svg)
+This class diagram shows an overview of the books.
+
+### PlayerStatistics
+![class diagram PlayerStatistic](assets/overworldBackendPlayerStatistic.svg)
+This class diagram shows an overview of the player statistics.
+
+### ActionLog
+![class diagram ActionLog](assets/overworldBackendActionLog.svg)
+This class diagram shows an overview of the action logs.
 
 ## Known Design Flaws
 
-- some API routes have suboptimal paths
-- cloning only works for chickenshock and other minigames without a configuration id
-- current unlocking order 
-(unlocking the remaining dungeons first and then the next world) is disputed, 
-might be changed in the future
+There are no known design flaws.
 
 ## Known Bugs
 
