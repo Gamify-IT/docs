@@ -59,39 +59,39 @@ Nothing at the moment.
 ## Class diagrams
 
 ### Overview complete application
-![overview class diagram of complete application](assets/overworldBackendOverview.svg)
+![overview class diagram of complete application](assets/overworld-backend-overview.svg)
 This simplified class diagram shows how the most important services and controllers in the project are interlinked.
 
 ### Courses
-![class diagram of Courses](assets/overworldBackendCourses.svg)
+![class diagram of Courses](assets/overworld-backend-courses.svg)
 This class diagram shows an overview of the courses.
 
 ### Worlds
-![class diagram Worlds](assets/overworldBackendWorld.svg)
+![class diagram Worlds](assets/overworld-backend-world.svg)
 This class diagram shows an overview of the worlds.
 
 ### Dungeons
-![class diagram Dungeons](assets/overworldBackendDungeon.svg)
+![class diagram Dungeons](assets/overworld-backend-dungeon.svg)
 This class diagram shows an overview of the dungeons.
 
 ### Minigames
-![class diagram Minigame](assets/overworldBackendMinigame.svg)
+![class diagram Minigame](assets/overworld-backend-minigame.svg)
 This class diagram shows an overview of the minigames.
 
 ### NPC
-![class diagram NPC](assets/overworldBackendNpc.svg)
+![class diagram NPC](assets/overworld-backend-npc.svg)
 This class diagram shows an overview of the npc.
 
 ### Books
-![class diagram Book](assets/overworldBackendBook.svg)
+![class diagram Book](assets/overworld-backend-book.svg)
 This class diagram shows an overview of the books.
 
 ### PlayerStatistics
-![class diagram PlayerStatistic](assets/overworldBackendPlayerStatistic.svg)
+![class diagram PlayerStatistic](assets/overworld-backend-player-statistic.svg)
 This class diagram shows an overview of the player statistics.
 
 ### ActionLog
-![class diagram ActionLog](assets/overworldBackendActionLog.svg)
+![class diagram ActionLog](assets/overworld-backend-actionLog.svg)
 This class diagram shows an overview of the action logs.
 
 ## Known Design Flaws
