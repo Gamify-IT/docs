@@ -25,6 +25,7 @@ The user is logged in and redirected to the start page where he can start or edi
 
 ## Alternative procedures
 
+3.1. An incorrect username, email, or password is entered - The user is not redirected and is notified that their input was incorrect
 
 ## Criticality
 

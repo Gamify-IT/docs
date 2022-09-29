@@ -1,4 +1,4 @@
-# Keycloak: user roles consideration lecturer interface no access (`u.keycloak-07`)
+# Keycloak: lecturer interface not linked for non-lecturers (`u.keycloak-07`)
 
 
 Version: V1.0, 25.09.2022 \
@@ -6,11 +6,11 @@ Author: Leon Layer
 
 ## Description
 
-A user without a lecturer role, is logged in. His role causes the lecturer interface to be not displayed on the start page.
+A user who is not a lecturer is logged in. They will not see a link to the lecturer interface.
 
 ## Precondition
 
-A user without a lecturer role is logged in. 
+The user stays logged in. 
 
 ## Postcondition
 

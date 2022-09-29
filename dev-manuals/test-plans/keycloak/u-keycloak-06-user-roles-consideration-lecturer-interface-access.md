@@ -1,4 +1,4 @@
-# Keycloak: user roles consideration lecturer interface access (`u.keycloak-06`)
+# Keycloak: only lecturers get a link to the lecturer interface (`u.keycloak-06`)
 
 
 Version: V1.0, 25.09.2022 \
