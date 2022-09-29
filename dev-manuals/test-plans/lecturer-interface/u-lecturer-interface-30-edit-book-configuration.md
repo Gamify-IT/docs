@@ -1,4 +1,4 @@
-# Lecturer-Interface: Edit book configuration (`u.lecturer-interface-15`)
+# Lecturer-Interface: Edit book configuration (`u.lecturer-interface-30`)
 
 
 Version: V1.0, 24.09.2022 \
