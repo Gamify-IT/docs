@@ -1,21 +1,21 @@
 # How to run all services
 
-All services are in a `docker compose` file.
-
 ## Prerequisite
 
 ### Install docker
 
-[Install on windows](https://docs.docker.com/desktop/windows/install/)
+[Install Docker](https://docs.docker.com/engine/install/)
 
-[Install on linux](https://docs.docker.com/desktop/linux/install/)
+#### Docker Desktop (not recommended for production use)
 
-[Install on macos](https://docs.docker.com/desktop/mac/install/)
+[Install Docker Desktop on windows](https://docs.docker.com/desktop/windows/install/)
 
-### Clone project
+[Install Docker Desktop on linux](https://docs.docker.com/desktop/linux/install/)
 
-Clone `https://github.com/Gamify-IT/prototype`
+[Install Docker Desktop on macos](https://docs.docker.com/desktop/mac/install/)
 
-## Run project
+## Run
 
-Run in the directory of the cloned project `docker-compose up --build`
+All services are available as docker containers. The preferred way to host is to use a `docker compose` file.
+
+We provide a template in our [run-config](https://github.com/Gamify-IT/run-config) repository. There is also a [manual](https://github.com/Gamify-IT/run-config/#setup) how to setup the hosting environment.
