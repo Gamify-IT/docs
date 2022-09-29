@@ -1,36 +1,40 @@
-# [Crosswordpuzzle](https://github.com/Gamify-IT/crosswordpuzzle)
+# Crosswordpuzzle
 
-This is a simple crosswordpuzzle. With given questions and answers it automatically generates a crosswordpuzzle.  
+## Table of contents
 
----
+<!-- TOC -->
+* [Configuration](#configuration)
+    * [Frontend](#frontend)
+    * [Backend](#backend)
+<!-- TOC -->
 
-Run the docker container with the following command at port 8000:
+## Configuration
 
-```sh
-docker run -d -p 8000:80 --name crosswordpuzzle ghcr.io/gamify-it/crosswordpuzzle:latest
-```
+Currently, the following things can be configured.
 
-Now you can access it at [http://localhost:8000](http://localhost:8000).  
-To access it externally replace localhost with your IP.  
+### Frontend
 
-To monitor the container you can use the following command:
+In the [frontend](https://github.com/Gamify-IT/crosswordpuzzle) the following properties can be configured:
 
-```sh
-docker ps -a -f name=crosswordpuzzle
-```
+- `apiBaseUrl` the URL path to the crosswordpuzzle backend (to save the rounds and fetch questions)
 
-To stop the container you can use the following command:
+These settings can be changed in the [frontend](https://github.com/Gamify-IT/crosswordpuzzle) by editing the file `src/config.ts`.
 
-```sh
-docker stop crosswordpuzzle
-```
+### Backend
 
-To remove the container you can use the following command:
+The [backend](https://github.com/Gamify-IT/crosswordpuzzle-backend) can be configured via environment variables.
+Alternatively you can edit the file `src/main/resources/application.properties`.
 
-```sh
-docker rm crosswordpuzzle
-```
+| Spring Property               | Environment variable          | Description                                                      | Default value                                |
+|-------------------------------|-------------------------------|------------------------------------------------------------------|----------------------------------------------|
+| `spring.sql.init.platform`    | `SPRING_SQL_INIT_PLATFORM`    | The kind of database you are using                               | `postgres`                                   |
+| `spring.datasource.url`       | `SPRING_DATASOURCE_URL`       | The URL to the database                                          | `jdbc:postgresql://localhost:5432/postgres`  |
+| `spring.datasource.username`  | `SPRING_DATASOURCE_USERNAME`  | The username to connect to the database                          | `postgres`                                   |
+| `spring.datasource.password`  | `SPRING_DATASOURCE_PASSWORD`  | The password to connect to the database                          | `postgres`                                   |
+| `server.servlet.context-path` | `SERVER_SERVLET_CONTEXT_PATH` | Base path for the API                                            | `/api/v1`                                    |
+| `overworld.url`               | `OVERWORLD_URL`               | URL of the overworld backend service                             | `http://localhost/overworld/api/v1`          |
+| `keycloak.issuer`             | `KEYCLOAK_ISSUER`             | Name of the issuer used in the authentication tokens             | `http://localhost/keycloak/realms/Gamify-IT` |
+| `keycloak.url`                | `KEYCLOAK_URL`                | URL to connect to keycloak in order to fetch the validation keys | `http://localhost/keycloak/realms/Gamify-IT` |
+| `springdoc.swagger-ui.path`   | `SPRINGDOC_SWAGGER_UI_PATH`   | Path to serve the API documentation                              | `/swagger-ui`                                |
 
-## Screenshot
-
-![example auto generated crosswordpuzzle](https://user-images.githubusercontent.com/44726248/169154288-f37c3e86-d8ad-4e78-b2a3-c2cb6645a2d7.png "crosswordpuzzle")
+A complete list of options can be seen in the [backend](https://github.com/Gamify-IT/crosswordpuzzle-backend) in `src/main/resources/application.properties`.
