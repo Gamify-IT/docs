@@ -16,9 +16,6 @@
 
 ## Run
 
-All services are available as docker containers. The preferred way to host is to use a `docker compose` file. Make sure you match the 
+All services are available as docker containers. The preferred way to host is to use a `docker compose` file.
 
 We provide a template in our [run-config](https://github.com/Gamify-IT/run-config) repository. There is also a [manual](https://github.com/Gamify-IT/run-config/hosting-template#setup) how to setup the hosting environment.
-
-
-
