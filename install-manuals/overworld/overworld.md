@@ -16,7 +16,16 @@ Currently, the following things can be configured.
 
 In the [frontend](https://github.com/Gamify-IT/overworld) the following properties can be configured:
 
-**TODO @Overworld Team**
+| Variable | Description | Default value |
+|----------|-------------|---------------|
+| `overworldBackendPath` | URL of the overworld backend service | `/overworld/api/v1` |
+| `maxWorld` | The number of worlds existing | `4` |
+| `maxMinigames` | The number of minigames of each area | `12` |
+| `maxNPCs` | The number of NPCs of each area | `10` |
+| `maxBooks` | The number of books of each area | `5` |
+| `maxDungeons` | The number of dungeons of each world | `4` |
+
+You can change these settings in the [frontend](https://github.com/Gamify-IT/overworld) in the `GameSettings` script located at `Assets/Scripts/GameManager`.
 
 ### Backend
 
