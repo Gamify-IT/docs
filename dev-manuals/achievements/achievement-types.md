@@ -40,4 +40,5 @@ Completely (not shown at all until unlocked) or partially hidden (only title vis
 But every player has all player types at his own personal weighting, that means that all achievements are relevant for all players, just at different importance.  
 It is important that the achievement has a purpose.  
 A player has to get it either by progressing in the game or by doing something special.  
-No achievement should be earned simply by investing an absurd amount of time such as `Play 10.000 minigames`, `Reach 1.000 times a result of 100%` or `Travel a distance of 100.000.000 tiles`.
+No achievement should be earned simply by investing an absurd amount of time such as `Play 10.000 minigames`, `Reach 1.000 times a result of 100%` or `Travel a distance of 100.000.000 tiles`.  
+Achievements should not exist for every course, but be independent and across all courses. Otherwise, the player has to complete the same challenges in different courses to earn the same achievement multiple times, which is very demotivating and would result in significantly less player actively trying to complete achievements. 
