@@ -8,7 +8,7 @@ We need to know how many teleporters are in each area.
 
 2. There can be more than one teleporter in each area
 
-3. Klick on map (that shows the unlocked areas) and tp (teleport) to click if klick is valid
+3. Click on map (that shows the unlocked areas) and tp (teleport) to click if valid
 
 ## Chosen Solution
 
