@@ -14,10 +14,12 @@ We need to know whether achievements should exist for every course or course ind
 
 ## Pro Chosen Solution
 
-- No repetetive unlocking of the same achievements in different courses
+- No repetitive unlocking of the same achievements in different courses
 - More options for long term achievements (complete five courses, ...)
+- Easier to implement as it can be hardcoded instead of dynamically inserted
 
 ## Contra Chosen Solution
 
-- Less achievements to complete in every course, so less motivating for players
+- Achievements are not course/content specific
+- Someone who already achieved everything in i.e. the _PSE_ course will not get achievements in the _Theo_ course.
 
