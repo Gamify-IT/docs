@@ -1,0 +1,37 @@
+# Overworld: Teleporter Unlocking (`u.overworld-25`)
+
+Version: v1.0, 2022-01-05, create test plan \
+Author: Patrick Holtz
+
+## Description
+
+This use case tests whether the unlocking process works correctly and the resulting data is saved correctly in the backend.
+
+## Precondition
+
+The tester is logged in.
+
+## Postcondition
+
+A unlocked teleporter shows up in the menu of every other teleporter even after a restart.
+
+## Typical procedure
+
+1. Unlock a random teleporter `1`.
+2. Go towards another teleporter `2` and open its menu.
+3. Teleporter `1` should show up in the menu.
+4. Go back to the course selection menu and start the overworld again.
+5. Go towards teleporter `2` again.
+6. Teleporter `1` should still show up in the menu. 
+
+## Alternative procedures
+
+4.1 Open the link (../overworld/api/v1/courses/1/teleporters) and check whether teleporter `1` shows up under the "unlockedTeleporters" array.
+
+## Criticality
+
+Medium
+
+## Linkages
+
+N/A
