@@ -26,7 +26,7 @@ A unlocked teleporter shows up in the menu of every other teleporter even after 
 
 ## Alternative procedures
 
-4.1 Open the link (../overworld/api/v1/courses/1/teleporters) and check whether teleporter `1` shows up under the "unlockedTeleporters" array.
+4.1 Open the link (../overworld/api/v1/courses/1/playerstatistics) and check whether teleporter `1` shows up under the "unlockedTeleporters" array.
 
 ## Criticality
 
