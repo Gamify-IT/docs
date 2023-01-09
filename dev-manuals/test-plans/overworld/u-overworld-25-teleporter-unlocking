@@ -9,7 +9,9 @@ This use case tests whether the unlocking process works correctly and the result
 
 ## Precondition
 
-The tester is logged in.
+The tester is logged in.  
+A teleporter `1` is unlocked.  
+The tester stands in front of a teleporter `2` **in another area** and opens its menu.
 
 ## Postcondition
 
@@ -17,16 +19,16 @@ A unlocked teleporter shows up in the menu of every other teleporter even after 
 
 ## Typical procedure
 
-1. Unlock a random teleporter `1`.
-2. Go towards another teleporter `2` and open its menu.
-3. Teleporter `1` should show up in the menu.
-4. Go back to the course selection menu and start the overworld again.
-5. Go towards teleporter `2` again.
-6. Teleporter `1` should still show up in the menu. 
+1. Teleporter `1` should show up in the menu.
+2. Teleport to `1`, and open its menu.
+3. Teleporter `2` should show up in the menu.
+4. Teleport to `2`.
+5. Go back to the course selection menu and start the overworld again.
+6. Repeat steps `1.-3.` once.
 
 ## Alternative procedures
 
-4.1 Open the link (../overworld/api/v1/courses/1/playerstatistics) and check whether teleporter `1` shows up under the "unlockedTeleporters" array.
+N/A
 
 ## Criticality
 
