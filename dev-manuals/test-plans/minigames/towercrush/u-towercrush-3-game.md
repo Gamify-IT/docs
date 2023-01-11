@@ -1,40 +1,38 @@
 
-# $CATEGORY: $ACTION (`$TESTCASE_ID in format "u.$(kebab-case $CATEGORY)-$NUMBER (from 1)"`)
+# Chickenshock: CorrectStartScreenUsage(`u-towercrush-3`)
 
-Version: `v$X.$Y with $X >= 1, $Y >= 0`, `$NOW in YYYY-mm-dd`, `$CHANGE_DESCRIPTION like a git commit` \
-Author: Authors of this file, comma-separated
-(Delete this line in test cases!) Filename: `$(kebab-case u-$CATEGORY-$NUMBER-$ACTION).md`
+Version: V1.0, 2023.11.01 \
+Author: Martin Lautenschlager, Levi Otterbach
 
 ## Description
 
-Maximum of **3 concise** sentences about the realized function.
+This use case verifies that the tester executes the start screen correctly.
 
 ## Precondition
 
-Precondition for starting the use case.
+An other User or the same user (in an other tab) created already a lobby and is in the lobby screen.
 
 ## Postcondition
 
-Postcondition after the use case has ended.
+-
 
 ## Typical procedure
 
-1. Do `x`
-2. Do `y`
+1. Press `Join Dev` button.
+2. The 2. half of the screen should show the lobby (see precondition) with the correct lobby name and player name.
+3. Enter the same lobby name in the `Lobby Name` input field as the one displayed in the list (2.).
+4. Enter a name in the `Player Name` input field.
+5. Press `Create/Join Lobby`.
+6. The view should have switched to the lobby view.
 
 ## Alternative procedures
 
-<!-- Do not show errors here, only intended alternatives in format -->
-1.1. `condition` - do `x2` \
-2.1. `condition 2` - do `y2`
+-
 
 ## Criticality
 
-Importance of the use case for the entire system
-(High, Medium, Low)
+High
 
 ## Linkages
 
-<!-- To refer to another testcase, use -->
-
-`- [$REFERENCED_ACTION (`$REFERENCED_ID`)]($PATH)`
+-
