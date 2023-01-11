@@ -1,40 +1,42 @@
 
-# $CATEGORY: $ACTION (`$TESTCASE_ID in format "u.$(kebab-case $CATEGORY)-$NUMBER (from 1)"`)
+# Towercrush: lobby (`u-towercrush-2`)
 
-Version: `v$X.$Y with $X >= 1, $Y >= 0`, `$NOW in YYYY-mm-dd`, `$CHANGE_DESCRIPTION like a git commit` \
-Author: Authors of this file, comma-separated
-(Delete this line in test cases!) Filename: `$(kebab-case u-$CATEGORY-$NUMBER-$ACTION).md`
+Version: V1.0, 2023.01.11 \
+Author: Martin Lautenschlager, Levi Otterbach
 
 ## Description
 
-Maximum of **3 concise** sentences about the realized function.
+This use case verifies that normal usage of the lobby view.
 
 ## Precondition
 
-Precondition for starting the use case.
+2 Users connected to the same lobby with different names.
 
 ## Postcondition
 
-Postcondition after the use case has ended.
+-
 
 ## Typical procedure
 
-1. Do `x`
-2. Do `y`
+1. Your name (entered in the start screen) should be displayed in the `Members` list.
+2. The name of the other user (he entered in the start screen) should also be in the `Members `
+3. Press `Join TeamA` button.
+4. Your name should have switched from the `Members` list to the `Team A` list for you AND for the 2. player.
+5. Press `Join TeamB` button.
+6. Your name should have switched from the `Team A` list to the `Team B` list for you AND for the 2. player.
+7. Press `Start lobby`.
+8. The view should have switched to another view.
+
 
 ## Alternative procedures
 
-<!-- Do not show errors here, only intended alternatives in format -->
-1.1. `condition` - do `x2` \
-2.1. `condition 2` - do `y2`
+X.1. Press `Leave Lobby` at any time to return to the start view. \
+
 
 ## Criticality
 
-Importance of the use case for the entire system
-(High, Medium, Low)
+High
 
 ## Linkages
 
-<!-- To refer to another testcase, use -->
-
-`- [$REFERENCED_ACTION (`$REFERENCED_ID`)]($PATH)`
+-
