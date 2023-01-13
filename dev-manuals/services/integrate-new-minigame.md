@@ -1,4 +1,6 @@
-# Table of content
+# Integrate a completely new minigame
+
+## Table of content
 
 * [Getting started](#getting-started)
     * [Minigame structure](#minigame-structure)
