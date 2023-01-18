@@ -21,8 +21,8 @@ The user is registered.
 1. Open the landing-page
 2. Go to login
 3. Click "Register"
-3. Fill in first name, last name, email, username, password & password confirmation
-4. Click "Register"
+4. Fill in first name, last name, email, username, password & password confirmation
+5. Click "Register"
 
 ## Alternative procedures
 
