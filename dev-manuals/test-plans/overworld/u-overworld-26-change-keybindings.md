@@ -1,30 +1,27 @@
-# Overworld: Teleporter Unlocking (`u.overworld-25`)
+# Overworld: Change Keybindings (`u.overworld-26`)
 
-Version: v1.0, 2022-01-05, create test plan \
-Author: Patrick Holtz
+Version: v1.0, 2022-03-14, create test plan \
+Author: Florian Wüst
 
 ## Description
 
-This use case tests whether the unlocking process works correctly and the resulting data is saved correctly in the backend.
+This use case tests that the keybinding changing works as intended.
 
 ## Precondition
 
-The tester is logged in.  
-A teleporter `1` is unlocked.  
-The tester stands in front of a teleporter `2` **in another area** and opens its menu.
+The tester is logged in and at least the overworld is running.
 
 ## Postcondition
 
-A unlocked teleporter shows up in the menu of every other teleporter even after a restart.
+The changes to the keybindings are functional in the overworld.
 
 ## Typical procedure
 
-1. Teleporter `1` should show up in the menu.
-2. Teleport to `1`, and open its menu.
-3. Teleporter `2` should show up in the menu.
-4. Teleport to `2`.
-5. Go back to the course selection menu and start the overworld again.
-6. Repeat steps `1.-3.` once.
+1. Start a course of your choice
+2. Open the Keybindings Menu
+3. Change a key to a valid different key
+4. Close the Keybindings Menu
+5. Check that the action is now binded to the new key
 
 ## Alternative procedures
 
