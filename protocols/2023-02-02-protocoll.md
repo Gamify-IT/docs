@@ -1,4 +1,4 @@
-# Meeting Transcript 12.01.2023
+# Meeting Transcript 02.02.2023
 
 - present : Patrick H, Patrick N, Martin, Maximilian, Timothy, Florian, Timo, Sandro, Leon, Max, Gilian, Aaron, Levi, Nadine
 
