@@ -8,6 +8,12 @@
 
 ## Chosen Solution
 
+a 
+
 ## Pro Chosen Solution
 
+easy to implement, easy to understand.
+
 ## Contra Chosen Solution
+
+-
