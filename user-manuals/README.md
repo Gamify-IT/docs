@@ -7,6 +7,7 @@ of the Gamify-IT platform.
 - Minigames
   - [Chickenshock](minigames/chickenshock.md)
   - [Finitequiz](minigames/finitequiz.md)
+  - [Memory](minigames/memory.md)
 - [Lecturer Interface](lecturer-interface/README.md)
 
 For instructions on how to deploy the platform, see the [installation manuals](../install-manuals/README.md).
