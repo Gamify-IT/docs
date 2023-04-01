@@ -21,7 +21,7 @@ To exit the game, click on `Close Game`.
 
 ![game screenshot](assets/memory-game-screen.webp)
 
-After clicking on the `Start` button, you get your memory cards on the left.   
+After clicking on the `Singleplayer` button, you get your memory cards on the left.   
 On the right is a table in which the correct pairs are automatically inserted.  
 In the upper left corner is a `Go Back` button which directs you to the start screen.
 
