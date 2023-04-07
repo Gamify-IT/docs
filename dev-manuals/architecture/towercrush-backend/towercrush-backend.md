@@ -60,7 +60,7 @@ Nothing at the moment.
 This simplified class diagram shows how the most important services, mappers and repositories in the project are interlinked.
 
 ### ConfigController
-![class diagram of ConfigController](assets/towercrushConfigController.webp)
+![class diagram of ConfigController](assets/towercrushConfigController.svg)
 This class diagram shows an overview of the ConfigController class.
 
 
