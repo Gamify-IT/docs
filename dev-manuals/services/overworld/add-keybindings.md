@@ -2,7 +2,9 @@
 
 ## Overview
 
-Each player has their own prefered binding of available actions to keys on the keyboard. Therefor, we support persistent, player specific keybindings across all courses. That means that a player has to configure his bindings only once and can then use them in all his courses.
+Each player has their preferences regarding keyboard shortcuts.  
+Therefore, we support persistent, player specific keybindings across all courses.  
+That means that a player has to configure his bindings only once and can then use them in all his courses.
 
 ## How to add a keybinding
 
@@ -23,7 +25,7 @@ You need to assign an unused key, so you cannot chose a key already binded to an
 
 You have to do the following in the overworld backend:
 
-1. You need to add the new action to the enum `Binding` located at `src\main\java\de\unistuttgart\overworldbackend\data\enums`.
+1. You need to add the new action to the enum `Binding` located at `src/main/java/de/unistuttgart/overworldbackend/data/enums/`.
 
 It has to be the same action as in the overworld!
 
@@ -33,6 +35,6 @@ To use the new binding in a script, add a `KeyCode` object as an attribute and a
 
 ![Using a binding](assets/keybindings-usage.webp)
 
-You also need to subsribe to the `onKeybindingChange` game event and add a key changing function to your script.
+You also need to subscribe to the `onKeybindingChange` game event and add a key changing function to your script.
 
 ![Update Function](assets/keybindings-update-function.webp)
