@@ -29,23 +29,6 @@ In order to provide a uniform interface for minigame configurations in all minig
 
 Add `YOUR_MINIGAME` to the `Minigame` enum in `de.unistuttgart.overworldbackend.data.enums.Minigame`
 
-### Add DTOs
-
-The overworld backend needs a copy of your entire public backend data model.  
-This means especially the `Configuration` class and other classes used by it.  
-Put those classes into the package `de.unistuttgart.overworldbackend.data.minigames.<YOUR_MINIGAME_NAME>`.  
-Below, you can see how your `Configuration` class can look like for example:
-
-```java
-@Data
-@FieldDefaults(level = AccessLevel.PRIVATE)
-public class $YOUR_MINIGAME_NAMEConfiguration {
-
-    UUID id;
-    Set<$YOUR_MINIGAME_NAMEQuestion> questions;
-}
-```
-
 ### Add FeignClient
 
 A `FeignClient` needs to be configured to communicate with your REST-API.
@@ -53,19 +36,10 @@ Add the class `<YOUR_MINIGAME_NAME>Client` to the package `de.unistuttgart.overw
 The code in this class should look like following:
 
 ```java
-@FeignClient(value = "<YOUR_MINIGAME_NAME>Client", url = "${<YOUR_MINIGAME_NAME>.url}/configurations")
-public interface BugfinderClient {
-  @GetMapping("/{id}")
-  BugfinderConfiguration getConfiguration(
-    @CookieValue("access_token") final String accessToken,
-    @PathVariable("id") UUID id
-  );
-
-  @PostMapping("/")
-  BugfinderConfiguration postConfiguration(
-    @CookieValue("access_token") final String accessToken,
-    BugfinderConfiguration bugfinderConfiguration
-  );
+@FeignClient(value = "finitequizClient", url = "${finitequiz.url}/configurations")
+public interface FinitequizClient {
+  @PostMapping("/{id}/clone")
+  UUID postClone(@CookieValue("access_token") final String accessToken, @PathVariable UUID id);
 }
 ```
 Also add the url to the minigame backend in `application.properties`, e.g.:
@@ -85,30 +59,15 @@ This is needed because the configuration ID of tasks must be unique. Add the cas
 
 ```java
 case <YOUR_MINIGAME_NAME>:
-    if (minigameTask.getConfigurationId() == null) {
-        return new MinigameTask(
-            Minigame.<YOUR_MINIGAME_NAME>,
-            minigameTask.getDescription(),
-            null,
-            minigameTask.getIndex()
-        );
-    } else {
-        <YOUR_MINIGAME_NAME>Configuration config = <YOUR_MINIGAME_NAME>Client.getConfiguration(
-            currentAccessToken,
-            minigameTask.getConfigurationId()
-        );
-        config.setId(null);
-        config.getQuestions().forEach(question -> question.setId(null));
-        config = <YOUR_MINIGAME_NAME>Client.postConfiguration(currentAccessToken, config);
-        return new MinigameTask(
-            Minigame.<YOUR_MINIGAME_NAME>,
-            minigameTask.getDescription(),
-            config.getId(),
-            minigameTask.getIndex()
-        );
-    }
+        cloneId = <YOUR_MINIGAME_NAME>Client.postClone(accessToken, minigameTask.getConfigurationId());
+        break;
 ```
 The code snippet above is an example to clone a configuration with questions.
+
+## Integrate cloning into the minigame:
+
+The backend of the minigame has to provide a route to clone a configuration preferably at `/configurations/{id}/clone`.
+This logic should deep copy a configuration for expample by implementing the clone() interface in every object.
 
 ## Integrate into the lecturer interface
 
