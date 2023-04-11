@@ -56,11 +56,11 @@ Nothing at the moment.
 ## Class diagrams
 
 ### Overview complete application
-![overview class diagram of complete application](assets/towercrushClassOverview.webp)
+![overview class diagram of complete application](assets/towercrush-class-overview.webp)
 This simplified class diagram shows how the most important services, mappers and repositories in the project are interlinked.
 
 ### ConfigController
-![class diagram of ConfigController](assets/towercrushConfigController.svg)
+![class diagram of ConfigController](assets/towercrush-config-controller.svg)
 This class diagram shows an overview of the ConfigController class.
 
 
