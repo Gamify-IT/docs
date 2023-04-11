@@ -17,8 +17,8 @@ Once a team has answered every question, or one of the team's towers reaches zer
 
 The winning team is the one whose tower is the last one standing, or whichever team has answered more questions correctly.
 
-![game screenshot](assets/towercrush-end-screen.webp)
-When all questions are answered, the winning team is presented.
+![game end screenshot](assets/towercrush-end-screen.webp)
+When all questions are answered, you will be notified which team won.
 
 ## Configuration
 

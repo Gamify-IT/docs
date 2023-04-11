@@ -22,7 +22,7 @@ The intention with this game is to make answering single choice questions in a m
 
 - The [user docs](../../../user-manuals/minigames/towercrush.md) explain how to play the game.
 - The program code is available [here](https://github.com/Gamify-IT/towercrush-backend).
-- The overview of the architecture can be found [here](../general-architecture.md).
+- The overview of the architecture of the whole platform can be found [here](../general-architecture.md).
 - The frontend architecture is described [here](../towercrush/README.md).
 
 ## General code structure

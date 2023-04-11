@@ -20,10 +20,12 @@ Being a single-choice question style minigame that lets users choose one correct
 
 - The [user docs](../../../user-manuals/minigames/towercrush.md) explain how to play the game.
 - The program code is available [here](https://github.com/Gamify-IT/towercrush).
-- The overview of the architecture can be found [here](../general-architecture.md).
+- The overview of the whole platform can be found [here](../general-architecture.md).
 - The backend architecture is described [here](../towercrush-backend/README.md).
 
 ## General code structure
+
+All code is located in the `src` folder
 
 - `__mocks__`: Mocking behavior for testing
 - `assets`: Static assets like the logo
@@ -47,6 +49,7 @@ _NA_
 ## Known Design Flaws
 
 - Exactly one answer must be correct, not more or less
+- Exactly two teams can play a game, not more or less
 
 ## Known Bugs
 
