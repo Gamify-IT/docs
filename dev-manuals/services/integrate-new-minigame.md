@@ -67,7 +67,9 @@ The code snippet above is an example to clone a configuration with questions.
 ## Integrate cloning into the minigame:
 
 The backend of the minigame has to provide a route to clone a configuration preferably at `/configurations/{id}/clone`.
-This logic should deep copy a configuration for expample by implementing the clone() interface in every object.
+This logic should deep copy a configuration (without the object IDs) for example by implementing the `clone()` method in every object.
+Additionally, the minigame should validate that only lecturers can clone a configuration.
+It can do this by requiring a cookie (we recommend the cookie name `access_token` to conform with all other minigames) for the request that is a [JWT token](https://jwt.io/) that, when verified, should have the role `lecturer`.
 
 ## Integrate into the lecturer interface
 
