@@ -16,7 +16,7 @@ Currently, the following things can be configured.
 
 In the [frontend](https://github.com/Gamify-IT/memory) the following properties can be configured:
 
-- `apiBaseUrl` the URL path to the memory backend (to save the rounds and fetch questions)
+- `apiBaseUrl` the URL path to the memory backend (to save the rounds and fetch card pairs)
 
 These settings can be changed in the [frontend](https://github.com/Gamify-IT/memory) by editing the file `src/config.ts`.
 
