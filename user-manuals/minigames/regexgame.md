@@ -2,11 +2,11 @@
 
 _RegexGame_ is a minigame for the _Gamify-IT_ platform.
 
-## about the game
+## About the game
 
 The goal of _RegexGame_ is to find strings matching a given regex.
 
-## configuration
+## Configuration
 
 Property|Description|Possible Values|Recommended values
 -|-|-|-
