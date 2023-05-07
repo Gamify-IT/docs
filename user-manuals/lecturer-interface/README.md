@@ -18,6 +18,7 @@ After you created the course, the new course is displayed in the courses list.
 
 You can click on a course to view and configure this course.  
 You will get redirected to the course overview page.
+In addition, valuable statistics are presented to demonstrate the players' activity and progress.
 ![course overview](assets/course-overview.webp)
 
 The sidebar allows navigating between different configuration pages of the course.  
@@ -43,6 +44,8 @@ After selecting the minigame, you can start configuring the minigame by clicking
 After you configured the minigame, you need to save the configuration by clicking on the `Ok` button.  
 In order to be able to quickly find a specific minigame, it is recommended to set a description. This description will nowhere else be shown.
 ![minigame view](assets/minigame-view.webp)
+
+To view statistics related to the minigame, simply click on the statistics button located next to the Edit button.
 
 ### Configure area NPCs
 
