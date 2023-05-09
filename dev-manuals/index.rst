@@ -96,6 +96,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Unity Pipeline Building
+
+   ./unity-pipeline-build/*
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Miscellaneous
 
    ./etc/**
