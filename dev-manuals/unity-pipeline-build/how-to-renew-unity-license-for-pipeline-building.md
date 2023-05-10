@@ -9,8 +9,8 @@ The current Unity student license expires on 13.05.2024. Until then, it can be u
 1) You will receive an email with your license key
 1) Open https://github.com/Gamify-IT
 1) Goto Settings -> Secrets and variables -> Actions
-1) Replace the UNITY_EMAIL secret with your unity account email-adress
-1) Replace the UNITY_LICENSE secret with the license key you got per mail
-1) Replace the UNITY_PASSWORD secret with your unity account password
+1) Replace the `UNITY_EMAIL` secret with your unity account email-adress
+1) Replace the `UNITY_LICENSE` secret with the license key you got per mail
+1) Replace the `UNITY_PASSWORD` secret with your unity account password
 1) Update this documentation with the new expiration date
 1) Your done!
