@@ -39,6 +39,13 @@ Test Plan Overview
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Plans for Keycloak
+
+   ./keycloak/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Test Plans for Chickenshock
 
    ./minigames/chickenshock/**
@@ -56,3 +63,10 @@ Test Plan Overview
    :caption: Test Plans for Regex Game
 
    ./minigames/regex-game/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Test Plans for Towercrush
+
+   ./minigames/towercrush/**
