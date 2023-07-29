@@ -46,6 +46,13 @@ Meeting Protocols
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Statistics
+
+   ./statistics/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Storytelling
 
    ./storytelling/**

@@ -53,6 +53,13 @@ Test Plan Overview
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Test Plans for Memory
+
+   ./minigames/memory/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Test Plans for Overworld
 
    ./overworld/**

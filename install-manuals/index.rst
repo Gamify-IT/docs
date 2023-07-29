@@ -14,3 +14,10 @@ Installation Manuals
    :caption: Minigames
 
    ./minigames/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Overworld
+
+   ./overworld/**
