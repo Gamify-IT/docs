@@ -4,6 +4,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Achievements
+
+   ./achievements/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Architecture
 
    ./architecture/**
