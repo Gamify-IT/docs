@@ -31,8 +31,8 @@ For Gamify-IT, achievements like `Find all easter eggs`, `Travel a distance of x
 ### Socializer
 
 The socializer wants to interact and work together with other players.  
-Typical achievements would be something like this: `Add x friends`, `Player x rounds of multiplayer`, ...  
-For Gamify-IT, achievements like `Player x rounds of Towercrush` or `Player x times with the same player` are possible.
+Typical achievements would be something like this: `Add x friends`, `Play x rounds of multiplayer`, ...  
+For Gamify-IT, achievements like `Play x rounds of Towercrush` or `Play x times with the same player` are possible.
 
 ## Achievement goals
 
