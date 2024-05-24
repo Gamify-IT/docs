@@ -6,7 +6,7 @@
 
 ## Deployment
 
-- Omid Pourazat
+- Omid Pourazar
 
 ## Quality Control
 - Fabian Kalitzke
