@@ -20,9 +20,9 @@ docker compose down
 
 ## Run the project locally
 
-To run the project outside Docker you can use our `docker-compose-dev.yaml` file. 
-It starts all dependencies with a reverse proxy pointing to your local development server. \
-This is useful to test the project while developing and use all your IDE features (debugger, hot-reload, ...).
+Many repositories contain a `docker-compose-dev.yaml` file. This file can be used to test the repository 
+with all the needed dependencies. To do so, open a terminal in the directory of the file (should be the base 
+of the repository) and execute the following commands:
 
 To start it you can use
 ```bash
@@ -32,6 +32,9 @@ To remove the containers you can use
 ```bash
 docker compose -f docker-compose-dev.yaml down
 ```
+
+This is useful to test the project while developing and use all your IDE features (debugger, hot-reload, ...).
+
 
 ### Unity
 
