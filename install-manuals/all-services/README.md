@@ -42,3 +42,6 @@ In the future you can also you the graphical interface of docker desktop to star
 After the container started successfully you can open the app at [localhost](http://localhost).
 Since you are using the application locally, no users or courses are created initially. 
 If you want to create a new user with lecturer privileges (= can create and edit courses) refer to the [Keycloak Manual](./keycloak.md).
+
+## Development
+For development usage of docker, refer to the [Development with Docker](./docker_dev.md).
