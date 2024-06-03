@@ -1,4 +1,6 @@
 # Development with Docker
+### Minimal dependencies for development
+
 Each repository contains a `docker-compose-dev.yaml` file.
 This file can be used to start the latest changes of the repository
 with all necessary dependencies.
@@ -23,3 +25,21 @@ one developer works on a repository at any given time. (Or at least changes are
 only made to one branch). If this is not the case the development image might not 
 contain your changes, but those of your colleague if their changes were pushed more recently 
 then yours.
+
+### Minimal dependencies docker setup
+
+Each repository contains a `docker-compose.yaml` file.
+This file can be used to start the main branch of the repository
+with all necessary dependencies.
+
+Open a command prompt window in the directory of the `docker-compose.yaml`
+file. There use the following commands to start and stop your docker container:
+
+To start:
+```sh
+docker compose -f docker-compose.yaml up
+```
+To stop:
+```sh
+docker compose -f docker-compose.yaml down
+```
