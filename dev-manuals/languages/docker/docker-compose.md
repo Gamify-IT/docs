@@ -1,5 +1,7 @@
 # Use Docker Compose Files
 
+**Deprecated/Incomplete, refer to [Development with Docker](https://gamifyit-docs.readthedocs.io/en/latest/install-manuals/all-services/docker_dev.html).**
+
 Manual to use our Docker Compose files to get a minimal setup with all dependencies.
 The Docker Compose makes the services accessible at [http://localhost](http://localhost).
 

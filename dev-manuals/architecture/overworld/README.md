@@ -1,4 +1,4 @@
-# Architecture of overworld
+# Architecture of Overworld
 
 ## Purpose
 
