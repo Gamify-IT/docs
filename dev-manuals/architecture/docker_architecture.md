@@ -1,3 +1,0 @@
-# Docker Architecture Explanation
-
-*TODO*
