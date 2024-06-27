@@ -94,15 +94,14 @@ You can then access the minigame at http://localhost/minigames/regexgame/ or via
 
 ### Unity
 Unity projects are an exception since they can't be run in your typical IDE (such as IntelliJ).
-You can't build a local container of the project, therefore these repositories don't contain a `docker-compose.yaml` file. See [Docker with Unity](https://gamifyit-docs.readthedocs.io/en/latest/dev-manuals/languages/docker/docker-compose-unity.html) for more information (*unchecked information, may be inaccurate or incomplete*).
+If you wish to build your local changes as a docker container, see [Docker with Unity](https://gamifyit-docs.readthedocs.io/en/latest/dev-manuals/languages/docker/docker-compose-unity.html) 
+for more information. To do so, use the `docker-compose.yaml` file.
 
-#### Chickenshock
-Chickenshock contains a `docker-compose-dev.yaml` file, which works as described above, except you need to build the project with unity.
+The `docker-compose-dev.yaml` file in the unity projects doesn't enable you to run the project locally, 
+instead it pulls the latest image of the main branch from GitHub and runs it with the dependencies.
 
-#### Overworld
-The `docker-compose-dev.yaml` file in the overworld doesn't enable you to run the project locally, instead it pulls the latest image of the main branch from GitHub and runs it with the dependencies.
-
-The `docker-compose-dev-e2e.yaml` file works the same, but it doesn't run the overworld-backend, so that you can run it locally.
+The `docker-compose-dev-e2e.yaml` file works the same, but it doesn't run the backend of the project, 
+so that you can run it locally.
 
 ### **docker-compose-complete.yaml and docker-compose-complete-dev.yaml**
 These files are an exception to the overworld-backend. They work exactly like their 'non-complete' counterpart, with the difference that the 'non-complete' versions only run the bare minimum, meaning no minigames, where as the 'complete' version run all minigames as containers.
