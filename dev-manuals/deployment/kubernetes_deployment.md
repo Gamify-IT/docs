@@ -2,6 +2,8 @@
 The project has a cloud deployment, which is running on Prof. Beckers cluster. To access the cluster,
 you need to request an admin-config from Prof. Becker.
 
+
+
 ## First steps: local setup
 The first thing you need is [kubectl](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/).
 Follow the download instructions and check if the installation was successful with the 
@@ -27,6 +29,8 @@ in your terminal to see if you were successful (the output should be the admin-c
 **Note:** Since the cluster is hosted at the university, you can only access it from the university network, either 
 in person at campus or with the vpn.
 
+
+
 ### Switching config context
 If you have multiple entries in your config file, and you want to switch between them, use 
 ```shell
@@ -39,6 +43,19 @@ With
 kubectl config get-contexts
 ```
 you can see all available contexts, with the currently active on being marked with an asterisk (*).
+
+
+
+### Lens
+An alternative to using the command line to deploy your helm chart to the cluster, is [Lens](https://k8slens.dev/download).
+Lens is a GUI for kubernetes, and simplifies the deployment process drastically. Just download it and follow the installation
+instructions. \
+If you already have the admin config added to your kubeconfig, you should be able to see the cluster by changing
+to the catalog on the left and browsing through the list. You can open more information about the cluster by clicking on it
+(while in the university network). There you can see more information about the cluster resources, the pods of the cluster
+and more. We recommend looking around a bit to make yourself familiar with the programm.
+
+
 
 ## Creating a deployment 
 [//]: # (TODO insert link to helm explanation)
@@ -66,4 +83,14 @@ This will create a new helm chart with the following structure:
 ```
 In the end, this helm chart will be deployed onto the cluster, and contains the specifications for 
 the images, resources and additional data, the cluster needs to make a kubernetes deployment.
-But first you need to fill it with data.
+But first you need to fill it with data. For more information about helm charts see [helm chart]()
+
+[//]: # (TODO insert link to helm chart content explanation)
+
+
+
+## Deploying your helm chart
+If you are using our [provided helm chart](https://github.com/Gamify-IT/run-config) you can skip the creating section.
+To deploy the helm chart, you can use 
+
+
