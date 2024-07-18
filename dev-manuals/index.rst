@@ -18,6 +18,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Deployment
+
+   ./deployment/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Asset Packs
 
    ./asset-packs/**

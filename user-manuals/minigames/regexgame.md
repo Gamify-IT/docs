@@ -8,14 +8,16 @@ The goal of _RegexGame_ is to find strings matching a given regex.
 
 ## Configuration
 
-Property|Description|Possible Values|Recommended values
--|-|-|-
-Riddle Time|How many seconds the player has to solve a given riddle. The timeout will accumulate over the rounds, so the configured time will be added to the countdown with every solved riddle.|Any positive integer|10-30
-Amount of answers|How many answers the system should try to generate for each riddle.|any positive integer|2-5
-Necessary rounds for completion|How many rounds the player has to solve for this game to be considered "complete", and thus marked as 100% in the overworld.|any positive integer|10-30
-Regex Structures|Which regex structures will appear in this game. [See the list below](#regex-structures)|any combination with at least one structure|character sequence and 4 other structures
+| Property                        | Description                                                                                                                                                                           | Possible Values                             | Recommended values                        |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|-------------------------------------------|
+| Riddle Time                     | How many seconds the player has to solve a given riddle. The timeout will accumulate over the rounds, so the configured time will be added to the countdown with every solved riddle. | Any positive integer                        | 10-30                                     |
+| Amount of answers               | How many answers the system should try to generate for each riddle.                                                                                                                   | any positive integer                        | 2-5                                       |
+| Necessary rounds for completion | How many rounds the player has to solve for this game to be considered "complete", and thus marked as 100% in the overworld.                                                          | any positive integer                        | 10-30                                     |
+| Regex Structures                | Which regex structures will appear in this game. [See the list below](#regex-structures)                                                                                              | any combination with at least one structure | character sequence and 4 other structures |
 
-## regex structures
+Note: The amount of answers specified is an upper limit. If the RegEx is too simple, there will be fewer answers generated, since there are 
+not enough different possible answers. It is guaranteed that there will be at least exactly one correct answer and at least one wrong answer (up to the amount specified).
+## Regex structures
 
 Source:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
