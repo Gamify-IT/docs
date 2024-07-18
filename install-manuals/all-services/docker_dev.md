@@ -94,7 +94,7 @@ You can then access the minigame at http://localhost/minigames/regexgame/ or via
 
 ### Unity
 Unity projects are an exception since they can't be run in your typical IDE (such as IntelliJ).
-If you wish to build your local changes as a docker container, see [Docker with Unity](https://gamifyit-docs.readthedocs.io/en/latest/dev-manuals/languages/docker/docker-compose-unity.html) 
+If you wish to build your local changes as a docker container, see [Docker with Unity](../../dev-manuals/languages/docker/docker-compose-unity.md) 
 for more information. To do so, use the `docker-compose.yaml` file.
 
 The `docker-compose-dev.yaml` file in the unity projects doesn't enable you to run the project locally, 
