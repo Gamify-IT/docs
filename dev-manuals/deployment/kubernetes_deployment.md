@@ -58,8 +58,7 @@ and more. We recommend looking around a bit to make yourself familiar with the p
 
 
 ## Creating a deployment 
-[//]: # (TODO insert link to helm explanation)
-To create a deployment from scratch a so-called [helm chart]() is used to create and maintain it, 
+To create a deployment from scratch a so-called [helm chart](helm_chart.md) is used to create and maintain it, 
 [helm](https://helm.sh/docs/intro/install/) is used. Simply follow the installation instructions
 on their page.
 
@@ -83,14 +82,45 @@ This will create a new helm chart with the following structure:
 ```
 In the end, this helm chart will be deployed onto the cluster, and contains the specifications for 
 the images, resources and additional data, the cluster needs to make a kubernetes deployment.
-But first you need to fill it with data. For more information about helm charts see [helm chart]()
-
-[//]: # (TODO insert link to helm chart content explanation)
-
-
+But first you need to fill it with data. For more information about helm charts see [helm chart](helm_chart.md)
 
 ## Deploying your helm chart
 If you are using our [provided helm chart](https://github.com/Gamify-IT/run-config) you can skip the creating section.
-To deploy the helm chart, you can use 
+You need to download the helm chart and save it on your machine before continuing with the next steps.
 
+If there doesn't exist a namespace for the deployment, you first need to create one yourself with:
+```shell
+kubectl create namespace <namespace>
+```
+Our helm chart folder contains so called `persistent volumes (pv)` which need to be deployed **before** deploying the actual
+helm chart.\
+To do so, connect to the cluster and open a terminal in lens and use the following command:
+```shell
+kubectl apply -f pv.yaml -n <namespace>
+```
+Then you need to pre-provision the secrets which are also provided in our helm chart folder:
+```shell
+kubectl apply -f keycloak-admin-secret.yaml -n <namespace>
+```
+Now you can deploy the actual helm chart, with:
+```shell
+helm install <your-deployment-name> "path-to-helm-chart" -n <namespace>
+```
 
+The name you choose in this step is necessary if you want to modify/uninstall the deployment.
+
+After completing all the steps above, you should see the pods running in the `Workloads/Pods` section of lens, as well as
+the pvs in the `Storage/Persistent Volumes` section.
+It is advised that you make yourself familiar with the other sections of lens, since you can find the parts of your 
+deployment there and monitor them as well.
+
+## Removing your deployment
+To completely remove all pods of the deployment you can delete the namespace:
+```shell
+kubectl delete namespace <namespace>
+```
+This will **not** delete the persistent volumes, they have to be deleted separately afterwards with the delete button in lens.
+
+There are some issues with keycloak, where it won't use your set environment variables, due to data still being around on the cluster.
+This can be fixed by uninstalling and redeploying in this way, other ways of removing the deployment like `helm uninstall` are 
+not strong enough to clean up all the data.
