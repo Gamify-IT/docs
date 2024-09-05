@@ -50,6 +50,52 @@ They can move around, they can adjust their (movement) speed, can interact with 
 The respective keys for each of those actions are listed below and can also be found in-game in the pause menu (press the <kbd>ESC</kbd> button and navigate to the `keybindings` tab).  
 ![keybindings](../../images/keybindings.webp)
 
+## Sounds
+
+Different sounds play throughout the game for complete immersion.
+
+#### Background music
+
+Each world has its own background music, dungeons have their own distinct music as well. During transitions between worlds or when entering a dungeon, the music changes smoothly.
+
+#### Open sound of minigame spot
+
+Once the player enters the area of the minigame spot, the corresponding sound will be played, indicating that the minigame is open.
+
+#### Sound for completed achievement
+
+When the player completes an achievement, a panel will appear at the bottom of the screen with a message about the achievement. A notification sound will play at this time to draw the player's attention to the panel that has just appeared.
+
+#### Click sound
+
+The game has many interactive buttons. When the player presses one of the buttons, the corresponding click sound is played, e.g. when the map is zoomed in/out, when the pause menu is opened, when a category in menu is selected, etc.
+
+#### Sound for interaction with NPC
+
+A sound symbolising that the NPC has said hello will be played when the player interacts with an NPC.
+
+#### Sound for interaction with book
+
+When the player interacts with the book, a magical opening sound plays.
+
+#### Sound for movement
+
+As the player moves in the game, the sound of rustling grass is played to represent footsteps. When the player accelerates, the sound of movement also changes its speed.
+
+#### Sound for teleporter opening
+
+If the player is on a teleporter, the teleporter will be unlocked. This event is also accompanied by a characteristic sound to attract more attention.
+
+#### Sounds for UFO
+
+Once the player has selected the final teleportation location, a UFO will follow him, accompanied by an alien sound. Upon reaching the end point of the teleportation, the player will also be brought back by the UFO. At this point, the sound of the aliens will play, but this time in reverse.
+
+## Volume control
+
+The player has the ability to control the volume of sounds in the game . The control button is located in the pause menu in the upper right corner. When the player press the button, the volume of the sounds goes to the next level, which is accompanied by a change of image of the button. There are 4 volume levels in total in the game: muted, low volume, medium volume and high volume.
+The volume of sounds the player chooses will also apply to all the minigames the player play going forward.
+![volume-control](../../images/volume_button.webp)
+
 ## Developer
 
 If you are a developer wanting to change or add something in the overworld, please refer to the [developer README](../../dev-manuals/services/overworld/README.md)
