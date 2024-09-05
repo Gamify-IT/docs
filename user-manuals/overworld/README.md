@@ -88,11 +88,11 @@ If the player is on a teleporter, the teleporter will be unlocked. This event is
 
 #### Sounds for UFO
 
-Once the player has selected the final teleportation location, a UFO will follow him, accompanied by an alien sound. Upon reaching the end point of the teleportation, the player will also be brought back by the UFO. At this point, the sound of the aliens will play, but this time in reverse.
+Once the player has selected the final teleportation location, a UFO will follow them, accompanied by an alien sound. Upon reaching the end point of the teleportation, the player will also be brought back by the UFO. At this point, the sound of the aliens will play, but this time in reverse.
 
 ## Volume control
 
-The player has the ability to control the volume of sounds in the game . The control button is located in the pause menu in the upper right corner. When the player press the button, the volume of the sounds goes to the next level, which is accompanied by a change of image of the button. There are 4 volume levels in total in the game: muted, low volume, medium volume and high volume.
+The player has the ability to control the volume of sounds in the game. The control button is located in the pause menu in the upper right corner. When the player press the button, the volume of the sounds goes to the next level, which is accompanied by a change of image of the button. There are 4 volume levels in total in the game: muted, low volume, medium volume and high volume.
 The volume of sounds the player chooses will also apply to all the minigames the player play going forward.
 ![volume-control](../../images/volume_button.webp)
 
