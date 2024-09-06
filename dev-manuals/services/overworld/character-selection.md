@@ -13,11 +13,11 @@ The character selection can be accessed in the `pause menu` under `character sel
 
 ## How to create a new Character
 
-Before adding a new character to the game, you need to design and create the required assets. Feel free to take a look at the already existing characters.
+Before adding a new character to the game, you need to design and create the required assets. Feel free to take a look at the already existing characters and animations.
 
-- Sprites (can be fond under `Assets > Sprites > Characters`)
-- Head (can be fond under `Assets > Tiles > HUD`)
-- Animations (can be fond under `Assets > Animations > Player`)
+- Sprites (saved under `Assets > Sprites > Characters`)
+- Head (saved under `Assets > Tiles > HUD`)
+- Animations (saved under `Assets > Animations > Player`)
 
 ## How to add a new Character to the Character Selection
 
@@ -30,5 +30,6 @@ Before adding a new character to the game, you need to design and create the req
 
 ## Other 
 
-The character is saved in the backend when the player goes back to the lecturer interface or starts playing a minigame. The saving process happens automatically and can be found here.
+The character is saved in the backend when the player goes back to the lecturer interface or starts playing a minigame. The saving process happens automatically and can be found 
+[here](./save-player-data.md).
 
