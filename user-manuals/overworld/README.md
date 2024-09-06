@@ -228,7 +228,7 @@ When certain conditions are met, the achievement's progress will be updated. Onc
 As mentioned above, each achievement has its own status: completed or locked. Once an achievement has been completed, it will become brighter, while locked achievements are dimmed. 
 ![completed and locked achievements](../../images/achievements/place_leaderboard.webp)
 
-### Achievement notification
+### Achievement completion notification
 
 Once the player has done everything they need to do to complete a particular achievement, a panel with the achievement the player has just completed will appear at the bottom of the screen. It will disappear after five seconds.
 
