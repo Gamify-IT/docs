@@ -64,18 +64,23 @@ Clicking on this category will open a table. On the left are the filter buttons,
 
 There are 3 options for filtering achievements: 
 <ul>
-  <li>by category</li>
-  category is the type of player, namely: Exploring, Achieving, Competitive, Socializing. You can read more about the types of player here: 
+  <li>By category:</li>
+  
+  Category is the type of player, namely: Exploring, Achieving, Competitive, Socializing. You can read more about the types of player here: 
   
   [achievement and player types](/dev-manuals/achievements/achievement-types.md)
 
   ![categories of achievements](../../images/achievements/category.webp)
-  <li>by status</li>
-  achievement is completed or not completed
+  
+  <li>By status:</li>
+  
+  Achievement is completed or not completed
 
   ![status of achievements](../../images/achievements/status.webp)
-  <li>by keyword</li>
-  the player can enter a word, then press the "Filter" button, and all the achievements containing the entered word in the title or description will be displayed on the right.
+
+  <li>By keyword:</li>
+  
+  The player can enter a word, then press the "Filter" button, and all the achievements containing the entered word in the title or description will be displayed on the right.
 
   ![filter with keyword](../../images/achievements/filter.webp)
 
