@@ -40,7 +40,7 @@ To end the game, click the close button. To retry, click the close button.
 
 ## Sounds
 
-In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md)
+In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md#volume-control)
 
 #### Background music
 
