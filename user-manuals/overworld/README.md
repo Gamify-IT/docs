@@ -66,9 +66,7 @@ There are 3 options for filtering achievements:
 <ul>
   <li>By category:</li>
   
-  Category is the type of player, namely: Exploring, Achieving, Competitive, Socializing. You can read more about the types of player here: 
-  
-  [achievement and player types](/dev-manuals/achievements/achievement-types.md)
+  Category is the type of player, namely: Exploring, Achieving, Competitive, Socializing. You can read more about the types of player here: [achievement and player types](/dev-manuals/achievements/achievement-types.md)
 
   ![categories of achievements](../../images/achievements/category.webp)
   
