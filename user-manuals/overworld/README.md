@@ -108,9 +108,9 @@ The goal of these achievements is to walk a certain number of steps, namely 10 a
 
 Category: Exploring<br>
 There is an option in the game to choose a new character, and an achievement has been created to draw attention to this and encourage players to select a new character.
-You can read more about character selection here:
+You can read more about character selection here: [select character](/dev-manuals/services/overworld/character-selection.md)
 
-[select character](/dev-manuals/services/overworld/character-selection.md)
+![select character](../../images/achievements/select_character.webp)
 
 #### Successfully complete minigame
 
