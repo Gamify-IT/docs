@@ -30,14 +30,14 @@ Not that you need to ensure that the progress stops increasing once the achievem
 Every time the `IncreaseAchievementProgress` method is called, it is checked wether the achievement is completed.
 
 #### Interacted objects list
-This list saves which objects (books, teleporters, NPCs, ...) the player has already interacted with. The list contains triples consisting of the world index, the dungeon index an object is located in, as well as the its ID. \
+This list saves which objects (books, teleporters, NPCs, ...) the player has already interacted with. The list contains triples consisting of the world index, the dungeon index the object is located in, as well as the its ID. \
 Note that for new objects you need to add this list to the new class.
 
 ### Other Player Data
 
 All other player data is saved in the `PlayerStatistic` classes. Please take a look [here](../../architecture/overworld-backend/README.md) for the data model.
 
-#### Player osition 
+#### Player Position 
 
 The player's position is saved as the x and y coordinates alongside the current world, dungeon index and the scene name.
 
@@ -49,7 +49,7 @@ The selected character by the player is saved as the index in the character list
 
 There exist four different volume levels including one for mute.
 These levels are managed in the `VolumeControllerButton` class in the Overworld Frontend. Moreover, these levels are also applied in other minigames. \
-Note that the volume level is mapped to a keybinding in order to be saved effective. These mapping are defined in `ConvertKeyCodeToInt` and 
+Note that the volume level is mapped to a key binding in order to be saved effective. These mapping are defined in `ConvertKeyCodeToInt` and 
 `ConvertIntToKeyCode` methods of the `Data Manager`class.
 
 #### Date Time
@@ -66,14 +66,15 @@ There are two different ways of saving data.
 
 Achievements and the player statistic are saved via the `SavePlayerData` method in the backend. During the session, changes of the values are stored as follows in the `Data Manger` class:
 - Logout position coordinates are determined via the transform object of the player 
-- World index, dungeon index and scene name are saved in the Data Manager every time the player enters a new area. Below can be found an overview in which cases these information must be saved and where it is done.
+- World index, dungeon index and scene name are saved in the Data Manager every time the player enters a new area. \
+  Below can be found an overview in which cases this information must be saved and where it is done.
   
-    | Event             | Code Location     |
-    | -------------     | -------------     |
-    | Entering new world   | `LoadMaps` class   |
-    | Entering/leaving dungeon | `LoadSubScene` class     |
-    |            | 
-
+    | Event                     | Code Location                             |
+    | --------------------------| ------------------------------------------|
+    | Entering new world        | `LoadMaps` class                          |
+    | Entering/leaving dungeon  | `LoadSubScene` class                      |
+    | Starting minigame         | `Minigame` and `MinigameStarting`classes  | 
+ 
 - Character index is saved after the player selects a new one in the `SetupCharacter` method of the `Data Manager` class.
 
 ### In the Class where changes happened
