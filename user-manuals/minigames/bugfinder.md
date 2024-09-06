@@ -42,7 +42,7 @@ In the overworld and each minigame, the player will hear different sounds. The p
 
 #### Background music
 
-Each minigame has its own background music that the player hears as soon as they enter the game.
+When entering the minigame, the player will hear background music that plays throughout the game.
 
 #### Click sound
 
