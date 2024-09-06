@@ -92,8 +92,8 @@ Once the player has selected the final teleportation location, a UFO will follow
 
 ## Volume control
 
-The player has the ability to control the volume of sounds in the game. The control button is located in the pause menu in the upper right corner. When the player press the button, the volume of the sounds goes to the next level, which is accompanied by a change of image of the button. There are 4 volume levels in total in the game: muted, low volume, medium volume and high volume.
-The volume of sounds the player chooses will also apply to all the minigames the player play going forward.
+The player has the ability to control the volume of sounds in the game. The control button is located in the top right corner of the pause menu. When the player presses the button, the volume of the sounds increases to the next level, which is accompanied by a change of image of the button. There are 4 volume levels in total in the game: mute, low volume, medium volume and high volume.
+The volume level chosen by the player will also be applied to all minigames the player plays in the future.
 ![volume-control](../../images/volume_button.webp)
 
 ## Developer
