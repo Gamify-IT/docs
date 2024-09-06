@@ -69,10 +69,10 @@ There are 3 options for filtering achievements:
   Category is the type of player, namely: Exploring, Achieving, Competitive, Socializing. You can read more about the types of player here: [achievement and player types](/dev-manuals/achievements/achievement-types.md)
 
   ![categories of achievements](../../images/achievements/category.webp)
-  
+
   <li>By status:</li>
   
-  Achievement is completed or not completed
+  Achievement is completed or locked
 
   ![status of achievements](../../images/achievements/status.webp)
 
@@ -99,14 +99,14 @@ There are different groups of achievements in the game. Most groups have several
 
 #### Walk
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 The goal of these achievements is to walk a certain number of steps, namely 10 and 1000 steps.
 
 ![walk achievement](../../images/achievements/walk.webp)
 
 #### Select character
 
-Category: Exploring
+Category: Exploring<br>
 There is an option in the game to choose a new character, and an achievement has been created to draw attention to this and encourage players to select a new character.
 You can read more about character selection here:
 
@@ -114,7 +114,7 @@ You can read more about character selection here:
 
 #### Successfully complete minigame
 
-Category: Achieving, Competitive
+Category: Achieving, Competitive<br>
 The goal of this achievement is to successfully complete a certain number of minigames that the player can find in the overworld. Once the player has played the minigame, the achievement will be updated and if the minigame was successfully completed, the achievement progress will increase.
 It is also important that the player cannot complete the achievement by playing the same minigame multiple times, which encourages the player to look for other minigames in the overworld.
 
@@ -122,63 +122,63 @@ It is also important that the player cannot complete the achievement by playing 
 
 #### Play for a certain amount of time
 
-Category: Exploring, Achieving, Competitive, Socializing
+Category: Exploring, Achieving, Competitive, Socializing<br>
 To successfully complete these achievements, the player must be in the game for 30 and 90 minutes. The player also has the option to pause and resume the game, in which case the achievement progress will not be reset.
 
 ![play for a certain amount of time](../../images/achievements/play_minutes.webp)
 
 #### Use sprint
 
-Category: Achieving, Competitive
+Category: Achieving, Competitive<br>
 In order to move quickly in the game, the player can use sprint. To complete this achievement, the player must use sprint for a total of 30 seconds. However, the player can stop and then use sprint again, in which case the achievement progress will not be reset.
 
 ![sprint achievement](../../images/achievements/sprint.webp)
 
 #### Unlock all dungeons
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 Each world contains dungeons that can be unlocked by completing all the minigames available in the current level. Unlocking each of the dungeons will increase the achievement progress associated with the current world.
 
 ![unlock dungeons](../../images/achievements/unlock_dungeons.webp)
 
 #### Open new worlds
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 Once the player has unlocked all the dungeons in the current world and successfully completed all the minigames, the next world will open. Along with the panel that appears to announce the opening of a new world, the achievement progress for that world will also be updated.
 
 ![open worlds](../../images/achievements/unlock_worlds.webp)
 
 #### Find minigame spots
 
-Category: Exploring
+Category: Exploring<br>
 When the player finds a minigame spot and steps on it, the achievement progress is updated. Importantly, the player cannot complete the achievement by stepping on the same spot multiple times, encouraging the player to search for other minigame spots in the overworld.
 
 ![minigame spots](../../images/achievements/find_minigame_spot.webp)
 
 #### Open books
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 The goal of this achievement is to open as many books as possible with important clues. Since the books are located in each world, three achievements per world were created, as well as three general achievements, so that in case the player did not find all the books in a particular world, they could still complete at least a few achievements. Books found in dungeons count towards the achievement of the world in which the dungeon is located. Each time the player interact with a book that has not yet been opened, the achievement progress will be updated. It is important that the player cannot complete the achievement by opening the same book multiple times. 
 
 ![open books](../../images/achievements/open_books.webp)
 
 #### Unlock teleporter
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 Each world has teleporters. Three achievements have been created for each world, as well as three general achievements. Teleporters in dungeons count towards the achievement of the world in which the dungeon is located. When the player enters the teleporter area, it is unlocked and the progress of the achievement is updated. Importantly, the player cannot complete the achievement by unlocking the same teleporter multiple times.
 
 ![unlock teleporter](../../images/achievements/unlock_teleporter.webp)
 
 #### Talk to NPC
 
-Category: Exploring
+Category: Exploring<br>
 Each world has NPCs. When interacting with an NPC, the achievement is updated according to the world in which the NPC is located. If the NPC is in a dungeon, the achievement progress is updated according to the world in which the dungeon is located. Also created three achievements for each world and three general achievements. Importantly, the player cannot complete the achievement by interacting with the same NPC.
 
 ![talk to NPC](../../images/achievements/talk_to_NPC.webp)
 
 #### Successfully complete each minigame
 
-Category: Achieving, Competitive
+Category: Achieving, Competitive<br>
 Achievements have been created for the following minigames: chickenshock, memory, finitequiz, crosswordpuzzle, bugfinder and towercrush. When the player successfully completes a particular minigame, the achievement will be updated.
 
 ![chickenshock, memory, finitequiz](../../images/achievements/minigames1.webp)
@@ -186,35 +186,35 @@ Achievements have been created for the following minigames: chickenshock, memory
 
 #### Use UFO
 
-Category: Exploring, Achieving
+Category: Exploring, Achieving<br>
 To get around the overworld quickly, the player can use the teleporter. To teleport, the player is picked up by a UFO. To complete the achievement, the player needs to use the UFO three times.
 
 ![ufo achievement](../../images/achievements/use_UFO.webp)
 
 #### Login
 
-Category: Exploring, Achieving, Competitive, Socializing
+Category: Exploring, Achieving, Competitive, Socializing<br>
 To complete the login achievements, the player must log into the game for two and five different days.
 
 ![login achievement](../../images/achievements/login.webp)
 
 #### The best in the leaderboard
 
-Category: Competitive
+Category: Competitive<br>
 Created two achievements related to the leaderboard. First one is to be the best and take first place. The second one is to take second or third place in the leaderboard.
 
 ![enter first 3 places in leaderboard](../../images/achievements/place_leaderboard.webp)
 
 #### Get coins
 
-Category: Achieving
+Category: Achieving<br>
 When the player completes the minigame, they will receive a certain number of coins depending on how well they played. To complete the achievements, the player needs to get 50 and 150 coins.
 
 ![get coins](../../images/achievements/coins.webp)
 
 #### Level up
 
-Category: Achieving
+Category: Achieving<br>
 As new dungeons and worlds are unlocked, the player's level changes. On entering the game, the player will automatically have the first level as World 1 is unlocked, when the player unlocks the next world, they will gain the second level, at this point the progress of the achievement is updated.
 
 ![level up](../../images/achievements/level%20up.webp)
