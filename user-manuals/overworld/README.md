@@ -228,6 +228,12 @@ When certain conditions are met, the achievement's progress will be updated. Onc
 As mentioned above, each achievement has its own status: completed or locked. Once an achievement has been completed, it will become brighter, while locked achievements are dimmed. 
 ![completed and locked achievements](../../images/achievements/place_leaderboard.webp)
 
+### Achievement notification
+
+Once the player has done everything they need to do to complete a particular achievement, a panel with the achievement the player has just completed will appear at the bottom of the screen. It will disappear after five seconds.
+
+![achievement notification](../../images/achievements/achievement_notification.webp)
+
 ### Object Tracking
 
 As mentioned earlier, the player can't complete the achievement by interacting with the same object multiple times. This is implemented by saving objects that the player has already interacted with. You can read more about saving achievements and objects related to achievements here: [save interacted objects](/dev-manuals/services/overworld/save-player-data.md)
