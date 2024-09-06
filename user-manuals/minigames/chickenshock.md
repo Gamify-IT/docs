@@ -42,7 +42,7 @@ If the player shoots the chicken with the wrong answer, a sound is played to inf
 
 #### Sound for correct answer
 
-If the player shoots the correct chicken, a sound will be heard indicating the correct answer.
+When the player shoots the correct chicken, a sound is played to indicate the correct answer.
 
 #### Shot sound
 
