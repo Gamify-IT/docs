@@ -35,10 +35,6 @@ Next, you'll get another snippet.
 Once you've submitted all snippets, you will see the end screen that finishes the game:
 ![feedback screenshot](assets/bugfinder-end-screen.webp)
 
-## Configuration
-
-The lecturer can configure the game with lots of codes.
-The solutions can be specified with the correct values of bugs and with error types of a bug.
 
 ## Sounds
 
@@ -71,5 +67,10 @@ Once the game is over, the player can see how many questions they got right. If 
 #### Sound for unsuccessfully completed minigame
 
 If the player gets a small number of questions right, they will hear a sound that lets them know the game didn't get completed successfully.
+
+## Configuration
+
+The lecturer can configure the game with lots of codes.
+The solutions can be specified with the correct values of bugs and with error types of a bug.
 
 For more information how to configure minigames see the [lecturer interface manual](../lecturer-interface/README.md).
