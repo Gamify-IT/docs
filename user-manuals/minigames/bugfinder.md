@@ -5,6 +5,7 @@ _Bugfinder_ is a minigame for the _Gamify-IT_ platform.
 ## TOC
 
 - [Gameplay](#gameplay)
+- [Sounds](#sounds)
 - [Configuration](#configuration)
 
 ## About the Game
@@ -34,7 +35,6 @@ If you are sure that you have found all bugs, you can see your results by clicki
 Next, you'll get another snippet.
 Once you've submitted all snippets, you will see the end screen that finishes the game:
 ![feedback screenshot](assets/bugfinder-end-screen.webp)
-
 
 ## Sounds
 

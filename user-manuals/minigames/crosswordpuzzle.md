@@ -5,6 +5,7 @@ _Crosswordpuzzle_ is a minigame for the _Gamify-IT_ platform.
 ## TOC
 
 - [Gameplay](#gameplay)
+- [Sounds](#sounds)
 - [Configuration](#configuration)
 
 ## About the Game
