@@ -20,6 +20,26 @@ The winning team is the one whose tower is the last one standing, or whichever t
 ![game end screenshot](assets/towercrush-end-screen.webp)
 When all questions are answered, you will be notified which team won.
 
+## Sounds
+
+In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md)
+
+#### Background music
+
+The player hears themed background music when entering the game.
+
+#### Click sound
+
+In the minigame, the player will find some interactive buttons, such as the option to start or exit the game. When the player clicks on a button, they will hear a click sound.
+
+#### Sound when answer is pressed
+
+When the player clicks on any answer, the answer selection sound will play.
+
+#### Sound for end of minigame
+
+At the end of the game, a screen will appear telling the player which team has won, accompanied by a game over sound.
+
 ## Configuration
 
 The lecturer can configure the game with an arbitrary number of questions.
