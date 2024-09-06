@@ -48,7 +48,7 @@ If the player shoots the correct chicken, a sound will be heard indicating the c
 
 When the player shoots the chicken, the sound of the shot will be played.
 
-#### Sound for end of minigame
+#### Sound for end of the minigame
 
 Once the player has answered all the questions or the timer has run out, the player will see a final screen with the number of correct answers, with music playing in the background to announce the end of the game.
 
