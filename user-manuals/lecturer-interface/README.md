@@ -32,8 +32,6 @@ You can assign a topic name to this area, or set it as active or not active.
 Inactive areas will not be playable for users.
 The topic name can be used to signify what you intend to teach in this area, i.e. `UML Diagrams` when this area focuses on UML content.
 
-**Important:**  In order to unlock new Worlds/Dungeons, you need to not only set them active, but also add **at least** one minigame to the World/Dungeon.
-
 You can also navigate through the sub-items that were expanded after clicking on a world.
 There, you can configure the following things:
 
@@ -48,6 +46,8 @@ In order to be able to quickly find a specific minigame, it is recommended to se
 ![minigame view](assets/minigame-view.webp)
 
 To view statistics related to the minigame, simply click on the statistics button located next to the Edit button.
+
+**Important:**  In order to unlock new Worlds/Dungeons, you need to not only set them active, but also add **at least** one minigame to the World/Dungeon.
 
 ### Configure area NPCs
 
