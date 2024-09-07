@@ -1,4 +1,4 @@
-# Architecture of `Bugfinder`
+# Architecture of Bugfinder
 
 ## Purpose
 
