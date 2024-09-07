@@ -9,7 +9,7 @@ Currently, the character selection includes complete outfits and accessories lik
 ## The Character Selection Menu
 
 The character selection can be accessed in the `pause menu` under `character selection`.
-<img src="assets/character-selection-menu.webp" width="700">
+![character selection](assets/character-selection-menu.webp)
 
 ## How to create a new Character
 
@@ -26,7 +26,7 @@ Before adding a new character to the game, you need to design and create the req
    - Image of the character head for the minimap
    - Animator 
 2. Add the new character sprite, character head and animator to the corresponding lists in the `data manager` in the `player scene`
-    <img src="assets/add-character-to-data-manager.webp" width="271">
+![add new character](assets/add-character-to-data-manager.webp) 
 
 ## Other 
 
