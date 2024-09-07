@@ -6,7 +6,15 @@ Tower Defense is a minigame which is part of the Gamify-IT platform.
 
 The intention with this game is to make answering single choice questions fun.
 
-*WIP*
+When entering the game, the user is presented with the main menu.
+
+
+After pressing the start button the enemies start spawning. The player then can place towers along the road to kill the enemies. Everytime the player wants to place a tower he must answer a question correctly to do so.
+
+The player also can upgrade the towers to make them stronger, for each upgrade he also must answer a question correctly.
+
+
+Once too many enemies reach the base the game ends. The longer the player survives the more points he can earn. 
 
 ## Configuration
 
