@@ -5,6 +5,7 @@ _Bugfinder_ is a minigame for the _Gamify-IT_ platform.
 ## TOC
 
 - [Gameplay](#gameplay)
+- [Sounds](#sounds)
 - [Configuration](#configuration)
 
 ## About the Game
@@ -34,6 +35,38 @@ If you are sure that you have found all bugs, you can see your results by clicki
 Next, you'll get another snippet.
 Once you've submitted all snippets, you will see the end screen that finishes the game:
 ![feedback screenshot](assets/bugfinder-end-screen.webp)
+
+## Sounds
+
+In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md#volume-control)
+
+#### Background music
+
+When entering the minigame, the player will hear background music that plays throughout the game.
+
+#### Click sound
+
+In the minigame, the player will find some interactive buttons, such as the option to start or exit the game. When the player clicks on a button, they will hear a click sound.
+
+#### Sound for wrong answer
+
+Once the player has pressed the button to confirm their answer, they will see a message in the chat telling them whether they got it right or not. If the player gets it wrong, they will hear a sound for wrong answer.
+
+#### Sound for notifications in chat
+
+As well as messages in the chat about whether the answer is right, there are also messages asking for help with finding bugs. In these cases, the usual notification sound is played.
+
+#### Sound for correct answer 
+
+In the case of a correct answer, a message about a successfully found error will appear in the chat, accompanied by a sound for the correct answer.
+
+#### Sound for successfully completed minigame
+
+Once the game is over, the player can see how many questions they got right. If they got more than the average number of questions right, they will hear a sound that symbolizes the game is successfully completed.
+
+#### Sound for unsuccessfully completed minigame
+
+If the player gets a small number of questions right, they will hear a sound that lets them know the game didn't get completed successfully.
 
 ## Configuration
 
