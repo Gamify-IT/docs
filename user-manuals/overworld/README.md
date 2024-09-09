@@ -330,7 +330,7 @@ In the knowledge menu, the player can find the leaderboard by clicking on the bu
 ![rewards-menu](../../images/rewards/HUD-menu.webp)
 
 After clicking the button the player will see the leaderboard
-![rewards-menu](../../images/rewards/HUD-menu.webp)
+![rewards-menu](../../images/rewards/leaderboard-menu.webp)
 
 ### Filter rewards
 
@@ -360,7 +360,8 @@ In the knowledge menu, the player can find the shop by clicking on the button.
 
 After clicking the button the player will see the shop
 
-![shop](../../images/shop/img.webp)
+![rewards](../../images/rewards/shop.webp)
+
 
 ### Filter rewards
 
