@@ -22,3 +22,10 @@ User Manuals
    :caption: Lecturer Interface
 
    ./lecturer-interface/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :caption: Landing Page
+
+   ./landing-page/**

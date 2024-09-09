@@ -2,11 +2,27 @@
 
 ## Table of content
 
-* [Getting started](#getting-started)
-    * [Minigame structure](#minigame-structure)
-    * [Integrate into the overworld backend](#integrate-into-the-overworld-backend)
-    * [Integrate into the lecturer interface](#integrate-into-the-lecturer-interface)
-    * [Backend-to-backend communication](#backend-to-backend-communication)
+- [Integrate a completely new minigame](#integrate-a-completely-new-minigame)
+  - [Table of content](#table-of-content)
+  - [Getting started](#getting-started)
+  - [Minigame structure](#minigame-structure)
+    - [Backend: Configuration routes](#backend-configuration-routes)
+  - [Integrate into the reverse proxy and the run config](#integrate-into-the-reverse-proxy-and-the-run-config)
+    - [Reverse proxy repository](#reverse-proxy-repository)
+    - [Run config (deployment)](#run-config-deployment)
+    - [Docker deployment](#docker-deployment)
+  - [Integrate into the overworld backend](#integrate-into-the-overworld-backend)
+    - [Add the minigame to the `Minigame` enum](#add-the-minigame-to-the-minigame-enum)
+    - [Add FeignClient](#add-feignclient)
+    - [Implement configuration cloning](#implement-configuration-cloning)
+  - [Integrate cloning into the minigame:](#integrate-cloning-into-the-minigame)
+  - [Integrate into the lecturer interface](#integrate-into-the-lecturer-interface)
+    - [Add the minigame as enum](#add-the-minigame-as-enum)
+    - [Add DTOs](#add-dtos)
+    - [Add a REST client](#add-a-rest-client)
+    - [Create a configuration modal](#create-a-configuration-modal)
+      - [Add configuration import/ export](#add-configuration-import-export)
+  - [Backend-to-backend communication](#backend-to-backend-communication)
 
 ## Getting started
 
@@ -22,6 +38,80 @@ As described above, both frontend and backend of the minigame should exist alrea
 ### Backend: Configuration routes
 
 In order to provide a uniform interface for minigame configurations in all minigame backends, both the routes `/configurations` (for `POST` and GET), and `/configurations/{id}` where `id` is a `UUID` (for `PUT` and `GET`), must exist.
+
+## Integrate into the reverse proxy and the run config 
+
+To ensure all REST requests function correctly, the following changes need to be made:
+
+### Reverse proxy repository
+
+- Add the minigame name to the service env in the `Dockerfile`:
+  ``` dockerfile
+  ENV SERVICES="default keycloak bugfinder chickenshock crosswordpuzzle fileserver finitequiz memory regexgame towercrush towerdefense <YOUR_MINIGAME_NAME>"
+  ```
+- Update the `body-main.conf`:
+  ``` config
+  set $<YOUR_MINIGAME_NAME> ###DEPLOYMENT_NAME###-<YOUR_MINIGAME_NAME>###LOCAL_DOMAIN###;
+  set $<YOUR_MINIGAME_NAME> ###DEPLOYMENT_NAME###-<YOUR_MINIGAME_NAME>-backend###LOCAL_DOMAIN###;
+- Add a new `body-<YOUR_MINIGAME_NAME>.conf`:
+  ``` config
+  location /minigames/<YOUR_MINIGAME_NAME>/ {
+        rewrite    ^/minigames/<YOUR_MINIGAME_NAME>/(.*)$ /$1 break;
+        proxy_pass      http://$<YOUR_MINIGAME_NAME>;
+    }
+
+    location /minigames/<YOUR_MINIGAME_NAME>/api/ {
+        rewrite    ^/minigames/minigame/(.*)$ /$1 break;
+        proxy_pass      http://$<YOUR_MINIGAME_NAME>_backend;
+    }
+  ```
+### Run config (deployment)
+
+- Add the minigame name to the service env in the `create-deployment.sh`:
+  ```shell
+  SERVICES="default keycloak bugfinder chickenshock crosswordpuzzle fileserver finitequiz memory regexgame towercrush <YOUR_MINIGAME_NAME>"
+  ```
+- Create a new `docker-compose-<YOUR_MINIGAME_NAME>.yaml`:
+  ``` docker
+  version: "3.8"
+
+  services:
+
+    <YOUR_MINIGAME_NAME>-db:
+      extends:
+        file: docker-compose-template-services.yaml
+        service: template-db
+      container_name: ${DEPLOYMENT_NAME}-<YOUR_MINIGAME_NAME>-db
+      volumes:
+      - <YOUR_MINIGAME_NAME>-db:/var/lib/postgresql/data
+
+    <YOUR_MINIGAME_NAME>-backend:
+      extends:
+        file: docker-compose-template-services.yaml
+        service: template-backend
+      container_name: ${DEPLOYMENT_NAME}-<YOUR_MINIGAME_NAME>-backend
+      image: ghcr.io/gamify-it/<YOUR_MINIGAME_NAME>-backend:$VERSION
+      depends_on:
+        - <YOUR_MINIGAME_NAME>-db
+      environment:
+        - POSTGRES_URL=postgresql://${DEPLOYMENT_NAME}-<YOUR_MINIGAME_NAME>-db:5432/postgres
+
+    <YOUR_MINIGAME_NAME>:
+      extends:
+        file: docker-compose-template-services.yaml
+        service: template-frontend
+      container_name: ${DEPLOYMENT_NAME}-<YOUR_MINIGAME_NAME>
+      image: ghcr.io/gamify-it/<YOUR_MINIGAME_NAME>:$VERSION
+
+  volumes:
+    <YOUR_MINIGAME_NAME>-db:
+      name: ${DEPLOYMENT_NAME}-<YOUR_MINIGAME_NAME>-db
+  ```
+
+### Docker deployment
+
+To integrate the minigame into the `docker-compose.yaml` files of a repository,
+you need to add the necessary services, such as the frontend, backend and database, as needed.
 
 ## Integrate into the overworld backend
 
