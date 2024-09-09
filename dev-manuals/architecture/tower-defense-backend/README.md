@@ -61,13 +61,13 @@ This simplified class diagram shows how the most important services, mappers and
 
 ### ConfigController
 
-<img src="assets/tower-defense-config-controller.webp" width="500"/>
+![config controller ](assets/tower-defense-config-controller.webp)
 
 This class diagram shows an overview of the ConfigController class.
 
 ### GameResultController
 
-<img src="assets/tower-defense-game-result-controller.webp" width="800"/>
+![game result controller](assets/tower-defense-game-result-controller.webp)
 
 This class diagram shows an overview of the GameResultController class.
 The data structure of `GameResult` and its contents are shown at the left and bottom of the diagram.
