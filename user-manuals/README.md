@@ -9,6 +9,7 @@ of the Gamify-IT platform.
   - [Finitequiz](minigames/finitequiz.md)
   - [Memory](minigames/memory.md)
 - [Lecturer Interface](lecturer-interface/README.md)
+- Landing Page
 
 For instructions on how to deploy the platform, see the [installation manuals](../install-manuals/README.md).
 Instructions for the development can be found in the [dev manuals](../dev-manuals/README.md).
