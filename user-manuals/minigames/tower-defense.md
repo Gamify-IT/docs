@@ -30,6 +30,31 @@ At the beginning of the game, the shop menu is expanded allowing you to choose b
 
 When your life is empty, the game ends and you will be directed to the game over screen, where you can choose between going back to the start menu or leaving the game.
 
+## Sounds
+
+In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md#volume-control)
+
+#### Background music
+
+Upon entering the game, the player will immediately hear themed background music that will accompany them throughout the game.
+
+#### Click sound
+
+In the minigame, the player will find some interactive buttons, such as the option to start or exit the game. When the player clicks on a button, they will hear a click sound.
+
+#### Tower shot
+
+When enemies move, tower will attack them. In addition to the visual effects, there is also an audio effect that symbolises the sound of a shot.
+
+#### Kill enemy
+When the enemy is killed, the corresponding sound is played to inform the player of the enemy's death.
+
+#### Tower update 
+If the player answers the question correctly, they will have the opportunity to upgrade the tower. The correct answer and the opportunity to upgrade the tower will be accompanied by a sound symbolising the level up and the correct answer.
+
+#### Triumph sound for end screen 
+At the end of the game, the player will see the final screen accompanied by a sound symbolising the end of the game.
+
 ## Configuration
 
 The lecturer can configure the game with an arbitrary number of questions.
