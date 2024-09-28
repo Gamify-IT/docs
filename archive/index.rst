@@ -27,4 +27,4 @@ Archive
    :titlesonly:
    :caption: Project Management
 
-   ./project-management/**
+   ./project-management**
