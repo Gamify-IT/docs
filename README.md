@@ -9,7 +9,7 @@ All files in this repo should be written in English and _Markdown_.
 
 It is structured in the following way:
 
-### [`/adr`](adr)
+### [`/adr`](archive/adr)
 
 Contains the _Architecture Decision Records_, so which general design decisions have been made, which options were
 possible, which were chosen and why.
@@ -27,7 +27,7 @@ Contains the installation manual(s) for the given repo, so how the admin can dep
 
 Contains manuals for lecturers and students, so how to use the platform and the minigames.
 
-### [`/protocols`](protocols)
+### [`/protocols`](archive/protocols)
 
 Contains protocols of meetings regarding the given repo/ concept for the given day. Filenames are in the
 format `YYYY-mm-dd-protocol.md`.

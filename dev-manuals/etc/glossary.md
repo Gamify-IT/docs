@@ -36,7 +36,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - a cave/building or similar which can be accessed through a [level](#level)
 - can vary in size and content/look
-- See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
+- See the concept [here](/archive/protocols/global/2022-06-03-protocol-1.md)
   - squares are the entrances to a dungeon
 
 ## E
@@ -68,7 +68,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 - subdivision of a [World](#world)
 - can have a few entrances to [dungeons](#dungeon)
 - levels can be interconnected
-- See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
+- See the concept [here](/archive/protocols/global/2022-06-03-protocol-1.md)
   - 2, 3, 4, ... on the left side of the picture are levels
 
 ## M
@@ -143,7 +143,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 - a region limited in size where the player can move and interact with the environment, i.e. with [NPCs](#npc)
 - a world can contain multiple [Levels](#level)
-- See the concept [here](/protocols/global/2022-06-03-protocol-1.md)
+- See the concept [here](/archive/protocols/global/2022-06-03-protocol-1.md)
   - big circle is world
 
 ## X

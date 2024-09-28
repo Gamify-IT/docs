@@ -14,8 +14,7 @@ Welcome to Gamify IT's documentation!
    user-manuals/index.rst
    install-manuals/index.rst
    dev-manuals/index.rst
-   adr/index.rst
-   protocols/index.rst
+   archive/index.rst
 
 
 .. Indices and tables

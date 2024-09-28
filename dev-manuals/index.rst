@@ -89,13 +89,6 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: SonarQube
-
-   ./sonarqube/**
-
-.. toctree::
-   :glob:
-   :titlesonly:
    :caption: Test Data
 
    ./testdata/*
