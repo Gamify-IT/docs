@@ -27,6 +27,10 @@ Contains the installation manual(s) for the given repo, so how the admin can dep
 
 Contains manuals for lecturers and students, so how to use the platform and the minigames.
 
+### [`/test-plans`](test-plans)
+
+Contains test plans for different aspects of the project.
+
 ### [`archive/protocols`](archive/protocols)
 
 Contains protocols of meetings regarding the given repo/ concept for the given day. Filenames are in the
