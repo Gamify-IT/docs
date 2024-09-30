@@ -1,4 +1,4 @@
-# Code Format
+# Code Format for TS
 
 We use [ESLint](https://eslint.org/) for linting TS Code.  
 We use [ESLint Vue Plugin](https://eslint.vuejs.org/) for linting Vue files.  

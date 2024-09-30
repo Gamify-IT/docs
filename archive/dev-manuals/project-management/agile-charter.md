@@ -78,8 +78,8 @@ Features:
 
 ### Boundaries
 
-![boundaries](boundaries.webp)
+![boundaries](../../../dev-manuals/project-management/boundaries.webp)
 
 ### Prospective Analysis
 
-![prospective-analysis](prospective-analysis.webp)
+![prospective-analysis](../../../dev-manuals/project-management/prospective-analysis.webp)

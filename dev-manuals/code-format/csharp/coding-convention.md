@@ -1,4 +1,4 @@
-# Coding Convention
+# Coding Convention for C#
 
 ## Text Cases
 

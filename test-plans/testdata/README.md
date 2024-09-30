@@ -13,7 +13,7 @@ The test data is stored as SQL files in the `test-data` repository. The files ar
 
 - For PostgreSQL databases: `postgres/<service>/<test-data-set>.sql`
 
-By default, our [development docker-compose files](../languages/docker/docker-compose.md) will load the `default.sql` file, they [can be configured to load other data sets](https://github.com/Gamify-IT/test-data#container-usage).
+By default, our [development docker-compose files](../../dev-manuals/languages/docker/docker-compose.md) will load the `default.sql` file, they [can be configured to load other data sets](https://github.com/Gamify-IT/test-data#container-usage).
 
 ## Creating a data set for a new service
 
@@ -34,7 +34,7 @@ Commit the file with a message like `Add default test data for overworld`.
 ## Updating a test data set
 
 If you want to update an existing dataset (for example the `default.sql` file), first load the existing data set into the database.
-You can do this by running your service with one of the [development docker-compose files](../languages/docker/docker-compose.md).
+You can do this by running your service with one of the [development docker-compose files](../../dev-manuals/languages/docker/docker-compose.md).
 
 Make the desired updates (e.g. by sending requests to the service using Postman) and then export the data set using the following command:
 
