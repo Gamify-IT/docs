@@ -34,6 +34,46 @@ In Tower Defense, there are two conditions to finish the game:
 1. When your life is empty, the game ends and you will be directed to the game over screen, where you can return back to the overworld.
 
 2. If you answered all questions, the game also ends and you have the opportunity to see your results. 
+## Sprites
+The tileset and some of the tower as well as enemy sprites are free assets from craftpix.net in addition to selfmade spritesheets.
+
+### Towers
+Currently the game has 4 different towers, all with different costs as well as abilities.
+
+#### Basic Tower
+The normal tower that just shoots projectiles at the enemies.
+
+#### Freeze Tower
+Freezes the enemies every few seconds to slow down their movement.
+
+#### Defense Tower
+Blocks the enemies from advancing furter. After taking too much damage it gets destroyed.
+
+#### Sniper Tower
+Shoots enemies from a larger distance with higher damage. Reveals enemies that are hidden.
+
+### Enemies
+Enemies get spawned every round. With each wave the numbers of enemies that spawn increases. After killing an enemies they drop coins that can be used to upgrade or build a new tower.
+
+#### Slime
+Weakes and most common enemy. Just a slime ball that is easy to kill.
+
+#### Goblin
+Slower but tankier enemy. You will need more hits to kill it.
+
+#### Bee
+Easy to kill but it flies really fast. It will also not be blocked by Defense Towers.
+
+#### Kitty
+Enemy that can hide itself. Towers will not attack this enemy until it gets revealed by sniper Towers.
+
+### Boss Enemies
+Bosses are enemies with much more life that are harder to kill but drop more coins. They spawn every second wave.
+Currently there is only one boss type implemented.
+
+#### Chicken Boss
+A big chicken that can spit fire. Tower that get hit by the fire will take damage. If the tower takes too much damage it will get destroyed.
+
 
 ## Sounds
 
