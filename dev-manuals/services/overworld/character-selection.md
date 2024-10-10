@@ -1,7 +1,7 @@
 # Character Selection
 Choosing and selecting between various characters and accessories allows players to personalize their game, resulting in improved user experience, motivation, and engagement.
 
-Currently, the character selection includes complete outfits and accessories like heats or glasses.
+Currently, the character selection includes complete outfits and accessories like hats or glasses.
 
 
 ## The Character Selection Menu
