@@ -1,4 +1,4 @@
-## Leaderboard
+# Leaderboard
 
 The total reward coins earned in the minigames are displayed on the leaderboard, which can be accessed by clicking the knowledge button located in the Player HUD. 
 This provides a clear overview of the player's accumulated progress and achievements across all games.

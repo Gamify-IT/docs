@@ -1,4 +1,4 @@
-# Add league 
+# Add a league 
 
 ## Overview
 
@@ -13,7 +13,7 @@ the [overworld backend](https://github.com/Gamify-IT/overworld-backend).
 
 ## Overworld Backend 
 
-The league of a player is calculated directly in the PlayerStatisticData class of the overworld frontend. Currently we have 
-four leagues ("Wanderer","Explorer","Pathfinder","Trailblazer").
+The league of a player is calculated directly in the `PlayerStatisticData` class of the overworld frontend. Currently, we have 
+four leagues ("Wanderer", "Explorer", "Pathfinder", "Trailblazer").
 
-So if there is a new league or the range changes one can easily change it in the calculateLeagueOfPlayer(..) method.
+So if there is a new league or the range changes one can easily change it in the `calculateLeagueOfPlayer()` method.
