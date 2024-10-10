@@ -2,7 +2,7 @@
 
 We are using the official [Vue Style Guide](https://vuejs.org/style-guide/#rule-categories).
 
-## script setup
+## Script setup
 
 Regarding script setup section in `.vue` files (newly introduced in Vue 3),
 we are using the default TypeScript lint configuration included in Vue and Eslint.
