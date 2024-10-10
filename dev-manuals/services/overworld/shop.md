@@ -45,7 +45,7 @@ In the shop, the player will find some interactive buttons, such as the option t
 When the player has enough credits and didn't buy the item so far, the player is able to buy the item by confirming it after clicking on "buy". When there is no problem at all
 a cash sound will be heard.
 
-#### Sound for an unsuccessfull purchase
+#### Sound for an unsuccessful purchase
 
 Once the player has pressed the button to confirm their purchase but there isn't enough credit to buy the item, the player will hear kind of an error sound and a text
 which says that there isn't enough budget.
