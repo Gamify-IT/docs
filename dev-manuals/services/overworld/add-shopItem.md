@@ -1,8 +1,4 @@
-##### WORK IN PROGRESS
-
-# Shop
-
-## Overview
+# Adding a new shop item
 
 Over time, the number of available shop items may increase, leading to potential updates and expansions of the item categories. 
 This ensures that the shop remains dynamic and relevant, offering an evolving selection of outfits and accessories for players to choose from.

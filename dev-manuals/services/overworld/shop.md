@@ -1,4 +1,4 @@
-## Shop
+# Shop
 
 The in-game shop provides players with a way to spend their reward coins on a variety of items, including new outfits and accessories. 
 This feature adds an extra layer of personalization and motivation, allowing players to enhance their in-game appearance and express their unique style.
