@@ -43,14 +43,22 @@ Currently the game has 4 different towers, all with different costs as well as a
 #### Basic Tower
 The normal tower that just shoots projectiles at the enemies.
 
+![Basic Tower](assets/tower-defense-basic-tower.webp)
+
 #### Freeze Tower
 Freezes the enemies every few seconds to slow down their movement.
+
+![Freeze Tower](assets/tower-defense-freeze-tower.webp)
 
 #### Defense Tower
 Blocks the enemies from advancing furter. After taking too much damage it gets destroyed.
 
+![Defense Tower](assets/tower-defense-defense-tower.webp)
+
 #### Sniper Tower
 Shoots enemies from a larger distance with higher damage. Reveals enemies that are hidden.
+
+![Sniper Tower](assets/tower-defense-sniper-tower.webp)
 
 ### Enemies
 Enemies get spawned every round. With each wave the numbers of enemies that spawn increases. After killing an enemies they drop coins that can be used to upgrade or build a new tower.
@@ -58,14 +66,22 @@ Enemies get spawned every round. With each wave the numbers of enemies that spaw
 #### Slime
 Weakes and most common enemy. Just a slime ball that is easy to kill.
 
+![Slime](assets/tower-defense-slime.webp)
+
 #### Goblin
 Slower but tankier enemy. You will need more hits to kill it.
+
+![Goblin](assets/tower-defense-goblin.webp)
 
 #### Bee
 Easy to kill but it flies really fast. It will also not be blocked by Defense Towers.
 
+![Bee](assets/tower-defense-bee.webp)
+
 #### Kitty
 Enemy that can hide itself. Towers will not attack this enemy until it gets revealed by sniper Towers.
+
+![Kitty](assets/tower-defense-kitty.webp)
 
 ### Boss Enemies
 Bosses are enemies with much more life that are harder to kill but drop more coins. They spawn every second wave.
@@ -73,6 +89,8 @@ Currently there is only one boss type implemented.
 
 #### Chicken Boss
 A big chicken that can spit fire. Tower that get hit by the fire will take damage. If the tower takes too much damage it will get destroyed.
+
+![Chicken Boss](assets/tower-defense-boss-chicken.webp)
 
 
 ## Sounds
