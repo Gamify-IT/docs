@@ -33,7 +33,12 @@ There you need to adjust the following parts:
 - `numberOfCharacters`, `numberOfGlasses` or `numberOfHats` variable depending on what was added
 - in the `SetupDictionaries` method you need to add your outfit to both dictionaries, following the pattern already used
 - if you wish to add a text when the outfit is displayed see the `UpdateAccessoryWarnings` method
-- TODO
+  - if you want to add an outfit that shouldn't be able to equip accessories, you can take a look at the `santa` or `titanium_knight` outfits
+
+
+
+- add your images to `Assets/Resources/characters/`, `Assets/Resources/Glasses/` or `Assets/Resources/Hats/` respectively.
+  - Make sure to name them according to the present naming scheme.
 
 
 ## Other 
