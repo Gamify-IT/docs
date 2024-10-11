@@ -284,38 +284,6 @@ The player has the ability to control the volume of sounds in the game. The cont
 The volume level chosen by the player will also be applied to all minigames the player plays in the future.
 ![volume-control](../../images/volume_button.webp)
 
-## Leaderboard
-
-The leaderboard is a feature that displays player rankings based on their performance in various aspects of the game. The ranking display shows player rankings from top to bottom, highlighting the best performers.
-Players are ranked based on scores achieved in minigames. The leaderboard updates regularly to reflect the most current player performances and rankings.
-Purpose: 1) Competition: Encourages players to improve their skills and scores to climb the ranks. 2) Recognition: Provides recognition to top players and motivates others to strive for better performance.
-
-### Place
-
-In the knowledge menu, the player can find the leaderboard by clicking on the button.
-
-![rewards-menu](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
-
-After clicking the button the player will see the leaderboard
-![rewards-menu](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
-
-### Filter rewards
-
-There are 3 options for filtering rewards:
-<ul>
-  <li>By League:</li>
-
-There are four leagues: pathfinder, explorer, trailblazer and wanderer.
-
-
-  <li>By World:</li>
-
-The players can be filtered by world.
-
-
-The player also has the option to reset the keyword by clicking on the 'Reset' button.
-</ul>
-
 
 ## Leaderboard
 
