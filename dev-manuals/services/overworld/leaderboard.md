@@ -1,6 +1,6 @@
 # Leaderboard
 
-![leaderboard](assets/leaderboard-menu.webp)
+![leaderboard](assets/leaderboard.webp)
 
 The total reward coins earned in the minigames are displayed on the leaderboard, which can be accessed by clicking the `knowledge button` located in the Player HUD. 
 This provides a clear overview of the player's accumulated progress and achievements across all games.
@@ -31,7 +31,7 @@ So if there is a new league or the range changes one can easily change it in the
 
 Pseudonym and Visibility:
 
-![leaderboard](assets/visibility-menu.webp)
+![leaderboard](assets/visibility_leaderboard.webp)
 
 By default, players are assigned the pseudonym "Traveller," keeping their identity hidden on the leaderboard. 
 Their username will only appear in the league rankings once they choose to switch their visibility to "Public" via the leaderboard menu. 
