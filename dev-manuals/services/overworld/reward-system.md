@@ -21,6 +21,7 @@ This promotes fair competition and ensures that the game remains both challengin
 Leagues help sustain long-term participation. Regular progression within a league, or the desire not to fall behind, 
 keeps participants involved and encourages continuous use of the game or system.
 
+
 ## Minigames and their reward system
 
 All minigames (except Memory) follow the structure outlined below:
@@ -38,3 +39,4 @@ To account for this, the reward decrease is applied more aggressively to ensure 
 
 Additionally, the rewards are also redeemable in the shop. 
 In exchange, players can acquire new outfits or accessories, enhancing their in-game customization options.
+For more information about the shop see [here](shop.md).

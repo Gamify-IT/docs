@@ -3,6 +3,8 @@
 The in-game shop provides players with a way to spend their reward coins on a variety of items, including new outfits and accessories. 
 This feature adds an extra layer of personalization and motivation, allowing players to enhance their in-game appearance and express their unique style.
 
+![shop](assets/shop_overview.webp)
+
 ## Motivation
 
 Having a shop where players can purchase skins, outfits, and accessories is a crucial component of gamification. 

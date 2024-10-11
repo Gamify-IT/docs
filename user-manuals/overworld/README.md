@@ -294,10 +294,10 @@ Purpose: 1) Competition: Encourages players to improve their skills and scores t
 
 In the knowledge menu, the player can find the leaderboard by clicking on the button.
 
-![rewards-menu](../../images/rewards/HUD-menu.webp)
+![rewards-menu](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
 
 After clicking the button the player will see the leaderboard
-![rewards-menu](../../images/rewards/HUD-menu.webp)
+![rewards-menu](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
 
 ### Filter rewards
 
@@ -327,10 +327,10 @@ Purpose: 1) Competition: Encourages players to improve their skills and scores t
 
 In the knowledge menu, the player can find the leaderboard by clicking on the button.
 
-![rewards-menu](../../images/rewards/HUD-menu.webp)
+![rewards-menu](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
 
 After clicking the button the player will see the leaderboard
-![rewards-menu](../../images/rewards/leaderboard-menu.webp)
+![rewards-menu](../../dev-manuals/services/overworld/assets/leaderboard-menu.webp)
 
 ### Filter rewards
 
@@ -356,7 +356,7 @@ The player also has the option to reset the keyword by clicking on the 'Reset' b
 
 In the knowledge menu, the player can find the shop by clicking on the button.
 
-![rewards](../../images/rewards/HUD-menu.webp)
+![rewards](../../dev-manuals/services/overworld/assets/HUD-menu.webp)
 
 After clicking the button the player will see the shop
 
