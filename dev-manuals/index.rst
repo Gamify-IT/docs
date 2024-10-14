@@ -60,6 +60,13 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
+   :caption: Code Format
+
+   ./code-format/**
+
+.. toctree::
+   :glob:
+   :titlesonly:
    :caption: Project Management
 
    ./project-management/**
@@ -89,30 +96,9 @@ Developer Manuals
 .. toctree::
    :glob:
    :titlesonly:
-   :caption: SonarQube
+   :caption: Unity
 
-   ./sonarqube/**
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Test Data
-
-   ./testdata/*
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Test Plans
-
-   ./test-plans/*
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Unity Pipeline Building
-
-   ./unity-pipeline-build/*
+   ./unity/*
 
 .. toctree::
    :glob:
