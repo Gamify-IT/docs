@@ -4,16 +4,21 @@ Tower Defense is a minigame which is part of the Gamify-IT platform.
 
 ## About the Game
 
-The intention with this game is to make answering single choice questions fun.
+The intention with this game is to make answering single choice questions fun but. \
+In comparison to other minigames, Tower Defense provides a more complex and longer effort.
 
-When entering the game, the user is presented with the main menu.
-
-After pressing the start button the enemies start spawning. The player then can place towers along the road to kill the enemies. Everytime the player wants to place a tower he must answer a question correctly to do so.
-
-The player also can upgrade the towers to make them stronger, for each upgrade he also must answer a question correctly.
-
-
+When entering the game, the user is presented with the main menu. 
+After pressing the start button the enemies start spawning. The player then can place towers along the road to kill the enemies. Everytime the player wants to place a tower he must answer a question correctly to do so.The player also can upgrade the towers to make them stronger, for each upgrade he also must answer a question correctly.
 Once too many enemies reach the base the game ends. The longer the player survives the more points he can earn. 
+
+## Configuration
+
+The lecturer can configure the game with an arbitrary number of questions.
+
+Each question has a single correct answer and an arbitrary number of wrong answers.
+The lecturer can also configure the time limit for the game.
+
+For more information how to configure minigames see the [lecturer interface manual](../lecturer-interface/README.md).
 
 ## User Interface
 
@@ -29,11 +34,22 @@ At the beginning of the game, the shop menu is expanded allowing you to choose b
 
 ## Game Mechanics
 
+### Win Condition 
+
 In Tower Defense, there are two conditions to finish the game:
 
-1. When your life is empty, the game ends and you will be directed to the game over screen, where you can return back to the overworld.
+1. When your life is empty, the game ends and you will be directed to the game over screen, where you can return back to the overworld or try again.
+
+2. If you answered all questions, the game will end after the current wave has finished. Then, you have the opportunity to see your results. 
 
 2. If you answered all questions, the game also ends and you have the opportunity to see your results. 
+
+### Upgrading Towers 
+
+If you click on a tower, there will appear an upgrade menu that enables you to improve the tower's defense 
+properties. Before you can upgrade a tower, you need to have enough coins and to correctly answer a question.
+If your answer is wrong, the upgrade price is still lost, so answer carefully but also quickly since the game is not paused! 
+
 ## Sprites
 The tileset and some of the tower as well as enemy sprites are free assets from craftpix.net in addition to selfmade spritesheets.
 
@@ -92,7 +108,6 @@ A big chicken that can spit fire. Tower that get hit by the fire will take damag
 
 ![Chicken Boss](assets/tower-defense-boss-chicken.webp)
 
-
 ## Sounds
 
 In the overworld and each minigame, the player will hear different sounds. The player has an ability to control the volume of all sounds. You can read more about volume control here: [overworld volume control](../overworld/README.md#volume-control)
@@ -118,11 +133,5 @@ If the player answers the question correctly, they will have the opportunity to 
 #### Triumph sound for end screen 
 At the end of the game, the player will see the final screen accompanied by a sound symbolising the end of the game.
 
-## Configuration
-
-The lecturer can configure the game with an arbitrary number of questions.
-
-Each question has a single correct answer and an arbitrary number of wrong answers.
-The lecturer can also configure the time limit for the game.
-
-For more information how to configure minigames see the [lecturer interface manual](../lecturer-interface/README.md).
+#### Game Over 
+When the player's defense falls, the game over sound plays and the game over menu appears.
