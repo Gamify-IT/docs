@@ -42,11 +42,71 @@ In Tower Defense, there are two conditions to finish the game:
 
 2. If you answered all questions, the game will end after the current wave has finished. Then, you have the opportunity to see your results. 
 
+2. If you answered all questions, the game also ends and you have the opportunity to see your results. 
+
 ### Upgrading Towers 
 
 If you click on a tower, there will appear an upgrade menu that enables you to improve the tower's defense 
 properties. Before you can upgrade a tower, you need to have enough coins and to correctly answer a question.
 If your answer is wrong, the upgrade price is still lost, so answer carefully but also quickly since the game is not paused! 
+
+## Sprites
+The tileset and some of the tower as well as enemy sprites are free assets from craftpix.net in addition to selfmade spritesheets.
+
+### Towers
+Currently the game has 4 different towers, all with different costs as well as abilities.
+
+#### Basic Tower
+The normal tower that just shoots projectiles at the enemies.
+
+![Basic Tower](assets/tower-defense-basic-tower.webp)
+
+#### Freeze Tower
+Freezes the enemies every few seconds to slow down their movement.
+
+![Freeze Tower](assets/tower-defense-freeze-tower.webp)
+
+#### Defense Tower
+Blocks the enemies from advancing furter. After taking too much damage it gets destroyed.
+
+![Defense Tower](assets/tower-defense-defense-tower.webp)
+
+#### Sniper Tower
+Shoots enemies from a larger distance with higher damage. Reveals enemies that are hidden.
+
+![Sniper Tower](assets/tower-defense-sniper-tower.webp)
+
+### Enemies
+Enemies get spawned every round. With each wave the numbers of enemies that spawn increases. After killing an enemies they drop coins that can be used to upgrade or build a new tower.
+
+#### Slime
+Weakes and most common enemy. Just a slime ball that is easy to kill.
+
+![Slime](assets/tower-defense-slime.webp)
+
+#### Goblin
+Slower but tankier enemy. You will need more hits to kill it.
+
+![Goblin](assets/tower-defense-goblin.webp)
+
+#### Bee
+Easy to kill but it flies really fast. It will also not be blocked by Defense Towers.
+
+![Bee](assets/tower-defense-bee.webp)
+
+#### Kitty
+Enemy that can hide itself. Towers will not attack this enemy until it gets revealed by sniper Towers.
+
+![Kitty](assets/tower-defense-kitty.webp)
+
+### Boss Enemies
+Bosses are enemies with much more life that are harder to kill but drop more coins. They spawn every second wave.
+Currently there is only one boss type implemented.
+
+#### Chicken Boss
+A big chicken that can spit fire. Tower that get hit by the fire will take damage. If the tower takes too much damage it will get destroyed.
+
+![Chicken Boss](assets/tower-defense-boss-chicken.webp)
 
 ## Sounds
 
