@@ -77,7 +77,7 @@ The content of the folder should have a structure like this:
 These files will be used by Terraform, when you ask it to apply your deployment on a cluster.
 To do so, open a terminal from inside the Terraform folder in your selected directory and use the following commands.
 
-Start terraform and follow th instructions:
+Start terraform and follow the instructions:
 ```shell
 terraform init
 ```
