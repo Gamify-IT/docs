@@ -217,7 +217,7 @@ When the player completes the minigame, they will receive a certain number of co
 Category: Achieving<br>
 As new dungeons and worlds are unlocked, the player's level changes. On entering the game, the player will automatically have the first level as World 1 is unlocked, when the player unlocks the next world, they will gain the second level, at this point the progress of the achievement is updated.
 
-![level up](../../images/achievements/level%20up.webp)
+![level up](../../images/achievements/level_up.webp)
 
 ### Achievement progress 
 
