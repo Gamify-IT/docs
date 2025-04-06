@@ -10,4 +10,9 @@ You can access the replay menu via an arcade game machine, which you can find in
 
 There is also a teleport spot nearby, so that you can fast travel to the market place from any other teleport location in the Overworld. Approach the arcade game machine and interact with it by pressing the key E. 
 
+![Replay Menu Ui](assets/replay-menu-ui.webp)
+
 The replay menu window will open up and you can see a list of completed minigames. To replay a minigame, click on the replay button of the minigame item of choice. Once done, you will repawn back at the arcade game machine.
+
+## Developer
+If you are a developer, who wants to check out the artefacts that make up the replay menu, please refer to the documentation for developers regarding the [Replay Menu](../../dev-manuals/services/overworld/replay-menu.md).
