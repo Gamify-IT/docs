@@ -25,7 +25,7 @@
 - [Development](#development)
   - [Getting Started](#getting-started)
     - [Overworld](#overworld)
-    - [Multiplayer Server](#multiplayer-server)
+    - [multiplayer-backend](#multiplayer-backend)
   - [Build and Run](#build-and-run)
 - [Tests](#tests)
   - [Unique ID generation](#unique-id-generation)
@@ -56,7 +56,7 @@ The server is built using Node.js and consists of a
 Here you can find a detailed description how each component is designed and works as well as where to find the code and
 and how to implement new features. It should be read carefully before changing the current code.
 ### Server
-The multiplayer server has its own [repository](https://github.com/Gamify-IT/multiplayer-server).
+The multiplayer server has its own [repository](https://github.com/Gamify-IT/multiplayer-backend).
 Its purpose is to handle client sessions as well as processing and broadcasting messages to players of the same course. That is, it consists of two parts, the WebSocket and the REST API.
 #### General Structure
 - `clients`: contains the b2b (backend-2-backend) communication methods
@@ -132,10 +132,10 @@ Clone the repository
 ```sh
 git clone https://github.com/Gamify-IT/overworld.git
 ```
-#### Multiplayer Server
+#### multiplayer-backend
 Clone the repository  
 ```sh
-git clone https://github.com/Gamify-IT/multiplayer-server.git
+git clone https://github.com/Gamify-IT/multiplayer-backend.git
 ```
 
 Install the dependencies
@@ -157,14 +157,13 @@ npm run dev
 You can now access the game at [localhost](http://localhost).
 
 ## Tests
-There are a few [tests](https://github.com/Gamify-IT/multiplayer-server/blob/main/tests/) to check system performance and feature accuracy.
+There are a few [tests](https://github.com/Gamify-IT/multiplayer-backend/blob/main/tests/) to check system performance and feature accuracy.
 ### Unique ID generation 
-The generation of new client session ids is [tested](https://github.com/Gamify-IT/multiplayer-server/blob/main/tests/idGeneration.spec.ts) for:
+The generation of new client session ids is [tested](https://github.com/Gamify-IT/multiplayer-backend/blob/main/tests/idGeneration.spec.ts) for:
 - uniqueness
 - reuse after release
 - error for releasing invalid id
 - error for unavailable ids
-<!--### Client traffic-->
 
 ## Known Design Flaws
 - No updating of remote players if player is in pause menu (since time and hence physics is paused)
