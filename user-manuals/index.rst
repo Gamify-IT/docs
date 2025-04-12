@@ -8,6 +8,7 @@ User Manuals
 
    ./overworld/**
    ./maps/maps.md
+   ./replay-menu/replay-menu.md
 
 .. toctree::
    :glob:
