@@ -6,13 +6,18 @@ Finitequiz is a minigame which is part of the Gamify-IT platform.
 
 The goal of the game is to provide a simple game for students to practice their knowledge with single choice questions.
 
-![main menu screenshot](assets/finitequiz-game.webp)
-When entering the game, the user is directly presented with the first question.
-The score is displayed in the format `current score / max score`, meaning that the right number counts the total number of question that the player has answered.
-The left number is only incremented when the player answers a question correctly.
-When the user answers a question, they are presented with the next question.
+![main menu screenshot](assets/finitequiz-game-questions.webp)
+When entering the game, the user is directly presented with the first question. The question always has a text but also can have up to 4 images.
 
-![game screenshot](assets/finitequiz-end-screen.webp)
+![main menu screenshot](assets/finitequiz-game-answers.webp)
+The answers can consist of text, an image, or both. If an image is available, it is always displayed on the left side, with the corresponding text on the right.
+The score is shown below the answer blocks in the format `current score / max score`, where the right number represents the total number of questions answered, and the left number increases only when a question is answered correctly.
+After submitting an answer, the user is immediately presented with the next question.
+
+![main menu screenshot](assets/finitequiz-game-images.webp)
+Images can be enlarged by clicking on them; this also applies to images within the questions.
+
+![game screenshot](assets/finitequiz-game-endscreen.webp)
 When all questions are answered, the end screen is presented.
 
 At any point in the game, the player may choose to restart the game or to close the it, using the buttons in the top right corner.
