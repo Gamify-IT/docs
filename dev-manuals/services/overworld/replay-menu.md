@@ -10,7 +10,7 @@ The structure should look like this:
 |_ ReplaySpotInteraction   # Handles the interaction between the player and the arcade game machine
 ```
 ## Objects
-You will find the replay item prefab under the follwoing directory in the overworld folder `\Assets\Prefabs\Minigame Replay Menu`. 
+You will find the replay item prefab under the following directory in the overworld folder `\Assets\Prefabs\Minigame Replay Menu`. 
 Unity uses this prefab to create a minigame item for a completed game, that will be added to the minigames list in the Replay Menu.
 
 The used sprites for the designs can be found under the following directory in the overworld folder `\Assets\Sprites\ReplayMenu`.
