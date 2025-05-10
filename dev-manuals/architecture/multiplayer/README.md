@@ -60,7 +60,7 @@ and how to implement new features. It should be read carefully before changing t
 The multiplayer server has its own [repository](https://github.com/Gamify-IT/multiplayer-backend).
 Its purpose is to handle client sessions as well as processing and broadcasting messages to players of the same course. That is, it consists of two parts, the WebSocket and the REST API.
 #### General Structure
-- `authentication`: contains the JWA token authentication
+- `authentication`: contains the JWT token authentication
 - `clients`: contains the b2b (backend-2-backend) communication methods
 - `controllers`: contains the behavior behind a server route
 - `data`: contains the server's data structures
