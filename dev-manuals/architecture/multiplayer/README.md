@@ -1,9 +1,17 @@
-<h1>Architecture of the Multiplayer</h1>
+# Architecture of the Multiplayer
+
+This is the server used for the multiplayer in the overworld. It consists of a REST API and WebSocket support for real-time communication. 
+The repository can be found [here](https://github.com/Gamify-IT/multiplayer-backend).
+
+## Purpose 
+Implementing multiplayer functionality in the overworld enhances engagement and social interaction 
+by allowing players to see each other in real time. 
+The system synchronizes the position and outfit of each player in the same course, encouraging exploration of 
+the overworld and collaboration in minigames. 
+By enabling users to identify and connect with others, Gamify-IT promotes engagement and sustained participation while maintaining performance efficiency.
 
 ## Table of Contents
-	
-- [Table of Contents](#table-of-contents)
-- [Purpose](#purpose)
+
 - [Architecture Design](#architecture-design)
 - [Used Technologies](#used-technologies)
   - [Client](#client)
@@ -31,13 +39,6 @@
   - [Unique ID generation](#unique-id-generation)
 - [Known Design Flaws](#known-design-flaws)
 
-## Purpose 
-Implementing multiplayer functionality in the overworld enhances engagement and social interaction 
-by allowing players to see each other in real time. 
-The system synchronizes the position and outfit of each player in the same course, encouraging exploration of 
-the overworld and collaboration in minigames. 
-By enabling users to identify and connect with others, Gamify-It promotes engagement and sustained participation while maintaining performance efficiency.
-
 ## Architecture Design 
 The overall architecture of the multiplayer is shown below.
 ![Architecture](assets/architecture.png)
@@ -59,6 +60,7 @@ and how to implement new features. It should be read carefully before changing t
 The multiplayer server has its own [repository](https://github.com/Gamify-IT/multiplayer-backend).
 Its purpose is to handle client sessions as well as processing and broadcasting messages to players of the same course. That is, it consists of two parts, the WebSocket and the REST API.
 #### General Structure
+- `authentication`: contains the JWT token authentication
 - `clients`: contains the b2b (backend-2-backend) communication methods
 - `controllers`: contains the behavior behind a server route
 - `data`: contains the server's data structures
@@ -110,7 +112,9 @@ Their logic is handled in the [MultiplayerMenu](https://github.com/Gamify-IT/ove
 The data sent via the WebSocket is called network messages. Their overall structure is defined
 in the abstract **NetworkMessage class** and is further extended by the children classes in order to consider specific behavior.
 Currently, the multiplayer supports sending network messages of [seven different types](https://github.com/Gamify-IT/overworld/tree/main/Assets/Scripts/Multiplayer/Messages). \
-Below, you can find a detailed overview how the messages are defined.
+Below, you can find a detailed overview how the messages are defined. \
+\
+**Note:** After 50 seconds of inactivity, i.e., no messages are sent, the player's connection is timed out with the possibility to reconnect. However, if the player quits the game or manually terminates the multiplayer, there will be no reconnection possible.
 
 #### Class Diagram
 ![Message Types](assets/message-types.png)

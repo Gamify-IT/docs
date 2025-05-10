@@ -79,7 +79,7 @@ Imagine the phrase: `A xy is ...` when writing an explanation.
 
 ### Multiplayer
 
-- we don't do this here
+- a game mode allowing multiple players to interact and play together simultaneously in real time. For the overworld multiplayer, click [here](../architecture/multiplayer/README.md).
 
 ## N
 
