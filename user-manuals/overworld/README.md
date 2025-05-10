@@ -345,6 +345,16 @@ There are 3 options for filtering rewards:
 
 </ul>
 
+## Multiplayer
+
+The overworld features a multiplayer mode, allowing players to see each other in real time. The multiplayer option can be enabled from the pause menu under the `Multiplayer` section. \
+The multiplayer UI includes the multiplayer menu in the pause menu 
+
+![multiplayer-menu](../../dev-manuals/architecture/multiplayer/assets/menu.png)
+
+and a HUD element located in the bottom right corner.
+
+![multiplayer-menu](../../dev-manuals/architecture/multiplayer/assets/hud.png)
 
 ## Developer
 
